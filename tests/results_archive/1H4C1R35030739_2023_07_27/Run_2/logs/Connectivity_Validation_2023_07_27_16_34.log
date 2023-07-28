@@ -1,0 +1,30 @@
+2023-07-27 16:34:08,328 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.build.branch
+2023-07-27 16:34:08,400 - lib.adb - run_command() - DEBUG - Response: 
+2023-07-27 16:34:09,404 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.build.version.incremental
+2023-07-27 16:34:09,481 - lib.adb - run_command() - DEBUG - Response: eng.action.20230721.183859
+2023-07-27 16:34:10,487 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.build.flavor
+2023-07-27 16:34:10,564 - lib.adb - run_command() - DEBUG - Response: qssi-userdebug
+2023-07-27 16:34:11,568 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.product.name
+2023-07-27 16:34:11,643 - lib.adb - run_command() - DEBUG - Response: atoll
+2023-07-27 16:34:12,668 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-27 16:34:14,680 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-27 16:34:14,682 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-27 16:34:15,772 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-27 16:34:15,857 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-27 16:34:24,254 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-27 16:34:26,157 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_setting
+2023-07-27 16:34:28,203 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: pair_new_device
+2023-07-27 16:34:38,240 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-27 16:34:38,700 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-27 16:34:39,024 - lib.appium_utils - get_titles_in_between() - DEBUG - ['Device name', 'Available devices', "Phone's Bluetooth address: 04:9F:15:00:3B:A9"]
+2023-07-27 16:34:40,412 - lib.appium_utils - get_titles_in_between() - DEBUG - ['Device name', 'Available devices', "Phone's Bluetooth address: 04:9F:15:00:3B:A9"]
+2023-07-27 16:34:41,295 - lib.appium_utils - get_titles_in_between() - DEBUG - ['Device name', 'Available devices', "Phone's Bluetooth address: 04:9F:15:00:3B:A9"]
+2023-07-27 16:34:42,187 - lib.appium_utils - get_titles_in_between() - DEBUG - ['Device name', 'Available devices', "Phone's Bluetooth address: 04:9F:15:00:3B:A9"]
+2023-07-27 16:34:43,177 - lib.appium_utils - get_titles_in_between() - DEBUG - ['Device name', 'Available devices', "Phone's Bluetooth address: 04:9F:15:00:3B:A9"]
+2023-07-27 16:34:44,034 - lib.appium_utils - get_titles_in_between() - DEBUG - ['Device name', 'Available devices', "Phone's Bluetooth address: 04:9F:15:00:3B:A9"]
+2023-07-27 16:34:45,372 - lib.appium_utils - get_titles_in_between() - DEBUG - ['Device name', 'Available devices', "Phone's Bluetooth address: 04:9F:15:00:3B:A9"]
+2023-07-27 16:34:46,643 - lib.appium_utils - get_titles_in_between() - DEBUG - ['Device name', 'Available devices', "Phone's Bluetooth address: 04:9F:15:00:3B:A9"]
+2023-07-27 16:34:47,530 - lib.appium_utils - get_titles_in_between() - DEBUG - ['Device name', 'Available devices', "Phone's Bluetooth address: 04:9F:15:00:3B:A9"]
+2023-07-27 16:34:48,876 - lib.appium_utils - get_titles_in_between() - DEBUG - ['Device name', 'Available devices', "Phone's Bluetooth address: 04:9F:15:00:3B:A9"]
+2023-07-27 16:34:49,477 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-27 16:34:49,481 - lib.utils - archive_test_results() - INFO - Saving test data to archive folder

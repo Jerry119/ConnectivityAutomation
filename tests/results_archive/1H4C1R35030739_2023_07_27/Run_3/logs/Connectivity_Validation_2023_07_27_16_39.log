@@ -1,0 +1,27 @@
+2023-07-27 16:39:39,094 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.build.branch
+2023-07-27 16:39:39,158 - lib.adb - run_command() - DEBUG - Response: 
+2023-07-27 16:39:40,163 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.build.version.incremental
+2023-07-27 16:39:40,245 - lib.adb - run_command() - DEBUG - Response: eng.action.20230721.183859
+2023-07-27 16:39:41,251 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.build.flavor
+2023-07-27 16:39:41,326 - lib.adb - run_command() - DEBUG - Response: qssi-userdebug
+2023-07-27 16:39:42,332 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.product.name
+2023-07-27 16:39:42,408 - lib.adb - run_command() - DEBUG - Response: atoll
+2023-07-27 16:39:43,441 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-27 16:39:45,454 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-27 16:39:45,457 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-27 16:39:46,555 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-27 16:39:46,681 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-27 16:39:55,227 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-27 16:39:57,138 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_setting
+2023-07-27 16:39:59,320 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: pair_new_device
+2023-07-27 16:40:09,361 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-27 16:40:09,846 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-27 16:40:10,237 - lib.appium_utils - get_titles_in_between() - DEBUG - ['Device name', 'Available devices', "Phone's Bluetooth address: 04:9F:15:00:3B:A9"]
+2023-07-27 16:40:10,238 - lib.appium_utils - get_titles_in_between() - ERROR - Exception occurred while retriving titles between Available devices and Phone's Bluetooth address | ERROR: expected string or bytes-like object, got 'WebElement'
+Traceback (most recent call last):
+  File "/Users/Jerry/Desktop/ConnectivityAutomation/lib/appium_utils.py", line 164, in get_titles_in_between
+    if len(list(filter(re.compile(f"{title2}.*").match, elements))) == 0:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'WebElement'
+2023-07-27 16:40:10,241 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-27 16:40:10,242 - lib.utils - archive_test_results() - INFO - Saving test data to archive folder

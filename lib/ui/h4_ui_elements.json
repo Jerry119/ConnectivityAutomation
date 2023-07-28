@@ -1,0 +1,118 @@
+{
+    "elements": {
+        "network_setting": {
+            "id": "android:id/summary",
+            "text": "Mobile, Wi‑Fi, hotspot"
+        },
+        "internet_setting": {
+            "id": "android:id/title",
+            "text": "Internet"
+        },
+        "wifi_toggle": {
+            "id": "android:id/title",
+            "text": "Wi-Fi"
+        },
+        "hdevice": {
+            "id": "android:id/title",
+            "text": "hdevice"
+        },
+        "wifi_ssid": {
+            "id": "android:id/title",
+            "text": ""
+        },
+        "password_field": {
+            "id": "com.android.settings:id/password"
+        },
+        "connect_button": {
+            "id": "android:id/button1"
+        },
+        "wifi_connection_button": {
+            "id": "com.android.settings:id/button3",
+            "text": ""
+        },
+        "wifi_forget_button": {
+            "id": "com.android.settings:id/button1",
+            "text": "FORGET"
+        },
+        "bluetooth_icon": {
+            "id": "com.android.systemui:id/tile_label",
+            "text": "Bluetooth"
+        },
+        "bluetooth_setting": {
+            "id": "android:id/title",
+            "text": "Connected devices"
+        },
+        "pair_new_device": {
+            "id": "android:id/title",
+            "text": "Pair new device"
+        },
+        "jerry_airpod": {
+            "id": "android:id/title",
+            "text": "Jerry’s AirPods"
+        },
+        "bt_name": {
+            "id": "android:id/title",
+            "text": ""
+        },
+        "allow_access_to_contact": {
+            "id": "com.android.settings:id/phonebook_sharing_message_confirm_pin"
+        },
+        "pair_button": {
+            "id": "android:id/button1"
+        },
+        "bt_setting_button": {
+            "id": "com.android.settings:id/settings_button"
+        },
+        "bt_connection_button": {
+            "id": "com.android.settings:id/button2"
+        },
+        "bt_forget_button": {
+            "id": "com.android.settings:id/button1"
+        },
+        "forget_device_button": {
+            "id": "android:id/button1"
+        },
+        "media_device": {
+            "id": "android:id/title",
+            "text": "Media devices"
+        },
+        "keypad_icon": {
+            "id": "com.android.dialer:id/fab"
+        },
+        "number_input": {
+            "id": "com.android.dialer:id/digits"
+        },
+        "dial_button": {
+            "id": "com.android.dialer:id/dialpad_floating_action_button"
+        },
+        "system_setting": {
+            "id": "android:id/title",
+            "text": "System"
+        },
+        "software_update": {
+            "id": "android:id/title",
+            "text": "Software Updates"
+        },
+        "check_for_update": {
+            "id": "android:id/title",
+            "text": "Check for updates"
+        },
+        "three_bar_icon": {
+            "xpath": "//android.widget.ImageButton[@content-desc='drawer']"
+        },
+        "song_list": {
+            "id": "com.android.music:id/title",
+            "text": "Songs"
+        },
+        "three_dot_icon": {
+            "id": "com.android.music:id/play_indicator"
+        },
+        "play_text": {
+            "id": "android:id/title",
+            "text": "Play"
+        },
+        "play_icon": {
+            "id": "com.android.music:id/nowplay_icon"
+        }
+    }
+}

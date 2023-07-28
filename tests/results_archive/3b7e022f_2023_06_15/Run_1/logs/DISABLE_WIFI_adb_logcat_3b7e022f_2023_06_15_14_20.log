@@ -1,0 +1,662 @@
+--------- beginning of kernel
+06-15 07:05:35.460     0     0 E power_supply main: driver failed to report `flash_trigger' property: -1
+--------- beginning of main
+06-15 07:05:35.611 13138 13138 E humane_antenna_tune: timeout while waiting for sensors QMI service: will try 1 more time(s)
+06-15 07:05:35.865 13153 13153 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 07:05:35.873     0     0 I binder  : 13153:13153 ioctl 40046210 7fd8fc2584 returned -22
+06-15 07:05:36.558     0     0 I [schedu][0x61c6aa46d][07:05:36.550607] wlan: [13121:I:OSIF] vdev 0, scan id 40961 type COMPLETED(1) reason COMPLETED(1) scan found 58 bss
+06-15 07:05:36.550  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] wait_event:Wait done with Cmd 34
+06-15 07:05:36.550  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 34 Err 0
+06-15 07:05:36.552  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.552  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1348989484 as it greater than Beacon TSF 1348979630
+06-15 07:05:36.552  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.552  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.552  1452  2027 D WifiNl80211Manager: Scan result ready event
+06-15 07:05:36.552  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:86 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.552  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:86 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.552  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:86 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:28.989, RSSI: -138, CPL: 127, AGE: 2190,  SSID hguest, TSFDelta: 0x948b8201, TXRate: 0
+06-15 07:05:36.552  1452  2027 D WifiNative: Scan result ready event
+06-15 07:05:36.552  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.552  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1349032466 as it greater than Beacon TSF 1181541458
+06-15 07:05:36.552  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.552  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 60:22:32:**:**:1e LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_OPEN 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.552  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 60:22:32:**:**:1e FREQ: 5180, cFreq1[40:80:160] = [5190:5210:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.552  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 60:22:32:**:**:1e (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:29.032, RSSI: -98, CPL: 127, AGE: 2140,  SSID what's that?, TSFDelta: 0xbb479fae, TXRate: 0
+06-15 07:05:36.553  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.553  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1349033896 as it greater than Beacon TSF 1181542456
+06-15 07:05:36.553  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.553  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.553  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 66:22:32:**:**:1e LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.553  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 66:22:32:**:**:1e FREQ: 5180, cFreq1[40:80:160] = [5190:5210:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.553  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 66:22:32:**:**:1e (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:29.033, RSSI: -98, CPL: 127, AGE: 2140,  SSID hav, TSFDelta: 0xbb479fae, TXRate: 0
+06-15 07:05:36.553  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.553  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1349038547 as it greater than Beacon TSF 1181542612
+06-15 07:05:36.553  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.553  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.553  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 6a:22:32:**:**:1e LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.553  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 6a:22:32:**:**:1e FREQ: 5180, cFreq1[40:80:160] = [5190:5210:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.553  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 6a:22:32:**:**:1e (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:29.038, RSSI: -98, CPL: 127, AGE: 2140,  SSID hdevice, TSFDelta: 0xbb479fad, TXRate: 0
+06-15 07:05:36.554  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.554  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348972603 as it greater than probe TSF 1348954878
+06-15 07:05:36.554  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_EAP
+06-15 07:05:36.554  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.554  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:86 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_EAP 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.554  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:86 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.554  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:86 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.972, RSSI: -134, CPL: 127, AGE: 2200,  SSID hcorp, TSFDelta: 0x948b8201, TXRate: 0
+06-15 07:05:36.554  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.554  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348976552 as it greater than probe TSF 1348962255
+06-15 07:05:36.554  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.554  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.554  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:86 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.554  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:86 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.554  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:86 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.976, RSSI: -138, CPL: 127, AGE: 2200,  SSID htalk, TSFDelta: 0x948b8201, TXRate: 0
+06-15 07:05:36.554  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1348945355 as it greater than Beacon TSF 1232743481
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS e4:38:83:**:**:86 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS e4:38:83:**:**:86 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS e4:38:83:**:**:86 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:28.945, RSSI: -132, CPL: 127, AGE: 2230,  SSID hav, TSFDelta: 0x948b8201, TXRate: 0
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348969692 as it greater than probe TSF 1348947959
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ea:38:83:**:**:86 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ea:38:83:**:**:86 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ea:38:83:**:**:86 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.969, RSSI: -132, CPL: 127, AGE: 2210,  SSID hdevice, TSFDelta: 0x948b8201, TXRate: 0
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348982521 as it greater than probe TSF 1348982521
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:86 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.555  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:86 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.556  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:86 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.982, RSSI: -134, CPL: 127, AGE: 2190,  SSID , TSFDelta: 0x948b8201, TXRate: 0
+06-15 07:05:36.556  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.556  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1349184216 as it greater than Beacon TSF 1181734775
+06-15 07:05:36.556  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.556  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.556  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ea:38:83:**:**:50 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.556  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ea:38:83:**:**:50 FREQ: 5745, cFreq1[40:80:160] = [5755:5775:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.556  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ea:38:83:**:**:50 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:29.184, RSSI: -170, CPL: 127, AGE: 1990,  SSID hav, TSFDelta: 0xc21c6662, TXRate: 0
+06-15 07:05:36.556  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.556  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1349186707 as it greater than Beacon TSF 1181735180
+06-15 07:05:36.556  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.556  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.556  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:50 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.556  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:50 FREQ: 5745, cFreq1[40:80:160] = [5755:5775:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.556  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:50 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:29.186, RSSI: -170, CPL: 127, AGE: 1990,  SSID hdevice, TSFDelta: 0xc21c6661, TXRate: 0
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1348560481 as it greater than Beacon TSF 1348527201
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:41 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:41 FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:41 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:28.560, RSSI: -128, CPL: 127, AGE: 2610,  SSID htalk, TSFDelta: 0xf82c37d0, TXRate: 0
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1349203037 as it greater than Beacon TSF 1181734402
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS e4:38:83:**:**:50 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_OPEN 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS e4:38:83:**:**:50 FREQ: 5745, cFreq1[40:80:160] = [5755:5775:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS e4:38:83:**:**:50 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:29.203, RSSI: -170, CPL: 127, AGE: 1970,  SSID what's that?, TSFDelta: 0xc21c6662, TXRate: 0
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1349332207 as it greater than Beacon TSF 1181864770
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS e4:38:83:**:**:87 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_OPEN 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.557  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS e4:38:83:**:**:87 FREQ: 5805, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.558  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS e4:38:83:**:**:87 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:29.332, RSSI: -142, CPL: 127, AGE: 1840,  SSID what's that?, TSFDelta: 0x92be59c5, TXRate: 0
+06-15 07:05:36.558  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.558  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1349332427 as it greater than Beacon TSF 1181865048
+06-15 07:05:36.558  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.558  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.558  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ea:38:83:**:**:87 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.558  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ea:38:83:**:**:87 FREQ: 5805, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.558  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ea:38:83:**:**:87 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:29.332, RSSI: -142, CPL: 127, AGE: 1840,  SSID hav, TSFDelta: 0x92be59c5, TXRate: 0
+06-15 07:05:36.558  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.568  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1349332588 as it greater than Beacon TSF 1181865868
+06-15 07:05:36.568  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.568  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.568  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:87 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.568  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:87 FREQ: 5805, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.568  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:87 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:29.332, RSSI: -142, CPL: 127, AGE: 1840,  SSID hdevice, TSFDelta: 0x92be59c4, TXRate: 0
+06-15 07:05:36.569  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.570  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1349343463 as it greater than Beacon TSF 1181866897
+06-15 07:05:36.570  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_EAP
+06-15 07:05:36.570  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.570  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:87 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_EAP 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.570  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:87 FREQ: 5805, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.570  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:87 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:29.343, RSSI: -142, CPL: 127, AGE: 1830,  SSID hcorp, TSFDelta: 0x92be59c2, TXRate: 0
+06-15 07:05:36.571  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.571  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1349314174 as it greater than Beacon TSF 1181876089
+06-15 07:05:36.571  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.571  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.571  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:87 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.571  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:87 FREQ: 5805, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.571  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:87 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:29.314, RSSI: -142, CPL: 127, AGE: 1860,  SSID htalk, TSFDelta: 0x92be59c2, TXRate: 0
+06-15 07:05:36.572  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.572  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348523900 as it greater than probe TSF 1348523900
+06-15 07:05:36.572  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_EAP
+06-15 07:05:36.572  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.572  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:41 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_EAP 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.572  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:41 FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.572  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:41 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.523, RSSI: -126, CPL: 127, AGE: 2650,  SSID hcorp, TSFDelta: 0xf82c37cf, TXRate: 0
+06-15 07:05:36.572  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.572  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348124211 as it greater than probe TSF 1348124211
+06-15 07:05:36.572  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_EAP
+06-15 07:05:36.572  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:4f LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_EAP 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:4f FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:4f (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.124, RSSI: -156, CPL: 127, AGE: 3050,  SSID hcorp, TSFDelta: 0xa4dee8a9, TXRate: 0
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348530826 as it greater than probe TSF 1348530826
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:41 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:41 FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:41 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.530, RSSI: -128, CPL: 127, AGE: 2640,  SSID hguest, TSFDelta: 0xf82c37d0, TXRate: 0
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348533974 as it greater than probe TSF 1348533974
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:41 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.573  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:41 FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.574  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:41 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.533, RSSI: -124, CPL: 127, AGE: 2640,  SSID , TSFDelta: 0xf82c37d0, TXRate: 0
+06-15 07:05:36.574  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.574  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1349188417 as it greater than Beacon TSF 1181735579
+06-15 07:05:36.574  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_EAP
+06-15 07:05:36.574  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.574  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:50 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_EAP 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.574  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:50 FREQ: 5745, cFreq1[40:80:160] = [5755:5775:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.574  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:50 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:29.188, RSSI: -170, CPL: 127, AGE: 1990,  SSID hcorp, TSFDelta: 0xc21c665f, TXRate: 0
+06-15 07:05:36.574  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.574  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1349188643 as it greater than Beacon TSF 1181736318
+06-15 07:05:36.574  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.574  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.574  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:50 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.575  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:50 FREQ: 5745, cFreq1[40:80:160] = [5755:5775:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.575  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:50 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:29.188, RSSI: -172, CPL: 127, AGE: 1990,  SSID htalk, TSFDelta: 0xc21c665f, TXRate: 0
+06-15 07:05:36.575  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.575  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1349189314 as it greater than Beacon TSF 1181737356
+06-15 07:05:36.575  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.575  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.575  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:50 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.575  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:50 FREQ: 5745, cFreq1[40:80:160] = [5755:5775:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.575  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:50 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:29.189, RSSI: -170, CPL: 127, AGE: 1990,  SSID hguest, TSFDelta: 0xc21c6662, TXRate: 0
+06-15 07:05:36.575  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.575  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348131041 as it greater than probe TSF 1180684863
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:4f LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:4f FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:4f (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.131, RSSI: -158, CPL: 127, AGE: 3040,  SSID hguest, TSFDelta: 0xb22c5b18, TXRate: 0
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348134248 as it greater than probe TSF 1348134248
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:4f LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:4f FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:4f (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.134, RSSI: -156, CPL: 127, AGE: 3040,  SSID , TSFDelta: 0xa4dee8aa, TXRate: 0
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1348564014 as it greater than Beacon TSF 1232282456
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 66:22:32:**:**:1d LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 66:22:32:**:**:1d FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.576  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 66:22:32:**:**:1d (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:28.564, RSSI: -112, CPL: 127, AGE: 2610,  SSID hdevice, TSFDelta: 0xc18b1552, TXRate: 0
+06-15 07:05:36.577  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.577  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348503660 as it greater than probe TSF 1348503660
+06-15 07:05:36.577  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_EAP
+06-15 07:05:36.577  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.577  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 6a:22:32:**:**:1d LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_EAP 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.577  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 6a:22:32:**:**:1d FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.577  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 6a:22:32:**:**:1d (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.503, RSSI: -114, CPL: 127, AGE: 2670,  SSID hcorp, TSFDelta: 0xc18b1552, TXRate: 0
+06-15 07:05:36.577  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.577  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348506254 as it greater than probe TSF 1348506254
+06-15 07:05:36.577  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.577  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.577  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 6e:22:32:**:**:1d LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.577  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 6e:22:32:**:**:1d FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.577  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 6e:22:32:**:**:1d (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.506, RSSI: -114, CPL: 127, AGE: 2670,  SSID htalk, TSFDelta: 0xc18b1552, TXRate: 0
+06-15 07:05:36.578  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.578  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348509275 as it greater than probe TSF 1348509275
+06-15 07:05:36.578  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.578  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.578  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 72:22:32:**:**:1d LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.578  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 72:22:32:**:**:1d FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.578  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 72:22:32:**:**:1d (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.509, RSSI: -112, CPL: 127, AGE: 2670,  SSID hguest, TSFDelta: 0xc18b1552, TXRate: 0
+06-15 07:05:36.578  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.578  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348512963 as it greater than probe TSF 1348512963
+06-15 07:05:36.578  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.578  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.578  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 76:22:32:**:**:1d LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.578  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 76:22:32:**:**:1d FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.579  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 76:22:32:**:**:1d (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.512, RSSI: -114, CPL: 127, AGE: 2660,  SSID , TSFDelta: 0xc18b1552, TXRate: 0
+06-15 07:05:36.579  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.579  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348513098 as it greater than probe TSF 1348513098
+06-15 07:05:36.579  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.579  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.579  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 7a:22:32:**:**:1d LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.579  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 7a:22:32:**:**:1d FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.579  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 7a:22:32:**:**:1d (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.513, RSSI: -114, CPL: 127, AGE: 2680,  SSID , TSFDelta: 0xc18b159a, TXRate: 0
+06-15 07:05:36.579  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.579  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348924829 as it greater than probe TSF 1348924829
+06-15 07:05:36.579  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.579  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.579  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 66:22:32:**:**:68 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 66:22:32:**:**:68 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 66:22:32:**:**:68 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.924, RSSI: -158, CPL: 127, AGE: 2270,  SSID hdevice, TSFDelta: 0xea2ffd9e, TXRate: 0
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348982998 as it greater than probe TSF 1348982998
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fe:38:83:**:**:86 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fe:38:83:**:**:86 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fe:38:83:**:**:86 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.982, RSSI: -156, CPL: 127, AGE: 2210,  SSID , TSFDelta: 0x948b8249, TXRate: 0
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1349061801 as it greater than probe TSF 1349061801
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_EAP
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:45 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_EAP 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:45 FREQ: 5200, cFreq1[40:80:160] = [5190:5210:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.580  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:45 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:29.061, RSSI: -182, CPL: 127, AGE: 2130,  SSID hcorp, TSFDelta: 0xf9b1c78a, TXRate: 0
+06-15 07:05:36.581  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.581  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1349315622 as it greater than Beacon TSF 0
+06-15 07:05:36.581  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.581  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.581  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:87 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.581  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:87 FREQ: 5805, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.581  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:87 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:29.315, RSSI: -142, CPL: 127, AGE: 1880,  SSID hguest, TSFDelta: 0x92be59c5, TXRate: 0
+06-15 07:05:36.581  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.581  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348118151 as it greater than probe TSF 1348118151
+06-15 07:05:36.581  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.581  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.581  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS e4:38:83:**:**:4f LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.581  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS e4:38:83:**:**:4f FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.581  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS e4:38:83:**:**:4f (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.118, RSSI: -150, CPL: 127, AGE: 3080,  SSID hav, TSFDelta: 0xa4dee8aa, TXRate: 0
+06-15 07:05:36.582  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.582  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348172555 as it greater than probe TSF 1348172555
+06-15 07:05:36.582  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.582  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.582  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS a4:11:62:**:**:47 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 31, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.582  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS a4:11:62:**:**:47 FREQ: 2417, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.582  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS a4:11:62:**:**:47 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.172, RSSI: -160, CPL: 127, AGE: 3020,  SSID ARLO_VMB_1144438589, TSFDelta: 0xa8a32af8, TXRate: 0
+06-15 07:05:36.582  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.582  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1348546810 as it greater than Beacon TSF 1348517133
+06-15 07:05:36.582  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.582  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.582  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS e4:38:83:**:**:41 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.582  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS e4:38:83:**:**:41 FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.582  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS e4:38:83:**:**:41 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:28.546, RSSI: -126, CPL: 127, AGE: 2650,  SSID hav, TSFDelta: 0xf82c37d0, TXRate: 0
+06-15 07:05:36.583  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.583  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348521156 as it greater than probe TSF 1348521156
+06-15 07:05:36.583  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.583  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.583  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ea:38:83:**:**:41 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.583  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ea:38:83:**:**:41 FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.583  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ea:38:83:**:**:41 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.521, RSSI: -126, CPL: 127, AGE: 2670,  SSID hdevice, TSFDelta: 0xf82c37cf, TXRate: 0
+06-15 07:05:36.583  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.583  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348534097 as it greater than probe TSF 1348534097
+06-15 07:05:36.583  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.583  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.583  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fe:38:83:**:**:41 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.583  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fe:38:83:**:**:41 FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.583  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fe:38:83:**:**:41 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.534, RSSI: -154, CPL: 127, AGE: 2660,  SSID , TSFDelta: 0xf82c3818, TXRate: 0
+06-15 07:05:36.584  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.584  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report Probe TSF 1348556698 as it greater than Beacon TSF 0
+06-15 07:05:36.584  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.584  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.584  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 60:22:32:**:**:1d LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.584  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 60:22:32:**:**:1d FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.584  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 60:22:32:**:**:1d (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 00:22:28.556, RSSI: -112, CPL: 127, AGE: 2640,  SSID hav, TSFDelta: 0xc18b1552, TXRate: 0
+06-15 07:05:36.584  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.584  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348571326 as it greater than probe TSF 1348571326
+06-15 07:05:36.584  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.584  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.584  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ea:38:83:**:**:44 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.584  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ea:38:83:**:**:44 FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.584  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ea:38:83:**:**:44 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.571, RSSI: -152, CPL: 127, AGE: 2620,  SSID hdevice, TSFDelta: 0xdb3eb5c8, TXRate: 0
+06-15 07:05:36.584  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348574374 as it greater than probe TSF 1348574374
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_EAP
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:44 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_EAP 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:44 FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:44 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.574, RSSI: -152, CPL: 127, AGE: 2620,  SSID hcorp, TSFDelta: 0xdb3eb5c8, TXRate: 0
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348577884 as it greater than probe TSF 1348577884
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:44 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1031): ESS Privacy ShortPreamble
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:44 FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f2:38:83:**:**:44 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.577, RSSI: -152, CPL: 127, AGE: 2620,  SSID htalk, TSFDelta: 0xdb3eb5c8, TXRate: 0
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348917047 as it greater than probe TSF 1348917047
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:de LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:de FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.585  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:de (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.917, RSSI: -170, CPL: 127, AGE: 2280,  SSID , TSFDelta: 0x8ccfebc, TXRate: 0
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348917243 as it greater than probe TSF 1348917243
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fe:38:83:**:**:de LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fe:38:83:**:**:de FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fe:38:83:**:**:de (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.917, RSSI: -172, CPL: 127, AGE: 2280,  SSID , TSFDelta: 0x8ccff04, TXRate: 0
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348921835 as it greater than probe TSF 1348921835
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 60:22:32:**:**:68 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 60:22:32:**:**:68 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 60:22:32:**:**:68 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.921, RSSI: -154, CPL: 127, AGE: 2270,  SSID hav, TSFDelta: 0xea2ffd9f, TXRate: 0
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348927017 as it greater than probe TSF 1348927017
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_EAP
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 6a:22:32:**:**:68 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_EAP 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 6a:22:32:**:**:68 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.586  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 6a:22:32:**:**:68 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.927, RSSI: -156, CPL: 127, AGE: 2270,  SSID hcorp, TSFDelta: 0xea2ffd9e, TXRate: 0
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348930692 as it greater than probe TSF 1348930692
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 6e:22:32:**:**:68 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 6e:22:32:**:**:68 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 6e:22:32:**:**:68 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.930, RSSI: -148, CPL: 127, AGE: 2270,  SSID htalk, TSFDelta: 0xea2ffd9e, TXRate: 0
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348933761 as it greater than probe TSF 1348933761
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 72:22:32:**:**:68 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 72:22:32:**:**:68 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 72:22:32:**:**:68 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.933, RSSI: -150, CPL: 127, AGE: 2270,  SSID hguest, TSFDelta: 0xea2ffd9e, TXRate: 0
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1348937017 as it greater than probe TSF 1348937017
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 76:22:32:**:**:68 LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 76:22:32:**:**:68 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.587  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS 76:22:32:**:**:68 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:28.937, RSSI: -156, CPL: 127, AGE: 2270,  SSID , TSFDelta: 0xea2ffd9e, TXRate: 0
+06-15 07:05:36.588  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.588  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1349061430 as it greater than probe TSF 1349061430
+06-15 07:05:36.588  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.588  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.588  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:45 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.588  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:45 FREQ: 5200, cFreq1[40:80:160] = [5190:5210:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.588  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS ee:38:83:**:**:45 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:29.061, RSSI: -180, CPL: 127, AGE: 2140,  SSID hdevice, TSFDelta: 0xf9b1c78c, TXRate: 0
+06-15 07:05:36.588  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.588  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1349062027 as it greater than probe TSF 1349062027
+06-15 07:05:36.588  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.588  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.588  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:45 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.588  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:45 FREQ: 5200, cFreq1[40:80:160] = [5190:5210:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.588  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS f6:38:83:**:**:45 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:29.062, RSSI: -180, CPL: 127, AGE: 2140,  SSID htalk, TSFDelta: 0xf9b1c78a, TXRate: 0
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1349062575 as it greater than probe TSF 1349062575
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:45 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:45 FREQ: 5200, cFreq1[40:80:160] = [5190:5210:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fa:38:83:**:**:45 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:29.062, RSSI: -184, CPL: 127, AGE: 2140,  SSID hguest, TSFDelta: 0xf9b1c78e, TXRate: 0
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1349063139 as it greater than probe TSF 1349063139
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fe:38:83:**:**:45 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fe:38:83:**:**:45 FREQ: 5200, cFreq1[40:80:160] = [5190:5210:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fe:38:83:**:**:45 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:29.063, RSSI: -180, CPL: 127, AGE: 2140,  SSID , TSFDelta: 0xf9b1c78d, TXRate: 0
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] 
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] print_bss_handler: Report beacon TSF 1349292607 as it greater than probe TSF 1349292607
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] is_qcom_ie, bss_age: 0
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fe:38:83:**:**:87 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1111): ESS Privacy SpectrumMgmt
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fe:38:83:**:**:87 FREQ: 5805, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 Country Code = US 
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] BSS fe:38:83:**:**:87 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 00:22:29.292, RSSI: -142, CPL: 127, AGE: 1910,  SSID , TSFDelta: 0x92be59c5, TXRate: 0
+06-15 07:05:36.589  1411 13136 D LOWI-9.0.0.89.f: [LOWIDiagLog] Log: lowiMeasResult->request: invalid null argument
+06-15 07:05:36.589  1411 13136 I LOWI-9.0.0.89.f: [LOWI-Scan] lowi_close_record:Scan done in 1107364ms, 58 APs in scan results
+06-15 07:05:36.590  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] WipsScanUsingNL: passive scan cached 0, took 7504 ms, err 0
+06-15 07:05:36.590  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] lowi_proc_req_passive_scan_with_live_meas - No WLAN Frames to be parsed
+06-15 07:05:36.590  1411 13136 D LOWI-9.0.0.89.f: [LOWIScanResultReceiver] Send scan meas to listener
+06-15 07:05:36.590  1411 13136 D LOWI-9.0.0.89.f: [LOWIScanResultReceiver] Enter passive listening mode
+06-15 07:05:36.590  1411 13136 D LOWI-9.0.0.89.f: [LOWIWifiDriverInterface] getMeasurements - Passive listening mode
+06-15 07:05:36.590  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:NA
+06-15 07:05:36.590  1411  1442 D LOWI-9.0.0.89.f: [LOWIBackgroundScanMgr] isRspForBgScanMgr: evt(LOWI_NO_EVT) - not handled
+06-15 07:05:36.590  1411  1442 D LOWI-9.0.0.89.f: [LOWIScheduler] manageMsg: NULL results or NULL request in results
+06-15 07:05:36.590  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] Measurements received
+06-15 07:05:36.590  1411  1442 D LOWI-9.0.0.89.f: [LOWICacheManager] putInCache:Num of Meas to add: 58
+06-15 07:05:36.590  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] WipsScanUsingNL:wait -1 sec for netlink message
+06-15 07:05:36.594  1411  1442 D LOWI-9.0.0.89.f: [LOWICacheManager] addToCache: Cache Full, Cache Limit: 100, Purging: 50
+06-15 07:05:36.595  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] processMeasurementResults: No current Request. Cache measurements
+06-15 07:05:36.595  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] sendAsyncScanResponse: Request FreeWifiScanObserver_0 is from a different client.
+06-15 07:05:36.595  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] generateResponse: Type (ASYNC_DISCOVERY_SCAN_RESULTS) ScanStatus (1) request FreeWifiScanObserver_0
+06-15 07:05:36.595  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventDispatcher] sendResponse - originator = FreeWifiScanObserver
+06-15 07:05:36.595  1411  1442 D LOWI-9.0.0.89.f: [LOWIUtils] injectScanMeasurements - num of APs = 58
+06-15 07:05:36.596  1411  1442 I LOWI-9.0.0.89.f: [LOWIUtils] responseToOutPostcard - TO: FreeWifiScanObserver, FROM:   LOWI-SERVER, RESP:  LOWI_ASYNC_DISCOVERY_SCAN_RESULTS
+06-15 07:05:36.605  1411  1442 D LOWI-9.0.0.89.f: [LOWIControllerExtn] sendLOWILpDiscoveryScanResponse: Not a discovery scan response
+06-15 07:05:36.614   877  1027 I LocSvc_api_v02: ---> locClientSendReq line 2409 QMI_LOC_INJECT_WIFI_AP_DATA_REQ_V02
+06-15 07:05:36.616   877  1509 I LocSvc_ApiV02: <--- globalRespCb line 221 QMI_LOC_INJECT_WIFI_AP_DATA_REQ_V02
+06-15 07:05:36.693     0     0 W healthd : battery l=100 v=4386 t=40.9 h=2 st=5 c=0 fc=289000 cc=1 chg=w
+06-15 07:05:36.940  3444  4237 D MetricReporter: SystemReporter: Free RAM 1477 Mb
+06-15 07:05:36.945  3444  4237 D MetricReporter: SystemReporter: CPU usage 4%
+06-15 07:05:36.948  2118  2118 I thermal_hal: Sensor Name:batterytemp: 40.9. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.948  2118  2118 I thermal_hal: Sensor Name:CPU1temp: 43.7. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.949  2118  2118 I thermal_hal: Sensor Name:skintemp: 43.483. prev severity:3. cur severity:0 New severity:0
+06-15 07:05:36.949  2118  2118 I thermal_hal: Sensor Name:GPUtemp: 43.3. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.949  2118  2118 I thermal_hal: Sensor Name:CPU7temp: 43. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.950  2118  2118 I thermal_hal: Sensor Name:CPU6temp: 42.7. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.950  2118  2118 I thermal_hal: Sensor Name:CPU5temp: 43. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.950  2118  2118 I thermal_hal: Sensor Name:CPU0temp: 43.7. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.950  2118  2118 I thermal_hal: Sensor Name:CPU4temp: 43.7. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.950  2118  2118 I thermal_hal: Sensor Name:CPU3temp: 43.3. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.950  2118  2118 I thermal_hal: Sensor Name:CPU2temp: 43.3. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.954  2118  2118 I thermal_hal: Sensor Name:batterytemp: 40.9. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.954  2118  2118 I thermal_hal: Sensor Name:CPU1temp: 43.7. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.955  2118  2118 I thermal_hal: Sensor Name:skintemp: 43.483. prev severity:3. cur severity:0 New severity:0
+06-15 07:05:36.955  2118  2118 I thermal_hal: Sensor Name:GPUtemp: 43.3. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.955  2118  2118 I thermal_hal: Sensor Name:CPU7temp: 42.7. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.955  2118  2118 I thermal_hal: Sensor Name:CPU6temp: 42.7. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.955  2118  2118 I thermal_hal: Sensor Name:CPU5temp: 43.3. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.955  2118  2118 I thermal_hal: Sensor Name:CPU0temp: 44. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.955  2118  2118 I thermal_hal: Sensor Name:CPU4temp: 43.7. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.956  2118  2118 I thermal_hal: Sensor Name:CPU3temp: 43.3. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.956  2118  2118 I thermal_hal: Sensor Name:CPU2temp: 43.3. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.958  2118  2118 I thermal_hal: Sensor Name:batterytemp: 40.9. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.959  2118  2118 I thermal_hal: Sensor Name:CPU1temp: 43.7. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.960  2118  2118 I thermal_hal: Sensor Name:skintemp: 43.483. prev severity:3. cur severity:0 New severity:0
+06-15 07:05:36.960  2118  2118 I thermal_hal: Sensor Name:GPUtemp: 43.3. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.960  2118  2118 I thermal_hal: Sensor Name:CPU7temp: 43. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.960  2118  2118 I thermal_hal: Sensor Name:CPU6temp: 42.7. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.960  2118  2118 I thermal_hal: Sensor Name:CPU5temp: 43.3. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.960  2118  2118 I thermal_hal: Sensor Name:CPU0temp: 44.3. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.960  2118  2118 I thermal_hal: Sensor Name:CPU4temp: 43.7. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.960  2118  2118 I thermal_hal: Sensor Name:CPU3temp: 43. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.960  2118  2118 I thermal_hal: Sensor Name:CPU2temp: 43. prev severity:0. cur severity:0 New severity:0
+06-15 07:05:36.962  3444  4237 D MetricReporter: SystemReporter: CPU temperature 43.3 C
+06-15 07:05:36.962  3444  4237 D MetricReporter: SystemReporter: GPU temperature 43.3 C
+06-15 07:05:36.963  3444  4237 D MetricReporter: SystemReporter: Skin temperature 43.5 C
+06-15 07:05:36.976 13158 13158 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 07:05:36.984     0     0 I binder  : 13158:13158 ioctl 40046210 7fdeb28714 returned -22
+06-15 07:05:37.612 13138 13138 E humane_antenna_tune: Could not find the requested QMI service; terminating
+06-15 07:05:37.612 13138 13138 E humane_antenna_tune: qmi_wait_for_service() failed
+06-15 07:05:37.612 13138 13138 E humane_antenna_tune: Could not connect to the RFRPE tuner service; terminating antenna_tune service
+06-15 07:05:37.636     0     0 I init    : Service 'humane-antenna-tune' (pid 13138) exited with status 0
+06-15 07:05:37.636     0     0 I init    : Sending signal 9 to service 'humane-antenna-tune' (pid 13138) process group...
+06-15 07:05:37.636     0     0 I libprocessgroup: Successfully killed process cgroup uid 0 pid 13138 in 0ms
+06-15 07:05:37.642     0     0 I init    : starting service 'humane-antenna-tune'...
+--------- beginning of events
+06-15 07:05:38.119 13167 13167 I auditd  : type=1400 audit(0.0:1946): avc: denied { getattr } for comm="df" name="/" dev="mmcblk0p34" ino=1 scontext=u:r:su:s0 tcontext=u:object_r:bt_firmware_file:s0 tclass=filesystem permissive=1
+06-15 07:05:38.119 13167 13167 I df      : type=1400 audit(0.0:1946): avc: denied { getattr } for name="/" dev="mmcblk0p34" ino=1 scontext=u:r:su:s0 tcontext=u:object_r:bt_firmware_file:s0 tclass=filesystem permissive=1
+06-15 07:05:38.255 13172 13172 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 07:05:38.260  1452  2027 I WifiService: setWifiEnabled package=com.android.shell uid=0 enable=false
+06-15 07:05:38.263     0     0 I binder  : 13172:13172 ioctl 40046210 7fd178ae04 returned -22
+06-15 07:05:38.263  2413  3174 D QCNEJ/WlanStaInfoRelay: onChange for uri = content://settings/global/wifi_on
+06-15 07:05:38.268  1452  2078 D WifiActiveModeWarden: Shutting down all client mode managers
+06-15 07:05:38.268  1452  2078 D WifiClientModeManager[wlan0]:  currentstate: ConnectModeState
+06-15 07:05:38.270  1452  1452 D WifiP2pService: Wifi enabled=false
+06-15 07:05:38.273  3444  3444 D MetricReporter: WifiReporter: Connectivity state DISABLING
+06-15 07:05:38.274  1452  2078 D WifiClientModeManager[wlan0]: The target role change info null
+06-15 07:05:38.274  1452  2078 D WifiClientModeManager[wlan0]: Continue to stop wifi
+06-15 07:05:38.276  3444  3444 D MetricReporter: WifiReporter: SSID 
+06-15 07:05:38.276  1452  2078 D WifiClientModeManager[wlan0]: Stopping ClientModeImpl
+06-15 07:05:38.277  3444  3444 D MetricReporter: WifiReporter: Link speed 0 Mbps
+06-15 07:05:38.277  3444  3444 D MetricReporter: WifiReporter: Signal strength -100 dBm
+06-15 07:05:38.278  3444  3444 D MetricReporter: WifiReporter: BSSID 
+06-15 07:05:38.278  3444  3444 D MetricReporter: WifiReporter: PHY mode 
+06-15 07:05:38.278  1452  2134 E WifiAwareNativeApi: disable: null interface
+06-15 07:05:38.278  1452  1452 D WifiP2pService: Wifi enabled=false
+06-15 07:05:38.279  3444  3444 D MetricReporter: WifiReporter: Supported band  Ghz
+06-15 07:05:38.279  3444  3444 D MetricReporter: WifiReporter: Frequency 0 Mhz
+06-15 07:05:38.279  3444  3444 D MetricReporter: WifiReporter: link downstream bandwidth 0.000 Mbps
+06-15 07:05:38.280  3444  3444 D MetricReporter: WifiReporter: link upstream bandwidth 0.000 Mbps
+06-15 07:05:38.280  3444  3444 D MetricReporter: WifiReporter: TX PHY rate 0 Mbps
+06-15 07:05:38.281  3444  3444 D MetricReporter: WifiReporter: RX PHY rate 0 Mbps
+06-15 07:05:38.282  3444  3444 D MetricReporter: WifiReporter: Connectivity state DISABLED
+06-15 07:05:38.282  3444  3444 D MetricReporter: WifiReporter: SSID 
+06-15 07:05:38.282  1452  2134 E WifiAwareStateManager: onDisableResponseLocal: FAILED!? command={ when=-22m32s910ms what=1 arg1=124 target=com.android.wifi.x.com.android.internal.util.StateMachine$SmHandler }, reason=9
+06-15 07:05:38.282  3444  3444 D MetricReporter: WifiReporter: Link speed 0 Mbps
+06-15 07:05:38.283  3444  3444 D MetricReporter: WifiReporter: Signal strength -100 dBm
+06-15 07:05:38.283  3444  3444 D MetricReporter: WifiReporter: BSSID 
+06-15 07:05:38.284  3444  3444 D MetricReporter: WifiReporter: PHY mode 
+06-15 07:05:38.284  3444  3444 D MetricReporter: WifiReporter: Supported band  Ghz
+--------- beginning of system
+06-15 07:05:38.284   894   894 W android.hardware.wifi@1.0-service: No active wlan interfaces in use! Using default
+06-15 07:05:38.284  3444  3444 D MetricReporter: WifiReporter: Frequency 0 Mhz
+06-15 07:05:38.285  3444  3444 D MetricReporter: WifiReporter: link downstream bandwidth 0.000 Mbps
+06-15 07:05:38.286  3444  3444 D MetricReporter: WifiReporter: link upstream bandwidth 0.000 Mbps
+06-15 07:05:38.286  3444  3444 D MetricReporter: WifiReporter: TX PHY rate 0 Mbps
+06-15 07:05:38.287  3444  3444 D MetricReporter: WifiReporter: RX PHY rate 0 Mbps
+06-15 07:05:38.292 12121 12121 D VolumeSlider: updating Appearance
+06-15 07:05:38.296  1452  2078 I android_os_HwBinder: HwBinder: Starting thread pool for getting: android.hardware.wifi.supplicant@1.0::ISupplicant/default
+06-15 07:05:38.305 13128 13128 E wpa_supplicant: eap_proxy: eap_proxy_notify_config
+06-15 07:05:38.305 13128 13128 E wpa_supplicant: eap_proxy: eap_proxy_notify_config
+06-15 07:05:38.305 13128 13128 I wpa_supplicant: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+06-15 07:05:38.305 13128 13128 E wpa_supplicant: eap_proxy: pthread_join on eap_proxy=0x6131c66e20
+06-15 07:05:38.306 13128 13128 E wpa_supplicant: eap_proxy: session not started for client = 1
+06-15 07:05:38.306 13128 13128 E wpa_supplicant: eap_proxy: Released QMI UIM service client
+06-15 07:05:38.308 13128 13128 E wpa_supplicant: eap_proxy: Released QMI EAP service client
+06-15 07:05:38.308 13128 13128 E wpa_supplicant: eap_proxy: session not started for client = 2
+06-15 07:05:38.308 13128 13128 E wpa_supplicant: eap_proxy: Released QMI UIM service client
+06-15 07:05:38.309 13128 13128 E wpa_supplicant: eap_proxy: Released QMI EAP service client
+06-15 07:05:38.309 13128 13128 I wpa_supplicant: eap_proxy: eap_proxy Deinitialzed
+06-15 07:05:38.311 13128 13128 I wpa_supplicant: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+06-15 07:05:38.311 13128 13128 I wpa_supplicant: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+06-15 07:05:38.312  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x1003 ([UP])
+06-15 07:05:38.312  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(1)
+06-15 07:05:38.312  1411  1435 D LOWI-9.0.0.89.f: [LOWIController] intfStateReceived: ifname(wlan0) state(1)
+06-15 07:05:38.312  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+06-15 07:05:38.312  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+06-15 07:05:38.312  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] updateIntfState: WIFI enabled 1 mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 07:05:38.312  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 07:05:38.315  1452  1723 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: false
+06-15 07:05:38.315 13128 13128 I wpa_supplicant: Try to unregister vendor interface
+06-15 07:05:38.317  1292  1292 I wificond: Unsubscribe scan result for interface with index: 30
+06-15 07:05:38.332  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x1002 ()
+06-15 07:05:38.332  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(0)
+06-15 07:05:38.332  1411  1435 D LOWI-9.0.0.89.f: [LOWIController] intfStateReceived: ifname(wlan0) state(0)
+06-15 07:05:38.332  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+06-15 07:05:38.332  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+06-15 07:05:38.332  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] updateIntfState: WIFI enabled 0 mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 07:05:38.332  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 0 mWifiStateEnabled 1
+06-15 07:05:38.332  1411  1442 I LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: Wifi is now disabled
+06-15 07:05:38.332  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] terminateScanResultReceiver
+06-15 07:05:38.333  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] wips_wait_on_nl_socket: read returned 6, Received string: Close 
+06-15 07:05:38.333  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] do_listen_events: Select Error return - -301
+06-15 07:05:38.333  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] No dump done. Error -301
+06-15 07:05:38.333  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] WipsScanUsingNL: passive scan cached 0, took 1743 ms, err -301
+06-15 07:05:38.333  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] lowi_proc_req_passive_scan_with_live_meas - No WLAN Frames to be parsed
+06-15 07:05:38.333  1411 13136 D LOWI-9.0.0.89.f: [LOWIWifiDriverInterface] Scan terminated for passive listening request
+06-15 07:05:38.333  1411 13136 I LOWI-9.0.0.89.f: [LOWIScanResultReceiver] Thread terminate was requested
+06-15 07:05:38.334  1452  1723 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: false
+06-15 07:05:38.336  1411 13136 D LOWI-9.0.0.89.f: [LOWI-Scan] Closing the pipe
+06-15 07:05:38.336  1411  1442 D LOWI-9.0.0.89.f: [LOWIScanResultReceiver] After join complete
+06-15 07:05:38.336  1411  1442 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT] RomeUnblockRangingThread
+06-15 07:05:38.337  1411 13137 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT] RomeWaitOnActivityOnSocketOrPipe: Ranging thread Received string: Close, request socket shutdown 
+06-15 07:05:38.337  1411 13137 D LOWI-9.0.0.89.f: [LOWIRangingFSM] FSM: Received Terminate Thread request from Controller
+06-15 07:05:38.337  1411 13137 I LOWI-9.0.0.89.f: [LOWIScanResultReceiver] Thread terminate was requested
+06-15 07:05:38.337  1411 13137 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT] Closing the Ranging pipe
+06-15 07:05:38.337  1411  1442 D LOWI-9.0.0.89.f: [LOWIScanResultReceiver] After join complete
+06-15 07:05:38.337  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] terminateWifiDriver
+06-15 07:05:38.337  1411  1442 I CLD80211: lowi-server: Sent msg on exit sock to unblock poll()
+06-15 07:05:38.337  1292  1292 I wificond: tearDownClientInterface: erasing wiphy_index for iface_name wlan0
+06-15 07:05:38.337  1292  1292 I wificond: remove channel type 0 support at wiphy index 0
+06-15 07:05:38.337  1292  1292 I wificond: remove channel type 1 support at wiphy index 0
+06-15 07:05:38.339  1452  2078 I SupplicantStaIfaceHal: Terminating supplicant using HIDL
+06-15 07:05:38.341  1452  2078 I android_os_HwBinder: HwBinder: Starting thread pool for getting: android.hardware.wifi.supplicant@1.0::ISupplicant/default
+06-15 07:05:38.342 13128 13128 I wpa_supplicant: Terminating...
+06-15 07:05:38.358     0     0 I init    : Service 'wpa_supplicant' (pid 13128) exited with status 0 oneshot service took 9.456000 seconds in background
+06-15 07:05:38.359     0     0 I init    : Sending signal 9 to service 'wpa_supplicant' (pid 13128) process group...
+06-15 07:05:38.359     0     0 I libprocessgroup: Successfully killed process cgroup uid 0 pid 13128 in 0ms
+06-15 07:05:38.355  1452  2062 D SupplicantStaIfaceHal: ISupplicant died: cookie=4554227972517812620
+06-15 07:05:38.393  1452  2078 W SupplicantStaIfaceHal: Timed out waiting for confirmation of supplicant death
+06-15 07:05:38.393  1452  4049 W SupplicantStaIfaceHal: ISupplicantVendor/ISupplicantVendorStaIface died: cookie=0
+06-15 07:05:38.393  1452  2078 D WifiNl80211Manager: tearing down interfaces in wificond
+06-15 07:05:38.394  1452  2058 W SupplicantStaIfaceHal: ISupplicantVendor/ISupplicantVendorStaIface died: cookie=0
+06-15 07:05:38.403   894   894 E android.hardware.wifi@1.0-service: Stopping legacy HAL
+06-15 07:05:38.403   894   894 E android.hardware.wifi@1.0-service: Legacy HAL trigger wifi cleanup
+06-15 07:05:38.403   894 13124 I WifiHAL : exit_event_handler, buf=E
+06-15 07:05:38.403   894 13124 I CLD80211: android.hardware.wifi@1.0-service: Sent msg on exit sock to unblock poll()
+06-15 07:05:38.404   894 13124 D WifiHAL : wlan_service_update_sys_param: /proc/sys/net/ipv4/tcp_limit_output_bytes 262144
+06-15 07:05:38.404   894 13124 D WifiHAL : wlan_service_update_sys_param: /proc/sys/net/ipv4/tcp_use_userconfig 0
+06-15 07:05:38.404   894 13124 D WifiHAL : wlan_service_update_sys_param: /proc/sys/net/ipv4/tcp_adv_win_scale 1
+06-15 07:05:38.405   894   894 I WifiHAL : Sent msg on exit sock to unblock poll()
+06-15 07:05:38.405   894 13124 I android.hardware.wifi@1.0-service: Legacy HAL stop complete callback received
+06-15 07:05:38.406   894 13124 E android.hardware.wifi@1.0-service: SetWifiUpState(false) completed
+06-15 07:05:38.406   894 13124 I WifiHAL : wifi_event_loop() exits success
+06-15 07:05:38.406   894 13124 E android.hardware.wifi@1.0-service: Legacy HAL Wifi event loop exited
+06-15 07:05:38.406   894 13124 E android.hardware.wifi@1.0-service: Legacy HAL event loop terminated
+06-15 07:05:38.406   894   894 D android.hardware.wifi@1.0-service: Legacy HAL stop complete
+06-15 07:05:38.408  3073  3102 I humane_sar: Wifi changed to state: OFF
+06-15 07:05:38.409   894   894 I android.hardware.wifi@1.0-service: Wifi HAL stopped
+06-15 07:05:38.411  1452  2078 I WifiVendorHal: Vendor Hal stopped
+06-15 07:05:38.411  1452  2078 D WifiClientModeManager[wlan0]: STA iface wlan0 was destroyed, stopping client mode
+06-15 07:05:38.415     0     0 I [wifi@1][0x61e8a82a0][07:05:38.407011] wlan: [894:I:HDD] wlan_hdd_state_ctrl_param_write: 15695: Wifi turning off from UI
+06-15 07:05:38.411  1452  2078 W WifiClientModeManager[wlan0]: Received mWifiNativeInterfaceCallback.onDestroyed callback when no ClientModeImpl instance is active.
+06-15 07:05:38.412  1452  2078 I WifiNative: Successfully torn down Iface:{Name=wlan0,Id=6,Type=STA_CONNECTIVITY}
+06-15 07:05:38.412  1452  2078 I WifiNative: Successfully initiated teardown for iface=wlan0
+06-15 07:05:38.413  1452  2078 I WifiClientModeManager[unknown]: StartedState#exit(), setting mRole = null
+06-15 07:05:38.415  1452  2078 E SupplicantStaIfaceHal: Can't call listNetworks, ISupplicantStaIface is null for iface=wlan0
+06-15 07:05:38.415  1452  2078 E SupplicantStaIfaceHal: removeAllNetworks failed, got null networks
+06-15 07:05:38.415  1452  2078 E WifiClientModeImpl[wlan0]: Failed to remove networks on exiting connect mode
+06-15 07:05:38.417  1452  2078 E SupplicantStaIfaceHal: Can't call setPowerSave, ISupplicantStaIface is null for iface=wlan0
+06-15 07:05:38.417  1452  2078 E SupplicantStaIfaceHal: Can't call setBtCoexistenceMode, ISupplicantStaIface is null for iface=wlan0
+06-15 07:05:38.419  1452  2078 D WifiDiags: stopLogging() iface list is {} after removing wlan0
+06-15 07:05:38.419  1452  2078 W WifiDiags: Fail to reset log handler
+06-15 07:05:38.426  1452  2078 D WifiScanRequestProxy: Sending scan available broadcast: false
+06-15 07:05:38.426  1452  2094 I WifiScanningService: Received a request to disable scanning, UID = 1000
+06-15 07:05:38.426  1300  5827 I OMX-VENC: venc_dev: stats: avg. fps 9.69, bitrate 20265
+06-15 07:05:38.426  1452  2094 E WifiNl80211Manager: No valid wificond scanner interface handler for iface=wlan0
+06-15 07:05:38.427  1452  2094 I WifiScanningService: Removed an impl for wlan0
+06-15 07:05:38.427  1452  2094 I WifiScanningService: wifi driver unloaded
+06-15 07:05:38.427  1452  2078 I WifiScanRequestProxy: Scanning is disabled
+06-15 07:05:38.429  1452  2078 D WifiCountryCode: evaluateAllCmmStateAndApplyIfAllReady: {}
+06-15 07:05:38.430  1452  2078 D WifiConnectivityManager: saveMiracastMode: mode=0
+06-15 07:05:38.430  1452  2078 D WifiConnectivityManager: saveP2pGroupStarted: started=false
+06-15 07:05:38.434  1452  2078 W SupplicantStaIfaceHal: ISupplicant died: cookie=7
+06-15 07:05:38.434  1452  2078 D WifiController: STA disabled, return to DisabledState.
+06-15 07:05:38.435  1452  2078 D WifiController: EnabledState.exit()
+06-15 07:05:38.435  1452  2078 D WifiController: DisabledState.enter()
+06-15 07:05:38.500  1452  2043 I commit_sys_config_file: [settings-0-0,39]
+06-15 07:05:39.692 13161 13161 E humane_antenna_tune: timeout while waiting for sensors QMI service: will try 3 more time(s)
+06-15 07:05:41.376  1038  1058 D wlc-service: new baby, setting start bit
+06-15 07:05:41.369  1038  1038 I auditd  : type=1400 audit(0.0:1947): avc: denied { write } for comm="humane_wlc_serv" name="auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+06-15 07:05:41.377  1038  1058 D wlc-service: len, adj, size: 5, 0, 6
+06-15 07:05:41.377  1038  1058 D wlc-service: sending payload: 5 out of the 5 remaining bytes
+06-15 07:05:41.377  1038  1058 D wlc-service: ready for execute, setting execute bit and receiving
+06-15 07:05:41.377  1038  1058 D wlc-service: we want to receive, setting drain bit
+06-15 07:05:41.377  1038  1058 D wlc-service: sending 6 bytes
+06-15 07:05:41.369  1038  1038 W humane_wlc_serv: type=1400 audit(0.0:1947): avc: denied { write } for name="auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+06-15 07:05:41.696 13161 13161 E humane_antenna_tune: timeout while waiting for sensors QMI service: will try 2 more time(s)
+06-15 07:05:43.290  3372  3372 I sqlite_mem_released: 0
+06-15 07:05:43.291  3372  3372 I force_gc: mem
+06-15 07:05:43.338  3372  3384 W .pasr   : Reducing the number of considered missed Gc histogram windows from 133 to 100
+06-15 07:05:43.369  1038  1038 I auditd  : type=1400 audit(0.0:1948): avc: denied { write } for comm="humane_wlc_serv" name="auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+06-15 07:05:43.372  1038  1058 D wlc-service: received vector of size 0
+06-15 07:05:43.369  1038  1038 W humane_wlc_serv: type=1400 audit(0.0:1948): avc: denied { write } for name="auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+06-15 07:05:43.373  1038  1058 D wlc-service: rc is -110
+06-15 07:05:43.373  1038  1058 D wlc-service: wlc_driver_transact returned -110, considering trying again...
+06-15 07:05:43.369  1038  1038 I auditd  : type=1400 audit(0.0:1949): avc: denied { write } for comm="humane_wlc_serv" name="auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+06-15 07:05:43.369  1038  1038 W humane_wlc_serv: type=1400 audit(0.0:1949): avc: denied { write } for name="auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+06-15 07:05:43.427 13178 13178 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 07:05:43.435     0     0 I binder  : 13178:13178 ioctl 40046210 7fce5eef44 returned -22
+06-15 07:05:43.698 13161 13161 E humane_antenna_tune: timeout while waiting for sensors QMI service: will try 1 more time(s)
+06-15 07:05:44.542     0     0 I logd    : logdr: UID=0 GID=0 PID=13181 n tail=0 logMask=bf pid=0 start=0ns deadline=0ns

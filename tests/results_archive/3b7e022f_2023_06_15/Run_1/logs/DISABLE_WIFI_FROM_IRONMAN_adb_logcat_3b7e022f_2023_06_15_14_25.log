@@ -1,0 +1,1330 @@
+--------- beginning of main
+06-15 21:25:43.127  1300  5827 I OMX-VENC: venc_dev: stats: avg. fps 3.40, bitrate 7443
+--------- beginning of kernel
+06-15 21:25:43.148     0     0 I IRQ 6   : no longer affine to CPU5
+06-15 21:25:43.305 16434 16434 E humane_antenna_tune: timeout while waiting for sensors QMI service: will try 1 more time(s)
+06-15 21:25:43.628     0     0 W [schedu][0x77179bcb4][21:25:43.620141] wlan: [15222:W:PE] lim_process_auth_failure_timeout: 1771: received AUTH failure timeout in sessionid 0 limMlmstate 5 limSmeState 4
+06-15 21:25:43.628     0     0 E [schedu][0x77179e0d8][21:25:43.620623] wlan: [15222:E:PE] lim_process_mlm_auth_cnf: 558: Auth Failure occurred
+06-15 21:25:43.634  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x1003 ([UP])
+06-15 21:25:43.634  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(1)
+06-15 21:25:43.634  1411  1435 D LOWI-9.0.0.89.f: [LOWIController] intfStateReceived: ifname(wlan0) state(1)
+06-15 21:25:43.634  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+06-15 21:25:43.634  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+06-15 21:25:43.634  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] updateIntfState: WIFI enabled 1 mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 21:25:43.634  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 21:25:43.638  1452  1723 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: false
+06-15 21:25:43.640   729   729 I netd    : interfaceGetCfg(wlan0) -> {InterfaceConfigurationParcel{ifName: wlan0, hwAddr: b2:57:6e:df:0b:b2, ipv4Addr: 0.0.0.0, prefixLength: 0, flags: [up, broadcast, multicast]}} <0.55ms>
+06-15 21:25:43.645     0     0 I [schedu][0x7717ec419][21:25:43.637306] wlan: [15222:I:TXRX] ol_txrx_peer_detach: 3487: ol_txrx_peer_detach peer 00000000872732a5, peer->ref_cnt 7
+06-15 21:25:43.645     0     0 I [schedu][0x7717ec80f][21:25:43.637359] wlan: [15222:I:TXRX] ol_txrx_peer_detach: 3531: started peer_unmap_timer for peer 00000000872732a5
+06-15 21:25:43.646     0     0 I [soft_i][0x7717ef11e][21:25:43.637906] wlan: [0:I:TXRX] ol_txrx_peer_release_ref: 3336: [9][0]: Deleting peer 00000000872732a5 ref_cnt -> 0
+06-15 21:25:43.646     0     0 E [schedu][0x7717ef7f1][21:25:43.637997] wlan: [15222:E:HDD] hdd_get_roam_scan_ch_cb: 4213: Invalid len
+06-15 21:25:43.658     0     0 W [schedu][0x771828b4a][21:25:43.650202] wlan: [15222:W:SME] csr_roam_join_rsp_processor: 9911: SmeJoinReq failed with status_code= 0x000001FD [509] reason:65531
+06-15 21:25:43.661     0     0 W [schedu][0x7718379a5][21:25:43.653380] wlan: [15222:W:HDD] hdd_get_rssi_snr_by_bssid: 17954: sme_get_rssi_snr_by_bssid failed
+06-15 21:25:43.661     0     0 E [schedu][0x771837c4e][21:25:43.653415] wlan: [15222:E:HDD] hdd_association_completion_handler: 3712: wlan0(vdevid-0): connection failed with ee:38:83:16:5c:42 result: 3 and Status: 7
+06-15 21:25:43.680     0     0 I [schedu][0x77188fc3f][21:25:43.672188] wlan: [15222:I:SME] vdev-0: Connecting to hdevice 6a:22:32:f6:03:1e rssi: -52 freq: 5180 akm 9 cipher: uc 6 mc 6, CC: US
+06-15 21:25:43.680     0     0 E [schedu][0x771890643][21:25:43.672322] wlan: [15222:E:QDF] Cannot malloc 0 bytes @ csr_get_cfg_max_tx_power:14234
+06-15 21:25:43.693     0     0 E [schedu][0x7718ced44][21:25:43.685642] wlan: [15222:E:QDF] qdf_mc_timer_start: Cannot start timer in state = 21 csr_packetdump_timer_handler [wlan]
+06-15 21:25:43.709     0     0 I [schedu][0x771916fb3][21:25:43.701034] wlan: [15222:I:WMI] send_vdev_start_cmd_tlv: 1062: send_vdev_start_cmd_tlv: vdev_id 0 freq 5180 chanmode 10 ch_info: 0xa is_dfs 0 beacon interval 100 dtim 0 center_chan 5210 center_freq2 0 reg_info_1: 0x150000 reg_info_2: 0x1500, req->max_txpow: 0x15 Tx SS 1, Rx SS 1, ldpc_rx: 0, cac 0, regd 1, HE ops: 0req->dis_hw_ack: 0
+06-15 21:25:43.731     0     0 I [schedu][0x77197eb54][21:25:43.723163] wlan: [15222:I:PE] Auth TX: seq 1 seq num 2055 status 0 WEP 0 to 6a:22:32:f6:03:1e
+06-15 21:25:43.734     0     0 I [schedu][0x77198eddb][21:25:43.726610] wlan: [15222:I:PE] Auth TX: success
+06-15 21:25:43.743     0     0 I [schedu][0x7719b7fde][21:25:43.735383] wlan: [15222:I:PE] Auth RX: vdev 0 sys role 3 lim_state 5 from 6a:22:32:f6:03:1e rssi -52 auth_alg 0 seq 1180
+06-15 21:25:43.744     0     0 I [schedu][0x7719ba527][21:25:43.735880] wlan: [15222:I:PE] Assoc req TX: vdev 0 to 6a:22:32:f6:03:1e seq num 2056
+06-15 21:25:43.746     0     0 I [schedu][0x7719c464f][21:25:43.738029] wlan: [15222:I:PE] Assoc req TX: success
+06-15 21:25:43.767     0     0 I [schedu][0x771a267db][21:25:43.758956] wlan: [15222:I:PE] Assoc rsp RX: subtype 0 vdev 0 sys role 3 lim state 10 rssi -52 from 6a:22:32:f6:03:1e
+06-15 21:25:43.772     0     0 E [schedu][0x771a40ff7][21:25:43.764611] wlan: [15222:E:QDF] Cannot malloc 0 bytes @ csr_get_cfg_max_tx_power:14234
+06-15 21:25:43.784     0     0 E [schedu][0x771a793d1][21:25:43.776609] wlan: [15222:E:QDF] Cannot malloc 0 bytes @ csr_get_cfg_max_tx_power:14234
+06-15 21:25:43.782  1038  1058 D wlc-service: received vector of size 0
+06-15 21:25:43.782  1038  1058 D wlc-service: rc is -110
+06-15 21:25:43.782  1038  1058 D wlc-service: wlc_driver_transact returned -110, considering trying again...
+06-15 21:25:43.790  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x1003 ([UP])
+06-15 21:25:43.790  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(1)
+06-15 21:25:43.790  1411  1435 D LOWI-9.0.0.89.f: [LOWIController] intfStateReceived: ifname(wlan0) state(1)
+06-15 21:25:43.790  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+06-15 21:25:43.790  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+06-15 21:25:43.790  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] updateIntfState: WIFI enabled 1 mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 21:25:43.790  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 21:25:43.791  1452  1723 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: false
+06-15 21:25:43.792  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x1003 ([UP])
+06-15 21:25:43.792  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(1)
+06-15 21:25:43.792  1411  1435 D LOWI-9.0.0.89.f: [LOWIController] intfStateReceived: ifname(wlan0) state(1)
+06-15 21:25:43.792   894 16444 I WifiHAL : send oem msg of len : 140 to apps
+06-15 21:25:43.793  1411 16467 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT] event_handler: Valid data with length 108
+06-15 21:25:43.793  1411 16467 D LOWI-9.0.0.89.f: [LOWI-HELIUM-RTT] RomeNLRecvMessage: The Received RomeMsgType: ROME_P2P_PEER_EVENT_MSG
+06-15 21:25:43.793  1411 16467 D LOWI-9.0.0.89.f: [LOWIRangingFSM] FSM: Received Event EVENT_P2P_STATUS_UPDATE, Current state: STATE_READY_AND_IDLE
+06-15 21:25:43.793  1411 16467 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT]  RomeExtractP2PInfo - P2P EVENT Received!
+06-15 21:25:43.793  1411 16467 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT]  ExtractNLP2PInfo: Entered
+06-15 21:25:43.793  1411 16467 D LOWI-9.0.0.89.f: [LOWI-P2P-RTT] p2pStoreStatusInfo: Peer status = PEER_STATUS_CONNECTED Mac:6a:22:32:**:**:1e
+06-15 21:25:43.793  1411 16467 D LOWI-9.0.0.89.f: [LOWIRangingFSM] FSM: New FSM state: STATE_READY_AND_IDLE
+06-15 21:25:43.793  1411 16467 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT] RomeWaitOnActivityOnSocketOrPipe: issue blocking select 
+06-15 21:25:43.793  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+06-15 21:25:43.793  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+06-15 21:25:43.793  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] updateIntfState: WIFI enabled 1 mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 21:25:43.793  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 21:25:43.793   729   729 I netd    : interfaceGetCfg(wlan0) -> {InterfaceConfigurationParcel{ifName: wlan0, hwAddr: b2:57:6e:df:0b:b2, ipv4Addr: 0.0.0.0, prefixLength: 0, flags: [up, broadcast, multicast]}} <0.37ms>
+06-15 21:25:43.794  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x11003 ([UP])
+06-15 21:25:43.794  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(1)
+06-15 21:25:43.794  1411  1435 D LOWI-9.0.0.89.f: [LOWIController] intfStateReceived: ifname(wlan0) state(1)
+06-15 21:25:43.794  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+06-15 21:25:43.794  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+06-15 21:25:43.794  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] updateIntfState: WIFI enabled 1 mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 21:25:43.794  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 21:25:43.794  1452  1723 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: false
+06-15 21:25:43.795   729   729 I netd    : interfaceGetCfg(wlan0) -> {InterfaceConfigurationParcel{ifName: wlan0, hwAddr: b2:57:6e:df:0b:b2, ipv4Addr: 0.0.0.0, prefixLength: 0, flags: [up, broadcast, multicast]}} <0.27ms>
+06-15 21:25:43.797     0     0 W [schedu][0x771ab6c42][21:25:43.789735] wlan: [15222:W:HDD] hdd_get_rssi_snr_by_bssid: 17954: sme_get_rssi_snr_by_bssid failed
+06-15 21:25:43.798     0     0 I [schedu][0x771ab8161][21:25:43.790016] wlan: [15222:I:HDD] wlan0(vdevid-0): b2:57:6e:df:0b:b2 connected to 6a:22:32:f6:03:1e
+06-15 21:25:43.805     0     0 I [schedu][0x771ad92a2][21:25:43.797073] wlan: [15222:I:QDF] EAPOL-1 RX: SA:6a:22:32:f6:03:1e DA:b2:57:6e:df:0b:b2
+06-15 21:25:43.801   729   729 I netd    : interfaceGetCfg(wlan0) -> {InterfaceConfigurationParcel{ifName: wlan0, hwAddr: b2:57:6e:df:0b:b2, ipv4Addr: 0.0.0.0, prefixLength: 0, flags: [up, broadcast, multicast]}} <0.49ms>
+06-15 21:25:43.802  1452  1723 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: true
+06-15 21:25:43.804 16448 16448 I wpa_supplicant: wlan0: Associated with 6a:22:32:f6:03:1e
+06-15 21:25:43.804 16448 16448 I wpa_supplicant: wlan0: WPA: RX message 1 of 4-Way Handshake from 6a:22:32:f6:03:1e (ver=2)
+06-15 21:25:43.805 16448 16448 I wpa_supplicant: wlan0: WPA: Sending EAPOL-Key 2/4
+06-15 21:25:43.805 16448 16448 I wpa_supplicant: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+06-15 21:25:43.815     0     0 I [soft_i][0x771b09fcd][21:25:43.807490] wlan: [0:I:QDF] EAPOL-2 TX: SA:b2:57:6e:df:0b:b2 DA:6a:22:32:f6:03:1e msdu_id:1199 status: succ
+06-15 21:25:43.809   557   557 I hwservicemanager: getTransport: Cannot find entry android.hardware.wifi.supplicant@1.4::ISupplicant/default in either framework or device VINTF manifest.
+06-15 21:25:43.816 16448 16448 I wpa_supplicant: wlan0: WPA: RX message 3 of 4-Way Handshake from 6a:22:32:f6:03:1e (ver=2)
+06-15 21:25:43.816 16448 16448 I wpa_supplicant: wlan0: WPA: Sending EAPOL-Key 4/4
+06-15 21:25:43.823     0     0 I [cds_ol][0x771b306ad][21:25:43.815688] wlan: [15223:I:QDF] EAPOL-3 RX: SA:6a:22:32:f6:03:1e DA:b2:57:6e:df:0b:b2
+06-15 21:25:43.826     0     0 I [soft_i][0x771b3dd99][21:25:43.818553] wlan: [0:I:QDF] EAPOL-4 TX: SA:b2:57:6e:df:0b:b2 DA:6a:22:32:f6:03:1e msdu_id:1199 status: succ
+06-15 21:25:43.818  2413  3174 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.STATE_CHANGE
+06-15 21:25:43.827     0     0 E [schedu][0x771b40b35][21:25:43.819161] wlan: [15222:E:QDF] Cannot malloc 0 bytes @ csr_get_cfg_max_tx_power:14234
+06-15 21:25:43.818   894 16444 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xa5
+06-15 21:25:43.818  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] wait_event:Wait done with Cmd 103
+06-15 21:25:43.818  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+06-15 21:25:43.819  1358  1358 I cnss-daemon: nl80211 response handler invoked
+06-15 21:25:43.819  1358  1358 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 165  received
+06-15 21:25:43.841 16448 16448 I wpa_supplicant: wlan0: WPA: Key negotiation completed with 6a:22:32:f6:03:1e [PTK=CCMP GTK=CCMP]
+06-15 21:25:43.841 16448 16448 I wpa_supplicant: wlan0: CTRL-EVENT-CONNECTED - Connection to 6a:22:32:f6:03:1e completed [id=0 id_str=%7B%22configKey%22%3A%22%5C%22hdevice%5C%22WPA_PSK%22%2C%22creatorUid%22%3A%221000%22%7D]
+06-15 21:25:43.841  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x11043 ([UP][RUNNING])
+06-15 21:25:43.841  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(2)
+06-15 21:25:43.841  1411  1435 D LOWI-9.0.0.89.f: [LOWIController] intfStateReceived: ifname(wlan0) state(2)
+06-15 21:25:43.842  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+06-15 21:25:43.842  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+06-15 21:25:43.842  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] updateIntfState: WIFI enabled 2 mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 21:25:43.842  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 2 mWifiStateEnabled 1
+06-15 21:25:43.842  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] notifyWlanInterfaceStatusChange: Send Interface state request LOWIController_4
+06-15 21:25:43.842  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 2 mWifiStateEnabled 1
+06-15 21:25:43.842  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] requestMeasurements: Internal Message 2 sent to driver
+06-15 21:25:43.842  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] issueRequest: LOWIController_4 sent to driver request - SUCCESS
+06-15 21:25:43.842  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] wips_wait_on_nl_socket: read returned 6, Received string: Close 
+06-15 21:25:43.842  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] do_listen_events: Select Error return - -301
+06-15 21:25:43.842  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] No dump done. Error -301
+06-15 21:25:43.842  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] WipsScanUsingNL: passive scan cached 0, took 1431 ms, err -301
+06-15 21:25:43.842  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] lowi_proc_req_passive_scan_with_live_meas - No WLAN Frames to be parsed
+06-15 21:25:43.842  1411 16466 D LOWI-9.0.0.89.f: [LOWIWifiDriverInterface] Scan terminated for passive listening request
+06-15 21:25:43.842  1411 16466 D LOWI-9.0.0.89.f: [LOWIScanResultReceiver] run:Execute new request LOWIController_4
+06-15 21:25:43.844  1452  1723 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: true
+06-15 21:25:43.849     0     0 I [schedu][0x771baa80b][21:25:43.841732] wlan: [15222:I:WMI] LFR3:OKC enabled
+06-15 21:25:43.850     0     0 I [schedu][0x771baac30][21:25:43.841787] wlan: [15222:I:WMI] LFR3:PMKSA caching enabled
+06-15 21:25:43.847  1411 16466 I LOWI-9.0.0.89.f: [LOWI-Scan] get_intf_mode: WLAN interface type 2, err 0
+06-15 21:25:43.848   729   729 I netd    : interfaceGetCfg(wlan0) -> {InterfaceConfigurationParcel{ifName: wlan0, hwAddr: b2:57:6e:df:0b:b2, ipv4Addr: 0.0.0.0, prefixLength: 0, flags: [up, broadcast, running, multicast]}} <3.30ms>
+06-15 21:25:43.848   894 16444 I WifiHAL : send_nl_data: sent gennl msg of len: 44 to driver
+06-15 21:25:43.848  1411 16466 D LOWI-9.0.0.89.f: [LOWIScanResultReceiver] Send scan meas to listener
+06-15 21:25:43.848  1411 16466 D LOWI-9.0.0.89.f: [LOWIScanResultReceiver] Enter passive listening mode
+06-15 21:25:43.848  1411 16466 D LOWI-9.0.0.89.f: [LOWIWifiDriverInterface] getMeasurements - Passive listening mode
+06-15 21:25:43.848  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] WipsScanUsingNL:wait -1 sec for netlink message
+06-15 21:25:43.849  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:NA
+06-15 21:25:43.849  1411  1442 D LOWI-9.0.0.89.f: [LOWIBackgroundScanMgr] isRspForBgScanMgr: req(LOWI_INTERNAL_MESSAGE) -- not handled
+06-15 21:25:43.849  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] Measurements received
+06-15 21:25:43.856  2413  3174 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.STATE_CHANGE
+06-15 21:25:43.858  1452  2078 D ConnectivityService: registerNetworkAgent NetworkAgentInfo{network{103}  handle{445787328525}  ni{WIFI CONNECTING extra: } Score(60 ; KeepConnected : 0 ; Policies : IS_UNMETERED)   lp{{LinkAddresses: [ ] DnsAddresses: [ ] Domains: null MTU: 0 Routes: [ ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=433000Kbps LinkDnBandwidth>=433000Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=6a:22:32:f6:03:1e, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: 6a:22:32:f6:03:1e, MAC: b2:57:6e:df:0b:b2, Security type: 2, Supplicant state: GROUP_HANDSHAKE, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -127, Link speed: -1Mbps, Tx Link speed: -1Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: -1Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5180MHz, Net ID: 1, Metered hint: false, score: 0, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+06-15 21:25:43.862   729   729 I netd    : getFwmarkForNetwork(103) -> {MarkMaskParcel{mark: 103, mask: 65535}} <0.02ms>
+06-15 21:25:43.880  1452  2097 D ConnectivityService: [103 WIFI] EVENT_NETWORK_INFO_CHANGED, going from CONNECTING to CONNECTING
+06-15 21:25:43.904  2442 16475 D ApfFilter: (wlan0): begin monitoring
+06-15 21:25:43.897     0     0 E [schedu][0x771c8a910][21:25:43.889532] wlan: [15222:E:QDF] __pktlog_enable: 734: Unable to subscribe 319 to the WDI __pktlog_enable
+06-15 21:25:43.906   729   729 I netd    : interfaceSetIPv6PrivacyExtensions(wlan0, true) <0.16ms>
+06-15 21:25:43.906   729   729 I netd    : setIPv6AddrGenMode(wlan0, 0) <0.07ms>
+06-15 21:25:43.907   729   729 I netd    : interfaceSetEnableIPv6(wlan0, true) <0.68ms>
+06-15 21:25:43.911   729   729 I netd    : setProcSysNet(4, 2, wlan0, retrans_time_ms, 750) <0.12ms>
+06-15 21:25:43.911   729   729 I netd    : setProcSysNet(4, 2, wlan0, ucast_solicit, 5) <0.08ms>
+06-15 21:25:43.912   729   729 I netd    : setProcSysNet(6, 2, wlan0, retrans_time_ms, 750) <0.10ms>
+06-15 21:25:43.912   729   729 I netd    : setProcSysNet(6, 2, wlan0, ucast_solicit, 5) <0.05ms>
+06-15 21:25:43.913   729   729 I netd    : setProcSysNet(4, 2, wlan0, retrans_time_ms, 750) <0.05ms>
+06-15 21:25:43.913   729   729 I netd    : setProcSysNet(4, 2, wlan0, ucast_solicit, 10) <0.04ms>
+06-15 21:25:43.913   729   729 I netd    : setProcSysNet(6, 2, wlan0, retrans_time_ms, 750) <0.07ms>
+06-15 21:25:43.913   729   729 I netd    : setProcSysNet(6, 2, wlan0, ucast_solicit, 10) <0.04ms>
+06-15 21:25:43.914  1452  2097 D ConnectivityService: NetReassign [no changes]
+06-15 21:25:43.918  2413  3174 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.STATE_CHANGE
+06-15 21:25:43.920  1452  2097 D ConnectivityService: NetReassign [no changes]
+06-15 21:25:43.923  1452  2097 D ConnectivityService: Adding iface wlan0 to network 103
+06-15 21:25:43.924   729   729 E Netd    : no such netId 103
+06-15 21:25:43.924   729   729 I netd    : networkAddInterface(103, wlan0) -> ServiceSpecificException(64, "Machine is not on the network") <0.22ms>
+06-15 21:25:43.925  1452  2097 W ConnectivityService: Exception adding interface: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+06-15 21:25:43.926   729   729 E Netd    : no such netId 103
+06-15 21:25:43.926   729   729 I netd    : networkAddRouteParcel(103, RouteInfoParcel{destination: fe80::/64, ifName: wlan0, nextHop: , mtu: 0}) -> ServiceSpecificException(64, "Machine is not on the network") <0.05ms>
+06-15 21:25:43.935  2413  3174 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+06-15 21:25:43.936   729   729 I netd    : trafficSwapActiveStatsMap() <0.35ms>
+06-15 21:25:43.940  2442 16455 D DhcpClient: l2key: W6ec2113ca72e7569 lease address: /10.195.24.240 lease expiry: 1686871273845 current time: 1686864343940
+06-15 21:25:43.940   729   729 I netd    : tetherGetStats() -> {[]} <2.46ms>
+--------- beginning of events
+06-15 21:25:43.944  1452  2097 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1686864343945]
+06-15 21:25:43.944  1452  2097 I netstats_wifi_sample: [110760,659,28881,210,110760,659,28881,210,79197,147,28881,210,1686864343945]
+06-15 21:25:43.945  2442 16455 D DhcpClient: Broadcasting DHCPREQUEST ciaddr=0.0.0.0 request=10.195.24.240 serverid=null
+06-15 21:25:43.956     0     0 I [soft_i][0x771d9d4aa][21:25:43.948141] wlan: [0:I:QDF] DHCP-R TX: SA:b2:57:6e:df:0b:b2 DA:ff:ff:ff:ff:ff:ff msdu_id:1199 status: succ
+--------- beginning of radio
+06-15 21:25:43.970  2608  2608 D SST     : [0] handleMessage: received event 43
+06-15 21:25:44.050     0     0 I [cds_ol][0x771f57601][21:25:44.042452] wlan: [15223:I:QDF] DHCP-A RX: SA:00:08:a2:12:c1:40 DA:b2:57:6e:df:0b:b2
+06-15 21:25:44.048  2442 16455 D DhcpClient: Received packet: b2:57:6e:df:0b:b2 ACK: your new IP /10.195.24.240, netmask /255.255.248.0, gateways [/10.195.24.1] DNS servers: /10.195.24.1 , lease time 6929
+06-15 21:25:44.052  2442 16455 D DhcpClient: Confirmed lease: android.net.networkstack.DhcpResults@a180fd7 DHCP server /10.195.24.1 Vendor info null lease 6929 seconds Servername 
+06-15 21:25:44.072   729   729 I netd    : interfaceSetCfg(InterfaceConfigurationParcel{ifName: wlan0, hwAddr: , ipv4Addr: 10.195.24.240, prefixLength: 21, flags: []}) <2.00ms>
+06-15 21:25:44.076  2413  3174 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.STATE_CHANGE
+06-15 21:25:44.083   729   729 E Netd    : no such netId 103
+06-15 21:25:44.084   729   729 I netd    : networkAddRouteParcel(103, RouteInfoParcel{destination: 10.195.24.0/21, ifName: wlan0, nextHop: , mtu: 0}) -> ServiceSpecificException(64, "Machine is not on the network") <0.23ms>
+06-15 21:25:44.085  1452  2097 E ConnectivityService: Exception in networkAddRouteParcel for non-gateway: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+06-15 21:25:44.086   729   729 E Netd    : no such netId 103
+06-15 21:25:44.086   729   729 I netd    : networkAddRouteParcel(103, RouteInfoParcel{destination: 0.0.0.0/0, ifName: wlan0, nextHop: 10.195.24.1, mtu: 0}) -> ServiceSpecificException(64, "Machine is not on the network") <0.16ms>
+06-15 21:25:44.087  1452  2097 E ConnectivityService: Exception in networkAddRouteParcel for gateway: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+06-15 21:25:44.087  1452  2097 D ConnectivityService: Setting DNS servers for network 103 to []
+06-15 21:25:44.104   729   729 I netd    : trafficSwapActiveStatsMap() <0.36ms>
+06-15 21:25:44.107   729   729 I netd    : tetherGetStats() -> {[]} <1.67ms>
+06-15 21:25:44.110  1452  2097 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1686864344111]
+06-15 21:25:44.111  1452  2097 I netstats_wifi_sample: [110760,659,28881,210,110760,659,28881,210,79197,147,28881,210,1686864344111]
+06-15 21:25:44.113  2442 16455 D DhcpClient: Scheduling renewal in 3464s
+06-15 21:25:44.113  2442 16455 D DhcpClient: Scheduling rebind in 6062s
+06-15 21:25:44.113  2442 16455 D DhcpClient: Scheduling expiry in 6928s
+06-15 21:25:44.113  1452  2097 D ConnectivityService: Setting DNS servers for network 103 to [/10.195.24.1]
+06-15 21:25:44.114  2413  3174 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.STATE_CHANGE
+06-15 21:25:44.120   729   729 I netd    : trafficSwapActiveStatsMap() <0.35ms>
+06-15 21:25:44.122  1452  2078 W WifiScoreReport: Cannot start external scoring netId=103 currentNetId=103 currentNetCapabilities=[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=60000Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=6a:22:32:f6:03:1e, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: 6a:22:32:f6:03:1e, MAC: b2:57:6e:df:0b:b2, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -52, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5180MHz, Net ID: 1, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -52 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"] sessionId=1035
+06-15 21:25:44.123   729   729 I netd    : tetherGetStats() -> {[]} <1.34ms>
+06-15 21:25:44.125  1452  2097 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1686864344126]
+06-15 21:25:44.125  1452  2097 I netstats_wifi_sample: [110760,659,28881,210,110760,659,28881,210,79197,147,28881,210,1686864344126]
+06-15 21:25:44.127  1452  2097 D ConnectivityService: [103 WIFI] EVENT_NETWORK_INFO_CHANGED, going from CONNECTING to CONNECTED
+06-15 21:25:44.127   729   729 D TcpSocketMonitor: resuming tcpinfo polling (interval=30000ms)
+06-15 21:25:44.127   729   729 I netd    : networkCreate(NativeNetworkConfig{netId: 103, networkType: PHYSICAL, permission: 0, secure: false, vpnType: -1}) <0.11ms>
+06-15 21:25:44.128   729   729 I netd    : createNetworkCache(103) <0.12ms>
+06-15 21:25:44.129  1452  2097 D DnsManager: sendDnsConfigurationForNetwork(103, [10.195.24.1], [sfo-984.corp.qwertyftw.com], 1800, 25, 8, 64, 0, 0, , [])
+06-15 21:25:44.130   729   729 D resolv  : PrivateDnsConfiguration::set(103, 0xf0067, 0, )
+06-15 21:25:44.130   729   729 I resolv  : resolv_set_nameservers: netId = 103, numservers = 1
+06-15 21:25:44.130   729   729 D resolv  : android_getaddrinfofornetcontext: explore_numeric: ai_family=10 ai_socktype=2 ai_protocol=17
+06-15 21:25:44.130   729   729 D resolv  : explore_numeric_scope
+06-15 21:25:44.130   729   729 D resolv  : android_getaddrinfofornetcontext: explore_numeric: ai_family=2 ai_socktype=2 ai_protocol=17
+06-15 21:25:44.130   729   729 D resolv  : explore_numeric_scope
+06-15 21:25:44.130   729   729 I resolv  : resolv_set_nameservers: netid = 103, addr = 10.195.24.1
+06-15 21:25:44.130   729   729 I netd    : DnsResolverService::setResolverConfiguration(103, [10.195.24.1], [sfo-984.corp.qwertyftw.com], 1800, 25, 8, 64, 0, 0, "", []) -> (0) (0.6ms)
+06-15 21:25:44.130   729   729 I netd    : setResolverConfiguration(ResolverParamsParcel{netId: 103, sampleValiditySeconds: 1800, successThreshold: 25, minSamples: 8, maxSamples: 64, baseTimeoutMsec: 0, retryCount: 0, servers: [10.195.24.1], domains: [sfo-984.corp.qwertyftw.com], tlsName: , tlsServers: [], tlsFingerprints: [], caCertificate: , tlsConnectTimeoutMs: 0, resolverOptions: (null), transportTypes: [1]}) <0.80ms>
+06-15 21:25:44.132  1452  2097 W DnsManager: updatePrivateDns(103, PrivateDnsConfig{true:/[]})
+06-15 21:25:44.132  1452  2097 D ConnectivityService: Setting DNS servers for network 103 to [/10.195.24.1]
+06-15 21:25:44.133  1452  2097 D DnsManager: sendDnsConfigurationForNetwork(103, [10.195.24.1], [sfo-984.corp.qwertyftw.com], 1800, 25, 8, 64, 0, 0, , [10.195.24.1])
+06-15 21:25:44.134   729   729 D resolv  : PrivateDnsConfiguration::set(103, 0xf0067, 1, )
+06-15 21:25:44.134   729   729 I resolv  : resolv_set_nameservers: netId = 103, numservers = 1
+06-15 21:25:44.134   729 16476 W resolv  : Validating DnsTlsServer 10.195.24.1 with mark 0xf0067
+06-15 21:25:44.134   729   729 D resolv  : android_getaddrinfofornetcontext: explore_numeric: ai_family=10 ai_socktype=2 ai_protocol=17
+06-15 21:25:44.134   729 16476 D resolv  : Beginning validation with mark f0067
+06-15 21:25:44.134   729   729 D resolv  : explore_numeric_scope
+06-15 21:25:44.134   729   729 D resolv  : android_getaddrinfofornetcontext: explore_numeric: ai_family=2 ai_socktype=2 ai_protocol=17
+06-15 21:25:44.134   729 16476 D resolv  : No socket for query.  Opening socket and sending.
+06-15 21:25:44.134   729   729 D resolv  : explore_numeric_scope
+06-15 21:25:44.134   729 16476 D resolv  : Constructing new socket
+06-15 21:25:44.134   729   729 I netd    : DnsResolverService::setResolverConfiguration(103, [10.195.24.1], [sfo-984.corp.qwertyftw.com], 1800, 25, 8, 64, 0, 0, "", [10.195.24.1]) -> (0) (0.8ms)
+06-15 21:25:44.134   729 16476 D resolv  : DnsTlsSocket is initialized with { mConnectTimeoutMs: 127000, mAsyncHandshake: 0 }
+06-15 21:25:44.134   729 16476 D resolv  : 983143 connecting TCP socket
+06-15 21:25:44.134   729   729 I netd    : setResolverConfiguration(ResolverParamsParcel{netId: 103, sampleValiditySeconds: 1800, successThreshold: 25, minSamples: 8, maxSamples: 64, baseTimeoutMsec: 0, retryCount: 0, servers: [10.195.24.1], domains: [sfo-984.corp.qwertyftw.com], tlsName: , tlsServers: [10.195.24.1], tlsFingerprints: [], caCertificate: , tlsConnectTimeoutMs: 0, resolverOptions: (null), transportTypes: [1]}) <0.99ms>
+06-15 21:25:44.135   729 16476 W resolv  : Socket failed to connect: Network is unreachable
+06-15 21:25:44.135   729 16476 W resolv  : TCP Handshake failed: 101
+06-15 21:25:44.135   729 16476 D resolv  : Initialization failed.
+06-15 21:25:44.135   729 16476 D resolv  : Destructor
+06-15 21:25:44.135  1452  5505 D WifiMemoryStoreImpl: Set cluster G54302e67d155390 for Wd715acbb00ef1fe8: SUCCESS
+06-15 21:25:44.135   729 16476 D resolv  : Destructor completed
+06-15 21:25:44.135   729 16476 D resolv  : Failing all pending queries.
+06-15 21:25:44.135   729 16476 W resolv  : query failed
+06-15 21:25:44.135   729 16476 D resolv  : Destructor
+06-15 21:25:44.135   729 16476 D resolv  : Locked destruction procedure
+06-15 21:25:44.135   729 16476 D resolv  : Destructor completed
+06-15 21:25:44.135   729 16476 W resolv  : validateDnsTlsServer returned 0 for 10.195.24.1
+06-15 21:25:44.135   729 16476 D resolv  : Sending validation failure event on netId 103 for 10.195.24.1 with hostname {}
+06-15 21:25:44.136   729 16476 W resolv  : Validation failed
+06-15 21:25:44.136  1452  2097 D ConnectivityService: Adding iface wlan0 to network 103
+06-15 21:25:44.146   729   729 I netd    : networkAddInterface(103, wlan0) <9.32ms>
+06-15 21:25:44.149   729   729 I netd    : networkAddRouteParcel(103, RouteInfoParcel{destination: fe80::/64, ifName: wlan0, nextHop: , mtu: 0}) <1.62ms>
+06-15 21:25:44.149  1452  2323 D WifiMemoryStoreImpl: Set cluster G54302e67d155390 for W4efa9c18cd9585da: SUCCESS
+06-15 21:25:44.151   729   729 I netd    : networkAddRouteParcel(103, RouteInfoParcel{destination: 10.195.24.0/21, ifName: wlan0, nextHop: , mtu: 0}) <0.95ms>
+06-15 21:25:44.151   729   850 I netd    : trafficSwapActiveStatsMap() <0.54ms>
+06-15 21:25:44.152   729   729 I netd    : networkAddRouteParcel(103, RouteInfoParcel{destination: 0.0.0.0/0, ifName: wlan0, nextHop: 10.195.24.1, mtu: 0}) <0.85ms>
+06-15 21:25:44.152  1452  2097 D ConnectivityService: Setting DNS servers for network 103 to [/10.195.24.1]
+06-15 21:25:44.153  1452  2097 D DnsManager: sendDnsConfigurationForNetwork(103, [10.195.24.1], [sfo-984.corp.qwertyftw.com], 1800, 25, 8, 64, 0, 0, , [10.195.24.1])
+06-15 21:25:44.153   729   729 D resolv  : PrivateDnsConfiguration::set(103, 0xf0067, 1, )
+06-15 21:25:44.154   729   729 I resolv  : resolv_set_nameservers: netId = 103, numservers = 1
+06-15 21:25:44.154   729   729 D resolv  : android_getaddrinfofornetcontext: explore_numeric: ai_family=10 ai_socktype=2 ai_protocol=17
+06-15 21:25:44.154   729 16479 W resolv  : Validating DnsTlsServer 10.195.24.1 with mark 0xf0067
+06-15 21:25:44.154   729   729 D resolv  : explore_numeric_scope
+06-15 21:25:44.154   729 16479 D resolv  : Beginning validation with mark f0067
+06-15 21:25:44.154   729   729 D resolv  : android_getaddrinfofornetcontext: explore_numeric: ai_family=2 ai_socktype=2 ai_protocol=17
+06-15 21:25:44.154   729   729 D resolv  : explore_numeric_scope
+06-15 21:25:44.154   729 16479 D resolv  : No socket for query.  Opening socket and sending.
+06-15 21:25:44.154   729 16479 D resolv  : Constructing new socket
+06-15 21:25:44.154   729   729 I netd    : DnsResolverService::setResolverConfiguration(103, [10.195.24.1], [sfo-984.corp.qwertyftw.com], 1800, 25, 8, 64, 0, 0, "", [10.195.24.1]) -> (0) (0.5ms)
+06-15 21:25:44.154   729 16479 D resolv  : DnsTlsSocket is initialized with { mConnectTimeoutMs: 127000, mAsyncHandshake: 0 }
+06-15 21:25:44.154   729 16479 D resolv  : 983143 connecting TCP socket
+06-15 21:25:44.154   729   729 I netd    : setResolverConfiguration(ResolverParamsParcel{netId: 103, sampleValiditySeconds: 1800, successThreshold: 25, minSamples: 8, maxSamples: 64, baseTimeoutMsec: 0, retryCount: 0, servers: [10.195.24.1], domains: [sfo-984.corp.qwertyftw.com], tlsName: , tlsServers: [10.195.24.1], tlsFingerprints: [], caCertificate: , tlsConnectTimeoutMs: 0, resolverOptions: (null), transportTypes: [1]}) <0.69ms>
+06-15 21:25:44.155   729   850 I netd    : tetherGetStats() -> {[]} <2.31ms>
+06-15 21:25:44.155   729 16479 D resolv  : No known sessions
+06-15 21:25:44.155   729 16479 D resolv  : No session available
+06-15 21:25:44.155   729 16479 D resolv  :  Calling SSL_connect with mark 0xf0067
+06-15 21:25:44.156   729 16479 D resolv  :  SSL_connect returned -1 with mark 0xf0067
+06-15 21:25:44.160  1358  1358 I cnss-daemon: Ready to update GW parameters
+06-15 21:25:44.161   729   850 I netd    : trafficSwapActiveStatsMap() <0.99ms>
+06-15 21:25:44.162  1452  2323 D WifiMemoryStoreImpl: Set cluster G54302e67d155390 for W6ec2113ca72e7569: SUCCESS
+06-15 21:25:44.163   729   850 I netd    : setProcSysNet(4, 2, wlan0, retrans_time_ms, 750) <0.13ms>
+06-15 21:25:44.163   729   850 I netd    : setProcSysNet(4, 2, wlan0, ucast_solicit, 10) <0.11ms>
+06-15 21:25:44.164   729   850 I netd    : setProcSysNet(6, 2, wlan0, retrans_time_ms, 750) <0.13ms>
+06-15 21:25:44.164   729   729 I netd    : tetherGetStats() -> {[]} <1.49ms>
+06-15 21:25:44.165   729   729 I netd    : setProcSysNet(6, 2, wlan0, ucast_solicit, 10) <0.09ms>
+06-15 21:25:44.166  1452  2097 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1686864344168]
+06-15 21:25:44.167  1452  2097 I netstats_wifi_sample: [110760,659,28881,210,110760,659,28881,210,79197,147,28881,210,1686864344168]
+06-15 21:25:44.168  1452  2323 D WifiMemoryStoreImpl: Set cluster G54302e67d155390 for W54302e67d155390: SUCCESS
+06-15 21:25:44.170  1452  2078 D WifiClientModeImpl[wlan0]: Received signal strength thresholds: []
+06-15 21:25:44.170  1452  2097 D ConnectivityService: NetReassign [36 : null → 103, 28 : null → 103, 23 : null → 103, 17 : null → 103, 7 : null → 103, 45 : null → 103, 1 : null → 103, 43 : null → 103, 19 : null → 103, 30 : null → 103, 25 : null → 103, 15 : null → 103, 51 : null → 103, 49 : null → 103]
+06-15 21:25:44.171  1452  2078 E WifiVendorHal: stopRssiMonitoring(l.2617) failed {.code = ERROR_NOT_AVAILABLE, .description = }
+06-15 21:25:44.171  1452  2097 D ConnectivityService: Switching to new default network for: uid/pid:1000/1452 activeRequest: 1 callbackRequest: 1 [NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_VCN_MANAGED RequestorUid: 1000 RequestorPkg: android] ]] callback flags: 1 priority: 2147483647 using NetworkAgentInfo{network{103}  handle{445787328525}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&IS_UNMETERED)   lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.24.240/21 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=60000Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=6a:22:32:f6:03:1e, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: 6a:22:32:f6:03:1e, MAC: b2:57:6e:df:0b:b2, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -52, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5180MHz, Net ID: 1, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -52 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+06-15 21:25:44.171   729   729 I netd    : networkSetDefault(103) <0.22ms>
+--------- beginning of system
+06-15 21:25:44.174   729   839 E NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+06-15 21:25:44.174   729   839 E NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'STATE' not found
+06-15 21:25:44.174   729   839 E NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+06-15 21:25:44.174   729   839 E NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+06-15 21:25:44.177   729   729 I netd    : idletimerAddInterface(wlan0, 15, 1) <4.44ms>
+06-15 21:25:44.181   729   729 I netd    : trafficSwapActiveStatsMap() <0.85ms>
+06-15 21:25:44.182   729   729 I netd    : tetherGetStats() -> {[]} <0.66ms>
+06-15 21:25:44.183  1452  2097 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1686864344185]
+06-15 21:25:44.184  1452  2097 I netstats_wifi_sample: [110760,659,28953,211,110760,659,28953,211,79197,147,28953,211,1686864344185]
+06-15 21:25:44.186   729 16484 D resolv  : ResNSendHandler::run: 0 / {103 983143 103 983143 1073 1}
+06-15 21:25:44.187   729 16484 I resolv  : resolv_populate_res_for_net: netid=103
+06-15 21:25:44.187   729 16484 D resolv  : res_nsend
+06-15 21:25:44.187  1452  2335 D NetworkTimeUpdateService: New default network 103; checking time.
+06-15 21:25:44.187   729 16484 I resolv  : resolv_cache_lookup: lookup
+06-15 21:25:44.187   729 16484 I resolv  : resolv_cache_lookup: NOT IN CACHE
+06-15 21:25:44.187   729 16484 I resolv  : resolv_populate_res_for_net: netid=103
+06-15 21:25:44.187   729 16484 I resolv  : res_stats_usable_server: NS stats: S 0 + E 0 + T 0 + I 0 = 0, rtt = -1, min_samples = 8
+06-15 21:25:44.187   729 16484 D resolv  : res_nsend: Querying server (# 1) address = 10.195.24.1:53
+06-15 21:25:44.187   729 16484 D resolv  : send_dg: new DG socket
+06-15 21:25:44.188   729 16484 I resolv  : get_timeout: using timeout of 5000 msec
+06-15 21:25:44.188   729 16484 I resolv  : retrying_poll: 57 retrying_poll
+06-15 21:25:44.188  2413  3174 D QCNEJ/DefaultNetworkInfoRelay: Default network available: 103
+06-15 21:25:44.199     0     0 I binder  : 16480:16480 ioctl 40046210 7fcf839d74 returned -22
+06-15 21:25:44.189  1452  2097 D ConnectivityService: Sending CONNECTED broadcast for type 1 [103 WIFI] isDefaultNetwork=true
+06-15 21:25:44.189  1452  2097 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendStickyBroadcast:1568 com.android.server.ConnectivityService.sendStickyBroadcast:2811 com.android.server.ConnectivityService.sendGeneralBroadcast:2786 com.android.server.ConnectivityService.sendConnectedBroadcast:2759 com.android.server.ConnectivityService.sendLegacyNetworkBroadcast:8704 
+06-15 21:25:44.189   729 16485 D resolv  : ResNSendHandler::run: 0 / {103 983143 103 983143 1073 1}
+06-15 21:25:44.190   729 16485 I resolv  : resolv_populate_res_for_net: netid=103
+06-15 21:25:44.190   729 16485 D resolv  : res_nsend
+06-15 21:25:44.190   729 16485 I resolv  : resolv_cache_lookup: lookup
+06-15 21:25:44.190  2442  2694 D UpstreamNetworkMonitor: New default Internet network: 103
+06-15 21:25:44.191 16480 16480 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:44.192   729 16484 I resolv  : retrying_poll: 57 retrying_poll returning 1
+06-15 21:25:44.192  3444  4233 D MetricReporter: WifiReporter: Connectivity state CONNECTED
+06-15 21:25:44.192   729 16484 I resolv  : res_nsend: used send_dg 48 terrno: 0
+06-15 21:25:44.192   729 16484 I resolv  : res_stats_set_sample: rcode = 0, sec = 4
+06-15 21:25:44.190   729 16485 I resolv  : resolv_cache_lookup: NOT IN CACHE
+06-15 21:25:44.193   729 16484 I resolv  : res_cache_add_stats_sample_locked: adding sample to stats, next = 0, count = 0
+06-15 21:25:44.193   729 16484 D resolv  : res_nsend: got answer:
+06-15 21:25:44.193   729 16484 I resolv  : answer_getTTL: TTL = 291
+06-15 21:25:44.193   729 16484 I resolv  : _cache_add_p: entry 1 added (count=1)
+06-15 21:25:44.193   729 16484 I resolv  : cache_dump_mru_locked: MRU LIST ( 1):  1
+06-15 21:25:44.195  2413  3174 D QCNEJ/NativeHalConnector: -> SND notifyDefaultNetworkChanged(1)
+06-15 21:25:44.196   729 16485 I resolv  : resolv_populate_res_for_net: netid=103
+06-15 21:25:44.196   729 16485 I resolv  : res_stats_usable_server: NS stats: S 1 + E 0 + T 0 + I 0 = 1, rtt = 4, min_samples = 8
+06-15 21:25:44.196   729 16485 D resolv  : res_nsend: Querying server (# 1) address = 10.195.24.1:53
+06-15 21:25:44.196   729 16485 D resolv  : send_dg: new DG socket
+06-15 21:25:44.196  2413  3174 D QCNEJ/WlanStaInfoRelay: network available: 103
+06-15 21:25:44.196   729 16485 I resolv  : get_timeout: using timeout of 5000 msec
+06-15 21:25:44.196   729 16485 I resolv  : retrying_poll: 59 retrying_poll
+06-15 21:25:44.200   729 16485 I resolv  : retrying_poll: 59 retrying_poll returning 1
+06-15 21:25:44.200   729 16485 I resolv  : res_nsend: used send_dg 63 terrno: 0
+06-15 21:25:44.200   729 16485 I resolv  : res_stats_set_sample: rcode = 0, sec = 4
+06-15 21:25:44.200  2442 16482 D NetworkMonitor/103: PROBE_DNS www.google.com 25ms OK 142.250.188.4
+06-15 21:25:44.200   729 16485 I resolv  : res_cache_add_stats_sample_locked: adding sample to stats, next = 1, count = 1
+06-15 21:25:44.200   729 16485 D resolv  : res_nsend: got answer:
+06-15 21:25:44.200   729 16485 I resolv  : answer_getTTL: TTL = 203
+06-15 21:25:44.200   729 16485 I resolv  : _cache_add_p: entry 2 added (count=2)
+06-15 21:25:44.201   729 16485 I resolv  : cache_dump_mru_locked: MRU LIST ( 2):  2 1
+06-15 21:25:44.202  2442 16482 I DpmTcmClient: RegisterTcmMonitor from: $Proxy2
+06-15 21:25:44.202  3444  4233 D MetricReporter: WifiReporter: SSID hdevice
+06-15 21:25:44.202  3444  4233 D MetricReporter: WifiReporter: BSSID 6a:22:32:f6:03:1e
+06-15 21:25:44.203  3444  4233 D MetricReporter: WifiReporter: Link speed 433 Mbps
+06-15 21:25:44.203  3444  4233 D MetricReporter: WifiReporter: Signal strength -52 dBm
+06-15 21:25:44.203  3444  4233 D MetricReporter: WifiReporter: PHY mode 802.11ac
+06-15 21:25:44.203  3444  4233 D MetricReporter: WifiReporter: Supported band 2.4, 5 Ghz
+06-15 21:25:44.203  2413  3174 D QCNEJ/NativeHalConnector: -> SND notifyWifiAvailable(v4Connected = truev6Connected = , false, isAndroidValidated = false)
+06-15 21:25:44.203  3444  4233 D MetricReporter: WifiReporter: Frequency 5180 Mhz
+06-15 21:25:44.203  3444  4233 D MetricReporter: WifiReporter: link downstream bandwidth 58.594 Mbps
+06-15 21:25:44.204  3444  4233 D MetricReporter: WifiReporter: link upstream bandwidth 58.594 Mbps
+06-15 21:25:44.204  3444  4233 D MetricReporter: WifiReporter: TX PHY rate 433 Mbps
+06-15 21:25:44.204   729 16488 D resolv  : GetAddrInfoHandler::run: {103 983143 103 983143 1073 1}
+06-15 21:25:44.204  3444  4233 D MetricReporter: WifiReporter: RX PHY rate 433 Mbps
+06-15 21:25:44.204   729 16488 D resolv  : resolv_getaddrinfo: explore_fqdn(): ai_family=0 ai_socktype=1 ai_protocol=6
+06-15 21:25:44.205   729 16489 D resolv  : doQuery: (1, 1)
+06-15 21:25:44.205   729 16489 D resolv  : res_nmkquery: (QUERY, IN, A)
+06-15 21:25:44.205  2442 16483 D NetworkMonitor/103: PROBE_DNS connectivitycheck.gstatic.com 29ms OK 142.250.188.3
+06-15 21:25:44.205   729 16489 D resolv  : res_nsend
+06-15 21:25:44.205   729 16489 I resolv  : resolv_cache_lookup: lookup
+06-15 21:25:44.205   729 16489 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb4000079c9521af0
+06-15 21:25:44.205   729 16489 D resolv  : doQuery: rcode=0, ancount=1
+06-15 21:25:44.207   729 16488 I ResolverController: No valid NAT64 prefix (103, <unspecified>/0)
+06-15 21:25:44.208   729 16490 D resolv  : GetAddrInfoHandler::run: {103 983143 103 983143 1073 1}
+06-15 21:25:44.208   729 16490 D resolv  : resolv_getaddrinfo: explore_fqdn(): ai_family=0 ai_socktype=1 ai_protocol=6
+06-15 21:25:44.210   729 16492 D resolv  : doQuery: (1, 1)
+06-15 21:25:44.210  2413  3174 D QCNEJ/NativeHalConnector: -> SND notifyWifiAvailable(v4Connected = truev6Connected = , false, isAndroidValidated = false)
+06-15 21:25:44.210   729 16492 D resolv  : res_nmkquery: (QUERY, IN, A)
+06-15 21:25:44.210   729 16492 D resolv  : res_nsend
+06-15 21:25:44.210   729 16492 I resolv  : resolv_cache_lookup: lookup
+06-15 21:25:44.210   729 16492 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb4000079e9524d90
+06-15 21:25:44.210   729 16492 D resolv  : doQuery: rcode=0, ancount=1
+06-15 21:25:44.211   729 16490 I ResolverController: No valid NAT64 prefix (103, <unspecified>/0)
+06-15 21:25:44.223  2169  2169 W View    : requestLayout() improperly called by com.android.keyguard.AlphaOptimizedLinearLayout{96bc16f V.E...... ......ID 3,0-22,28 #7f0b0668 app:id/wifi_group} during layout: running second layout pass
+06-15 21:25:44.224  2169  2169 W View    : requestLayout() improperly called by com.android.keyguard.AlphaOptimizedLinearLayout{2ab5e7c V.E...... ......ID 3,0-22,28 #7f0b0668 app:id/wifi_group} during layout: running second layout pass
+06-15 21:25:44.233  2169  2169 W View    : requestLayout() improperly called by com.android.keyguard.AlphaOptimizedLinearLayout{9a93305 V.E...... ......ID 3,0-22,28 #7f0b0668 app:id/wifi_group} during layout: running second layout pass
+06-15 21:25:44.248     0     0 I [cds_ol][0x7722f5e9b][21:25:44.240114] wlan: [15223:I:QDF] DHCP-R RX: SA:b2:57:6e:df:0b:b2 DA:ff:ff:ff:ff:ff:ff
+06-15 21:25:44.253  2442 16483 D NetworkMonitor/103: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=46ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Thu, 15 Jun 2023 21:25:44 GMT], X-Android-Received-Millis=[1686864344251], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1686864344244]}
+06-15 21:25:44.254   894 16444 E WifiHAL : Few pkt stats messages missed: rcvd = 17, prev = 0
+06-15 21:25:44.255  2169  6929 I OpenGLRenderer: Davey! duration=9223370387060ms; Flags=0, FrameTimelineVsyncId=102897, IntendedVsync=1649794448111, Vsync=1649794448111, InputEventId=0, HandleInputStart=1649795217753, AnimationStart=1649795222024, PerformTraversalsStart=1649795224524, DrawStart=1649814895670, FrameDeadline=1649811114777, FrameInterval=1649795206868, FrameStartTime=16666666, SyncQueued=1649815303743, SyncStart=1649815547076, IssueDrawCommandsStart=1649815919316, SwapBuffers=1649822815983, FrameCompleted=9223372036854775807, DequeueBufferDuration=50625, QueueBufferDuration=2227761, GpuCompleted=9223372036854775807, SwapBuffersCompleted=1649826523066, DisplayPresentTime=0, 
+06-15 21:25:44.293  2442 16482 D NetworkMonitor/103: PROBE_HTTPS https://www.google.com/generate_204 time=90ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Thu, 15 Jun 2023 21:25:44 GMT], X-Android-Received-Millis=[1686864344290], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1686864344271]}
+06-15 21:25:44.298  2442 16481 D NetworkMonitor/103: isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=123ms
+06-15 21:25:44.303  1452  2097 D ConnectivityService: [103 WIFI] validation passed
+06-15 21:25:44.304  1452  2097 D ConnectivityService: NetReassign [no changes]
+06-15 21:25:44.308  1452  1723 I GnssNetworkConnectivityHandler: updateNetworkState, state=CLOSED, connected=true, network=103, capabilities=[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=60000Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -52, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5180MHz, Net ID: -1, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -52 SSID: "hdevice"], availableNetworkCount: 1
+06-15 21:25:44.308  2608  2608 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=43, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10105 RequestorUid: 1000 RequestorPkg: android] ] applied false
+06-15 21:25:44.308   877   877 I LocSvc__AGnssRilInterface: ===> updateNetworkState_2_0 line 111 
+06-15 21:25:44.309  2608  2608 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=28, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.android.phone] ] applied false
+06-15 21:25:44.309   877   983 I LocSvc_SystemStatusOsObserver: sendCachedDataItems:539] DataItem: ACTIVE_NETWORK_INFO::TYPEs_MASK: 2, TYPE_NAME: , SUB_TYPE_NAME: , IS_AVAILABLE: true, IS_CONNECTED: true, IS_ROAMING: false, NETWORK_HANDLE_0: 445787328525:1, NETWORK_HANDLE_1: 18446744073709551615:10, NETWORK_HANDLE_2: 18446744073709551615:10, NETWORK_HANDLE_3: 18446744073709551615:10, NETWORK_HANDLE_4: 18446744073709551615:10, NETWORK_HANDLE_5: 18446744073709551615:10, NETWORK_HANDLE_6: 18446744073709551615:10, NETWORK_HANDLE_7: 18446744073709551615:10, NETWORK_HANDLE_8: 18446744073709551615:10, NETWORK_HANDLE_9: 18446744073709551615:10 >> XtraSystemStatusObserver
+06-15 21:25:44.309  2608  2608 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=30, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10088 RequestorUid: 10088 RequestorPkg: com.qualcomm.qti.cne] ] applied false
+06-15 21:25:44.309   877   983 I LocSvc_SystemStatusOsObserver: sendCachedDataItems:539] DataItem: ACTIVE_NETWORK_INFO::TYPEs_MASK: 2, TYPE_NAME: , SUB_TYPE_NAME: , IS_AVAILABLE: true, IS_CONNECTED: true, IS_ROAMING: false, NETWORK_HANDLE_0: 445787328525:1, NETWORK_HANDLE_1: 18446744073709551615:10, NETWORK_HANDLE_2: 18446744073709551615:10, NETWORK_HANDLE_3: 18446744073709551615:10, NETWORK_HANDLE_4: 18446744073709551615:10, NETWORK_HANDLE_5: 18446744073709551615:10, NETWORK_HANDLE_6: 18446744073709551615:10, NETWORK_HANDLE_7: 18446744073709551615:10, NETWORK_HANDLE_8: 18446744073709551615:10, NETWORK_HANDLE_9: 18446744073709551615:10 >> NativeAgpsHandler
+06-15 21:25:44.309  2608  2608 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=45, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10025 RequestorUid: 1000 RequestorPkg: android] ] applied false
+06-15 21:25:44.310  2608  2608 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=15, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ] applied false
+06-15 21:25:44.310  2608  2608 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=23, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10150 RequestorUid: 10150 RequestorPkg: com.android.systemui] ] applied false
+06-15 21:25:44.311  2608  2608 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=25, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10150 RequestorUid: 10150 RequestorPkg: com.android.systemui] ] applied false
+06-15 21:25:44.311  1417  1460 I LocSvc_api_v02: ---> locClientSendReq line 2409 QMI_LOC_QUERY_XTRA_INFO_REQ_V02
+06-15 21:25:44.311  2608  2608 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=7, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ] applied false
+06-15 21:25:44.311  2608  2608 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_VCN_MANAGED RequestorUid: 1000 RequestorPkg: android] ] applied false
+06-15 21:25:44.311  2608  2608 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=17, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1073 RequestorUid: 1073 RequestorPkg: com.android.networkstack] ] applied false
+06-15 21:25:44.311  2608  2608 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=36, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.qti.dpmserviceapp] ] applied false
+06-15 21:25:44.311  2608  2608 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=51, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10037 RequestorUid: 1000 RequestorPkg: android] ] applied false
+06-15 21:25:44.312  2608  2608 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=49, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10086 RequestorUid: 1000 RequestorPkg: android] ] applied false
+06-15 21:25:44.313  1417  1507 I LocSvc_ApiV02: <--- globalRespCb line 221 QMI_LOC_QUERY_XTRA_INFO_REQ_V02
+06-15 21:25:44.313  1417  1460 W LocSvc_xtra2: updateXtraServers:400] XTRA server: https://path1.xtracloud.net/xtra3Mgrbeji_72h.bin https://path2.xtracloud.net/xtra3Mgrbeji_72h.bin https://path3.xtracloud.net/xtra3Mgrbeji_72h.bin
+06-15 21:25:44.315  2413  3174 D QCNEJ/WlanStaInfoRelay: AndroidValidate from false to true
+06-15 21:25:44.315  1452  2097 D ConnectivityService: Setting DNS servers for network 103 to [/10.195.24.1]
+06-15 21:25:44.316  1452  2097 D DnsManager: sendDnsConfigurationForNetwork(103, [10.195.24.1], [sfo-984.corp.qwertyftw.com], 1800, 25, 8, 64, 0, 0, , [10.195.24.1])
+06-15 21:25:44.316   729   729 D resolv  : PrivateDnsConfiguration::set(103, 0xf0067, 1, )
+06-15 21:25:44.316   729   729 I resolv  : resolv_set_nameservers: netId = 103, numservers = 1
+06-15 21:25:44.316   729   729 D resolv  : android_getaddrinfofornetcontext: explore_numeric: ai_family=10 ai_socktype=2 ai_protocol=17
+06-15 21:25:44.316   729   729 D resolv  : explore_numeric_scope
+06-15 21:25:44.316   729   729 D resolv  : android_getaddrinfofornetcontext: explore_numeric: ai_family=2 ai_socktype=2 ai_protocol=17
+06-15 21:25:44.316   729   729 D resolv  : explore_numeric_scope
+06-15 21:25:44.316   729   729 I netd    : DnsResolverService::setResolverConfiguration(103, [10.195.24.1], [sfo-984.corp.qwertyftw.com], 1800, 25, 8, 64, 0, 0, "", [10.195.24.1]) -> (0) (0.4ms)
+06-15 21:25:44.317   729   729 I netd    : setResolverConfiguration(ResolverParamsParcel{netId: 103, sampleValiditySeconds: 1800, successThreshold: 25, minSamples: 8, maxSamples: 64, baseTimeoutMsec: 0, retryCount: 0, servers: [10.195.24.1], domains: [sfo-984.corp.qwertyftw.com], tlsName: , tlsServers: [10.195.24.1], tlsFingerprints: [], caCertificate: , tlsConnectTimeoutMs: 0, resolverOptions: (null), transportTypes: [1]}) <0.55ms>
+06-15 21:25:44.318  1452  2097 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendStickyBroadcast:1568 com.android.server.ConnectivityService.sendStickyBroadcast:2811 com.android.server.ConnectivityService.sendGeneralBroadcast:2786 com.android.server.ConnectivityService.sendInetConditionBroadcast:2763 com.android.server.ConnectivityService.updateInetCondition:8451 
+06-15 21:25:44.318  2608 14160 D SubscriptionController: [getSlotIndex]- subId invalid
+06-15 21:25:44.319  2413  3174 D QCNEJ/WlanStaInfoRelay: retrieveCountryCode: Returned country code: 
+06-15 21:25:44.334  1452  2323 D WifiMemoryStoreImpl: Set cluster G54302e67d155390 for W6ec2113ca72e7569: SUCCESS
+06-15 21:25:44.335  1452  2078 I WifiClientModeImpl: Default Gateway MAC address of 6a:22:32:f6:03:1e from routes is : 00:08:a2:12:c1:40
+06-15 21:25:44.347  2169  6929 I OpenGLRenderer: Davey! duration=9223370387026ms; Flags=0, FrameTimelineVsyncId=102900, IntendedVsync=1649827867481, Vsync=1649827867481, InputEventId=0, HandleInputStart=1649829090878, AnimationStart=1649829092233, PerformTraversalsStart=1649829315930, DrawStart=1649829368535, FrameDeadline=1649861200813, FrameInterval=1649829086608, FrameStartTime=16666666, SyncQueued=1649829391399, SyncStart=1649829457024, IssueDrawCommandsStart=1649829686816, SwapBuffers=1649833330097, FrameCompleted=9223372036854775807, DequeueBufferDuration=50052, QueueBufferDuration=1358281, GpuCompleted=9223372036854775807, SwapBuffersCompleted=1649835444628, DisplayPresentTime=0, 
+06-15 21:25:44.348     0     0 E power_supply main: driver failed to report `flash_trigger' property: -1
+06-15 21:25:44.350  1452  2078 D WifiConfigStore: Writing to stores completed in 12 ms.
+06-15 21:25:44.351  1452  2078 I SupplicantStaIfaceHal: cleared linked networks
+06-15 21:25:44.360     0     0 E [wifi@1][0x772501c6c][21:25:44.351870] wlan: [894:E:QDF] Cannot malloc 0 bytes @ csr_get_cfg_max_tx_power:14234
+06-15 21:25:44.372     0     0 E [wifi@1][0x77253a372][21:25:44.363911] wlan: [894:E:QDF] Cannot malloc 0 bytes @ csr_get_cfg_max_tx_power:14234
+06-15 21:25:44.373     0     0 I [schedu][0x7725416c9][21:25:44.365448] wlan: [15222:I:WMI] LFR3:OKC enabled
+06-15 21:25:44.384     0     0 I [schedu][0x772572be3][21:25:44.375970] wlan: [15222:I:WMI] LFR3:PMKSA caching enabled
+06-15 21:25:44.384     0     0 I [schedu][0x772575bae][21:25:44.376607] wlan: [15222:I:WMI] LFR3:OKC enabled
+06-15 21:25:44.384     0     0 I [schedu][0x772575c49][21:25:44.376615] wlan: [15222:I:WMI] LFR3:PMKSA caching enabled
+06-15 21:25:44.858   894 16444 I WifiHAL : Fate Tx-Rx: Packet fate stats stop received
+06-15 21:25:45.004  2413  3174 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.LINK_CONFIGURATION_CHANGED
+06-15 21:25:45.004  2413  3174 E QCNEJ/WlanStaInfoRelay: update link properties given null lp
+06-15 21:25:45.007   729   729 I netd    : trafficSwapActiveStatsMap() <0.40ms>
+06-15 21:25:45.011   729   729 I netd    : tetherGetStats() -> {[]} <1.34ms>
+06-15 21:25:45.015  1452  2097 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1686864345017]
+06-15 21:25:45.015  1452  2097 I netstats_wifi_sample: [113377,681,31572,231,113377,681,31572,231,81197,162,31572,231,1686864345017]
+06-15 21:25:45.033  2413  3174 D QCNEJ/NativeHalConnector: -> SND notifyWifiAvailable(v4Connected = truev6Connected = , false, isAndroidValidated = true)
+06-15 21:25:45.145  2413  3174 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.LINK_CONFIGURATION_CHANGED
+06-15 21:25:45.145  2413  3174 E QCNEJ/WlanStaInfoRelay: update link properties given null lp
+06-15 21:25:45.146   729   729 E libnetd_resolv: Error adding route fd67:eb4f:8fd3::/64 -> fe80::8d:175f:513b:c2fd wlan0 to table 1030: File exists
+06-15 21:25:45.147   729   729 I netd    : networkAddRouteParcel(103, RouteInfoParcel{destination: fd67:eb4f:8fd3::/64, ifName: wlan0, nextHop: fe80::8d:175f:513b:c2fd, mtu: 0}) <0.84ms>
+06-15 21:25:45.152  2413  3174 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.LINK_CONFIGURATION_CHANGED
+06-15 21:25:45.152  2413  3174 E QCNEJ/WlanStaInfoRelay: update link properties given null lp
+06-15 21:25:45.160   729   729 I netd    : trafficSwapActiveStatsMap() <1.04ms>
+06-15 21:25:45.164   729   729 I netd    : tetherGetStats() -> {[]} <2.11ms>
+06-15 21:25:45.168  1452  2097 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1686864345169]
+06-15 21:25:45.168  1452  2097 I netstats_wifi_sample: [113553,683,31708,232,113553,683,31708,232,81197,162,31708,232,1686864345169]
+06-15 21:25:45.177   729   729 E libnetd_resolv: Error adding route fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 to table 1030: File exists
+06-15 21:25:45.177   729   729 I netd    : networkAddRouteParcel(103, RouteInfoParcel{destination: fd9c:307:e40e::/64, ifName: wlan0, nextHop: fe80::81:43d5:8009:f93b, mtu: 0}) <0.85ms>
+06-15 21:25:45.184  2413  3174 D QCNEJ/NativeHalConnector: -> SND notifyWifiAvailable(v4Connected = truev6Connected = , false, isAndroidValidated = true)
+06-15 21:25:45.186   729   729 I netd    : trafficSwapActiveStatsMap() <0.38ms>
+06-15 21:25:45.190   729   729 I netd    : tetherGetStats() -> {[]} <1.95ms>
+06-15 21:25:45.193  1452  2097 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1686864345195]
+06-15 21:25:45.194  1452  2097 I netstats_wifi_sample: [113585,684,31708,232,113585,684,31708,232,81197,162,31708,232,1686864345195]
+06-15 21:25:45.207  2413  3174 D QCNEJ/NativeHalConnector: -> SND notifyWifiAvailable(v4Connected = truev6Connected = , false, isAndroidValidated = true)
+06-15 21:25:45.305 16434 16434 E humane_antenna_tune: Could not find the requested QMI service; terminating
+06-15 21:25:45.305 16434 16434 E humane_antenna_tune: qmi_wait_for_service() failed
+06-15 21:25:45.305 16434 16434 E humane_antenna_tune: Could not connect to the RFRPE tuner service; terminating antenna_tune service
+06-15 21:25:45.337     0     0 I init    : Service 'humane-antenna-tune' (pid 16434) exited with status 0
+06-15 21:25:45.337     0     0 I init    : Sending signal 9 to service 'humane-antenna-tune' (pid 16434) process group...
+06-15 21:25:45.338     0     0 I libprocessgroup: Successfully killed process cgroup uid 0 pid 16434 in 0ms
+06-15 21:25:45.342     0     0 I init    : starting service 'humane-antenna-tune'...
+06-15 21:25:45.456 16505 16505 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:45.464     0     0 I binder  : 16505:16505 ioctl 40046210 7fd4f7d014 returned -22
+06-15 21:25:45.460  1452  5703 I ActivityManager: Force stopping com.android.launcher3 appid=10140 user=0: clear data
+06-15 21:25:45.463  1452  1452 I notification_cancel_all: [1000,1452,com.android.launcher3,0,0,0,21,NULL]
+06-15 21:25:45.463  1452  1757 I ActivityManager: Force stopping com.android.launcher3 appid=10140 user=-1: clearApplicationUserData
+06-15 21:25:45.476  1452  1452 I notification_cancel_all: [1000,1452,com.android.launcher3,0,0,0,5,NULL]
+06-15 21:25:45.479  2608  2608 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+06-15 21:25:45.479  2608  2608 D CarrierSvcBindHelper: No carrier app for: 0
+06-15 21:25:45.484  1452  1757 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:45.484  1452  1757 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:45.484  1452  1757 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:45.486  3296  3296 D RegisteredNfcFServicesCache: Service unchanged, not updating
+06-15 21:25:45.489  1452  2125 I commit_sys_config_file: [session_index,9]
+06-15 21:25:45.493  1452  5665 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:45.493  1452  5665 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:45.493  1452  5665 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:45.494  1452  2125 I commit_sys_config_file: [blobs_index,5]
+06-15 21:25:45.505  1452  2323 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:45.505  1452  2323 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:45.505  1452  2323 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:45.514  1452  2323 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:45.514  1452  2323 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:45.514  1452  2323 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:45.520  1452  2323 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:45.520  1452  2323 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:45.520  1452  2323 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:45.530  3515  3963 I MediaProvider: Begin Intent { act=android.intent.action.PACKAGE_DATA_CLEARED dat=package:com.android.launcher3 flg=0x1000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+06-15 21:25:45.531  3515  3963 D MediaProvider: Deleted 0 Android/media items belonging to com.android.launcher3 on /data/user/0/com.android.providers.media.module/databases/external.db
+06-15 21:25:45.533  3515  3963 I MediaProvider: End Intent { act=android.intent.action.PACKAGE_DATA_CLEARED dat=package:com.android.launcher3 flg=0x1000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+06-15 21:25:45.548 16515 16515 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:45.556     0     0 I binder  : 16515:16515 ioctl 40046210 7fffba80a4 returned -22
+06-15 21:25:45.657     0     0 I binder  : 16522:16522 ioctl 40046210 7fd779e464 returned -22
+06-15 21:25:45.649 16522 16522 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:45.723  1452  1727 I commit_sys_config_file: [notification-policy,1628574]
+06-15 21:25:45.760 16529 16529 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:45.765  1452  5703 I ActivityManager: Force stopping hu.ma.ne.ironman appid=10032 user=0: clear data
+06-15 21:25:45.767  1452  5703 I ActivityManager: Killing 16396:hu.ma.ne.ironman:voiceinteractor/u0a32 (adj 100): stop hu.ma.ne.ironman due to clear data
+06-15 21:25:45.767  1452  5703 I am_kill : [0,16396,hu.ma.ne.ironman:voiceinteractor,100,stop hu.ma.ne.ironman due to clear data]
+06-15 21:25:45.768     0     0 I binder  : 16529:16529 ioctl 40046210 7fd31dddc4 returned -22
+06-15 21:25:45.771  1452  5703 I am_uid_stopped: 10032
+06-15 21:25:45.774  1452  5703 I ActivityManager: Killing 16415:hu.ma.ne.ironman:voicesession/u0a32 (adj 100): stop hu.ma.ne.ironman due to clear data
+06-15 21:25:45.774  1452  5703 I am_kill : [0,16415,hu.ma.ne.ironman:voicesession,100,stop hu.ma.ne.ironman due to clear data]
+06-15 21:25:45.776  1452  1793 I libprocessgroup: Successfully killed process cgroup uid 10032 pid 16396 in 7ms
+06-15 21:25:45.780  2169  6929 W Binder  : Caught a RuntimeException from the binder stub implementation.
+06-15 21:25:45.780  2169  6929 W Binder  : java.lang.NullPointerException: assistUtils.getAssistComponentForUser(KeyguardUpdateMonitor.getCurrentUser()) must not be null
+06-15 21:25:45.780  2169  6929 W Binder  : 	at com.android.systemui.assist.AssistLogger.getAssistantComponentForCurrentUser(AssistLogger.kt:116)
+06-15 21:25:45.780  2169  6929 W Binder  : 	at com.android.systemui.assist.AssistLogger.reportAssistantSessionEvent(AssistLogger.kt:89)
+06-15 21:25:45.780  2169  6929 W Binder  : 	at com.android.systemui.assist.AssistManager$2.onVoiceSessionHidden(AssistManager.java:185)
+06-15 21:25:45.780  2169  6929 W Binder  : 	at com.android.internal.app.IVoiceInteractionSessionListener$Stub.onTransact(IVoiceInteractionSessionListener.java:110)
+06-15 21:25:45.780  2169  6929 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1184)
+06-15 21:25:45.780  2169  6929 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1143)
+06-15 21:25:45.783  1452  1757 I ActivityManager: Force stopping hu.ma.ne.ironman appid=10032 user=-1: clearApplicationUserData
+06-15 21:25:45.784  1452  1452 I notification_cancel_all: [1000,1452,hu.ma.ne.ironman,0,0,0,21,NULL]
+06-15 21:25:45.796  1452  1452 I notification_cancel_all: [1000,1452,hu.ma.ne.ironman,0,0,0,5,NULL]
+06-15 21:25:45.796  1452  1754 I VoiceInteractionManager: Force stopping current voice interactor: ComponentInfo{hu.ma.ne.ironman/humaneinternal.system.voice.HumaneVoiceService}
+06-15 21:25:45.798  1452  5665 V ActivityManager: Got obituary of 16396:hu.ma.ne.ironman:voiceinteractor
+06-15 21:25:45.798  2608  2608 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+06-15 21:25:45.799  2608  2608 D CarrierSvcBindHelper: No carrier app for: 0
+06-15 21:25:45.803  1452  1757 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:45.804  1452  1757 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:45.804  1452  1757 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:45.806  3296  3296 D RegisteredNfcFServicesCache: Service unchanged, not updating
+06-15 21:25:45.808   730   730 I Zygote  : Process 16396 exited due to signal 9 (Killed)
+06-15 21:25:45.811  1452  1793 I libprocessgroup: Successfully killed process cgroup uid 10032 pid 16415 in 0ms
+06-15 21:25:45.813  1452  1754 W RecognitionServiceInfo: Parse error in getAvailableServices: No android.speech meta-data for com.google.android.tts
+06-15 21:25:45.817  1452  2125 I commit_sys_config_file: [session_index,18]
+06-15 21:25:45.817  1452  5665 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:45.818  1452  5665 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:45.818  1452  5665 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:45.820  1452  1754 W RecognitionServiceInfo: Parse error in getAvailableServices: No android.speech meta-data for humane.voice.recognition
+06-15 21:25:45.821  1452  2125 I commit_sys_config_file: [blobs_index,4]
+06-15 21:25:45.825  1452  1754 I am_uid_running: 10032
+06-15 21:25:45.826  1452  1754 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10032; state: DISABLED
+06-15 21:25:45.827  1452  1754 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10032; state: DISABLED
+06-15 21:25:45.827  1452  1754 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10032; state: DISABLED
+06-15 21:25:45.828  1452  1754 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10032; state: ENABLED
+06-15 21:25:45.828  1452  1758 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10032; state: ENABLED
+06-15 21:25:45.830  1452  6886 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:45.830  1452  6886 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:45.830  1452  6886 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:45.839  1452  6886 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:45.839  1452  6886 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:45.839  1452  6886 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:45.846  1452  6886 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:45.846  1452  6886 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:45.846  1452  6886 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:45.857  3515  3963 I MediaProvider: Begin Intent { act=android.intent.action.PACKAGE_DATA_CLEARED dat=package:hu.ma.ne.ironman flg=0x1000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+06-15 21:25:45.858  3515  3963 D MediaProvider: Deleted 0 Android/media items belonging to hu.ma.ne.ironman on /data/user/0/com.android.providers.media.module/databases/external.db
+06-15 21:25:45.860  3515  3963 I MediaProvider: End Intent { act=android.intent.action.PACKAGE_DATA_CLEARED dat=package:hu.ma.ne.ironman flg=0x1000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+06-15 21:25:45.866   730   730 D Zygote  : Forked child process 16540
+06-15 21:25:45.867  1452  1758 I am_proc_start: [0,16540,10032,hu.ma.ne.ironman:voiceinteractor,service,{hu.ma.ne.ironman/humaneinternal.system.voice.HumaneVoiceService}]
+06-15 21:25:45.868  1452  1758 I ActivityManager: Start proc 16540:hu.ma.ne.ironman:voiceinteractor/u0a32 for service {hu.ma.ne.ironman/humaneinternal.system.voice.HumaneVoiceService}
+06-15 21:25:45.871  1452  5703 V ActivityManager: Got obituary of 16415:hu.ma.ne.ironman:voicesession
+06-15 21:25:45.872   730   730 I Zygote  : Process 16415 exited due to signal 9 (Killed)
+06-15 21:25:45.877 16540 16540 I voiceinteracto: Late-enabling -Xcheck:jni
+06-15 21:25:45.879     0     0 I binder  : undelivered transaction 578253, process died.
+06-15 21:25:45.879     0     0 I binder  : undelivered transaction 578248, process died.
+06-15 21:25:45.882 16539 16539 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:45.890     0     0 I binder  : 16539:16539 ioctl 40046210 7fea5cbb34 returned -22
+06-15 21:25:45.904  5771  5776 I adbd    : jdwp connection from 16540
+06-15 21:25:45.907 16540 16540 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:45.915     0     0 I binder  : 16540:16540 ioctl 40046210 7fc998a644 returned -22
+06-15 21:25:45.914  1452  5703 I am_proc_bound: [0,16540,hu.ma.ne.ironman:voiceinteractor]
+06-15 21:25:45.916  1452  5703 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10032; state: DISABLED
+06-15 21:25:45.916  1452  5703 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:45.916  1452  5703 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:45.916  1452  5703 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:45.918  1452  5703 I am_uid_active: 10032
+06-15 21:25:45.920  1452  5703 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:45.920  1452  5703 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:45.920  1452  5703 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:45.927 16540 16540 I auditd  : type=1400 audit(0.0:2165): avc: denied { search } for comm="re-initialized>" name="hu.ma.ne.ironman" dev="dm-8" ino=3499 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c32,c256,c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:45.927 16540 16540 I re-initialized>: type=1400 audit(0.0:2165): avc: denied { search } for name="hu.ma.ne.ironman" dev="dm-8" ino=3499 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c32,c256,c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:45.945 16540 16540 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10032; state: ENABLED
+06-15 21:25:45.948     0     0 I IRQ 6   : no longer affine to CPU4
+06-15 21:25:45.957 16540 16540 I auditd  : type=1400 audit(0.0:2166): avc: denied { getattr } for comm="voiceinteractor" path="/data/data/hu.ma.ne.ironman" dev="dm-8" ino=3499 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c32,c256,c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:45.957 16540 16540 I voiceinteractor: type=1400 audit(0.0:2166): avc: denied { getattr } for path="/data/data/hu.ma.ne.ironman" dev="dm-8" ino=3499 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c32,c256,c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:45.977 16564 16564 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:45.979 16540 16540 I Perf    : Connecting to perf service.
+06-15 21:25:45.985     0     0 I binder  : 16564:16564 ioctl 40046210 7fe9960b34 returned -22
+06-15 21:25:45.983  1452  5703 D PackageManager: Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+06-15 21:25:45.983  1452  5703 D PackageManager: Clear ephemeral installer activity
+06-15 21:25:45.988  1452  1860 I am_uid_stopped: 10032
+06-15 21:25:45.997     0     0 W audit   : audit_lost=645 audit_rate_limit=5 audit_backlog_limit=64
+06-15 21:25:45.997     0     0 E audit   : rate limit exceeded
+06-15 21:25:45.977 16540 16540 I auditd  : type=1400 audit(0.0:2167): avc: denied { write } for comm="voiceinteractor" name="hu.ma.ne.ironman" dev="dm-8" ino=3499 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c32,c256,c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:45.977 16540 16540 I voiceinteractor: type=1400 audit(0.0:2167): avc: denied { write } for name="hu.ma.ne.ironman" dev="dm-8" ino=3499 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c32,c256,c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:45.987 16540 16540 I auditd  : type=1400 audit(0.0:2168): avc: denied { add_name } for comm="voiceinteractor" name="cache" scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c32,c256,c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:45.987 16540 16540 I voiceinteractor: type=1400 audit(0.0:2168): avc: denied { add_name } for name="cache" scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c32,c256,c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:45.987 16540 16540 I auditd  : type=1400 audit(0.0:2169): avc: denied { create } for comm="voiceinteractor" name="cache" scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:45.987 16540 16540 I voiceinteractor: type=1400 audit(0.0:2169): avc: denied { create } for name="cache" scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:45.987 16540 16540 I auditd  : type=1400 audit(0.0:2170): avc: denied { setattr } for comm="voiceinteractor" name="cache" dev="dm-8" ino=6525 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:45.987 16540 16540 I voiceinteractor: type=1400 audit(0.0:2170): avc: denied { setattr } for name="cache" dev="dm-8" ino=6525 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:45.990  1452  1860 I ActivityManager: Killing 16540:hu.ma.ne.ironman:voiceinteractor/u0a32 (adj 0): change hu.ma.ne.ironman
+06-15 21:25:45.990  1452  1860 I am_kill : [0,16540,hu.ma.ne.ironman:voiceinteractor,0,change hu.ma.ne.ironman]
+06-15 21:25:45.996  1452  1860 W ActivityManager: Scheduling restart of crashed service hu.ma.ne.ironman/humaneinternal.system.voice.HumaneVoiceService in 1000ms for connection
+06-15 21:25:45.996  1452  1860 I am_schedule_service_restart: [0,hu.ma.ne.ironman/humaneinternal.system.voice.HumaneVoiceService,1000]
+06-15 21:25:46.000  1452  1860 I ActivityManager:   Force stopping service ServiceRecord{8864fd6 u0 hu.ma.ne.ironman/humaneinternal.system.voice.HumaneVoiceService}
+06-15 21:25:46.002  1452  1793 I libprocessgroup: Successfully killed process cgroup uid 10032 pid 16540 in 8ms
+06-15 21:25:46.004  1452  1723 D CompanionDeviceManagerService: onPackageModified(packageName = hu.ma.ne.ironman)
+06-15 21:25:46.005  1452  1452 I notification_cancel_all: [1000,1452,hu.ma.ne.ironman,0,0,0,5,NULL]
+06-15 21:25:46.006  1452  1452 D WifiService: Remove settings for package:hu.ma.ne.ironman
+06-15 21:25:46.007  1452  2078 D WifiConfigManager: Remove all networks for app ApplicationInfo{fcc7db0 hu.ma.ne.ironman}
+06-15 21:25:46.008  1452  1452 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now humane.experience.dialer: DDC.oR@AKE
+06-15 21:25:46.014  1452  2056 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+06-15 21:25:46.020  1452  1757 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.020  1452  1757 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.020  1452  1757 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.021  1452  2044 I RoleService: Granting default roles...
+06-15 21:25:46.032  3296  3296 D RegisteredNfcFServicesCache: Service unchanged, not updating
+06-15 21:25:46.035  1452  1723 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.035  1452  1723 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.035  1452  1723 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.042  1452  5703 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.042  1452  5703 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.042  1452  5703 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.061  1452  1727 I commit_sys_config_file: [notification-policy,1628912]
+06-15 21:25:46.063  1452  2078 D WifiConfigStore: Writing to stores completed in 52 ms.
+06-15 21:25:46.063  1452  2078 I PasspointManager: No app ops listener found for hu.ma.ne.ironman
+06-15 21:25:46.064  1452  2043 I commit_sys_config_file: [settings-2-0,46]
+06-15 21:25:46.078  2608  2608 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+06-15 21:25:46.078  2608  2608 D CarrierSvcBindHelper: No carrier app for: 0
+06-15 21:25:46.078  2608  2608 D ImsResolver: maybeAddedImsService, packageName: hu.ma.ne.ironman
+06-15 21:25:46.081 16575 16575 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:46.083  1452  6886 D PackageManager: Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+06-15 21:25:46.083  1452  6886 D PackageManager: Clear ephemeral installer activity
+06-15 21:25:46.089     0     0 I binder  : 16575:16575 ioctl 40046210 7fc9ac1784 returned -22
+06-15 21:25:46.092   730   730 I Zygote  : Process 16540 exited due to signal 9 (Killed)
+06-15 21:25:46.095  1452  1452 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now humane.experience.dialer: DDC.oR@AKI
+06-15 21:25:46.096  1452  1757 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.096  1452  1757 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.096  1452  1757 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.097  1452  6886 V ActivityManager: Got obituary of 16540:hu.ma.ne.ironman:voiceinteractor
+06-15 21:25:46.099  1452  2056 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+06-15 21:25:46.103  1452  5641 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.103  1452  5641 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.103  1452  5641 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.106  3296  3296 D RegisteredNfcFServicesCache: Service unchanged, not updating
+06-15 21:25:46.119 11979 16583 I dvm_lock_sample: [com.android.documentsui,0,pool-144-thread-6,6,ProvidersCache.java,643,void com.android.documentsui.roots.ProvidersCache$MultiProviderUpdateTask.handleDocumentsProvider(android.content.pm.ProviderInfo, com.android.documentsui.base.UserId),-,646,void com.android.documentsui.roots.ProvidersCache$MultiProviderUpdateTask.handleDocumentsProvider(android.content.pm.ProviderInfo, com.android.documentsui.base.UserId),1]
+06-15 21:25:46.121  1452  1754 I am_uid_running: 10032
+06-15 21:25:46.122  1452  1754 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10032; state: DISABLED
+06-15 21:25:46.122 11008 11409 I PermissionControllerServiceImpl: Updating user sensitive for uid 10032
+06-15 21:25:46.122  1452  1754 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10032; state: DISABLED
+06-15 21:25:46.123  1452  1754 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10032; state: DISABLED
+06-15 21:25:46.123  1452  1754 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10032; state: ENABLED
+06-15 21:25:46.124  1452  1758 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10032; state: ENABLED
+06-15 21:25:46.125  1452  1723 D CompanionDeviceManagerService: onPackageModified(packageName = hu.ma.ne.ironman)
+06-15 21:25:46.127  2608  2608 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+06-15 21:25:46.127  2608  2608 D CarrierSvcBindHelper: No carrier app for: 0
+06-15 21:25:46.127  2608  2608 D ImsResolver: maybeAddedImsService, packageName: hu.ma.ne.ironman
+06-15 21:25:46.128 11008 11409 I PermissionControllerServiceImpl: Updating user sensitive for uid 10032
+06-15 21:25:46.147   730   730 D Zygote  : Forked child process 16586
+06-15 21:25:46.148  1452  1758 I am_proc_start: [0,16586,10032,hu.ma.ne.ironman:voiceinteractor,service,{hu.ma.ne.ironman/humaneinternal.system.voice.HumaneVoiceService}]
+06-15 21:25:46.148  1452  1758 I ActivityManager: Start proc 16586:hu.ma.ne.ironman:voiceinteractor/u0a32 for service {hu.ma.ne.ironman/humaneinternal.system.voice.HumaneVoiceService}
+06-15 21:25:46.156 16585 16585 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:46.165     0     0 I binder  : 16585:16585 ioctl 40046210 7fe63c0fc4 returned -22
+06-15 21:25:46.168 16586 16586 I voiceinteracto: Late-enabling -Xcheck:jni
+06-15 21:25:46.173  3444  4237 D MetricReporter: SystemReporter: Free RAM 1341 Mb
+06-15 21:25:46.175  3444  4237 D MetricReporter: SystemReporter: CPU usage 10%
+06-15 21:25:46.177  2118  2118 I thermal_hal: Sensor Name:batterytemp: 43.8. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.177  2118  2118 I thermal_hal: Sensor Name:CPU1temp: 50.4. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.178  2118  2118 I thermal_hal: Sensor Name:skintemp: 46.95. prev severity:3. cur severity:0 New severity:0
+06-15 21:25:46.178  2118  2118 I thermal_hal: Sensor Name:GPUtemp: 47.8. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.178  2118  2118 I thermal_hal: Sensor Name:CPU7temp: 52.7. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.179  2118  2118 I thermal_hal: Sensor Name:CPU6temp: 53. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.179  2118  2118 I thermal_hal: Sensor Name:CPU5temp: 53.3. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.179  2118  2118 I thermal_hal: Sensor Name:CPU0temp: 53.6. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.179  2118  2118 I thermal_hal: Sensor Name:CPU4temp: 52. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.179  2118  2118 I thermal_hal: Sensor Name:CPU3temp: 50.7. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.179  2118  2118 I thermal_hal: Sensor Name:CPU2temp: 50.4. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.182  2118  2118 I thermal_hal: Sensor Name:batterytemp: 43.8. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.182  2118  2118 I thermal_hal: Sensor Name:CPU1temp: 50.4. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.183  2118  2118 I thermal_hal: Sensor Name:skintemp: 46.958. prev severity:3. cur severity:0 New severity:0
+06-15 21:25:46.183  2118  2118 I thermal_hal: Sensor Name:GPUtemp: 47.5. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.183  2118  2118 I thermal_hal: Sensor Name:CPU7temp: 53. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.184  2118  2118 I thermal_hal: Sensor Name:CPU6temp: 52.3. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.184  2118  2118 I thermal_hal: Sensor Name:CPU5temp: 53.3. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.184  2118  2118 I thermal_hal: Sensor Name:CPU0temp: 53.3. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.184  2118  2118 I thermal_hal: Sensor Name:CPU4temp: 52.3. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.184  2118  2118 I thermal_hal: Sensor Name:CPU3temp: 50.4. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.184  2118  2118 I thermal_hal: Sensor Name:CPU2temp: 50.1. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.187  2118  2118 I thermal_hal: Sensor Name:batterytemp: 43.9. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.187  2118  2118 I thermal_hal: Sensor Name:CPU1temp: 50.1. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.188  2118  2118 I thermal_hal: Sensor Name:skintemp: 46.958. prev severity:3. cur severity:0 New severity:0
+06-15 21:25:46.188  2118  2118 I thermal_hal: Sensor Name:GPUtemp: 47.8. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.188  2118  2118 I thermal_hal: Sensor Name:CPU7temp: 53. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.188  2118  2118 I thermal_hal: Sensor Name:CPU6temp: 52. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.188  2118  2118 I thermal_hal: Sensor Name:CPU5temp: 53.3. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.189  2118  2118 I thermal_hal: Sensor Name:CPU0temp: 53.3. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.189  2118  2118 I thermal_hal: Sensor Name:CPU4temp: 52. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.189  2118  2118 I thermal_hal: Sensor Name:CPU3temp: 50.4. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.189  2118  2118 I thermal_hal: Sensor Name:CPU2temp: 49.8. prev severity:0. cur severity:0 New severity:0
+06-15 21:25:46.190  3444  4237 D MetricReporter: SystemReporter: CPU temperature 52.0 C
+06-15 21:25:46.190  3444  4237 D MetricReporter: SystemReporter: GPU temperature 47.5 C
+06-15 21:25:46.190  3444  4237 D MetricReporter: SystemReporter: Skin temperature 47.0 C
+06-15 21:25:46.195  5771  5776 I adbd    : jdwp connection from 16586
+06-15 21:25:46.198 16586 16586 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:46.206     0     0 I binder  : 16586:16586 ioctl 40046210 7fc998a644 returned -22
+06-15 21:25:46.203  1452  2170 I am_proc_bound: [0,16586,hu.ma.ne.ironman:voiceinteractor]
+06-15 21:25:46.203  1452  2170 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.204  1452  2170 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.204  1452  2170 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.205  1452  2170 I am_uid_active: 10032
+06-15 21:25:46.205  1452  2170 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.205  1452  2170 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.205  1452  2170 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.228 16586 16586 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10032; state: ENABLED
+06-15 21:25:46.232 16608 16608 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:46.236  1452  2170 I ActivityManager: Force stopping humane.experience.systemnavigation appid=10059 user=0: clear data
+06-15 21:25:46.240     0     0 I binder  : 16608:16608 ioctl 40046210 7fce753c44 returned -22
+06-15 21:25:46.239  1452  1452 I notification_cancel_all: [1000,1452,humane.experience.systemnavigation,0,0,0,21,NULL]
+06-15 21:25:46.239  1452  1757 I ActivityManager: Force stopping humane.experience.systemnavigation appid=10059 user=-1: clearApplicationUserData
+06-15 21:25:46.248     0     0 I IRQ 6   : no longer affine to CPU4
+06-15 21:25:46.254  1452  1452 I notification_cancel_all: [1000,1452,humane.experience.systemnavigation,0,0,0,5,NULL]
+06-15 21:25:46.259  2608  2608 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+06-15 21:25:46.259  2608  2608 D CarrierSvcBindHelper: No carrier app for: 0
+06-15 21:25:46.262  3296  3296 D RegisteredNfcFServicesCache: Service unchanged, not updating
+06-15 21:25:46.263 16586 16586 I Perf    : Connecting to perf service.
+06-15 21:25:46.264  1452  1757 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.264  1452  1757 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.264  1452  1757 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.269  1452  2170 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.269  1452  2170 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.269  1452  2170 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.270  1452  2125 I commit_sys_config_file: [session_index,9]
+06-15 21:25:46.274 16586 16586 V GraphicsEnvironment: ANGLE Developer option for 'hu.ma.ne.ironman' set to: 'default'
+06-15 21:25:46.275 16586 16586 V GraphicsEnvironment: ANGLE GameManagerService for hu.ma.ne.ironman: false
+06-15 21:25:46.275 16586 16586 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-15 21:25:46.280 16586 16586 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-15 21:25:46.282 16586 16586 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-15 21:25:46.283  1452  2125 I commit_sys_config_file: [blobs_index,13]
+06-15 21:25:46.285  1452  2170 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.285  1452  2170 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.285  1452  2170 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.288 16586 16586 I TimberUtils: Planted DebugTree.
+06-15 21:25:46.290  1452  2170 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.290  1452  2170 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.290  1452  2170 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.295  1452 14412 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.295  1452 14412 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.295  1452 14412 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.297 16586 16586 D HumaneVoiceService: onCreate registering supported voice actions
+06-15 21:25:46.301 16586 16586 D HumaneVoiceService: onBind
+06-15 21:25:46.303  3515  3963 I MediaProvider: Begin Intent { act=android.intent.action.PACKAGE_DATA_CLEARED dat=package:humane.experience.systemnavigation flg=0x1000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+06-15 21:25:46.304  3515  3963 D MediaProvider: Deleted 0 Android/media items belonging to humane.experience.systemnavigation on /data/user/0/com.android.providers.media.module/databases/external.db
+06-15 21:25:46.305  3515  3963 I MediaProvider: End Intent { act=android.intent.action.PACKAGE_DATA_CLEARED dat=package:humane.experience.systemnavigation flg=0x1000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+06-15 21:25:46.305 16586 16586 D HumaneVoiceService: onReady
+06-15 21:25:46.311 16586 16586 D ResourceManager: setting resources with contexthumaneinternal.system.voice.HumaneVoiceService@a659b6e
+06-15 21:25:46.340 16622 16622 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:46.341  1038  1058 D wlc-service: received vector of size 0
+06-15 21:25:46.341  1038  1058 D wlc-service: rc is -110
+06-15 21:25:46.341  1038  1058 D wlc-service: wlc_driver_transact returned -110, considering trying again...
+06-15 21:25:46.348     0     0 I binder  : 16622:16622 ioctl 40046210 7ff78f45c4 returned -22
+06-15 21:25:46.352  1452  6886 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10032; state: DISABLED
+06-15 21:25:46.353  1452  6886 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10032; state: DISABLED
+06-15 21:25:46.354  1452  6886 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10032; state: DISABLED
+06-15 21:25:46.354  1452  6886 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10032; state: ENABLED
+06-15 21:25:46.355  1452  1758 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10032; state: ENABLED
+06-15 21:25:46.381  2169  5673 W Binder  : Caught a RuntimeException from the binder stub implementation.
+06-15 21:25:46.381  2169  5673 W Binder  : java.lang.NullPointerException: assistUtils.getAssistComponentForUser(KeyguardUpdateMonitor.getCurrentUser()) must not be null
+06-15 21:25:46.381  2169  5673 W Binder  : 	at com.android.systemui.assist.AssistLogger.getAssistantComponentForCurrentUser(AssistLogger.kt:116)
+06-15 21:25:46.381  2169  5673 W Binder  : 	at com.android.systemui.assist.AssistLogger.reportAssistantSessionEvent(AssistLogger.kt:89)
+06-15 21:25:46.381  2169  5673 W Binder  : 	at com.android.systemui.assist.AssistManager$2.onVoiceSessionShown(AssistManager.java:176)
+06-15 21:25:46.381  2169  5673 W Binder  : 	at com.android.internal.app.IVoiceInteractionSessionListener$Stub.onTransact(IVoiceInteractionSessionListener.java:104)
+06-15 21:25:46.381  2169  5673 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1184)
+06-15 21:25:46.381  2169  5673 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1143)
+06-15 21:25:46.404   730   730 D Zygote  : Forked child process 16626
+06-15 21:25:46.405  1452  1758 W ActivityManager: Slow operation: 54ms so far, now at startProcess: returned from zygote!
+06-15 21:25:46.405  1452  1758 W ActivityManager: Slow operation: 54ms so far, now at startProcess: done updating battery stats
+06-15 21:25:46.406  1452  1758 I am_proc_start: [0,16626,10032,hu.ma.ne.ironman:voicesession,service,{hu.ma.ne.ironman/humaneinternal.system.voice.HumaneVoiceSessionService}]
+06-15 21:25:46.406  1452  1758 W ActivityManager: Slow operation: 54ms so far, now at startProcess: building log message
+06-15 21:25:46.406  1452  1758 I ActivityManager: Start proc 16626:hu.ma.ne.ironman:voicesession/u0a32 for service {hu.ma.ne.ironman/humaneinternal.system.voice.HumaneVoiceSessionService}
+06-15 21:25:46.406  1452  1758 W ActivityManager: Slow operation: 54ms so far, now at startProcess: starting to update pids map
+06-15 21:25:46.406  1452  1758 W ActivityManager: Slow operation: 55ms so far, now at startProcess: done updating pids map
+06-15 21:25:46.431 16626 16626 I an:voicesessio: Late-enabling -Xcheck:jni
+06-15 21:25:46.438 16627 16627 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:46.446     0     0 I binder  : 16627:16627 ioctl 40046210 7fdcac0084 returned -22
+06-15 21:25:46.472  5771  5776 I adbd    : jdwp connection from 16626
+06-15 21:25:46.484 16626 16626 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:46.492     0     0 I binder  : 16626:16626 ioctl 40046210 7fc998a644 returned -22
+06-15 21:25:46.497  1452  5641 I am_proc_bound: [0,16626,hu.ma.ne.ironman:voicesession]
+06-15 21:25:46.498  1452  5641 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.498  1452  5641 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.498  1452  5641 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.499  1452  1727 I commit_sys_config_file: [notification-policy,1629349]
+06-15 21:25:46.501  1452  5641 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.501  1452  5641 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.501  1452  5641 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.514 16645 16645 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:46.522     0     0 I binder  : 16645:16645 ioctl 40046210 7fdd6b6c64 returned -22
+06-15 21:25:46.521 11008 16231 I RoleControllerServiceImpl: Package is already a role holder, package: humane.experience.systemnavigation, role: android.app.role.HOME
+06-15 21:25:46.523 16626 16626 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10032; state: ENABLED
+06-15 21:25:46.546 16626 16626 I Perf    : Connecting to perf service.
+06-15 21:25:46.553 16626 16626 V GraphicsEnvironment: ANGLE Developer option for 'hu.ma.ne.ironman' set to: 'default'
+06-15 21:25:46.553 16626 16626 V GraphicsEnvironment: ANGLE GameManagerService for hu.ma.ne.ironman: false
+06-15 21:25:46.553 16626 16626 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-15 21:25:46.556 16626 16626 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-15 21:25:46.556 16626 16626 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-15 21:25:46.561 16626 16626 I TimberUtils: Planted DebugTree.
+06-15 21:25:46.570 16626 16626 I HumaneVoiceSession: Creating new HumaneVoiceSession
+06-15 21:25:46.570 16626 16626 D HumaneVoiceSession: setupVoiceStack
+06-15 21:25:46.634 16657 16657 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:46.643     0     0 I binder  : 16657:16657 ioctl 40046210 7febe99e14 returned -22
+06-15 21:25:46.639  1452  6886 I ActivityManager: Force stopping com.android.launcher3 appid=10140 user=0: from pid 16657
+06-15 21:25:46.643  1452  1452 I notification_cancel_all: [1000,1452,com.android.launcher3,0,0,0,5,NULL]
+06-15 21:25:46.646  2608  2608 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+06-15 21:25:46.647  2608  2608 D CarrierSvcBindHelper: No carrier app for: 0
+06-15 21:25:46.650  3296  3296 D RegisteredNfcFServicesCache: Service unchanged, not updating
+06-15 21:25:46.742 16664 16664 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:46.750     0     0 I binder  : 16664:16664 ioctl 40046210 7ffd9e2b24 returned -22
+06-15 21:25:46.747  1452  6886 I ActivityManager: Force stopping hu.ma.ne.ironman appid=10032 user=0: from pid 16664
+06-15 21:25:46.748  1452  6886 I ActivityManager: Killing 16586:hu.ma.ne.ironman:voiceinteractor/u0a32 (adj 100): stop hu.ma.ne.ironman due to from pid 16664
+06-15 21:25:46.748  1452  6886 I am_kill : [0,16586,hu.ma.ne.ironman:voiceinteractor,100,stop hu.ma.ne.ironman due to from pid 16664]
+06-15 21:25:46.752  1452  6886 I am_uid_stopped: 10032
+06-15 21:25:46.754  1452  6886 I ActivityManager: Killing 16626:hu.ma.ne.ironman:voicesession/u0a32 (adj 100): stop hu.ma.ne.ironman due to from pid 16664
+06-15 21:25:46.754  1452  6886 I am_kill : [0,16626,hu.ma.ne.ironman:voicesession,100,stop hu.ma.ne.ironman due to from pid 16664]
+06-15 21:25:46.756  1452  1793 I libprocessgroup: Successfully killed process cgroup uid 10032 pid 16586 in 6ms
+06-15 21:25:46.767  1452  1754 I VoiceInteractionManager: Force stopping current voice interactor: ComponentInfo{hu.ma.ne.ironman/humaneinternal.system.voice.HumaneVoiceService}
+06-15 21:25:46.772  2608  2608 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+06-15 21:25:46.772  2608  2608 D CarrierSvcBindHelper: No carrier app for: 0
+06-15 21:25:46.775  3296  3296 D RegisteredNfcFServicesCache: Service unchanged, not updating
+06-15 21:25:46.781  2169  5673 W Binder  : Caught a RuntimeException from the binder stub implementation.
+06-15 21:25:46.781  2169  5673 W Binder  : java.lang.NullPointerException: assistUtils.getAssistComponentForUser(KeyguardUpdateMonitor.getCurrentUser()) must not be null
+06-15 21:25:46.781  2169  5673 W Binder  : 	at com.android.systemui.assist.AssistLogger.getAssistantComponentForCurrentUser(AssistLogger.kt:116)
+06-15 21:25:46.781  2169  5673 W Binder  : 	at com.android.systemui.assist.AssistLogger.reportAssistantSessionEvent(AssistLogger.kt:89)
+06-15 21:25:46.781  2169  5673 W Binder  : 	at com.android.systemui.assist.AssistManager$2.onVoiceSessionHidden(AssistManager.java:185)
+06-15 21:25:46.781  2169  5673 W Binder  : 	at com.android.internal.app.IVoiceInteractionSessionListener$Stub.onTransact(IVoiceInteractionSessionListener.java:110)
+06-15 21:25:46.781  2169  5673 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1184)
+06-15 21:25:46.781  2169  5673 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1143)
+06-15 21:25:46.786  1452 14412 V ActivityManager: Got obituary of 16586:hu.ma.ne.ironman:voiceinteractor
+06-15 21:25:46.787   730   730 I Zygote  : Process 16586 exited due to signal 9 (Killed)
+06-15 21:25:46.790  1452  1793 I libprocessgroup: Successfully killed process cgroup uid 10032 pid 16626 in 0ms
+06-15 21:25:46.794  1452  1754 W RecognitionServiceInfo: Parse error in getAvailableServices: No android.speech meta-data for com.google.android.tts
+06-15 21:25:46.794  1452  1754 W RecognitionServiceInfo: Parse error in getAvailableServices: No android.speech meta-data for humane.voice.recognition
+06-15 21:25:46.801  1452  1754 I service_manager_stats: [100,111,60986]
+06-15 21:25:46.805  1452  1754 I am_uid_running: 10032
+06-15 21:25:46.806  1452  1754 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10032; state: DISABLED
+06-15 21:25:46.807  1452  1754 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10032; state: DISABLED
+06-15 21:25:46.807  1452  1754 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10032; state: DISABLED
+06-15 21:25:46.808  1452  1754 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10032; state: ENABLED
+06-15 21:25:46.808  1452  1758 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10032; state: ENABLED
+06-15 21:25:46.810  1452  1452 W VoiceInteractionServiceManager: finish does not match active session
+06-15 21:25:46.819  1452  1452 I notification_cancel_all: [1000,1452,hu.ma.ne.ironman,0,0,0,5,NULL]
+06-15 21:25:46.843     0     0 I binder  : undelivered transaction 580783, process died.
+06-15 21:25:46.835   730   730 D Zygote  : Forked child process 16671
+06-15 21:25:46.843     0     0 I binder  : undelivered transaction 580746, process died.
+06-15 21:25:46.836  1452  1758 I am_proc_start: [0,16671,10032,hu.ma.ne.ironman:voiceinteractor,service,{hu.ma.ne.ironman/humaneinternal.system.voice.HumaneVoiceService}]
+06-15 21:25:46.836  1452  1758 I ActivityManager: Start proc 16671:hu.ma.ne.ironman:voiceinteractor/u0a32 for service {hu.ma.ne.ironman/humaneinternal.system.voice.HumaneVoiceService}
+06-15 21:25:46.837  1452 14412 V ActivityManager: Got obituary of 16626:hu.ma.ne.ironman:voicesession
+06-15 21:25:46.839   730   730 I Zygote  : Process 16626 exited due to signal 9 (Killed)
+06-15 21:25:46.860 16671 16671 I voiceinteracto: Late-enabling -Xcheck:jni
+06-15 21:25:46.862 16672 16672 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:46.870     0     0 I binder  : 16672:16672 ioctl 40046210 7fc9c25da4 returned -22
+06-15 21:25:46.866  1452 14412 I ActivityManager: Force stopping humane.experience.systemnavigation appid=10059 user=0: from pid 16672
+06-15 21:25:46.874  1452  1452 I notification_cancel_all: [1000,1452,humane.experience.systemnavigation,0,0,0,5,NULL]
+06-15 21:25:46.875  2608  2608 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+06-15 21:25:46.875  2608  2608 D CarrierSvcBindHelper: No carrier app for: 0
+06-15 21:25:46.882  3296  3296 D RegisteredNfcFServicesCache: Service unchanged, not updating
+06-15 21:25:46.889  5771  5776 I adbd    : jdwp connection from 16671
+06-15 21:25:46.892 16671 16671 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:46.900     0     0 I binder  : 16671:16671 ioctl 40046210 7fc998a644 returned -22
+06-15 21:25:46.897  1452  2323 I am_proc_bound: [0,16671,hu.ma.ne.ironman:voiceinteractor]
+06-15 21:25:46.898  1452  2323 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.898  1452  2323 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.898  1452  2323 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.898  1452  2323 I am_uid_active: 10032
+06-15 21:25:46.899  1452  2323 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:46.899  1452  2323 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:46.899  1452  2323 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:46.934  2413  3174 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+06-15 21:25:46.938 16671 16671 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10032; state: ENABLED
+06-15 21:25:46.978 16671 16671 I Perf    : Connecting to perf service.
+06-15 21:25:46.992 16671 16671 V GraphicsEnvironment: ANGLE Developer option for 'hu.ma.ne.ironman' set to: 'default'
+06-15 21:25:46.993 16671 16671 V GraphicsEnvironment: ANGLE GameManagerService for hu.ma.ne.ironman: false
+06-15 21:25:46.993 16671 16671 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-15 21:25:46.995 16671 16671 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-15 21:25:46.996 16671 16671 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-15 21:25:47.001 16671 16671 I TimberUtils: Planted DebugTree.
+06-15 21:25:47.007 16671 16671 D HumaneVoiceService: onCreate registering supported voice actions
+06-15 21:25:47.009  1452  2044 I RoleService: Granting default roles...
+06-15 21:25:47.009 16671 16671 D HumaneVoiceService: onBind
+06-15 21:25:47.011  1452  2043 I commit_sys_config_file: [settings-2-0,19]
+06-15 21:25:47.013 16671 16671 D HumaneVoiceService: onReady
+06-15 21:25:47.018 16671 16671 D ResourceManager: setting resources with contexthumaneinternal.system.voice.HumaneVoiceService@a659b6e
+06-15 21:25:47.058  1452  2323 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10032; state: DISABLED
+06-15 21:25:47.059  1452  2323 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10032; state: DISABLED
+06-15 21:25:47.059  1452  2323 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10032; state: DISABLED
+06-15 21:25:47.060  1452  2323 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10032; state: ENABLED
+06-15 21:25:47.060  1452  1758 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10032; state: ENABLED
+06-15 21:25:47.070  2169  5673 W Binder  : Caught a RuntimeException from the binder stub implementation.
+06-15 21:25:47.070  2169  5673 W Binder  : java.lang.NullPointerException: assistUtils.getAssistComponentForUser(KeyguardUpdateMonitor.getCurrentUser()) must not be null
+06-15 21:25:47.070  2169  5673 W Binder  : 	at com.android.systemui.assist.AssistLogger.getAssistantComponentForCurrentUser(AssistLogger.kt:116)
+06-15 21:25:47.070  2169  5673 W Binder  : 	at com.android.systemui.assist.AssistLogger.reportAssistantSessionEvent(AssistLogger.kt:89)
+06-15 21:25:47.070  2169  5673 W Binder  : 	at com.android.systemui.assist.AssistManager$2.onVoiceSessionShown(AssistManager.java:176)
+06-15 21:25:47.070  2169  5673 W Binder  : 	at com.android.internal.app.IVoiceInteractionSessionListener$Stub.onTransact(IVoiceInteractionSessionListener.java:104)
+06-15 21:25:47.070  2169  5673 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1184)
+06-15 21:25:47.070  2169  5673 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1143)
+06-15 21:25:47.087   730   730 D Zygote  : Forked child process 16691
+06-15 21:25:47.088  1452  1758 I am_proc_start: [0,16691,10032,hu.ma.ne.ironman:voicesession,service,{hu.ma.ne.ironman/humaneinternal.system.voice.HumaneVoiceSessionService}]
+06-15 21:25:47.088  1452  1758 I ActivityManager: Start proc 16691:hu.ma.ne.ironman:voicesession/u0a32 for service {hu.ma.ne.ironman/humaneinternal.system.voice.HumaneVoiceSessionService}
+06-15 21:25:47.110 16691 16691 I an:voicesessio: Late-enabling -Xcheck:jni
+06-15 21:25:47.155  5771  5776 I adbd    : jdwp connection from 16691
+06-15 21:25:47.158 16691 16691 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:47.167     0     0 I binder  : 16691:16691 ioctl 40046210 7fc998a644 returned -22
+06-15 21:25:47.167  1452  2323 I am_proc_bound: [0,16691,hu.ma.ne.ironman:voicesession]
+06-15 21:25:47.168  1452  2323 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:47.168  1452  2323 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:47.168  1452  2323 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:47.170  1452  2323 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:25:47.170  1452  2323 D CompatibilityInfo: applicationDensity - 200
+06-15 21:25:47.170  1452  2323 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:25:47.167 16691 16691 I auditd  : type=1400 audit(0.0:2185): avc: denied { search } for comm="re-initialized>" name="hu.ma.ne.ironman" dev="dm-8" ino=3499 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c32,c256,c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:47.167 16691 16691 I re-initialized>: type=1400 audit(0.0:2185): avc: denied { search } for name="hu.ma.ne.ironman" dev="dm-8" ino=3499 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c32,c256,c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:47.209 16691 16691 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10032; state: ENABLED
+06-15 21:25:47.237 16691 16691 I auditd  : type=1400 audit(0.0:2186): avc: denied { getattr } for comm="an:voicesession" path="/data/data/hu.ma.ne.ironman" dev="dm-8" ino=3499 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c32,c256,c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:47.237 16691 16691 I an:voicesession: type=1400 audit(0.0:2186): avc: denied { getattr } for path="/data/data/hu.ma.ne.ironman" dev="dm-8" ino=3499 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ironman_data_file:s0:c32,c256,c512,c768 tclass=dir permissive=1 app=hu.ma.ne.ironman
+06-15 21:25:47.258 16691 16691 I Perf    : Connecting to perf service.
+06-15 21:25:47.272 16691 16691 V GraphicsEnvironment: ANGLE Developer option for 'hu.ma.ne.ironman' set to: 'default'
+06-15 21:25:47.273 16691 16691 V GraphicsEnvironment: ANGLE GameManagerService for hu.ma.ne.ironman: false
+06-15 21:25:47.273 16691 16691 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-15 21:25:47.277 16691 16691 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-15 21:25:47.278 16691 16691 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-15 21:25:47.287 16691 16691 I TimberUtils: Planted DebugTree.
+06-15 21:25:47.304 16691 16691 I HumaneVoiceSession: Creating new HumaneVoiceSession
+06-15 21:25:47.304 16691 16691 D HumaneVoiceSession: setupVoiceStack
+06-15 21:25:47.385 16498 16498 E humane_antenna_tune: timeout while waiting for sensors QMI service: will try 3 more time(s)
+06-15 21:25:48.897  1038  1038 I auditd  : type=1400 audit(0.0:2187): avc: denied { write } for comm="humane_wlc_serv" name="auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+06-15 21:25:48.897  1038  1038 I humane_wlc_serv: type=1400 audit(0.0:2187): avc: denied { write } for name="auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+06-15 21:25:48.897  1038  1038 I auditd  : type=1400 audit(0.0:2188): avc: denied { open } for comm="humane_wlc_serv" path="/sys/devices/platform/soc/890000.i2c/i2c-1/1-0061/auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+06-15 21:25:48.897  1038  1038 I humane_wlc_serv: type=1400 audit(0.0:2188): avc: denied { open } for path="/sys/devices/platform/soc/890000.i2c/i2c-1/1-0061/auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+06-15 21:25:48.903  1038  1058 D wlc-service: received vector of size 0
+06-15 21:25:48.903  1038  1058 D wlc-service: rc is -110
+06-15 21:25:48.903  1038  1058 D wlc-service: wlc_driver_transact returned -110, considering trying again...
+06-15 21:25:49.304  1452  1754 I sysui_multi_action: [757,1717,758,1,759,0]
+06-15 21:25:49.305  1452  1754 I sysui_multi_action: [757,1717,758,2,759,0]
+06-15 21:25:49.306  1452  1754 I sysui_multi_action: [757,1717,758,3,759,0]
+06-15 21:25:49.386 16498 16498 E humane_antenna_tune: timeout while waiting for sensors QMI service: will try 2 more time(s)
+06-15 21:25:51.250     0     0 W healthd : battery l=100 v=4368 t=43.6 h=2 st=5 c=0 fc=289000 cc=1 chg=w
+06-15 21:25:51.256 12121 12121 D SystemControlsStateProvider: intent received for battery life
+06-15 21:25:51.257  2591  2591 V DeviceStatisticsService: chargerType=4 batteryLevel=100 totalBatteryCapacity=277400
+06-15 21:25:51.270 12121 12121 D VolumeSlider: updating Appearance
+06-15 21:25:51.387 16498 16498 E humane_antenna_tune: timeout while waiting for sensors QMI service: will try 1 more time(s)
+06-15 21:25:51.405  1300  5827 I OMX-VENC: venc_dev: stats: avg. fps 6.52, bitrate 6679
+06-15 21:25:51.461  1038  1058 D wlc-service: received vector of size 0
+06-15 21:25:51.461  1038  1058 D wlc-service: rc is -110
+06-15 21:25:51.461  1038  1058 D wlc-service: wlc_driver_transact returned -110, considering trying again...
+06-15 21:25:51.461  1038  1058 E wlc-service: received error from wlc_driver_transact: -110, not retrying further
+06-15 21:25:51.461  1038  1058 D wlc-service: new baby, setting start bit
+06-15 21:25:51.461  1038  1058 D wlc-service: len, adj, size: 5, 0, 6
+06-15 21:25:51.461  1038  1058 D wlc-service: sending payload: 5 out of the 5 remaining bytes
+06-15 21:25:51.461  1038  1058 D wlc-service: ready for execute, setting execute bit and receiving
+06-15 21:25:51.461  1038  1058 D wlc-service: we want to receive, setting drain bit
+06-15 21:25:51.461  1038  1058 D wlc-service: sending 6 bytes
+06-15 21:25:53.025 16713 16713 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:53.033     0     0 I binder  : 16713:16713 ioctl 40046210 7feba91e04 returned -22
+06-15 21:25:53.033 12121 12121 D HumaneUIAdaptorView: Got touch event MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=170.0, y[0]=100.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1658610, downTime=1658610, deviceId=-1, source=0x1002, displayId=0, eventId=-913021772 }
+06-15 21:25:53.034 12121 12121 V TouchEvent: Touch in area: 1, ID: 0, phase: DOWN, location: {x:85.00, y:50.00}
+06-15 21:25:53.037 12121 12121 D TouchEvent: ButtonPressListener@177838555 state change Idle -> Possible
+06-15 21:25:53.041 12121 12121 D HumaneUIAdaptorView: Got touch event MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=170.0, y[0]=100.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1658610, downTime=1658610, deviceId=-1, source=0x1002, displayId=0, eventId=-819195401 }
+06-15 21:25:53.042 12121 12121 V TouchEvent: Touch in area: 1, ID: 0, phase: UP, location: {x:85.00, y:50.00}
+06-15 21:25:53.043 12121 12121 D TouchEvent: ButtonPressListener@177838555 state change Possible -> Active
+06-15 21:25:53.043 12121 12121 D SystemControlsStateProvider: wifi toggled
+06-15 21:25:53.045  1452  2323 I WifiService: setWifiEnabled package=humane.experience.settings uid=1000 enable=false
+06-15 21:25:53.047  2413  3174 D QCNEJ/WlanStaInfoRelay: onChange for uri = content://settings/global/wifi_on
+06-15 21:25:53.049  1452  2078 D WifiActiveModeWarden: Shutting down all client mode managers
+06-15 21:25:53.050  1452  2078 D WifiClientModeManager[wlan0]:  currentstate: ConnectModeState
+06-15 21:25:53.050 12121 12121 D TouchEvent: ButtonPressListener@177838555 state change Active -> EndedSuccessfully
+06-15 21:25:53.050 12121 12121 D TouchEvent: ButtonPressListener@177838555 reset, from state EndedSuccessfully
+06-15 21:25:53.050 12121 12121 D TouchEvent: ButtonPressListener@177838555 state change EndedSuccessfully -> Idle
+06-15 21:25:53.051 12121 12121 V TouchEvent: Touch in area: 1, ID: 0, phase: ENDED, location: {x:85.00, y:50.00}
+06-15 21:25:53.051  1452  1452 D WifiP2pService: Wifi enabled=false
+06-15 21:25:53.054  1452  2078 D WifiClientModeManager[wlan0]: The target role change info null
+06-15 21:25:53.054  1452  2078 D WifiClientModeManager[wlan0]: Continue to stop wifi
+06-15 21:25:53.055 12121 12121 D VolumeSlider: updating Appearance
+06-15 21:25:53.057  3444  3444 D MetricReporter: WifiReporter: Connectivity state DISABLING
+06-15 21:25:53.061  1452  2078 D WifiClientModeManager[wlan0]: Stopping ClientModeImpl
+06-15 21:25:53.062  3444  3444 D MetricReporter: WifiReporter: SSID 
+06-15 21:25:53.063  3444  3444 D MetricReporter: WifiReporter: Link speed 0 Mbps
+06-15 21:25:53.063  3444  3444 D MetricReporter: WifiReporter: Signal strength -100 dBm
+06-15 21:25:53.063  3444  3444 D MetricReporter: WifiReporter: BSSID 
+06-15 21:25:53.063  3444  3444 D MetricReporter: WifiReporter: PHY mode 
+06-15 21:25:53.063  3444  3444 D MetricReporter: WifiReporter: Supported band  Ghz
+06-15 21:25:53.063  3444  3444 D MetricReporter: WifiReporter: Frequency 0 Mhz
+06-15 21:25:53.064  3444  3444 D MetricReporter: WifiReporter: link downstream bandwidth 0.000 Mbps
+06-15 21:25:53.064  3444  3444 D MetricReporter: WifiReporter: link upstream bandwidth 0.000 Mbps
+06-15 21:25:53.064  3444  3444 D MetricReporter: WifiReporter: TX PHY rate 0 Mbps
+06-15 21:25:53.064  3444  3444 D MetricReporter: WifiReporter: RX PHY rate 0 Mbps
+06-15 21:25:53.064  1452  1452 D WifiP2pService: Wifi enabled=false
+06-15 21:25:53.064  1452  2134 E WifiAwareNativeApi: disable: null interface
+06-15 21:25:53.067  1452  2134 E WifiAwareStateManager: onDisableResponseLocal: FAILED!? command={ when=-27m38s648ms what=1 arg1=124 target=com.android.wifi.x.com.android.internal.util.StateMachine$SmHandler }, reason=9
+06-15 21:25:53.068  3444  3444 D MetricReporter: WifiReporter: Connectivity state DISABLED
+06-15 21:25:53.068  3444  3444 D MetricReporter: WifiReporter: SSID 
+06-15 21:25:53.068  3444  3444 D MetricReporter: WifiReporter: Link speed 0 Mbps
+06-15 21:25:53.068  3444  3444 D MetricReporter: WifiReporter: Signal strength -100 dBm
+06-15 21:25:53.068  3444  3444 D MetricReporter: WifiReporter: BSSID 
+06-15 21:25:53.068  3444  3444 D MetricReporter: WifiReporter: PHY mode 
+06-15 21:25:53.068  3444  3444 D MetricReporter: WifiReporter: Supported band  Ghz
+06-15 21:25:53.068  3444  3444 D MetricReporter: WifiReporter: Frequency 0 Mhz
+06-15 21:25:53.069  3444  3444 D MetricReporter: WifiReporter: link downstream bandwidth 0.000 Mbps
+06-15 21:25:53.069  3444  3444 D MetricReporter: WifiReporter: link upstream bandwidth 0.000 Mbps
+06-15 21:25:53.069  3444  3444 D MetricReporter: WifiReporter: TX PHY rate 0 Mbps
+06-15 21:25:53.069   894   894 W android.hardware.wifi@1.0-service: No active wlan interfaces in use! Using default
+06-15 21:25:53.069  3444  3444 D MetricReporter: WifiReporter: RX PHY rate 0 Mbps
+06-15 21:25:53.071 12121 12121 D VolumeSlider: updating Appearance
+06-15 21:25:53.076  1452  2078 I android_os_HwBinder: HwBinder: Starting thread pool for getting: android.hardware.wifi.supplicant@1.0::ISupplicant/default
+06-15 21:25:53.088     0     0 I [wpa_su][0x77c4d34d7][21:25:53.080089] wlan: [16448:I:HDD] wlan0(vdevid-0): Received Disconnect reason:3 WLAN_REASON_DEAUTH_LEAVING
+06-15 21:25:53.088     0     0 I [schedu][0x77c4d5b6d][21:25:53.080604] wlan: [15222:I:PE] Deauth TX: vdev 0 seq_num 2057 reason 3 waitForAck 1 to 6a:22:32:f6:03:1e from b2:57:6e:df:0b:b2
+06-15 21:25:53.095   894 16444 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xbc
+06-15 21:25:53.095  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] wait_event:Wait done with Cmd 103
+06-15 21:25:53.095  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+06-15 21:25:53.105     0     0 I [schedu][0x77c521c8a][21:25:53.096832] wlan: [15222:I:TXRX] ol_txrx_peer_detach: 3487: ol_txrx_peer_detach peer 000000007a67bb8c, peer->ref_cnt 10
+06-15 21:25:53.105     0     0 I [schedu][0x77c521f7d][21:25:53.096871] wlan: [15222:I:TXRX] ol_txrx_peer_detach: 3531: started peer_unmap_timer for peer 000000007a67bb8c
+06-15 21:25:53.105     0     0 I [soft_i][0x77c52499d][21:25:53.097433] wlan: [0:I:TXRX] ol_txrx_peer_release_ref: 3336: [9][0]: Deleting peer 000000007a67bb8c ref_cnt -> 0
+06-15 21:25:53.095  1358  1358 I cnss-daemon: nl80211 response handler invoked
+06-15 21:25:53.095  1358  1358 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 188  received
+06-15 21:25:53.108     0     0 I [schedu][0x77c531cc7][21:25:53.100248] wlan: [15222:I:HDD] wlan0(vdevid-0): disconnected
+06-15 21:25:53.108     0     0 I [schedu][0x77c53202e][21:25:53.100294] wlan: [15222:I:HDD] hdd_disable_rx_ol_in_concurrency: 1954: Disable TCP delack as LRO is enabled
+06-15 21:25:53.100   894 16444 I WifiHAL : send oem msg of len : 140 to apps
+06-15 21:25:53.109     0     0 I [wpa_su][0x77c5380cf][21:25:53.101582] wlan: [16448:I:HDD] Disconnect reason: 3 WLAN_REASON_DEAUTH_LEAVING vendor: 0  LG: 1
+06-15 21:25:53.101  1411 16467 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT] event_handler: Valid data with length 108
+06-15 21:25:53.101  1411 16467 D LOWI-9.0.0.89.f: [LOWI-HELIUM-RTT] RomeNLRecvMessage: The Received RomeMsgType: ROME_P2P_PEER_EVENT_MSG
+06-15 21:25:53.101  1411 16467 D LOWI-9.0.0.89.f: [LOWIRangingFSM] FSM: Received Event EVENT_P2P_STATUS_UPDATE, Current state: STATE_READY_AND_IDLE
+06-15 21:25:53.101  1411 16467 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT]  RomeExtractP2PInfo - P2P EVENT Received!
+06-15 21:25:53.101  1411 16467 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT]  ExtractNLP2PInfo: Entered
+06-15 21:25:53.101  1411 16467 D LOWI-9.0.0.89.f: [LOWI-P2P-RTT] p2pStoreStatusInfo: Peer status = PEER_STATUS_DISCONNECTED Mac:6a:22:32:**:**:1e
+06-15 21:25:53.101  1411 16467 D LOWI-9.0.0.89.f: [LOWIRangingFSM] FSM: New FSM state: STATE_READY_AND_IDLE
+06-15 21:25:53.101  1411 16467 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT] RomeWaitOnActivityOnSocketOrPipe: issue blocking select 
+06-15 21:25:53.101 16448 16448 I wpa_supplicant: wlan0: CTRL-EVENT-DISCONNECTED bssid=6a:22:32:f6:03:1e reason=3 locally_generated=1
+06-15 21:25:53.102  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x1043 ([UP][RUNNING])
+06-15 21:25:53.102  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(2)
+06-15 21:25:53.102  1411  1435 D LOWI-9.0.0.89.f: [LOWIController] intfStateReceived: ifname(wlan0) state(2)
+06-15 21:25:53.102  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x1003 ([UP])
+06-15 21:25:53.102  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(1)
+06-15 21:25:53.102  1411  1435 D LOWI-9.0.0.89.f: [LOWIController] intfStateReceived: ifname(wlan0) state(1)
+06-15 21:25:53.102  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+06-15 21:25:53.102  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+06-15 21:25:53.102  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] updateIntfState: WIFI enabled 2 mNlWifiStatus 2 mWifiStateEnabled 1
+06-15 21:25:53.102  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 2 mWifiStateEnabled 1
+06-15 21:25:53.102  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+06-15 21:25:53.102  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+06-15 21:25:53.102  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] updateIntfState: WIFI enabled 1 mNlWifiStatus 2 mWifiStateEnabled 1
+06-15 21:25:53.102  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 21:25:53.104  1452  1723 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: false
+06-15 21:25:53.105 16448 16448 E wpa_supplicant: eap_proxy: eap_proxy_notify_config
+06-15 21:25:53.105  1452  1723 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: false
+06-15 21:25:53.106 16448 16448 E wpa_supplicant: eap_proxy: eap_proxy_notify_config
+06-15 21:25:53.106 16448 16448 E wpa_supplicant: eap_proxy: eap_proxy_notify_config
+06-15 21:25:53.106 16448 16448 I wpa_supplicant: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+06-15 21:25:53.107 16448 16448 I wpa_supplicant: Try to unregister vendor STA network
+06-15 21:25:53.107 16448 16448 E wpa_supplicant: eap_proxy: pthread_join on eap_proxy=0x5dabbe7e20
+06-15 21:25:53.107 16448 16448 E wpa_supplicant: eap_proxy: session not started for client = 1
+06-15 21:25:53.110 16448 16448 E wpa_supplicant: eap_proxy: Released QMI UIM service client
+06-15 21:25:53.110 16448 16448 E wpa_supplicant: eap_proxy: Released QMI EAP service client
+06-15 21:25:53.110 16448 16448 E wpa_supplicant: eap_proxy: session not started for client = 2
+06-15 21:25:53.111 16448 16448 E wpa_supplicant: eap_proxy: Released QMI UIM service client
+06-15 21:25:53.111 16448 16448 E wpa_supplicant: eap_proxy: Released QMI EAP service client
+06-15 21:25:53.111 16448 16448 I wpa_supplicant: eap_proxy: eap_proxy Deinitialzed
+06-15 21:25:53.114 16448 16448 I wpa_supplicant: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+06-15 21:25:53.114 16448 16448 I wpa_supplicant: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+06-15 21:25:53.114  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x1003 ([UP])
+06-15 21:25:53.114  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(1)
+06-15 21:25:53.114  1411  1435 D LOWI-9.0.0.89.f: [LOWIController] intfStateReceived: ifname(wlan0) state(1)
+06-15 21:25:53.114  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+06-15 21:25:53.115  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+06-15 21:25:53.115  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] updateIntfState: WIFI enabled 1 mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 21:25:53.115  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 21:25:53.117 16448 16448 I wpa_supplicant: Try to unregister vendor interface
+06-15 21:25:53.118  1452  1723 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: false
+06-15 21:25:53.119  1292  1292 I wificond: Unsubscribe scan result for interface with index: 30
+06-15 21:25:53.138  1358  1358 I cnss-daemon: Ready to update GW parameters
+06-15 21:25:53.139  1358  1358 E cnss-daemon: Invalid mac address
+06-15 21:25:53.139  1358  1358 E cnss-daemon: failed to update gateway
+06-15 21:25:53.147     0     0 I cnss-daemon: Invalid mac address
+06-15 21:25:53.147     0     0 I cnss-daemon: failed to update gateway
+06-15 21:25:53.140  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x1002 ()
+06-15 21:25:53.140  1411  1435 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(0)
+06-15 21:25:53.140  1411  1435 D LOWI-9.0.0.89.f: [LOWIController] intfStateReceived: ifname(wlan0) state(0)
+06-15 21:25:53.141  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+06-15 21:25:53.141  1411  1442 D LOWI-9.0.0.89.f: [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+06-15 21:25:53.141  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] updateIntfState: WIFI enabled 0 mNlWifiStatus 1 mWifiStateEnabled 1
+06-15 21:25:53.141  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 0 mWifiStateEnabled 1
+06-15 21:25:53.141  1411  1442 I LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: Wifi is now disabled
+06-15 21:25:53.141  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] terminateScanResultReceiver
+06-15 21:25:53.141  1452  1723 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: false
+06-15 21:25:53.141  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] wips_wait_on_nl_socket: read returned 6, Received string: Close 
+06-15 21:25:53.141  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] do_listen_events: Select Error return - -301
+06-15 21:25:53.141  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] No dump done. Error -301
+06-15 21:25:53.141  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] WipsScanUsingNL: passive scan cached 0, took 9292 ms, err -301
+06-15 21:25:53.141  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] lowi_proc_req_passive_scan_with_live_meas - No WLAN Frames to be parsed
+06-15 21:25:53.141  1411 16466 D LOWI-9.0.0.89.f: [LOWIWifiDriverInterface] Scan terminated for passive listening request
+06-15 21:25:53.141  1411 16466 I LOWI-9.0.0.89.f: [LOWIScanResultReceiver] Thread terminate was requested
+06-15 21:25:53.144  1322  1388 I QC-NETMGR-LIB: NetmgrNetdClientRemoveInterfaceFromOemNetwork(): Looking for Netd service
+06-15 21:25:53.145  1322  1388 I QC-NETMGR-LIB: NetmgrNetdClientRemoveInterfaceFromOemNetwork(): starting command
+06-15 21:25:53.145  1322  1388 I QC-NETMGR-LIB: removeInterfaceFromOemNetwork(): Attempting removeInterfaceFromOemNetwork
+06-15 21:25:53.145  1292  1292 I wificond: tearDownClientInterface: erasing wiphy_index for iface_name wlan0
+06-15 21:25:53.145  1292  1292 I wificond: remove channel type 0 support at wiphy index 0
+06-15 21:25:53.145  1292  1292 I wificond: remove channel type 1 support at wiphy index 0
+06-15 21:25:53.145  2442 16475 E ApfFilter: Read error
+06-15 21:25:53.145  2442 16475 E ApfFilter: android.system.ErrnoException: read failed: ENETDOWN (Network is down)
+06-15 21:25:53.145  2442 16475 E ApfFilter: 	at libcore.io.Linux.readBytes(Native Method)
+06-15 21:25:53.145  2442 16475 E ApfFilter: 	at libcore.io.Linux.read(Linux.java:190)
+06-15 21:25:53.145  2442 16475 E ApfFilter: 	at libcore.io.ForwardingOs.read(ForwardingOs.java:617)
+06-15 21:25:53.145  2442 16475 E ApfFilter: 	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:324)
+06-15 21:25:53.145  2442 16475 E ApfFilter: 	at libcore.io.ForwardingOs.read(ForwardingOs.java:617)
+06-15 21:25:53.145  2442 16475 E ApfFilter: 	at android.system.Os.read(Os.java:579)
+06-15 21:25:53.145  2442 16475 E ApfFilter: 	at android.net.apf.ApfFilter$ReceiveThread.run(ApfFilter.java:223)
+06-15 21:25:53.145  1411 16466 D LOWI-9.0.0.89.f: [LOWI-Scan] Closing the pipe
+06-15 21:25:53.146  1411  1442 D LOWI-9.0.0.89.f: [LOWIScanResultReceiver] After join complete
+06-15 21:25:53.146  1411  1442 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT] RomeUnblockRangingThread
+06-15 21:25:53.146  1411 16467 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT] RomeWaitOnActivityOnSocketOrPipe: Ranging thread Received string: Close, request socket shutdown 
+06-15 21:25:53.146  1411 16467 D LOWI-9.0.0.89.f: [LOWIRangingFSM] FSM: Received Terminate Thread request from Controller
+06-15 21:25:53.146  1411 16467 I LOWI-9.0.0.89.f: [LOWIScanResultReceiver] Thread terminate was requested
+06-15 21:25:53.146  1411 16467 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT] Closing the Ranging pipe
+06-15 21:25:53.147  1452  2078 I SupplicantStaIfaceHal: Terminating supplicant using HIDL
+06-15 21:25:53.150  1411  1442 D LOWI-9.0.0.89.f: [LOWIScanResultReceiver] After join complete
+06-15 21:25:53.150  1411  1442 D LOWI-9.0.0.89.f: [LOWIController] terminateWifiDriver
+06-15 21:25:53.151  1411  1442 I CLD80211: lowi-server: Sent msg on exit sock to unblock poll()
+06-15 21:25:53.151  1452  2078 I android_os_HwBinder: HwBinder: Starting thread pool for getting: android.hardware.wifi.supplicant@1.0::ISupplicant/default
+06-15 21:25:53.152 16448 16448 I wpa_supplicant: Terminating...
+06-15 21:25:53.153  1322  1388 I QC-NETMGR-LIB: NetmgrNetdClientRemoveInterfaceFromOemNetwork(): completed command
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: readPacket error: 
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: android.system.ErrnoException: read failed: ENETDOWN (Network is down)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at libcore.io.Linux.readBytes(Native Method)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at libcore.io.Linux.read(Linux.java:190)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at libcore.io.ForwardingOs.read(ForwardingOs.java:617)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:324)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at libcore.io.ForwardingOs.read(ForwardingOs.java:617)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at android.system.Os.read(Os.java:579)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at com.android.networkstack.util.PacketReader.readPacket(PacketReader.java:57)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at com.android.networkstack.util.PacketReader.readPacket(PacketReader.java:32)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at com.android.networkstack.util.FdEventsReader.handleInput(FdEventsReader.java:224)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at com.android.networkstack.util.FdEventsReader.lambda$createAndRegisterFd$0(FdEventsReader.java:204)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at com.android.networkstack.util.FdEventsReader.$r8$lambda$OgIGPQ7BvCo_znleuT06fluGUjY(Unknown Source:0)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at com.android.networkstack.util.FdEventsReader$$ExternalSyntheticLambda0.onFileDescriptorEvents(Unknown Source:2)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at android.os.MessageQueue.dispatchEvents(MessageQueue.java:293)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at android.os.MessageQueue.next(MessageQueue.java:335)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at android.os.Looper.loopOnce(Looper.java:161)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at android.os.Looper.loop(Looper.java:288)
+06-15 21:25:53.159  2442 16455 E ConnectivityPacketTracker.wlan0: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-15 21:25:53.162  2442 16455 E DhcpClient: readPacket error: 
+06-15 21:25:53.162  2442 16455 E DhcpClient: android.system.ErrnoException: read failed: ENETDOWN (Network is down)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at libcore.io.Linux.readBytes(Native Method)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at libcore.io.Linux.read(Linux.java:190)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at libcore.io.ForwardingOs.read(ForwardingOs.java:617)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:324)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at libcore.io.ForwardingOs.read(ForwardingOs.java:617)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at android.system.Os.read(Os.java:579)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at android.net.dhcp.DhcpClient$DhcpPacketHandler.readPacket(DhcpClient.java:698)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at android.net.dhcp.DhcpClient$DhcpPacketHandler.readPacket(DhcpClient.java:648)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at com.android.networkstack.util.FdEventsReader.handleInput(FdEventsReader.java:224)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at com.android.networkstack.util.FdEventsReader.lambda$createAndRegisterFd$0(FdEventsReader.java:204)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at com.android.networkstack.util.FdEventsReader.$r8$lambda$OgIGPQ7BvCo_znleuT06fluGUjY(Unknown Source:0)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at com.android.networkstack.util.FdEventsReader$$ExternalSyntheticLambda0.onFileDescriptorEvents(Unknown Source:2)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at android.os.MessageQueue.dispatchEvents(MessageQueue.java:293)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at android.os.MessageQueue.next(MessageQueue.java:335)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at android.os.Looper.loopOnce(Looper.java:161)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at android.os.Looper.loop(Looper.java:288)
+06-15 21:25:53.162  2442 16455 E DhcpClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-15 21:25:53.165  1452  2058 D SupplicantStaIfaceHal: ISupplicant died: cookie=-4091702946090537305
+06-15 21:25:53.174     0     0 I init    : Service 'wpa_supplicant' (pid 16448) exited with status 0 oneshot service took 14.316000 seconds in background
+06-15 21:25:53.174     0     0 I init    : Sending signal 9 to service 'wpa_supplicant' (pid 16448) process group...
+06-15 21:25:53.175     0     0 I libprocessgroup: Successfully killed process cgroup uid 0 pid 16448 in 0ms
+06-15 21:25:53.203  1452  2078 W SupplicantStaIfaceHal: Timed out waiting for confirmation of supplicant death
+06-15 21:25:53.203  1452  2078 D WifiNl80211Manager: tearing down interfaces in wificond
+06-15 21:25:53.204  1452  4049 W SupplicantStaIfaceHal: ISupplicantVendor/ISupplicantVendorStaIface died: cookie=0
+06-15 21:25:53.204  1452  2317 W SupplicantStaIfaceHal: ISupplicantVendor/ISupplicantVendorStaIface died: cookie=0
+06-15 21:25:53.221   894   894 E android.hardware.wifi@1.0-service: Stopping legacy HAL
+06-15 21:25:53.221   894   894 E android.hardware.wifi@1.0-service: Legacy HAL trigger wifi cleanup
+06-15 21:25:53.221   894 16444 I WifiHAL : exit_event_handler, buf=E
+06-15 21:25:53.222   894 16444 I CLD80211: android.hardware.wifi@1.0-service: Sent msg on exit sock to unblock poll()
+06-15 21:25:53.222   894 16444 D WifiHAL : wlan_service_update_sys_param: /proc/sys/net/ipv4/tcp_limit_output_bytes 262144
+06-15 21:25:53.222   894 16444 D WifiHAL : wlan_service_update_sys_param: /proc/sys/net/ipv4/tcp_use_userconfig 0
+06-15 21:25:53.222   894 16444 D WifiHAL : wlan_service_update_sys_param: /proc/sys/net/ipv4/tcp_adv_win_scale 1
+06-15 21:25:53.223   894   894 I WifiHAL : Sent msg on exit sock to unblock poll()
+06-15 21:25:53.223   894 16444 I android.hardware.wifi@1.0-service: Legacy HAL stop complete callback received
+06-15 21:25:53.223   894 16444 E android.hardware.wifi@1.0-service: SetWifiUpState(false) completed
+06-15 21:25:53.223   894 16444 I WifiHAL : wifi_event_loop() exits success
+06-15 21:25:53.223   894 16444 E android.hardware.wifi@1.0-service: Legacy HAL Wifi event loop exited
+06-15 21:25:53.223   894 16444 E android.hardware.wifi@1.0-service: Legacy HAL event loop terminated
+06-15 21:25:53.224   894   894 D android.hardware.wifi@1.0-service: Legacy HAL stop complete
+06-15 21:25:53.225  3073  3102 I humane_sar: Wifi changed to state: OFF
+06-15 21:25:53.225   894   894 I android.hardware.wifi@1.0-service: Wifi HAL stopped
+06-15 21:25:53.232     0     0 I [wifi@1][0x77c776deb][21:25:53.224211] wlan: [894:I:HDD] wlan_hdd_state_ctrl_param_write: 15695: Wifi turning off from UI
+06-15 21:25:53.227  1452  2078 I WifiVendorHal: Vendor Hal stopped
+06-15 21:25:53.227  1452  2078 D WifiClientModeManager[wlan0]: STA iface wlan0 was destroyed, stopping client mode
+06-15 21:25:53.227  1452  2078 W WifiClientModeManager[wlan0]: Received mWifiNativeInterfaceCallback.onDestroyed callback when no ClientModeImpl instance is active.
+06-15 21:25:53.228  1452  2078 I WifiNative: Successfully torn down Iface:{Name=wlan0,Id=11,Type=STA_CONNECTIVITY}
+06-15 21:25:53.228  1452  2078 I WifiNative: Successfully initiated teardown for iface=wlan0
+06-15 21:25:53.228  1452  2078 I WifiClientModeManager[unknown]: StartedState#exit(), setting mRole = null
+06-15 21:25:53.228  1452  2078 D WifiClientModeImpl[wlan0]: ClientModeImpl: Leaving Connected state
+06-15 21:25:53.230  1452  2078 D WifiCountryCode: evaluateAllCmmStateAndApplyIfAllReady: {ConcreteClientModeManager{id=1644333 iface=null role=ROLE_CLIENT_PRIMARY}=true}
+06-15 21:25:53.230  1452  2078 D WifiCountryCode: Reading country code from telephony
+06-15 21:25:53.232  2608 14160 D SubscriptionController: [getSlotIndex]- subId invalid
+06-15 21:25:53.233  1452  2078 D WifiCountryCode: Set telephony country code to: 
+06-15 21:25:53.234  1452  2078 D WifiCountryCode: updateCountryCode to null
+06-15 21:25:53.234  1452  2078 E SupplicantStaIfaceHal: Can't call disableCurrentNetwork, SupplicantStaNetwork is null
+06-15 21:25:53.234  1452  2078 E SupplicantStaIfaceHal: Can't call disconnect, ISupplicantStaIface is null for iface=wlan0
+06-15 21:25:53.234  1452  2078 E WifiClientModeImpl[wlan0]: Failed to set random MAC address on disconnect
+06-15 21:25:53.236  1452  2078 E SupplicantStaIfaceHal: Can't call listNetworks, ISupplicantStaIface is null for iface=wlan0
+06-15 21:25:53.236  1452  2078 E SupplicantStaIfaceHal: removeAllNetworks failed, got null networks
+06-15 21:25:53.236  1452  2078 E WifiClientModeImpl[wlan0]: Failed to remove networks on exiting connect mode
+06-15 21:25:53.238  1452  2078 E SupplicantStaIfaceHal: Can't call setPowerSave, ISupplicantStaIface is null for iface=wlan0
+06-15 21:25:53.238  1452  2078 E SupplicantStaIfaceHal: Can't call setBtCoexistenceMode, ISupplicantStaIface is null for iface=wlan0
+06-15 21:25:53.240  1452  2097 D ConnectivityService: [103 WIFI] EVENT_NETWORK_INFO_CHANGED, going from CONNECTED to DISCONNECTED
+06-15 21:25:53.240  1452  2097 D ConnectivityService: [103 WIFI] disconnected, was satisfying 25
+06-15 21:25:53.240  2442 16455 D ApfFilter: (wlan0): shutting down
+06-15 21:25:53.241  2413  3174 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.STATE_CHANGE
+06-15 21:25:53.241  2413  3174 D QCNEJ/WlanStaInfoRelay: reset CountryCodeRetriever
+06-15 21:25:53.243  2442 16455 D DhcpClient: doQuit
+06-15 21:25:53.246  1452  2078 D WifiDiags: stopLogging() iface list is {} after removing wlan0
+06-15 21:25:53.246  1452  2078 W WifiDiags: Fail to reset log handler
+06-15 21:25:53.254   729   729 I netd    : trafficSwapActiveStatsMap() <1.12ms>
+06-15 21:25:53.259   729   729 I netd    : tetherGetStats() -> {[]} <2.74ms>
+06-15 21:25:53.262  1452  2097 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1686864353264]
+06-15 21:25:53.263  1452  2097 I netstats_wifi_sample: [116660,733,32092,238,116660,733,32092,238,81197,162,32092,238,1686864353264]
+06-15 21:25:53.266  1452  1723 I GnssNetworkConnectivityHandler: Network connection lost. Available networks count: 0
+06-15 21:25:53.266  1452  1723 I GnssNetworkConnectivityHandler: updateNetworkState, state=CLOSED, connected=false, network=103, capabilities=[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=60000Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -52, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5180MHz, Net ID: -1, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -52 SSID: "hdevice"], availableNetworkCount: 0
+06-15 21:25:53.266  2442  2694 D UpstreamNetworkMonitor: Lost default Internet network: 103
+06-15 21:25:53.267   877   877 I LocSvc__AGnssRilInterface: ===> updateNetworkState_2_0 line 111 
+06-15 21:25:53.267   877   983 I LocSvc_SystemStatusOsObserver: sendCachedDataItems:539] DataItem: ACTIVE_NETWORK_INFO::TYPEs_MASK: 0, TYPE_NAME: , SUB_TYPE_NAME: , IS_AVAILABLE: false, IS_CONNECTED: false, IS_ROAMING: false, NETWORK_HANDLE_0: 18446744073709551615:10, NETWORK_HANDLE_1: 18446744073709551615:10, NETWORK_HANDLE_2: 18446744073709551615:10, NETWORK_HANDLE_3: 18446744073709551615:10, NETWORK_HANDLE_4: 18446744073709551615:10, NETWORK_HANDLE_5: 18446744073709551615:10, NETWORK_HANDLE_6: 18446744073709551615:10, NETWORK_HANDLE_7: 18446744073709551615:10, NETWORK_HANDLE_8: 18446744073709551615:10, NETWORK_HANDLE_9: 18446744073709551615:10 >> XtraSystemStatusObserver
+06-15 21:25:53.267   877   983 I LocSvc_SystemStatusOsObserver: sendCachedDataItems:539] DataItem: ACTIVE_NETWORK_INFO::TYPEs_MASK: 0, TYPE_NAME: , SUB_TYPE_NAME: , IS_AVAILABLE: false, IS_CONNECTED: false, IS_ROAMING: false, NETWORK_HANDLE_0: 18446744073709551615:10, NETWORK_HANDLE_1: 18446744073709551615:10, NETWORK_HANDLE_2: 18446744073709551615:10, NETWORK_HANDLE_3: 18446744073709551615:10, NETWORK_HANDLE_4: 18446744073709551615:10, NETWORK_HANDLE_5: 18446744073709551615:10, NETWORK_HANDLE_6: 18446744073709551615:10, NETWORK_HANDLE_7: 18446744073709551615:10, NETWORK_HANDLE_8: 18446744073709551615:10, NETWORK_HANDLE_9: 18446744073709551615:10 >> NativeAgpsHandler
+06-15 21:25:53.269  2442 16455 D DhcpClient: DHCP Packet Handler stopped
+06-15 21:25:53.270  2442 16455 D DhcpClient: onQuitting
+06-15 21:25:53.270  2413  3174 D QCNEJ/DefaultNetworkInfoRelay: Default network lost: 103
+06-15 21:25:53.273  2413  3174 D QCNEJ/NativeHalConnector: -> SND notifyDefaultNetworkChanged(1)
+06-15 21:25:53.274   729 16479 D resolv  :  Calling SSL_connect with mark 0xf0067
+06-15 21:25:53.274  2413  3174 D QCNEJ/WlanStaInfoRelay: network lost: 103
+06-15 21:25:53.274   729 16479 D resolv  :  SSL_connect returned -1 with mark 0xf0067
+06-15 21:25:53.274   729 16479 W resolv  : SSL_connect ssl error =5, mark 0xf0067: Software caused connection abort
+06-15 21:25:53.274   729 16479 W resolv  : TLS Handshake failed
+06-15 21:25:53.274   729 16479 D resolv  : Initialization failed.
+06-15 21:25:53.274   729 16479 D resolv  : Destructor
+06-15 21:25:53.274   729 16479 D resolv  : Destructor completed
+06-15 21:25:53.274   729 16479 D resolv  : Failing all pending queries.
+06-15 21:25:53.274   729 16479 W resolv  : query failed
+06-15 21:25:53.274   729   840 I Netd    : Destroyed 1 sockets on 10.195.24.240 in 853us
+06-15 21:25:53.274   729 16479 D resolv  : Destructor
+06-15 21:25:53.274   729 16479 D resolv  : Locked destruction procedure
+06-15 21:25:53.274   729 16479 D resolv  : Destructor completed
+06-15 21:25:53.274   729 16479 W resolv  : validateDnsTlsServer returned 0 for 10.195.24.1
+06-15 21:25:53.274   729 16479 D resolv  : Sending validation failure event on netId 103 for 10.195.24.1 with hostname {}
+06-15 21:25:53.275   729 16479 W resolv  : Validation failed
+06-15 21:25:53.275   729   729 I netd    : interfaceSetCfg(InterfaceConfigurationParcel{ifName: wlan0, hwAddr: , ipv4Addr: 0.0.0.0, prefixLength: 0, flags: []}) <3.10ms>
+06-15 21:25:53.276  2413  3174 D QCNEJ/WlanStaInfoRelay: onLost: unbind the process to WIFI
+06-15 21:25:53.277  2608  2608 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_VCN_MANAGED RequestorUid: 1000 RequestorPkg: android] ]
+06-15 21:25:53.277  2608  2608 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_VCN_MANAGED RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-15 21:25:53.277   729   729 I netd    : interfaceSetEnableIPv6(wlan0, false) <0.22ms>
+06-15 21:25:53.278   729   729 I netd    : interfaceClearAddrs(wlan0) <0.60ms>
+06-15 21:25:53.279   729   729 I netd    : setProcSysNet(6, 1, wlan0, accept_ra, 2) <0.08ms>
+06-15 21:25:53.283   729   729 I netd    : idletimerRemoveInterface(wlan0, 15, 1) <3.05ms>
+06-15 21:25:53.286  2608  2608 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=7, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ]
+06-15 21:25:53.287  2608  2608 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=15, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ]
+06-15 21:25:53.287  2608  2608 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=17, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1073 RequestorUid: 1073 RequestorPkg: com.android.networkstack] ]
+06-15 21:25:53.287  2608  2608 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=23, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10150 RequestorUid: 10150 RequestorPkg: com.android.systemui] ]
+06-15 21:25:53.287  2608  2608 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=7, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-15 21:25:53.287  2608  2608 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=25, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10150 RequestorUid: 10150 RequestorPkg: com.android.systemui] ]
+06-15 21:25:53.287  1452  2097 D ConnectivityService: Sending DISCONNECTED broadcast for type 1 [103 WIFI] isDefaultNetwork=true
+06-15 21:25:53.287  2608  2608 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=15, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-15 21:25:53.287  2608  2608 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=28, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.android.phone] ]
+06-15 21:25:53.287  2608  2608 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=17, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1073 RequestorUid: 1073 RequestorPkg: com.android.networkstack] ] shouldApply false
+06-15 21:25:53.288  1452  2097 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendStickyBroadcast:1568 com.android.server.ConnectivityService.sendStickyBroadcast:2811 com.android.server.ConnectivityService.sendLegacyNetworkBroadcast:8732 com.android.server.ConnectivityService$LegacyTypeTracker.remove:1007 com.android.server.ConnectivityService$LegacyTypeTracker.remove:1024 
+06-15 21:25:53.288  2608  2608 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=23, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10150 RequestorUid: 10150 RequestorPkg: com.android.systemui] ] shouldApply false
+06-15 21:25:53.288  2608  2608 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=30, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10088 RequestorUid: 10088 RequestorPkg: com.qualcomm.qti.cne] ]
+06-15 21:25:53.288  2608  2608 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=36, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.qti.dpmserviceapp] ]
+06-15 21:25:53.288  2608  2608 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=43, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10105 RequestorUid: 1000 RequestorPkg: android] ]
+06-15 21:25:53.288  2608  2608 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=45, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10025 RequestorUid: 1000 RequestorPkg: android] ]
+06-15 21:25:53.288  2608  2608 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=25, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10150 RequestorUid: 10150 RequestorPkg: com.android.systemui] ] shouldApply false
+06-15 21:25:53.288  2608  2608 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=49, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10086 RequestorUid: 1000 RequestorPkg: android] ]
+06-15 21:25:53.288  2608  2608 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=51, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10037 RequestorUid: 1000 RequestorPkg: android] ]
+06-15 21:25:53.289  2608  2608 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=28, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.android.phone] ] shouldApply false
+06-15 21:25:53.289  1452  2097 D ConnectivityService: NetReassign [no changes]
+06-15 21:25:53.289  2608  2608 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=30, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10088 RequestorUid: 10088 RequestorPkg: com.qualcomm.qti.cne] ] shouldApply false
+06-15 21:25:53.289  2608  2608 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=36, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.qti.dpmserviceapp] ] shouldApply false
+06-15 21:25:53.289  2608  2608 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=43, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10105 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-15 21:25:53.289  2608  2608 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=45, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10025 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-15 21:25:53.289  2608  2608 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=49, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10086 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-15 21:25:53.289  2608  2608 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=51, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10037 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-15 21:25:53.293   729   729 D TcpSocketMonitor: suspending tcpinfo polling
+06-15 21:25:53.293   729   729 I netd    : networkDestroy(103) <3.57ms>
+06-15 21:25:53.293   729   729 I resolv  : DNS cache flushed
+06-15 21:25:53.294   729   729 D resolv  : PrivateDnsConfiguration::clear(103)
+06-15 21:25:53.294   729   729 I netd    : destroyNetworkCache(103) <0.19ms>
+06-15 21:25:53.294  1452  2078 D WifiScanRequestProxy: Sending scan available broadcast: false
+06-15 21:25:53.294  1452  2094 I WifiScanningService: Received a request to disable scanning, UID = 1000
+06-15 21:25:53.294  1452  2078 I WifiScanRequestProxy: Scanning is disabled
+06-15 21:25:53.294  1452  2094 E WifiNl80211Manager: No valid wificond scanner interface handler for iface=wlan0
+06-15 21:25:53.294  1452  2094 I WifiScanningService: Removed an impl for wlan0
+06-15 21:25:53.295  1452  2094 I WifiScanningService: wifi driver unloaded
+06-15 21:25:53.295  1452  2078 D WifiCountryCode: evaluateAllCmmStateAndApplyIfAllReady: {}
+06-15 21:25:53.296  1452  2078 D WifiConnectivityManager: saveMiracastMode: mode=0
+06-15 21:25:53.296  1452  2078 D WifiConnectivityManager: saveP2pGroupStarted: started=false
+06-15 21:25:53.297  1452  2078 W SupplicantStaIfaceHal: ISupplicant died: cookie=12
+06-15 21:25:53.297  1452  2078 D WifiNetworkAgent: NetworkAgent: NetworkAgent channel lost
+06-15 21:25:53.297  1452  2078 D WifiController: STA disabled, return to DisabledState.
+06-15 21:25:53.297  1452  2078 D WifiController: EnabledState.exit()
+06-15 21:25:53.297  1452  2078 D WifiController: DisabledState.enter()
+06-15 21:25:53.301  1452  2170 D WifiMemoryStoreImpl: Set cluster G54302e67d155390 for W6ec2113ca72e7569: SUCCESS
+06-15 21:25:53.302  1452  2043 I commit_sys_config_file: [settings-0-0,54]
+06-15 21:25:53.308  1452  2323 D WifiMemoryStoreImpl: Set cluster G54302e67d155390 for W54302e67d155390: SUCCESS
+06-15 21:25:53.387 16498 16498 E humane_antenna_tune: Could not find the requested QMI service; terminating
+06-15 21:25:53.387 16498 16498 E humane_antenna_tune: qmi_wait_for_service() failed
+06-15 21:25:53.387 16498 16498 E humane_antenna_tune: Could not connect to the RFRPE tuner service; terminating antenna_tune service
+06-15 21:25:53.388  2169  6929 I OpenGLRenderer: Davey! duration=9223370377920ms; Flags=0, FrameTimelineVsyncId=103493, IntendedVsync=1658933792284, Vsync=1658933792284, InputEventId=0, HandleInputStart=1658934906292, AnimationStart=1658934908115, PerformTraversalsStart=1658935087750, DrawStart=1658935141969, FrameDeadline=1658950458950, FrameInterval=1658934900198, FrameStartTime=16666666, SyncQueued=1658935162177, SyncStart=1658935234573, IssueDrawCommandsStart=1658935399052, SwapBuffers=1658938263948, FrameCompleted=9223372036854775807, DequeueBufferDuration=46250, QueueBufferDuration=1647969, GpuCompleted=9223372036854775807, SwapBuffersCompleted=1658940623583, DisplayPresentTime=0, 
+06-15 21:25:53.408     0     0 I IRQ 6   : no longer affine to CPU5
+06-15 21:25:53.409     0     0 I init    : Service 'humane-antenna-tune' (pid 16498) exited with status 0
+06-15 21:25:53.409     0     0 I init    : Sending signal 9 to service 'humane-antenna-tune' (pid 16498) process group...
+06-15 21:25:53.409     0     0 I libprocessgroup: Successfully killed process cgroup uid 0 pid 16498 in 0ms
+06-15 21:25:53.413     0     0 I init    : starting service 'humane-antenna-tune'...
+06-15 21:25:53.423  2169  6929 I OpenGLRenderer: Davey! duration=9223370377904ms; Flags=0, FrameTimelineVsyncId=103495, IntendedVsync=1658950491655, Vsync=1658950491655, InputEventId=0, HandleInputStart=1658951735979, AnimationStart=1658951740198, PerformTraversalsStart=1658952167177, DrawStart=1658952263739, FrameDeadline=1658983824987, FrameInterval=1658951726917, FrameStartTime=16666666, SyncQueued=1658952321448, SyncStart=1658952410667, IssueDrawCommandsStart=1658952573948, SwapBuffers=1658957341812, FrameCompleted=9223372036854775807, DequeueBufferDuration=35313, QueueBufferDuration=37975572, GpuCompleted=9223372036854775807, SwapBuffersCompleted=1658996149937, DisplayPresentTime=0, 
+06-15 21:25:54.017  1038  1038 I auditd  : type=1400 audit(0.0:2189): avc: denied { write } for comm="humane_wlc_serv" name="auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+06-15 21:25:54.017  1038  1038 I humane_wlc_serv: type=1400 audit(0.0:2189): avc: denied { write } for name="auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+06-15 21:25:54.017  1038  1038 I auditd  : type=1400 audit(0.0:2190): avc: denied { open } for comm="humane_wlc_serv" path="/sys/devices/platform/soc/890000.i2c/i2c-1/1-0061/auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+06-15 21:25:54.017  1038  1038 I humane_wlc_serv: type=1400 audit(0.0:2190): avc: denied { open } for path="/sys/devices/platform/soc/890000.i2c/i2c-1/1-0061/auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+06-15 21:25:54.025  1038  1058 D wlc-service: received vector of size 0
+06-15 21:25:54.026  1038  1058 D wlc-service: rc is -110
+06-15 21:25:54.026  1038  1058 D wlc-service: wlc_driver_transact returned -110, considering trying again...
+06-15 21:25:55.462 16718 16718 E humane_antenna_tune: timeout while waiting for sensors QMI service: will try 3 more time(s)
+06-15 21:25:56.020  1452  1860 I commit_sys_config_file: [package-user-0,14]
+06-15 21:25:56.197 16723 16723 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:25:56.205     0     0 I binder  : 16723:16723 ioctl 40046210 7fc1a860d4 returned -22
+06-15 21:25:56.272  1452  1728 I commit_sys_config_file: [warnings-config,1426299]
+06-15 21:25:56.586  1038  1058 D wlc-service: received vector of size 0
+06-15 21:25:56.586  1038  1058 D wlc-service: rc is -110
+06-15 21:25:56.586  1038  1058 D wlc-service: wlc_driver_transact returned -110, considering trying again...
+06-15 21:25:56.745   638 16210 I keystore2: keystore2::watchdog: Watchdog thread idle -> terminating. Have a great day.
+06-15 21:25:57.134  1452  1723 W VoiceInteractionServiceManager: Reset power boost INTERACTION because reaching max timeout.
+06-15 21:25:57.311     0     0 I logd    : logdr: UID=0 GID=0 PID=16726 n tail=0 logMask=bf pid=0 start=0ns deadline=0ns

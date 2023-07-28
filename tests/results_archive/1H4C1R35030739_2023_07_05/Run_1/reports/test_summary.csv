@@ -1,0 +1,27 @@
+Test ID,Test Description,Test Status,Test Start Time,Test End Time,Expected Result,Expected Response,Actual Response,H4 Serial,H4 Build Version
+ENABLE_WIFI,Enable wifi using the command,PASS,07-05-2023 13:25:10,07-05-2023 13:25:20,Wifi can be enabled by the command,on,on,1H4C1R35030739,eng.action.20230703.181212
+DISABLE_WIFI,Disable wifi using the command,PASS,07-05-2023 13:25:20,07-05-2023 13:25:30,Wifi can be disabled by the command,off,off,1H4C1R35030739,eng.action.20230703.181212
+SCAN_WIFI,Scan wifi using the command,PASS,07-05-2023 13:25:30,07-05-2023 13:25:38,DUT can detect the available networks,hdevice is in the network list,"Scanned SSIDs: {""what's that?"", 'hcorp', 'hguest', 'Chutianfan', 'htalk', 'hav', 'Prototype', 'hdevice', 'ARLO_VMB_1144438589'}",1H4C1R35030739,eng.action.20230703.181212
+CONNECT_WIFI,Connect to a wifi network by command,PASS,07-05-2023 13:25:38,07-05-2023 13:25:49,Wifi gets connected without any issue,"Wifi is connected to ""hdevice""","Wifi is connected to ""hdevice""",1H4C1R35030739,eng.action.20230703.181212
+DISCONNECT_WIFI,Disconnect from a wifi network by command,PASS,07-05-2023 13:25:49,07-05-2023 13:25:59,Wifi gets connected without any issue,"Wifi is enabled
+Wifi is not connected","Wifi is enabled
+Wifi is not connected",1H4C1R35030739,eng.action.20230703.181212
+RECONNECT_WIFI,Reconnect to a saved wifi network by command,FAIL,07-05-2023 13:25:59,07-05-2023 13:26:21,Wifi gets reconnected without any issue,"Wifi is connected to ""hdevice""",,1H4C1R35030739,eng.action.20230703.181212
+FORGET_WIFI,Forget a wifi network by command,PASS,07-05-2023 13:26:21,07-05-2023 13:26:37,DUT can forget wifi by command,"""hdevice"" is not in saved networks",No networks,1H4C1R35030739,eng.action.20230703.181212
+ENABLE_WIFI_FROM_SETTINGS,Turn on wifi from Settings app,PASS,07-05-2023 13:26:39,07-05-2023 13:27:19,Wifi can be turned on from Settings app,on,on,1H4C1R35030739,eng.action.20230703.181212
+DISABLE_WIFI_FROM_SETTINGS,Turn off wifi from Settings app,PASS,07-05-2023 13:27:23,07-05-2023 13:27:57,Wifi can be turned off from Settings app,off,off,1H4C1R35030739,eng.action.20230703.181212
+SCAN_WIFI_FROM_SETTINGS,Scan wifi from settings UI,PASS,07-05-2023 13:28:01,07-05-2023 13:28:42,DUT can scan for the available networks,"With the wifi scan trim down, at most four networks should be displayed","WiFi scan result: {'hdevice', 'hcorp', 'htalk', 'hav'}",1H4C1R35030739,eng.action.20230703.181212
+CONNECT_NEW_WIFI_FROM_SETTINGS,Connect to a new network from setting UI,PASS,07-05-2023 13:28:46,07-05-2023 13:29:27,DUT can connect to wifi from setting UI,"Wifi is connected to ""hdevice""","Wifi is connected to ""hdevice""",1H4C1R35030739,eng.action.20230703.181212
+DISCONNECT_WIFI_FROM_SETTINGS,Disconnect from a wifi network from setting UI,PASS,07-05-2023 13:29:31,07-05-2023 13:30:15,DUT can disconnect wifi from setting UI,"Wifi is enabled
+Wifi is not connected","Wifi is enabled
+Wifi is not connected",1H4C1R35030739,eng.action.20230703.181212
+CONNECT_SAVED_WIFI_FROM_SETTINGS,Connect to a saved network from setting UI,PASS,07-05-2023 13:30:19,07-05-2023 13:31:51,DUT can reconnect to a saved network from setting UI,"Wifi is connected to ""hdevice""","Wifi is connected to ""hdevice""",1H4C1R35030739,eng.action.20230703.181212
+FORGET_WIFI_FROM_SETTINGS,Forget a network from setting UI,PASS,07-05-2023 13:31:55,07-05-2023 13:32:37,DUT can forget a network from setting UI,"""hdevice"" is not in saved networks",No networks,1H4C1R35030739,eng.action.20230703.181212
+LATENCY_TO_ESTABLISH_NEW_CONNECTION,Latency to establish a new connection,PASS,07-05-2023 13:32:41,07-05-2023 13:33:28,Less than 1s,0-1,0.002,1H4C1R35030739,eng.action.20230703.181212
+LATENCY_TO_AUTO_REASSOCIATE_CONNECTION,Latency from wake to wifi connection established,PASS,07-05-2023 13:33:32,07-05-2023 13:34:17,Less than 1s,0-1,0.207,1H4C1R35030739,eng.action.20230703.181212
+LATENCY_TO_DISCONNECT_FROM_NETWORK,Latency to disconnect from a wifi network,FAIL,07-05-2023 13:34:21,07-05-2023 13:35:06,Less than 1s,0-1,-0.082,1H4C1R35030739,eng.action.20230703.181212
+THROUGHPUT_WITH_IPERF3,Measure network throughput using iperf3,PASS,07-05-2023 13:35:06,07-05-2023 13:36:08,Measure network throughput using iperf3,N/A,"SSID: hdevice
+Total time: 49.98  sec
+Transfer: 500 MBytes
+Bitrate: 83.8 Mbits/sec
+RSSIs: [-54, -55, -55, -55, -54, -54, -56, -56, -56, -54, -54, -54, -54, -56, -56, -55, -55, -58, -58, -58, -55, -55, -55, -55, -55]",1H4C1R35030739,eng.action.20230703.181212

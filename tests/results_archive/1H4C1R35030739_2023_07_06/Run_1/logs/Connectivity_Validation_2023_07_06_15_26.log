@@ -1,0 +1,259 @@
+2023-07-06 15:26:10,270 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.build.branch
+2023-07-06 15:26:10,331 - lib.adb - run_command() - DEBUG - Response: 
+2023-07-06 15:26:11,337 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.build.version.incremental
+2023-07-06 15:26:11,416 - lib.adb - run_command() - DEBUG - Response: eng.action.20230703.181212
+2023-07-06 15:26:12,421 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.build.flavor
+2023-07-06 15:26:12,502 - lib.adb - run_command() - DEBUG - Response: qssi-userdebug
+2023-07-06 15:26:13,508 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.product.name
+2023-07-06 15:26:13,582 - lib.adb - run_command() - DEBUG - Response: atoll
+2023-07-06 15:26:14,599 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-06 15:26:15,700 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-06 15:26:15,834 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-06 15:26:16,838 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-06 15:26:16,954 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-06 15:26:17,960 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats bt -enable
+2023-07-06 15:26:19,357 - lib.adb - run_command() - DEBUG - Response: ats bt -enable
+Enable BT
+Write log success. ats bt -enable = PASS
+2023-07-06 15:26:24,371 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-06 15:26:24,493 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-06 15:26:25,499 - lib.utils - kpi_validation() - INFO - Expected response is: on
+2023-07-06 15:26:25,499 - lib.utils - kpi_validation() - INFO - Actual response is: on
+2023-07-06 15:26:25,499 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-06 15:26:25,535 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-06 15:26:25,768 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-06 15:26:25,770 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-06 15:26:26,840 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-06 15:26:26,974 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-06 15:26:27,979 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-06 15:26:28,113 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-06 15:26:29,114 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats bt -disable
+2023-07-06 15:26:30,459 - lib.adb - run_command() - DEBUG - Response: ats bt -disable
+Disable BT
+Write log success. ats bt -disable = PASS
+2023-07-06 15:26:35,475 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-06 15:26:35,597 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-06 15:26:36,602 - lib.utils - kpi_validation() - INFO - Expected response is: off
+2023-07-06 15:26:36,603 - lib.utils - kpi_validation() - INFO - Actual response is: off
+2023-07-06 15:26:36,603 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-06 15:26:36,638 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-06 15:26:36,816 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-06 15:26:36,817 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:26:38,829 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-06 15:26:38,834 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-06 15:26:39,914 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-06 15:26:40,036 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-06 15:26:49,435 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-06 15:26:49,436 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: input keyevent 83
+2023-07-06 15:26:49,486 - lib.adb - run_command() - DEBUG - Response: 
+2023-07-06 15:26:58,421 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:26:58,422 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: input keyevent 83
+2023-07-06 15:26:58,492 - lib.adb - run_command() - DEBUG - Response: 
+2023-07-06 15:27:00,497 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-06 15:27:00,607 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-06 15:27:01,613 - lib.utils - kpi_validation() - INFO - Expected response is: on
+2023-07-06 15:27:01,614 - lib.utils - kpi_validation() - INFO - Actual response is: on
+2023-07-06 15:27:01,614 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-06 15:27:01,650 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-06 15:27:01,923 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-06 15:27:01,925 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-06 15:27:01,927 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:27:03,941 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-06 15:27:03,942 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:27:05,953 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-06 15:27:05,956 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-06 15:27:07,049 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-06 15:27:07,177 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-06 15:27:15,833 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-06 15:27:15,833 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: input keyevent 83
+2023-07-06 15:27:15,887 - lib.adb - run_command() - DEBUG - Response: 
+2023-07-06 15:27:25,383 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:27:25,384 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: input keyevent 83
+2023-07-06 15:27:25,523 - lib.adb - run_command() - DEBUG - Response: 
+2023-07-06 15:27:27,531 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-06 15:27:27,638 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-06 15:27:28,641 - lib.utils - kpi_validation() - INFO - Expected response is: off
+2023-07-06 15:27:28,641 - lib.utils - kpi_validation() - INFO - Actual response is: off
+2023-07-06 15:27:28,641 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-06 15:27:28,678 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-06 15:27:28,897 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-06 15:27:28,898 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-06 15:27:28,899 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:27:30,909 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-06 15:27:30,910 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:27:32,922 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-06 15:27:32,927 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-06 15:27:34,008 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-06 15:27:34,138 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-06 15:27:35,144 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats bt -enable
+2023-07-06 15:27:36,485 - lib.adb - run_command() - DEBUG - Response: ats bt -enable
+Enable BT
+Write log success. ats bt -enable = PASS
+2023-07-06 15:27:45,958 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-06 15:27:53,017 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_setting
+2023-07-06 15:28:00,116 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: pair_new_device
+2023-07-06 15:28:16,122 - lib.settings_app - get_bt_scan_result() - INFO - BT scan result: {'Jerry’s AirPods'}
+2023-07-06 15:28:16,142 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-06 15:28:16,414 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-06 15:28:16,420 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-06 15:28:16,422 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:28:18,432 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-06 15:28:18,433 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:28:20,443 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-06 15:28:20,448 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-06 15:28:29,263 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-06 15:28:36,401 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_setting
+2023-07-06 15:28:36,403 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys bluetooth_manager | sed -n '/Bonded devices:/,/mSnoopLogSettingAtEnable/p'
+2023-07-06 15:28:36,491 - lib.adb - run_command() - DEBUG - Response: Bonded devices:
+mSnoopLogSettingAtEnable = empty
+2023-07-06 15:28:44,154 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: pair_new_device
+2023-07-06 15:29:05,809 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bt_name
+2023-07-06 15:29:12,279 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: allow_access_to_contact
+2023-07-06 15:29:18,774 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: pair_button
+2023-07-06 15:29:23,780 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys bluetooth_manager | sed -n '/ConnectionState:*/p'
+2023-07-06 15:29:23,918 - lib.adb - run_command() - DEBUG - Response: ConnectionState: STATE_CONNECTED
+    mConnectionState: 2
+2023-07-06 15:29:24,924 - lib.btcontrol - is_bluetooth_connected() - INFO - The bluetooth is connected
+2023-07-06 15:29:24,963 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-06 15:29:25,219 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-06 15:29:25,221 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-06 15:29:25,222 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:29:27,235 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-06 15:29:27,237 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:29:29,250 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-06 15:29:29,255 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-06 15:29:37,697 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-06 15:29:44,818 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_setting
+2023-07-06 15:29:44,818 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys bluetooth_manager | sed -n '/ConnectionState:*/p'
+2023-07-06 15:29:44,933 - lib.adb - run_command() - DEBUG - Response: ConnectionState: STATE_CONNECTED
+    mConnectionState: 2
+2023-07-06 15:29:45,938 - lib.btcontrol - is_bluetooth_connected() - INFO - The bluetooth is connected
+2023-07-06 15:29:45,939 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys bluetooth_manager | grep -E 'mDevice:.+state=Connected$'
+2023-07-06 15:29:46,041 - lib.adb - run_command() - DEBUG - Response: mDevice: AC:1D:06:B5:37:65(Jerry’s AirPods) name=AvrcpControllerStateMachine state=Connected
+2023-07-06 15:29:53,698 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bt_setting_button
+2023-07-06 15:30:00,383 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bt_disconnect_button
+2023-07-06 15:30:00,384 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys bluetooth_manager | sed -n '/ConnectionState:*/p'
+2023-07-06 15:30:00,484 - lib.adb - run_command() - DEBUG - Response: ConnectionState: STATE_DISCONNECTED
+    mConnectionState: 0
+2023-07-06 15:30:01,486 - lib.btcontrol - is_bluetooth_connected() - INFO - The bluetooth is not connected
+2023-07-06 15:30:01,522 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-06 15:30:01,775 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-06 15:30:01,777 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-06 15:30:01,778 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:30:03,789 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-06 15:30:03,790 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:30:05,800 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-06 15:30:05,805 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-06 15:30:14,465 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-06 15:30:21,515 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_setting
+2023-07-06 15:30:21,516 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys bluetooth_manager | sed -n '/Bonded devices:/,/mSnoopLogSettingAtEnable/p'
+2023-07-06 15:30:21,641 - lib.adb - run_command() - DEBUG - Response: Bonded devices:
+    AC:1D:06:B5:37:65 [BR/EDR] Jerry’s AirPods
+mSnoopLogSettingAtEnable = empty
+2023-07-06 15:30:22,643 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys bluetooth_manager | sed -n '/ConnectionState:*/p'
+2023-07-06 15:30:22,726 - lib.adb - run_command() - DEBUG - Response: ConnectionState: STATE_DISCONNECTED
+    mConnectionState: 0
+2023-07-06 15:30:23,728 - lib.btcontrol - is_bluetooth_connected() - INFO - The bluetooth is not connected
+2023-07-06 15:30:30,652 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bt_name
+2023-07-06 15:30:35,655 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys bluetooth_manager | sed -n '/ConnectionState:*/p'
+2023-07-06 15:30:35,806 - lib.adb - run_command() - DEBUG - Response: ConnectionState: STATE_CONNECTED
+    mConnectionState: 2
+2023-07-06 15:30:36,808 - lib.btcontrol - is_bluetooth_connected() - INFO - The bluetooth is connected
+2023-07-06 15:30:36,845 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-06 15:30:37,077 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-06 15:30:37,078 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-06 15:30:37,079 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:30:39,089 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-06 15:30:39,090 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:30:41,105 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-06 15:30:41,110 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-06 15:30:49,641 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-06 15:30:56,709 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_setting
+2023-07-06 15:30:56,711 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys bluetooth_manager | sed -n '/ConnectionState:*/p'
+2023-07-06 15:30:56,845 - lib.adb - run_command() - DEBUG - Response: ConnectionState: STATE_CONNECTED
+    mConnectionState: 2
+2023-07-06 15:30:57,851 - lib.btcontrol - is_bluetooth_connected() - INFO - The bluetooth is connected
+2023-07-06 15:30:57,852 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-06 15:30:57,982 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-06 15:30:58,986 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats bt -disable
+2023-07-06 15:31:00,301 - lib.adb - run_command() - DEBUG - Response: ats bt -disable
+Disable BT
+Write log success. ats bt -disable = PASS
+2023-07-06 15:31:02,306 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-06 15:31:02,415 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-06 15:31:03,421 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats bt -enable
+2023-07-06 15:31:04,795 - lib.adb - run_command() - DEBUG - Response: ats bt -enable
+Enable BT
+Write log success. ats bt -enable = PASS
+2023-07-06 15:31:11,629 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys bluetooth_manager | sed -n '/ConnectionState:*/p'
+2023-07-06 15:31:11,794 - lib.adb - run_command() - DEBUG - Response: ConnectionState: STATE_CONNECTED
+    mConnectionState: 2
+2023-07-06 15:31:12,799 - lib.btcontrol - is_bluetooth_connected() - INFO - The bluetooth is connected
+2023-07-06 15:31:12,837 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-06 15:31:13,098 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-06 15:31:13,100 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-06 15:31:13,101 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:31:15,115 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-06 15:31:15,116 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:31:17,129 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-06 15:31:17,134 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-06 15:31:25,890 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-06 15:31:32,937 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_setting
+2023-07-06 15:31:32,938 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys bluetooth_manager | sed -n '/Bonded devices:/,/mSnoopLogSettingAtEnable/p'
+2023-07-06 15:31:33,034 - lib.adb - run_command() - DEBUG - Response: Bonded devices:
+    AC:1D:06:B5:37:65 [BR/EDR] Jerry’s AirPods
+mSnoopLogSettingAtEnable = empty
+2023-07-06 15:31:40,709 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bt_setting_button
+2023-07-06 15:31:47,474 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bt_forget_button
+2023-07-06 15:31:54,081 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: forget_device_button
+2023-07-06 15:31:54,081 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys bluetooth_manager | sed -n '/Bonded devices:/,/mSnoopLogSettingAtEnable/p'
+2023-07-06 15:31:54,183 - lib.adb - run_command() - DEBUG - Response: Bonded devices:
+mSnoopLogSettingAtEnable = empty
+2023-07-06 15:31:55,215 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-06 15:31:55,464 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-06 15:31:55,466 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-06 15:31:55,468 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:31:57,479 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-06 15:31:57,481 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-06 15:31:59,493 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-06 15:31:59,498 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-06 15:32:00,595 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-06 15:32:00,680 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-06 15:32:01,683 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats bt -disable
+2023-07-06 15:32:02,994 - lib.adb - run_command() - DEBUG - Response: ats bt -disable
+Disable BT
+Write log success. ats bt -disable = PASS
+2023-07-06 15:32:12,322 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-06 15:32:12,322 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: input keyevent 83
+2023-07-06 15:32:12,371 - lib.adb - run_command() - DEBUG - Response: 
+2023-07-06 15:32:21,282 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:32:28,543 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:32:35,655 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:32:42,820 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:32:49,820 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:32:57,055 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:33:04,025 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:33:11,672 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:33:18,881 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:33:26,131 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:33:33,121 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:33:40,707 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:33:47,589 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:33:55,263 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:34:03,009 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:34:10,198 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:34:17,012 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:34:24,192 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:34:31,202 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:34:38,326 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_icon
+2023-07-06 15:34:38,327 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: input keyevent 83
+2023-07-06 15:34:38,441 - lib.adb - run_command() - DEBUG - Response: 
+2023-07-06 15:34:40,451 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-06 15:34:40,540 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-06 15:34:41,542 - lib.utils - kpi_validation() - INFO - Expected response is: off
+2023-07-06 15:34:41,543 - lib.utils - kpi_validation() - INFO - Actual response is: off
+2023-07-06 15:34:41,544 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-06 15:34:41,587 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-06 15:34:41,903 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-06 15:34:41,905 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-06 15:34:41,905 - lib.utils - archive_test_results() - INFO - Saving test data to archive folder

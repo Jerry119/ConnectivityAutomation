@@ -1,0 +1,440 @@
+2023-06-20 16:52:43,224 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: getprop ro.build.branch
+2023-06-20 16:52:43,294 - lib.adb - run_command() - DEBUG - Response: 
+2023-06-20 16:52:44,294 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: getprop ro.build.version.incremental
+2023-06-20 16:52:44,374 - lib.adb - run_command() - DEBUG - Response: eng.action.20230609.073624
+2023-06-20 16:52:45,378 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: getprop ro.build.flavor
+2023-06-20 16:52:45,418 - lib.adb - run_command() - DEBUG - Response: qssi-userdebug
+2023-06-20 16:52:46,424 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: getprop ro.product.name
+2023-06-20 16:52:46,495 - lib.adb - run_command() - DEBUG - Response: atoll
+2023-06-20 16:52:47,505 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: logcat -c
+2023-06-20 16:52:48,603 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:52:48,731 - lib.adb - run_command() - DEBUG - Response: 1
+2023-06-20 16:52:49,737 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: ats wifi -disable
+2023-06-20 16:52:50,075 - lib.adb - run_command() - DEBUG - Response: ats wifi -disable
+Disable WiFi
+Write log success. ats wifi -disable = PASS
+2023-06-20 16:52:52,085 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:52:52,209 - lib.adb - run_command() - DEBUG - Response: 0
+2023-06-20 16:52:53,214 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: ats wifi -enable
+2023-06-20 16:52:53,470 - lib.adb - run_command() - DEBUG - Response: ats wifi -enable
+Enable WiFi
+Write log success. ats wifi -enable = PASS
+2023-06-20 16:52:58,475 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:52:58,586 - lib.adb - run_command() - DEBUG - Response: 1
+2023-06-20 16:52:59,592 - lib.utils - kpi_validation() - INFO - Expected response is: on
+2023-06-20 16:52:59,593 - lib.utils - kpi_validation() - INFO - Actual response is: on
+2023-06-20 16:52:59,593 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-06-20 16:52:59,622 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-06-20 16:52:59,854 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-06-20 16:52:59,856 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: logcat -c
+2023-06-20 16:53:00,926 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:53:01,017 - lib.adb - run_command() - DEBUG - Response: 1
+2023-06-20 16:53:02,022 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:53:02,123 - lib.adb - run_command() - DEBUG - Response: 1
+2023-06-20 16:53:03,124 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: ats wifi -disable
+2023-06-20 16:53:03,367 - lib.adb - run_command() - DEBUG - Response: ats wifi -disable
+Disable WiFi
+Write log success. ats wifi -disable = PASS
+2023-06-20 16:53:08,380 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:53:08,508 - lib.adb - run_command() - DEBUG - Response: 0
+2023-06-20 16:53:09,513 - lib.utils - kpi_validation() - INFO - Expected response is: off
+2023-06-20 16:53:09,514 - lib.utils - kpi_validation() - INFO - Actual response is: off
+2023-06-20 16:53:09,515 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-06-20 16:53:09,543 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-06-20 16:53:09,736 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-06-20 16:53:09,738 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: logcat -c
+2023-06-20 16:53:10,793 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:53:10,912 - lib.adb - run_command() - DEBUG - Response: 0
+2023-06-20 16:53:11,917 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: ats wifi -enable
+2023-06-20 16:53:12,192 - lib.adb - run_command() - DEBUG - Response: ats wifi -enable
+Enable WiFi
+Write log success. ats wifi -enable = PASS
+2023-06-20 16:53:14,196 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi start-scan
+2023-06-20 16:53:14,295 - lib.adb - run_command() - DEBUG - Response: 
+2023-06-20 16:53:15,298 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-scan-results
+2023-06-20 16:53:15,385 - lib.adb - run_command() - DEBUG - Response: No scan results
+2023-06-20 16:53:16,390 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-scan-results
+2023-06-20 16:53:16,448 - lib.adb - run_command() - DEBUG - Response: No scan results
+2023-06-20 16:53:17,449 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-scan-results
+2023-06-20 16:53:17,527 - lib.adb - run_command() - DEBUG - Response: No scan results
+2023-06-20 16:53:18,528 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-scan-results
+2023-06-20 16:53:18,615 - lib.adb - run_command() - DEBUG - Response: No scan results
+2023-06-20 16:53:19,621 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-scan-results
+2023-06-20 16:53:19,714 - lib.adb - run_command() - DEBUG - Response: No scan results
+2023-06-20 16:53:22,759 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-06-20 16:53:22,996 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-06-20 16:53:23,060 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: logcat -c
+2023-06-20 16:53:24,154 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:53:24,259 - lib.adb - run_command() - DEBUG - Response: 1
+2023-06-20 16:53:25,265 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-networks
+2023-06-20 16:53:25,356 - lib.adb - run_command() - DEBUG - Response: Network Id      SSID                         Security type
+10           hdevice                          wpa2-psk
+10           hdevice                          wpa3-sae^
+2023-06-20 16:53:26,358 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-networks
+2023-06-20 16:53:26,451 - lib.adb - run_command() - DEBUG - Response: Network Id      SSID                         Security type
+10           hdevice                          wpa2-psk
+10           hdevice                          wpa3-sae^
+2023-06-20 16:53:27,456 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi forget-network 10
+2023-06-20 16:53:27,630 - lib.adb - run_command() - DEBUG - Response: Forget successful
+2023-06-20 16:53:28,631 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:53:28,744 - lib.adb - run_command() - DEBUG - Response: 1
+2023-06-20 16:53:29,750 - lib.wificontrol - connect_to_ssid() - DEBUG - Connecting to "hdevice"
+2023-06-20 16:53:29,751 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi connect-network hdevice wpa2 Figure-Crepe9-Confound
+2023-06-20 16:53:30,054 - lib.adb - run_command() - DEBUG - Response: Connection initiated
+2023-06-20 16:53:36,068 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-06-20 16:53:36,162 - lib.adb - run_command() - DEBUG - Response: Wifi is connected to "hdevice"
+2023-06-20 16:53:37,164 - lib.utils - kpi_validation() - INFO - Expected response is: Wifi is connected to "hdevice"
+2023-06-20 16:53:37,165 - lib.utils - kpi_validation() - INFO - Actual response is: Wifi is connected to "hdevice"
+2023-06-20 16:53:37,165 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-06-20 16:53:37,196 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-06-20 16:53:37,409 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-06-20 16:53:37,411 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: logcat -c
+2023-06-20 16:53:38,489 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi status
+2023-06-20 16:53:38,573 - lib.adb - run_command() - DEBUG - Response: Wifi is enabled
+Wifi scanning is only available when wifi is enabled
+==== ClientModeManager instance: ConcreteClientModeManager{id=4074010 iface=wlan0 role=ROLE_CLIENT_PRIMARY} ====
+Wifi is connected to "hdevice"
+WifiInfo: SSID: "hdevice", BSSID: ea:38:83:16:68:44, MAC: a6:a2:08:b9:56:91, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 4, RSSI: -64, Link speed: 72Mbps, Tx Link speed: 72Mbps, Max Supported Tx Link speed: 72Mbps, Rx Link speed: 72Mbps, Max Supported Rx Link speed: 72Mbps, Frequency: 2437MHz, Net ID: 11, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1
+successfulTxPackets: 6
+successfulTxPacketsPerSecond: 1.6653914547140651
+retriedTxPackets: 7
+retriedTxPacketsPerSecond: 2.0793417688699996
+lostTxPackets: 0
+lostTxPacketsPerSecond: 0.0
+successfulRxPackets: 4
+successfulRxPacketsPerSecond: 1.0189130153172814
+NetworkCapabilities: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=30000Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 4, RSSI: -64, Link speed: 72Mbps, Tx Link speed: 72Mbps, Max Supported Tx Link speed: 72Mbps, Rx Link speed: 72Mbps, Max Supported Rx Link speed: 72Mbps, Frequency: 2437MHz, Net ID: -1, Metered hint: false, score: 0, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -64 SSID: "hdevice"]
+2023-06-20 16:53:39,579 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: ats wifi -disconn
+2023-06-20 16:53:40,062 - lib.adb - run_command() - DEBUG - Response: ats wifi -disconn
+wpa_cli -i wlan0 remove_network all -- [OK]
+wpa_cli -i wlan0 disconnect -- [OK]
+Interface 'wlan0' -- [DISCONNECTED]
+Write log success. ats wifi -disconn = PASS
+2023-06-20 16:53:42,073 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi status | sed -n '/Wifi is /p'
+2023-06-20 16:53:42,174 - lib.adb - run_command() - DEBUG - Response: Wifi is enabled
+Wifi is not connected
+2023-06-20 16:53:43,179 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:53:43,312 - lib.adb - run_command() - DEBUG - Response: 1
+2023-06-20 16:53:44,318 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: ats wifi -disable
+2023-06-20 16:53:44,634 - lib.adb - run_command() - DEBUG - Response: ats wifi -disable
+Disable WiFi
+Write log success. ats wifi -disable = PASS
+2023-06-20 16:53:46,641 - lib.utils - kpi_validation() - INFO - Expected response is: Wifi is enabled
+Wifi is not connected
+2023-06-20 16:53:46,641 - lib.utils - kpi_validation() - INFO - Actual response is: Wifi is enabled
+Wifi is not connected
+2023-06-20 16:53:46,642 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-06-20 16:53:46,680 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-06-20 16:53:46,889 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-06-20 16:53:46,891 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: logcat -c
+2023-06-20 16:53:47,960 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-06-20 16:53:48,059 - lib.adb - run_command() - DEBUG - Response: 
+2023-06-20 16:53:49,061 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:53:49,191 - lib.adb - run_command() - DEBUG - Response: 0
+2023-06-20 16:53:50,192 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: ats wifi -enable
+2023-06-20 16:53:50,510 - lib.adb - run_command() - DEBUG - Response: ats wifi -enable
+Enable WiFi
+Write log success. ats wifi -enable = PASS
+2023-06-20 16:53:52,520 - lib.wificontrol - connect_to_ssid() - DEBUG - Connecting to "hdevice"
+2023-06-20 16:53:52,521 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi connect-network hdevice wpa2 Figure-Crepe9-Confound
+2023-06-20 16:53:52,671 - lib.adb - run_command() - DEBUG - Response: Connection initiated
+2023-06-20 16:53:56,682 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-networks
+2023-06-20 16:53:56,767 - lib.adb - run_command() - DEBUG - Response: Network Id      SSID                         Security type
+11           hdevice                          wpa2-psk
+11           hdevice                          wpa3-sae^
+2023-06-20 16:53:57,772 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-networks
+2023-06-20 16:53:57,853 - lib.adb - run_command() - DEBUG - Response: Network Id      SSID                         Security type
+11           hdevice                          wpa2-psk
+11           hdevice                          wpa3-sae^
+2023-06-20 16:53:58,859 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi forget-network 11
+2023-06-20 16:53:59,074 - lib.adb - run_command() - DEBUG - Response: Forget successful
+2023-06-20 16:54:00,075 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-networks
+2023-06-20 16:54:00,171 - lib.adb - run_command() - DEBUG - Response: No networks
+2023-06-20 16:54:01,177 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-networks
+2023-06-20 16:54:01,283 - lib.adb - run_command() - DEBUG - Response: No networks
+2023-06-20 16:54:02,323 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-06-20 16:54:02,558 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-06-20 16:54:02,560 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-06-20 16:54:04,574 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-06-20 16:54:04,578 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: logcat -c
+2023-06-20 16:54:05,674 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:54:05,814 - lib.adb - run_command() - DEBUG - Response: 1
+2023-06-20 16:54:06,820 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: ats wifi -disable
+2023-06-20 16:54:07,076 - lib.adb - run_command() - DEBUG - Response: ats wifi -disable
+Disable WiFi
+Write log success. ats wifi -disable = PASS
+2023-06-20 16:54:17,577 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-06-20 16:54:24,705 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-06-20 16:54:31,769 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-06-20 16:54:40,251 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_toggle
+2023-06-20 16:54:43,253 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:54:43,336 - lib.adb - run_command() - DEBUG - Response: 1
+2023-06-20 16:54:44,341 - lib.utils - kpi_validation() - INFO - Expected response is: on
+2023-06-20 16:54:44,342 - lib.utils - kpi_validation() - INFO - Actual response is: on
+2023-06-20 16:54:44,342 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-06-20 16:54:44,368 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-06-20 16:54:44,700 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-06-20 16:54:44,702 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-06-20 16:54:44,702 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-06-20 16:54:46,712 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, try using the --appium-server argument next time to reuse an existing appium server
+2023-06-20 16:54:46,714 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4724
+2023-06-20 16:54:48,727 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4724
+2023-06-20 16:54:48,731 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: logcat -c
+2023-06-20 16:54:49,819 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:54:49,929 - lib.adb - run_command() - DEBUG - Response: 1
+2023-06-20 16:54:59,277 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-06-20 16:55:06,318 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-06-20 16:55:13,293 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-06-20 16:55:22,385 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_toggle
+2023-06-20 16:55:25,390 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:55:25,510 - lib.adb - run_command() - DEBUG - Response: 0
+2023-06-20 16:55:26,517 - lib.utils - kpi_validation() - INFO - Expected response is: off
+2023-06-20 16:55:26,519 - lib.utils - kpi_validation() - INFO - Actual response is: off
+2023-06-20 16:55:26,519 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-06-20 16:55:26,552 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-06-20 16:55:26,812 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-06-20 16:55:26,814 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4724
+2023-06-20 16:55:26,816 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-06-20 16:55:28,829 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, try using the --appium-server argument next time to reuse an existing appium server
+2023-06-20 16:55:28,830 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4724
+2023-06-20 16:55:30,847 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4724
+2023-06-20 16:55:30,852 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: logcat -c
+2023-06-20 16:55:31,926 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:55:32,017 - lib.adb - run_command() - DEBUG - Response: 0
+2023-06-20 16:55:33,021 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: ats wifi -enable
+2023-06-20 16:55:33,347 - lib.adb - run_command() - DEBUG - Response: ats wifi -enable
+Enable WiFi
+Write log success. ats wifi -enable = PASS
+2023-06-20 16:55:35,352 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-networks
+2023-06-20 16:55:35,431 - lib.adb - run_command() - DEBUG - Response: No networks
+2023-06-20 16:55:44,816 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-06-20 16:55:51,861 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-06-20 16:55:58,923 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-06-20 16:56:13,820 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: hdevice
+2023-06-20 16:56:30,956 - lib.appium_utils - get_element_by_name() - ERROR - Could not find element 'connect_button' in 12.142 seconds | EXCEPTION: Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+Traceback (most recent call last):
+  File "/Users/Jerry/Desktop/ConnectivityAutomation/lib/appium_utils.py", line 120, in get_element_by_name
+    element = self.driver.find_element(by="id", value=ele_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/appium/webdriver/webdriver.py", line 390, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {'using': by, 'value': value})['value']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/appium/webdriver/errorhandler.py", line 122, in check_response
+    raise exception_class(msg=message, stacktrace=format_stacktrace(stacktrace))
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2023-06-20 16:56:30,958 - lib.appium_utils - tap_on_element() - ERROR - Could not find element for 'connect_button'
+NoneType: None
+2023-06-20 16:56:33,963 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-06-20 16:56:34,048 - lib.adb - run_command() - DEBUG - Response: Wifi is connected to "hdevice"
+2023-06-20 16:56:35,051 - lib.utils - kpi_validation() - INFO - Expected response is: Wifi is connected to "hdevice"
+2023-06-20 16:56:35,052 - lib.utils - kpi_validation() - INFO - Actual response is: Wifi is connected to "hdevice"
+2023-06-20 16:56:35,052 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-06-20 16:56:35,075 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-06-20 16:56:35,521 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-06-20 16:56:35,522 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4724
+2023-06-20 16:56:35,523 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-06-20 16:56:37,534 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, try using the --appium-server argument next time to reuse an existing appium server
+2023-06-20 16:56:37,537 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4724
+2023-06-20 16:56:39,549 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4724
+2023-06-20 16:56:39,553 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: logcat -c
+2023-06-20 16:56:40,658 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-06-20 16:56:40,745 - lib.adb - run_command() - DEBUG - Response: Wifi is connected to "hdevice"
+2023-06-20 16:56:41,747 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-06-20 16:56:41,846 - lib.adb - run_command() - DEBUG - Response: Wifi is connected to "hdevice"
+2023-06-20 16:56:51,617 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-06-20 16:56:58,596 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-06-20 16:57:05,811 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-06-20 16:57:14,448 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: hdevice
+2023-06-20 16:57:22,923 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: disconnect_button
+2023-06-20 16:57:27,929 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi status | sed -n '/Wifi is /p'
+2023-06-20 16:57:28,025 - lib.adb - run_command() - DEBUG - Response: Wifi is enabled
+Wifi is not connected
+2023-06-20 16:57:29,032 - lib.utils - kpi_validation() - INFO - Expected response is: Wifi is enabled
+Wifi is not connected
+2023-06-20 16:57:29,033 - lib.utils - kpi_validation() - INFO - Actual response is: Wifi is enabled
+Wifi is not connected
+2023-06-20 16:57:29,033 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-06-20 16:57:29,066 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-06-20 16:57:29,378 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-06-20 16:57:29,380 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4724
+2023-06-20 16:57:29,381 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-06-20 16:57:31,392 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, try using the --appium-server argument next time to reuse an existing appium server
+2023-06-20 16:57:31,393 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4724
+2023-06-20 16:57:33,404 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4724
+2023-06-20 16:57:33,406 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: logcat -c
+2023-06-20 16:57:34,495 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-networks
+2023-06-20 16:57:34,586 - lib.adb - run_command() - DEBUG - Response: Network Id      SSID                         Security type
+12           hdevice                          wpa2-psk
+12           hdevice                          wpa3-sae^
+2023-06-20 16:57:35,592 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi status
+2023-06-20 16:57:35,681 - lib.adb - run_command() - DEBUG - Response: Wifi is enabled
+Wifi scanning is only available when wifi is enabled
+==== ClientModeManager instance: ConcreteClientModeManager{id=4215108 iface=wlan0 role=ROLE_CLIENT_PRIMARY} ====
+Wifi is not connected
+2023-06-20 16:57:45,397 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-06-20 16:57:52,527 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-06-20 16:57:59,511 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-06-20 16:58:14,102 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: hdevice
+2023-06-20 16:58:26,114 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-06-20 16:58:26,194 - lib.adb - run_command() - DEBUG - Response: Wifi is connected to "hdevice"
+2023-06-20 16:58:27,201 - lib.utils - kpi_validation() - INFO - Expected response is: Wifi is connected to "hdevice"
+2023-06-20 16:58:27,202 - lib.utils - kpi_validation() - INFO - Actual response is: Wifi is connected to "hdevice"
+2023-06-20 16:58:27,202 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-06-20 16:58:27,233 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-06-20 16:58:27,513 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-06-20 16:58:27,515 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4724
+2023-06-20 16:58:27,516 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-06-20 16:58:29,527 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, try using the --appium-server argument next time to reuse an existing appium server
+2023-06-20 16:58:29,529 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4724
+2023-06-20 16:58:31,543 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4724
+2023-06-20 16:58:31,547 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: logcat -c
+2023-06-20 16:58:32,640 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-06-20 16:58:32,723 - lib.adb - run_command() - DEBUG - Response: Wifi is connected to "hdevice"
+2023-06-20 16:58:41,938 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-06-20 16:58:48,961 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-06-20 16:58:56,273 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-06-20 16:59:05,345 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: hdevice
+2023-06-20 16:59:14,463 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_forget_button
+2023-06-20 16:59:16,469 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-networks
+2023-06-20 16:59:16,537 - lib.adb - run_command() - DEBUG - Response: No networks
+2023-06-20 16:59:17,543 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-networks
+2023-06-20 16:59:17,620 - lib.adb - run_command() - DEBUG - Response: No networks
+2023-06-20 16:59:18,650 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-06-20 16:59:18,931 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-06-20 16:59:18,932 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4724
+2023-06-20 16:59:18,934 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-06-20 16:59:20,943 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, try using the --appium-server argument next time to reuse an existing appium server
+2023-06-20 16:59:20,945 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4724
+2023-06-20 16:59:22,957 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4724
+2023-06-20 16:59:22,962 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: logcat -c
+2023-06-20 16:59:24,051 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-networks
+2023-06-20 16:59:24,142 - lib.adb - run_command() - DEBUG - Response: No networks
+2023-06-20 16:59:25,145 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 16:59:25,263 - lib.adb - run_command() - DEBUG - Response: 1
+2023-06-20 16:59:34,544 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-06-20 16:59:41,552 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-06-20 16:59:48,619 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-06-20 17:00:03,808 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: hdevice
+2023-06-20 17:00:20,825 - lib.appium_utils - get_element_by_name() - ERROR - Could not find element 'connect_button' in 12.109 seconds | EXCEPTION: Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+Traceback (most recent call last):
+  File "/Users/Jerry/Desktop/ConnectivityAutomation/lib/appium_utils.py", line 120, in get_element_by_name
+    element = self.driver.find_element(by="id", value=ele_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/appium/webdriver/webdriver.py", line 390, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {'using': by, 'value': value})['value']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/appium/webdriver/errorhandler.py", line 122, in check_response
+    raise exception_class(msg=message, stacktrace=format_stacktrace(stacktrace))
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2023-06-20 17:00:20,826 - lib.appium_utils - tap_on_element() - ERROR - Could not find element for 'connect_button'
+NoneType: None
+2023-06-20 17:00:30,852 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-06-20 17:00:31,107 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-06-20 17:00:31,116 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Start Log Line: 06-21 00:00:09.548   867 23600 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xa5
+
+2023-06-20 17:00:31,116 - lib.utils - get_time_diff_from_log_lines() - DEBUG - End Log Line: 06-21 00:00:09.553 23604 23604 I wpa_supplicant: wlan0: CTRL-EVENT-CONNECTED - Connection to ea:38:83:d4:79:4f completed [id=0 id_str=%7B%22configKey%22%3A%22%5C%22hdevice%5C%22WPA_PSK%22%2C%22creatorUid%22%3A%221000%22%7D]
+
+2023-06-20 17:00:31,116 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Start Log Time: 00:00:09.548
+2023-06-20 17:00:31,116 - lib.utils - get_time_diff_from_log_lines() - DEBUG - End Log Time: 00:00:09.553
+2023-06-20 17:00:31,117 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Log Time Delta: 0.005
+2023-06-20 17:00:31,117 - lib.utils - kpi_validation() - INFO - Expected response is: 0-1
+2023-06-20 17:00:31,117 - lib.utils - kpi_validation() - INFO - Actual response is: 0.005
+2023-06-20 17:00:31,117 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-06-20 17:00:31,118 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4724
+2023-06-20 17:00:31,122 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-06-20 17:00:33,131 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-06-20 17:00:33,136 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: logcat -c
+2023-06-20 17:00:34,222 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi list-networks
+2023-06-20 17:00:34,288 - lib.adb - run_command() - DEBUG - Response: Network Id      SSID                         Security type
+13           hdevice                          wpa2-psk
+13           hdevice                          wpa3-sae^
+2023-06-20 17:00:35,291 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: settings get global wifi_on
+2023-06-20 17:00:35,395 - lib.adb - run_command() - DEBUG - Response: 1
+2023-06-20 17:00:36,397 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: ats wifi -disable
+2023-06-20 17:00:36,713 - lib.adb - run_command() - DEBUG - Response: ats wifi -disable
+Disable WiFi
+Write log success. ats wifi -disable = PASS
+2023-06-20 17:00:48,884 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-06-20 17:00:55,892 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-06-20 17:01:03,193 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-06-20 17:01:11,655 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_toggle
+2023-06-20 17:01:24,691 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-06-20 17:01:24,924 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-06-20 17:01:24,933 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Start Log Line: 06-21 00:01:17.009  1400  1427 I LOWI-9.0.0.89.d: [LOWIController] isWifiEnabled: Wifi is now enabled
+
+2023-06-20 17:01:24,933 - lib.utils - get_time_diff_from_log_lines() - DEBUG - End Log Line: 06-21 00:01:17.241 25625 25625 I wpa_supplicant: wlan0: CTRL-EVENT-CONNECTED - Connection to ea:38:83:16:68:44 completed [id=0 id_str=%7B%22configKey%22%3A%22%5C%22hdevice%5C%22WPA_PSK%22%2C%22creatorUid%22%3A%221000%22%7D]
+
+2023-06-20 17:01:24,933 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Start Log Time: 00:01:17.009
+2023-06-20 17:01:24,933 - lib.utils - get_time_diff_from_log_lines() - DEBUG - End Log Time: 00:01:17.241
+2023-06-20 17:01:24,933 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Log Time Delta: 0.232
+2023-06-20 17:01:24,933 - lib.utils - kpi_validation() - INFO - Expected response is: 0-1
+2023-06-20 17:01:24,933 - lib.utils - kpi_validation() - INFO - Actual response is: 0.232
+2023-06-20 17:01:24,933 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-06-20 17:01:24,934 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-06-20 17:01:24,936 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-06-20 17:01:26,946 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-06-20 17:01:26,947 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: logcat -c
+2023-06-20 17:01:28,037 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi status
+2023-06-20 17:01:28,130 - lib.adb - run_command() - DEBUG - Response: Wifi is enabled
+Wifi scanning is only available when wifi is enabled
+==== ClientModeManager instance: ConcreteClientModeManager{id=4551465 iface=wlan0 role=ROLE_CLIENT_PRIMARY} ====
+Wifi is connected to "hdevice"
+WifiInfo: SSID: "hdevice", BSSID: ea:38:83:16:68:44, MAC: a6:a2:08:b9:56:91, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 4, RSSI: -66, Link speed: 57Mbps, Tx Link speed: 57Mbps, Max Supported Tx Link speed: 72Mbps, Rx Link speed: 57Mbps, Max Supported Rx Link speed: 72Mbps, Frequency: 2437MHz, Net ID: 13, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1
+successfulTxPackets: 41
+successfulTxPacketsPerSecond: 1.7234165908896093
+retriedTxPackets: 223
+retriedTxPacketsPerSecond: 7.863877769837828
+lostTxPackets: 0
+lostTxPacketsPerSecond: 0.0
+successfulRxPackets: 34
+successfulRxPacketsPerSecond: 1.508411056023554
+NetworkCapabilities: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=30000Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 4, RSSI: -65, Link speed: 65Mbps, Tx Link speed: 65Mbps, Max Supported Tx Link speed: 72Mbps, Rx Link speed: 65Mbps, Max Supported Rx Link speed: 72Mbps, Frequency: 2437MHz, Net ID: -1, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -65 SSID: "hdevice"]
+2023-06-20 17:01:29,131 - lib.adb - run_command() - DEBUG - Device: 1H4C1134250275 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-06-20 17:01:29,224 - lib.adb - run_command() - DEBUG - Response: Wifi is connected to "hdevice"
+2023-06-20 17:01:39,875 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-06-20 17:01:48,335 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-06-20 17:01:55,251 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-06-20 17:02:03,822 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: hdevice
+2023-06-20 17:02:12,303 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: disconnect_button
+2023-06-20 17:02:19,343 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-06-20 17:02:19,613 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-06-20 17:02:19,625 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Start Log Line: 06-21 00:02:10.093   867 25621 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xbc
+
+2023-06-20 17:02:19,625 - lib.utils - get_time_diff_from_log_lines() - DEBUG - End Log Line: 06-21 00:02:10.096 25625 25625 I wpa_supplicant: wlan0: CTRL-EVENT-DISCONNECTED bssid=ea:38:83:16:68:44 reason=3 locally_generated=1
+
+2023-06-20 17:02:19,625 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Start Log Time: 00:02:10.093
+2023-06-20 17:02:19,625 - lib.utils - get_time_diff_from_log_lines() - DEBUG - End Log Time: 00:02:10.096
+2023-06-20 17:02:19,625 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Log Time Delta: 0.003
+2023-06-20 17:02:19,625 - lib.utils - kpi_validation() - INFO - Expected response is: 0-1
+2023-06-20 17:02:19,625 - lib.utils - kpi_validation() - INFO - Actual response is: 0.003
+2023-06-20 17:02:19,625 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-06-20 17:02:19,626 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-06-20 17:02:19,627 - lib.utils - upload_data_to_google_sheet() - INFO - Uploading data to google drive

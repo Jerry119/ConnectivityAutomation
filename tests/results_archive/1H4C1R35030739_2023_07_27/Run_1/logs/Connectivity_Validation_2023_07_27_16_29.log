@@ -1,0 +1,20 @@
+2023-07-27 16:29:10,622 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.build.branch
+2023-07-27 16:29:10,664 - lib.adb - run_command() - DEBUG - Response: 
+2023-07-27 16:29:11,665 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.build.version.incremental
+2023-07-27 16:29:11,738 - lib.adb - run_command() - DEBUG - Response: eng.action.20230721.183859
+2023-07-27 16:29:12,744 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.build.flavor
+2023-07-27 16:29:12,819 - lib.adb - run_command() - DEBUG - Response: qssi-userdebug
+2023-07-27 16:29:13,825 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.product.name
+2023-07-27 16:29:13,900 - lib.adb - run_command() - DEBUG - Response: atoll
+2023-07-27 16:29:14,925 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-27 16:29:16,936 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-27 16:29:16,942 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-27 16:29:18,048 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global bluetooth_on
+2023-07-27 16:29:18,152 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-27 16:29:26,993 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-27 16:29:28,897 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: bluetooth_setting
+2023-07-27 16:29:33,639 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: pair_new_device
+2023-07-27 16:29:43,680 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-27 16:29:44,198 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-27 16:30:32,251 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-27 16:30:32,256 - lib.utils - archive_test_results() - INFO - Saving test data to archive folder

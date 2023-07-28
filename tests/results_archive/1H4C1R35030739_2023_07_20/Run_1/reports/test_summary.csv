@@ -1,0 +1,27 @@
+Test ID,Test Description,Test Status,Test Start Time,Test End Time,Expected Result,Expected Response,Actual Response,H4 Serial,H4 Build Version
+ENABLE_WIFI,Enable wifi using the command,PASS,07-20-2023 14:37:31,07-20-2023 14:37:44,Wifi can be enabled by the command,on,on,1H4C1R35030739,eng.action.20230719.200412
+DISABLE_WIFI,Disable wifi using the command,PASS,07-20-2023 14:37:44,07-20-2023 14:37:54,Wifi can be disabled by the command,off,off,1H4C1R35030739,eng.action.20230719.200412
+SCAN_WIFI,Scan wifi using the command,PASS,07-20-2023 14:37:54,07-20-2023 14:38:05,DUT can detect the available networks,hdevice is in the network list,"Scanned SSIDs: {'hav', ""what's that?"", 'ARLO_VMB_1144438589', 'hdevice', 'DeadPool_2G', 'htalk', 'hu_5G', 'hguest', 'hcorp', 'Office TV.v,', 'jPhone'}",1H4C1R35030739,eng.action.20230719.200412
+CONNECT_WIFI,Connect to a wifi network by command,PASS,07-20-2023 14:38:05,07-20-2023 14:38:20,Wifi gets connected without any issue,"Wifi is connected to ""hdevice""","Wifi is connected to ""hdevice""",1H4C1R35030739,eng.action.20230719.200412
+DISCONNECT_WIFI,Disconnect from a wifi network by command,PASS,07-20-2023 14:38:20,07-20-2023 14:38:29,Wifi gets connected without any issue,"Wifi is enabled
+Wifi is not connected","Wifi is enabled
+Wifi is not connected",1H4C1R35030739,eng.action.20230719.200412
+RECONNECT_WIFI,Reconnect to a saved wifi network by command,FAIL,07-20-2023 14:38:29,07-20-2023 14:38:52,Wifi gets reconnected without any issue,"Wifi is connected to ""hdevice""",,1H4C1R35030739,eng.action.20230719.200412
+FORGET_WIFI,Forget a wifi network by command,PASS,07-20-2023 14:38:52,07-20-2023 14:39:08,DUT can forget wifi by command,"""hdevice"" is not in saved networks",No networks,1H4C1R35030739,eng.action.20230719.200412
+ENABLE_WIFI_FROM_SETTINGS,Turn on wifi from Settings app,PASS,07-20-2023 14:39:10,07-20-2023 14:39:47,Wifi can be turned on from Settings app,on,on,1H4C1R35030739,eng.action.20230719.200412
+DISABLE_WIFI_FROM_SETTINGS,Turn off wifi from Settings app,PASS,07-20-2023 14:39:49,07-20-2023 14:40:23,Wifi can be turned off from Settings app,off,off,1H4C1R35030739,eng.action.20230719.200412
+SCAN_WIFI_FROM_SETTINGS,Scan wifi from settings UI,FAIL,07-20-2023 14:40:27,07-20-2023 14:41:07,DUT can scan for the available networks,"With the wifi scan trim down, at most four networks should be displayed","WiFi scan result: {'hav', 'DeadPool_5G', 'hdevice', 'htalk', 'hcorp'}",1H4C1R35030739,eng.action.20230719.200412
+CONNECT_NEW_WIFI_FROM_SETTINGS,Connect to a new network from setting UI,FAIL,07-20-2023 14:41:09,07-20-2023 14:42:36,DUT can connect to wifi from setting UI,"Wifi is connected to ""hdevice""",N/A,1H4C1R35030739,eng.action.20230719.200412
+DISCONNECT_WIFI_FROM_SETTINGS,Disconnect from a wifi network from setting UI,PASS,07-20-2023 14:42:38,07-20-2023 14:43:27,DUT can disconnect wifi from setting UI,"Wifi is enabled
+Wifi is not connected","Wifi is enabled
+Wifi is not connected",1H4C1R35030739,eng.action.20230719.200412
+CONNECT_SAVED_WIFI_FROM_SETTINGS,Connect to a saved network from setting UI,PASS,07-20-2023 14:43:29,07-20-2023 14:44:14,DUT can reconnect to a saved network from setting UI,"Wifi is connected to ""hdevice""","Wifi is connected to ""hdevice""",1H4C1R35030739,eng.action.20230719.200412
+FORGET_WIFI_FROM_SETTINGS,Forget a network from setting UI,PASS,07-20-2023 14:44:18,07-20-2023 14:45:00,DUT can forget a network from setting UI,"""hdevice"" is not in saved networks",No networks,1H4C1R35030739,eng.action.20230719.200412
+THROUGHPUT_WITH_IPERF3,Measure network throughput using iperf3,PASS,07-20-2023 14:45:00,07-20-2023 14:46:20,Measure network throughput using iperf3,N/A,"SSID: hdevice
+Total time: 68.08  sec
+Transfer: 49.5 MBytes
+Bitrate: 6.10 Mbits/sec
+RSSIs: [-57, -57, -57, -57, -58, -58, -58, -57, -57, -57, -57, -57, -57, -57, -57, -57, -56, -56, -56, -58, -58, -58, -58, -58, -58, -58, -58, -58, -58, -58, -58, -58, -58, -58]",1H4C1R35030739,eng.action.20230719.200412
+LATENCY_TO_ESTABLISH_NEW_CONNECTION,Latency to establish a new connection,FAIL,07-20-2023 14:46:22,07-20-2023 14:47:59,Less than 1s,0-1,>10s,1H4C1R35030739,eng.action.20230719.200412
+LATENCY_TO_AUTO_REASSOCIATE_CONNECTION,Latency from wake to wifi connection established,PASS,07-20-2023 14:48:03,07-20-2023 14:48:54,Less than 1s,0-1,0.164,1H4C1R35030739,eng.action.20230719.200412
+LATENCY_TO_DISCONNECT_FROM_NETWORK,Latency to disconnect from a wifi network,PASS,07-20-2023 14:48:58,07-20-2023 14:49:45,Less than 1s,0-1,0.004,1H4C1R35030739,eng.action.20230719.200412

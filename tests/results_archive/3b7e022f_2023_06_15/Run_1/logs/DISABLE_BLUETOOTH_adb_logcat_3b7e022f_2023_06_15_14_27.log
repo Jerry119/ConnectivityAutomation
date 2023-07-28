@@ -1,0 +1,702 @@
+--------- beginning of events
+06-15 21:27:02.067 17220 17220 I auditd  : type=1400 audit(0.0:2208): avc: denied { getattr } for comm="df" name="/" dev="mmcblk0p34" ino=1 scontext=u:r:su:s0 tcontext=u:object_r:bt_firmware_file:s0 tclass=filesystem permissive=1
+--------- beginning of main
+06-15 21:27:02.067 17220 17220 I df      : type=1400 audit(0.0:2208): avc: denied { getattr } for name="/" dev="mmcblk0p34" ino=1 scontext=u:r:su:s0 tcontext=u:object_r:bt_firmware_file:s0 tclass=filesystem permissive=1
+06-15 21:27:02.087 17204 17204 E humane_antenna_tune: timeout while waiting for sensors QMI service: will try 2 more time(s)
+06-15 21:27:02.237 17225 17225 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+06-15 21:27:02.245 17225 17225 I AndroidRuntime: Using default boot image
+06-15 21:27:02.245 17225 17225 I AndroidRuntime: Leaving lock profiling enabled
+06-15 21:27:02.247 17225 17225 W app_process: ART APEX data files are untrusted.
+06-15 21:27:02.247 17225 17225 I app_process: Core platform API reporting enabled, enforcing=false
+06-15 21:27:02.340 17225 17225 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+06-15 21:27:02.340 17225 17225 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt68l.dat
+06-15 21:27:02.376 17225 17225 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:27:02.376 17225 17225 D AndroidRuntime: Calling main entry com.android.commands.svc.Svc
+--------- beginning of kernel
+06-15 21:27:02.385     0     0 I binder  : 17225:17225 ioctl 40046210 7fca7aab24 returned -22
+06-15 21:27:02.381 17225 17225 D BluetoothAdapter: enable(): BT already enabled!
+06-15 21:27:02.381 17225 17225 D hw-ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:27:02.381 17225 17225 D AndroidRuntime: Shutting down VM
+06-15 21:27:02.389     0     0 I binder  : 17225:17225 ioctl 40046210 7fca7aaad4 returned -22
+06-15 21:27:02.897  1038  1038 I auditd  : type=1400 audit(0.0:2209): avc: denied { write } for comm="humane_wlc_serv" name="auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+06-15 21:27:02.897  1038  1038 I humane_wlc_serv: type=1400 audit(0.0:2209): avc: denied { write } for name="auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+06-15 21:27:02.897  1038  1038 I auditd  : type=1400 audit(0.0:2210): avc: denied { open } for comm="humane_wlc_serv" path="/sys/devices/platform/soc/890000.i2c/i2c-1/1-0061/auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+06-15 21:27:02.897  1038  1038 I humane_wlc_serv: type=1400 audit(0.0:2210): avc: denied { open } for path="/sys/devices/platform/soc/890000.i2c/i2c-1/1-0061/auto_polling_enabled" dev="sysfs" ino=50791 scontext=u:r:wlc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+06-15 21:27:02.903  1038  1058 D wlc-service: received vector of size 0
+06-15 21:27:02.903  1038  1058 D wlc-service: rc is -110
+06-15 21:27:02.903  1038  1058 D wlc-service: wlc_driver_transact returned -110, considering trying again...
+06-15 21:27:02.905   868  1601 D audio_hw_spkr_prot: spkr_calibration_thread: wsa speaker idle 106,minimum time 1800
+06-15 21:27:04.088 17204 17204 E humane_antenna_tune: timeout while waiting for sensors QMI service: will try 1 more time(s)
+06-15 21:27:04.500   638 16999 I keystore2: keystore2::watchdog: Watchdog thread idle -> terminating. Have a great day.
+06-15 21:27:05.461  1038  1058 D wlc-service: received vector of size 0
+06-15 21:27:05.461  1038  1058 D wlc-service: rc is -110
+06-15 21:27:05.461  1038  1058 D wlc-service: wlc_driver_transact returned -110, considering trying again...
+06-15 21:27:05.461  1038  1058 E wlc-service: received error from wlc_driver_transact: -110, not retrying further
+06-15 21:27:05.461  1038  1058 D wlc-service: new baby, setting start bit
+06-15 21:27:05.461  1038  1058 D wlc-service: len, adj, size: 5, 0, 6
+06-15 21:27:05.461  1038  1058 D wlc-service: sending payload: 5 out of the 5 remaining bytes
+06-15 21:27:05.461  1038  1058 D wlc-service: ready for execute, setting execute bit and receiving
+06-15 21:27:05.461  1038  1058 D wlc-service: we want to receive, setting drain bit
+06-15 21:27:05.461  1038  1058 D wlc-service: sending 6 bytes
+06-15 21:27:05.553     0     0 W healthd : battery l=100 v=4368 t=43.1 h=2 st=5 c=-36621 fc=289000 cc=1 chg=w
+06-15 21:27:05.556 12121 12121 D SystemControlsStateProvider: intent received for battery life
+06-15 21:27:05.559  2591  2591 V DeviceStatisticsService: chargerType=4 batteryLevel=100 totalBatteryCapacity=277400
+06-15 21:27:05.576 12121 12121 D VolumeSlider: updating Appearance
+06-15 21:27:05.600 17247 17247 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+06-15 21:27:05.604 17247 17247 I AndroidRuntime: Using default boot image
+06-15 21:27:05.605 17247 17247 I AndroidRuntime: Leaving lock profiling enabled
+06-15 21:27:05.607 17247 17247 W app_process: ART APEX data files are untrusted.
+06-15 21:27:05.607 17247 17247 I app_process: Core platform API reporting enabled, enforcing=false
+06-15 21:27:05.708 17247 17247 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+06-15 21:27:05.708 17247 17247 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt68l.dat
+06-15 21:27:05.745 17247 17247 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:27:05.745 17247 17247 D AndroidRuntime: Calling main entry com.android.commands.svc.Svc
+06-15 21:27:05.753     0     0 I binder  : 17247:17247 ioctl 40046210 7ff5fe4144 returned -22
+--------- beginning of system
+06-15 21:27:05.749  1452  2170 D BluetoothManagerService: disable(com.android.inputdevices): mBluetooth = android.bluetooth.IBluetooth$Stub$Proxy@6befda9 mBinding = false
+06-15 21:27:05.750  1452  2170 D BluetoothManagerService: Bluetooth persisted state: 1
+06-15 21:27:05.750  1452  2170 D BluetoothManagerService: Persisting Bluetooth Setting: 0
+06-15 21:27:05.750 17247 17247 D hw-ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:27:05.750 17247 17247 D AndroidRuntime: Shutting down VM
+06-15 21:27:05.751  1452  1727 D BluetoothManagerService: MESSAGE_DISABLE: mBluetooth = android.bluetooth.IBluetooth$Stub$Proxy@6befda9, mBinding = false mEnable = true
+06-15 21:27:05.751  1452  1727 D BluetoothManagerService: Re-Queue MESSAGE_HANDLE_DISABLE_DELAYED(0)
+06-15 21:27:05.758     0     0 I binder  : 17247:17247 ioctl 40046210 7ff5fe40f4 returned -22
+06-15 21:27:06.017  1452  2043 I commit_sys_config_file: [settings-0-0,65]
+06-15 21:27:06.053  1452  1727 D BluetoothManagerService: MESSAGE_HANDLE_DISABLE_DELAYED: disabling:false
+06-15 21:27:06.053  1452  1727 D BluetoothManagerService: MESSAGE_HANDLE_DISABLE_DELAYED: handleDisable
+06-15 21:27:06.053  1452  1727 D BluetoothManagerService: Sending off request.
+06-15 21:27:06.057 17058 17164 D BluetoothAdapterService: disable() called with mRunningProfiles.size() = 8
+06-15 21:27:06.061  1452  1727 D BluetoothManagerService: Re-Queue MESSAGE_HANDLE_DISABLE_DELAYED(1)
+06-15 21:27:06.063  1452  2170 D PackageManager: Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+06-15 21:27:06.063  1452  2170 D PackageManager: Clear ephemeral installer activity
+06-15 21:27:06.064 17058 17081 I AdapterState: TURNING_OFF : entered 
+06-15 21:27:06.064 17058 17081 D AdapterProperties: Setting state to TURNING_OFF
+06-15 21:27:06.066 17058 17081 D BluetoothAdapterService: updateAdapterState() - Broadcasting state TURNING_OFF to 1 receivers.
+06-15 21:27:06.067  1452  1727 D BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: ON > TURNING_OFF
+06-15 21:27:06.067  1452  1727 D BluetoothManagerService: Sending BLE State Change: ON > TURNING_OFF
+06-15 21:27:06.068 17058 17081 W AdapterState: Calling startBrEdrCleanup
+06-15 21:27:06.068 17058 17081 D AdapterProperties: onBluetoothDisable()
+06-15 21:27:06.068 17058 17081 D BluetoothAdapterService: cancelDiscovery
+06-15 21:27:06.068 17058 17081 I BluetoothAdapterService: discovery not active, ignore cancelDiscovery
+06-15 21:27:06.069 17058 17081 I BluetoothVendorJni: bredrcleanupNative
+06-15 21:27:06.070 17058 17081 I bt_btif_vendor: bredrcleanup
+06-15 21:27:06.071   871   871 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+06-15 21:27:06.072  1452  1452 D CompanionDeviceManagerService: Received BT state transition broadcast: ON -> TURNING_OFF
+06-15 21:27:06.073   871   871 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+06-15 21:27:06.073   871   871 I vendor.qti.bluetooth@1.0-ibs_handler: DeviceWakeUp: Writing IBS_WAKE_IND
+06-15 21:27:06.076 17058 17090 D AdapterProperties: Scan Mode:20
+06-15 21:27:06.077 17058 17090 E bt_btif : BTA_AvDeregister hdl: 65:
+06-15 21:27:06.077 17058 17090 E bt_btif : BTA_AvDeregister hdl: 66:
+06-15 21:27:06.077 17058 17090 E bt_btif : BTA_AvDeregister hdl: 67:
+06-15 21:27:06.077 17058 17090 E bt_btif : BTA_AvDeregister hdl: 68:
+06-15 21:27:06.077 17058 17090 E bt_btif : BTA_AvDeregister hdl: 69:
+06-15 21:27:06.077 17058 17090 E bt_btif : BTA_AvDisable:
+06-15 21:27:06.077   871 17113 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_ACK: 0xFC
+06-15 21:27:06.077   871 17113 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Signal wack_cond_
+06-15 21:27:06.077 17058 17090 I bt_btif_queue: btif_queue_release
+06-15 21:27:06.077 17058 17117 D bt_btif : bta_av_ssm_execute(): AV Sevent(0x41)=0x120a(API_CLOSE) state=0(INIT)
+06-15 21:27:06.078 17058 17090 I BluetoothVendorJni: bredr_cleanup_callback
+06-15 21:27:06.078   871   871 D vendor.qti.bluetooth@1.0-ibs_handler: DeviceWakeUp: Unblocked from waiting for FC, pthread_cond_timedwait ret = 0
+06-15 21:27:06.078 17058 17090 D BluetoothVendorService: BREDR cleanup done
+06-15 21:27:06.078 17058 17117 D bt_btif : bta_av_ssm_execute(): AV Sevent(0x42)=0x120a(API_CLOSE) state=0(INIT)
+06-15 21:27:06.079   871 17113 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+06-15 21:27:06.079   871 17113 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+06-15 21:27:06.079  1452  1727 D BluetoothManagerService: Sending State Change: ON > TURNING_OFF
+06-15 21:27:06.079 17058 17117 D bt_btif : bta_av_ssm_execute(): AV Sevent(0x43)=0x120a(API_CLOSE) state=0(INIT)
+06-15 21:27:06.080 17058 17117 D bt_btif : bta_av_ssm_execute(): AV Sevent(0x44)=0x120a(API_CLOSE) state=0(INIT)
+06-15 21:27:06.080 17058 17117 D bt_btif : bta_av_ssm_execute(): AV Sevent(0x45)=0x120a(API_CLOSE) state=0(INIT)
+06-15 21:27:06.080 17058 17081 D BluetoothAdapterService: Calling setProfileServiceState for: HeadsetService
+06-15 21:27:06.081 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x0019
+06-15 21:27:06.081 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x001b
+06-15 21:27:06.081 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x0017
+06-15 21:27:06.081 17058 17117 W bt_btif : bta_av_disable 
+06-15 21:27:06.081 17058 17117 D bt_btif : bta_av_del_rc: handle: 0 status=0x10, rc_acp_handle:0, idx:1
+06-15 21:27:06.081 17058 17117 D bt_btif : AVRC_Close handle:0, clean up all system resources
+06-15 21:27:06.082 17058 17117 D bt_btif : bta_ag_hdl_event: p_scb 0xe17c6fc0 
+06-15 21:27:06.082 17058 17117 D bt_btif : bta_ag_hdl_event: p_scb 0xe17c73a0 
+06-15 21:27:06.082  2503  2503 I aptxalsBTEventHandler: action: android.bluetooth.adapter.action.SCAN_MODE_CHANGED
+06-15 21:27:06.083 17058 17117 D bt_btif : bta_ag_hdl_event: p_scb 0xe17c7780 
+06-15 21:27:06.083 17058 17117 D bt_btif : bta_ag_hdl_event: p_scb 0xe17c7b60 
+06-15 21:27:06.084 17058 17117 D bt_btif : bta_ag_hdl_event: p_scb 0xe17c7f40 
+06-15 21:27:06.084 17058 17117 D bt_btif : bta_ag_hdl_event: p_scb 0xe17c8320 
+06-15 21:27:06.085 17058 17090 D bt_btif : btif_hf_upstreams_evt: event=BTA_AG_DISABLE_EVT
+06-15 21:27:06.087 17058 17081 D BluetoothAdapterService: Calling setProfileServiceState for: A2dpService
+06-15 21:27:06.089 17204 17204 E humane_antenna_tune: Could not find the requested QMI service; terminating
+06-15 21:27:06.090 17204 17204 E humane_antenna_tune: qmi_wait_for_service() failed
+06-15 21:27:06.090 17204 17204 E humane_antenna_tune: Could not connect to the RFRPE tuner service; terminating antenna_tune service
+06-15 21:27:06.090 17058 17058 D HeadsetService: : Received stop request...Stopping profile...
+06-15 21:27:06.090 17058 17058 I HeadsetService: stop()
+06-15 21:27:06.090 17058 17058 D HeadsetService: setHeadsetService(): set to: null
+06-15 21:27:06.095  2503  2503 I aptxalsBTEventHandler: action: android.bluetooth.adapter.action.STATE_CHANGED
+06-15 21:27:06.097  1452  1757 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:27:06.097  1452  1757 D CompatibilityInfo: applicationDensity - 200
+06-15 21:27:06.097  1452  1757 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:27:06.098  3444  3444 D MetricReporter: BluetoothReporter: State DISABLING
+06-15 21:27:06.098  3444  3444 D MetricReporter: BluetoothReporter: Name 
+06-15 21:27:06.099  3444  3444 D MetricReporter: BluetoothReporter: Paired device MAC Address 
+06-15 21:27:06.099  3444  3444 D MetricReporter: BluetoothReporter: Signal -100 dB
+06-15 21:27:06.100  3444  3444 D MetricReporter: BluetoothReporter: Paired device battery -1%
+06-15 21:27:06.100  3444  3444 D MetricReporter: BluetoothReporter: Throughput 0 Mbps
+06-15 21:27:06.100  3444  3444 D MetricReporter: BluetoothReporter: Audio state MEDIA_NOT_STREAMING
+06-15 21:27:06.101 17128 17128 D BtDsDaService: my action isandroid.bluetooth.adapter.action.STATE_CHANGED
+06-15 21:27:06.102 12121 12121 D VolumeSlider: updating Appearance
+06-15 21:27:06.103 17058 17058 D HeadsetService: setting A2dpSuspended=false during BT off
+06-15 21:27:06.104 17058 17081 D BluetoothAdapterService: Calling setProfileServiceState for: BluetoothMapService
+06-15 21:27:06.105   868  3249 D audio_hw_primary: adev_set_parameters: enter: A2dpSuspended=false
+06-15 21:27:06.105   868  3249 V audio_hw_spkr_prot: spkr_prot_set_parameters: tz1: wsatz.11, tz2: (null)
+06-15 21:27:06.105   868  3249 D audio_hw_hfp: hfp_set_parameters: enter
+06-15 21:27:06.105   868  3249 D audio_hw_extn: audio_extn_fm_set_parameters: Enter
+06-15 21:27:06.105   868  3249 V audio_hw_spkr_prot: fbsp_set_parameters: enter: A2dpSuspended=false
+06-15 21:27:06.105   868  3249 V audio_hw_spkr_prot: fbsp_set_parameters: exit with code(-22)
+06-15 21:27:06.107 17058 17058 I BluetoothHeadsetServiceJni: cleanupNative: Cleaning up Bluetooth Handsfree Interface
+06-15 21:27:06.107 17058 17058 I bt_btif_queue: btif_disconnect_queue_cleanup: UUID=111F
+06-15 21:27:06.108 17058 17058 I BluetoothHeadsetServiceJni: cleanupNative: Cleaning up Bluetooth Handsfree callback object
+06-15 21:27:06.109 17058 17090 I bt_btif_queue: queue_int_cleanup: UUID=111F
+06-15 21:27:06.109 17058 17090 I bt_btif_queue: disconnect_queue_int_cleanup: UUID=111F
+06-15 21:27:06.109 17058 17117 W bt_btif : ag scb idx 1 not allocated
+06-15 21:27:06.109 17058 17117 W bt_btif : ag scb idx 2 not allocated
+06-15 21:27:06.109 17058 17117 W bt_btif : ag scb idx 3 not allocated
+06-15 21:27:06.109 17058 17117 W bt_btif : ag scb idx 4 not allocated
+06-15 21:27:06.109 17058 17117 W bt_btif : ag scb idx 5 not allocated
+06-15 21:27:06.109 17058 17117 W bt_btif : ag scb idx 6 not allocated
+06-15 21:27:06.109 17058 17117 E bt_btif : BTA AG is already disabled, ignoring ...
+06-15 21:27:06.116     0     0 I init    : Service 'humane-antenna-tune' (pid 17204) exited with status 0
+06-15 21:27:06.117     0     0 I init    : Sending signal 9 to service 'humane-antenna-tune' (pid 17204) process group...
+06-15 21:27:06.117     0     0 I libprocessgroup: Successfully killed process cgroup uid 0 pid 17204 in 0ms
+06-15 21:27:06.110 17058 17090 I bt_btif_storage: btif_storage_get_adapter_property service_mask:0x0
+06-15 21:27:06.110 17058 17058 E HeadsetSystemInterface: No Cleanup, as BluetoothInCallService is null
+06-15 21:27:06.110 17058 17058 I HeadsetPhoneState: stopListenForPhoneState(), no listener indicates nothing is listening
+06-15 21:27:06.111 17058 17081 D BluetoothAdapterService: Calling setProfileServiceState for: AvrcpControllerService
+06-15 21:27:06.115  1452  5703 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:27:06.115  1452  5703 D CompatibilityInfo: applicationDensity - 200
+06-15 21:27:06.116  1452  5703 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:27:06.122     0     0 I init    : starting service 'humane-antenna-tune'...
+06-15 21:27:06.121  2503  2503 D aptxalsApplication: SetAptxalsMonitorEnabled, enabled: false
+06-15 21:27:06.122 17058 17081 D BluetoothAdapterService: Calling setProfileServiceState for: SapService
+06-15 21:27:06.124  1452  6886 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:27:06.124  1452  6886 D CompatibilityInfo: applicationDensity - 200
+06-15 21:27:06.124  1452  6886 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:27:06.125 17058 17058 D HeadsetService:  profile stopped successfully
+06-15 21:27:06.129 17058 17081 D BluetoothAdapterService: Calling setProfileServiceState for: BluetoothOppService
+06-15 21:27:06.130  1452  1452 D BluetoothHeadset: Proxy object disconnected
+06-15 21:27:06.131 17128 17145 D BluetoothHeadset: Proxy object disconnected
+06-15 21:27:06.131  1452  1452 D BluetoothHeadset: Proxy object disconnected
+06-15 21:27:06.131 17128 17128 E BtDsDaService:  onServiceDisConnected 1
+06-15 21:27:06.131  2608  2890 D BluetoothHeadset: Proxy object disconnected
+06-15 21:27:06.131  1452  1452 I Telecom : BluetoothDeviceManager: Lost BluetoothHeadset service. Removing all tracked devices: BMSL.oSD@AKo
+06-15 21:27:06.131  2169 15441 D BluetoothHeadset: Proxy object disconnected
+06-15 21:27:06.132  1452  2108 I AS.BtHelper: setBtScoActiveDevice: (null) -> (null)
+06-15 21:27:06.133 17058 17095 D BluetoothActiveDeviceManager: handleMessage(MESSAGE_ADAPTER_ACTION_STATE_CHANGED): newState=13
+06-15 21:27:06.133 17058 17058 D BtOppService: action : android.bluetooth.adapter.action.STATE_CHANGED
+06-15 21:27:06.133 17058 17058 D A2dpService: : Received stop request...Stopping profile...
+06-15 21:27:06.133 17058 17058 I A2dpService: stop()
+06-15 21:27:06.134 17058 17058 D A2dpService:  removeActiveDevice(): forceStopPlayingAudio:  true
+06-15 21:27:06.134 17058 17058 D A2dpService: updateAndBroadcastActiveDevice(null)
+06-15 21:27:06.137 17058 17058 D A2dpService: setA2dpService(): set to: null
+06-15 21:27:06.140  1452  1757 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:27:06.140  1452  1757 D CompatibilityInfo: applicationDensity - 200
+06-15 21:27:06.140  1452  1757 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:27:06.141  2503  2503 I aptxalsBTEventHandler: action: android.bluetooth.a2dp.profile.action.ACTIVE_DEVICE_CHANGED
+06-15 21:27:06.141  2503  2503 I aptxalsBTControl: ActiveDeviceChangedCb
+06-15 21:27:06.141  2503  2503 I aptxalsBTControl: no active device
+06-15 21:27:06.143 17058 17081 D BluetoothAdapterService: Calling setProfileServiceState for: BluetoothPbapService
+06-15 21:27:06.148  1452  2323 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:27:06.149  1452  2323 D CompatibilityInfo: applicationDensity - 200
+06-15 21:27:06.149  1452  2323 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:27:06.151  2503  2503 D aptxalsApplication: SetAptxalsMonitorEnabled, enabled: false
+06-15 21:27:06.151  2503  2503 I aptxalsBTControl: SCAN_MODE_NONE -> SCAN_MODE_CONNECTABLE
+06-15 21:27:06.153 17058 17058 I bt_btif_queue: btif_disconnect_queue_cleanup: UUID=110A
+06-15 21:27:06.153 17058 17090 I bt_btif_queue: queue_int_cleanup: UUID=110A
+06-15 21:27:06.153 17058 17090 I bt_btif_queue: disconnect_queue_int_cleanup: UUID=110A
+06-15 21:27:06.153 17058 17090 D bt_btif : btif_dispatch_sm_event: event: 43, len: 0
+06-15 21:27:06.153 17058 17090 D bt_btif : btif_dispatch_sm_event: event 43 sent
+06-15 21:27:06.153 17058 17148 W bt_btif : btif_a2dp_command_ack: ## a2dp ack : A2DP_CTRL_CMD_NONE, queued : A2DP_CTRL_CMD_NONE,  status 0 ##
+06-15 21:27:06.153 17058 17148 E bt_btif : btif_a2dp_command_ack: warning : no command pending, ignore ack
+06-15 21:27:06.153 17058 17148 W bt_stack: [WARNING:a2dp_encoding.cc(2641)] cleanup: end_session has been called.
+06-15 21:27:06.153 17058 17148 E bt_stack: [ERROR:a2dp_encoding.cc(2855)] end_session: BluetoothAudio HAL is not enabled
+06-15 21:27:06.153 17058 17148 W bt_osi_thread: run_thread: thread id 17148, thread name media_worker exited
+06-15 21:27:06.153 17058 17058 D Avrcp_ext: doQuit
+06-15 21:27:06.154 17058 17090 E bt_btif : BTA_AvDeregister hdl: 65:
+06-15 21:27:06.154 17058 17090 E bt_btif : BTA_AvDeregister hdl: 66:
+06-15 21:27:06.154 17058 17090 E bt_btif : BTA_AvDeregister hdl: 67:
+06-15 21:27:06.154 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x0019
+06-15 21:27:06.154 17058 17090 E bt_btif : BTA_AvDeregister hdl: 68:
+06-15 21:27:06.154 17058 17117 W bt_l2cap: L2CAP - PSM: 0x0019 not found for deregistration
+06-15 21:27:06.154 17058 17132 V Avrcp_ext: AvrcpMessageHandler: received message=21
+06-15 21:27:06.154 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x001b
+06-15 21:27:06.154 17058 17117 W bt_l2cap: L2CAP - PSM: 0x001b not found for deregistration
+06-15 21:27:06.154 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x0017
+06-15 21:27:06.154 17058 17132 V Avrcp_ext: MSG_DEVICE_RC_CLEANUP
+06-15 21:27:06.154 17058 17117 W bt_l2cap: L2CAP - PSM: 0x0017 not found for deregistration
+06-15 21:27:06.154 17058 17132 D Avrcp_ext: Enter clearDeviceDependentFeature()
+06-15 21:27:06.154 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x0019
+06-15 21:27:06.154 17058 17117 W bt_l2cap: L2CAP - PSM: 0x0019 not found for deregistration
+06-15 21:27:06.154 17058 17132 D Avrcp_ext: Exit clearDeviceDependentFeature()
+06-15 21:27:06.154 17058 17090 E bt_btif : BTA_AvDeregister hdl: 69:
+06-15 21:27:06.154  1452  2323 D MediaSessionService: The MediaKeyEventSessionChangedListener (android.os.BinderProxy@28488ec) is removed by com.qualcomm.qtil.btdsda
+06-15 21:27:06.154 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x001b
+06-15 21:27:06.154 17058 17132 I Avrcp_ext: cleanupDeviceFeaturesIndex index:0
+06-15 21:27:06.154 17058 17117 W bt_l2cap: L2CAP - PSM: 0x001b not found for deregistration
+06-15 21:27:06.154 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x0017
+06-15 21:27:06.154 17058 17117 W bt_l2cap: L2CAP - PSM: 0x0017 not found for deregistration
+06-15 21:27:06.154 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x0019
+06-15 21:27:06.154 17058 17132 I Avrcp_ext: cleanupDeviceFeaturesIndex index:1
+06-15 21:27:06.155 17058 17090 E bt_btif : BTA_AvDisable:
+06-15 21:27:06.155 17058 17090 E bt_btif : BTA AV is already disabled, ignoring ...
+06-15 21:27:06.155 17058 17132 I Avrcp_ext: cleanupDeviceFeaturesIndex index:2
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - PSM: 0x0019 not found for deregistration
+06-15 21:27:06.155 17058 17132 I Avrcp_ext: cleanupDeviceFeaturesIndex index:3
+06-15 21:27:06.155 17058 17132 I Avrcp_ext: cleanupDeviceFeaturesIndex index:4
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x001b
+06-15 21:27:06.155 17058 17132 V Avrcp_ext: Exit handleMessage
+06-15 21:27:06.155 17058 17090 I bt_btif_storage: btif_storage_get_adapter_property service_mask:0x0
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - PSM: 0x001b not found for deregistration
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x0017
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - PSM: 0x0017 not found for deregistration
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x0019
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - PSM: 0x0019 not found for deregistration
+06-15 21:27:06.155 17058 17090 I bt_btif_storage: btif_storage_get_adapter_property service_mask:0x0
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x001b
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - PSM: 0x001b not found for deregistration
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x0017
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - PSM: 0x0017 not found for deregistration
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x0019
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - PSM: 0x0019 not found for deregistration
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x001b
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - PSM: 0x001b not found for deregistration
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x0017
+06-15 21:27:06.155 17058 17117 W bt_l2cap: L2CAP - PSM: 0x0017 not found for deregistration
+06-15 21:27:06.155 17058 17058 V AvrcpPlayerAppSettings: Stop
+06-15 21:27:06.157 17058 17058 V AddressedMediaPlayer_ext: cleanup
+06-15 21:27:06.158  1452  6886 I sysui_multi_action: [757,856,758,2,806,com.android.bluetooth,857,avrcp_notification,858,3]
+06-15 21:27:06.158  1452  1452 I notification_cancel_all: [1000,1452,com.android.bluetooth,0,0,0,20,NULL]
+06-15 21:27:06.158  1452  6886 W NotificationHistory: Attempted to remove channel for locked/gone/disabled user 0
+06-15 21:27:06.158 17058 17058 D Avrcp_ext: Exit doQuit
+06-15 21:27:06.158 17058 17058 D Avrcp_ext: cleanup
+06-15 21:27:06.158 17058 17058 D Avrcp_ext: Exit cleanup()
+06-15 21:27:06.158 17058 17090 D bt_btif : btif_rc_handler: event: BTIF_AV_CLEANUP_REQ_EVT
+06-15 21:27:06.158 17058 17058 V Avrcp_ext: clearing mAvrcp instatncecom.android.bluetooth.avrcp.Avrcp_ext@3861e97
+06-15 21:27:06.159 17058 17058 V Avrcp_ext: After clearing mAvrcp instatnce null
+06-15 21:27:06.159 17058 17058 D A2dpService:  profile stopped successfully
+06-15 21:27:06.160  1452  1452 D BluetoothA2dp: Proxy object disconnected
+06-15 21:27:06.160  1452  1452 D BluetoothA2dp: Unbinding service...
+06-15 21:27:06.160  2169  2169 D BluetoothA2dp: Proxy object disconnected
+06-15 21:27:06.160  2169  2169 D BluetoothA2dp: Unbinding service...
+06-15 21:27:06.162 17058 17058 D BluetoothMapService: : Received stop request...Stopping profile...
+06-15 21:27:06.162 17058 17058 D BluetoothMapService: stop()
+06-15 21:27:06.162 17058 17058 D BluetoothMapService: setBluetoothMapService(): set to: null
+06-15 21:27:06.162  1452  1452 D BluetoothA2dp: Proxy object disconnected
+06-15 21:27:06.162  1452  1452 D BluetoothA2dp: Unbinding service...
+06-15 21:27:06.163  1452  1452 D BluetoothA2dp: Proxy object disconnected
+06-15 21:27:06.163  1452  1452 D BluetoothA2dp: Unbinding service...
+06-15 21:27:06.163 17058 17058 D BluetoothMapAppObserver: deinitObservers()
+06-15 21:27:06.163 17058 17058 D BluetoothMapAppObserver: removeReceiver()
+06-15 21:27:06.164 17058 17058 D BluetoothMapService:  profile stopped successfully
+06-15 21:27:06.164 17058 17150 V BluetoothMapService: Handler(): got msg=4
+06-15 21:27:06.164 17058 17150 D BluetoothMapService: closeService() in
+06-15 21:27:06.164 17058 17150 D BluetoothMapMasInstance0: MAP Service shutdown
+06-15 21:27:06.164 17058 17150 D BluetoothSdpJni: sdpRemoveSdpRecordNative
+06-15 21:27:06.164 17058 17150 D BluetoothSdpJni: SDP Remove record success - handle: 1
+06-15 21:27:06.165 17058 17150 D BluetoothMapMasInstance0: RemoveSDPrecord returns true
+06-15 21:27:06.165 17058 17150 D ObexServerSockets1: shutdown(block = false)
+06-15 21:27:06.165 17058 17150 D BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@d373884, channel: 26, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@dd3786d, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@309aca2mSocket: android.net.LocalSocket@5040d33 impl:android.net.LocalSocketImpl@73158f0 fd:java.io.FileDescriptor@2bc2e69, mSocketState: LISTENING
+06-15 21:27:06.166 17058 17150 D ObexServerSockets1: shutdown called from another thread - interrupt().
+06-15 21:27:06.166 17058 17150 D BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@e79f0ee, channel: 4137, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@768498f, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@16b141cmSocket: android.net.LocalSocket@4604825 impl:android.net.LocalSocketImpl@4982dfa fd:java.io.FileDescriptor@c29efab, mSocketState: LISTENING
+06-15 21:27:06.166 17058 17159 D ObexServerSockets1: AcceptThread ended for: ServerSocket: Type: TYPE_RFCOMM Channel: 26
+06-15 21:27:06.166 17058 17150 D ObexServerSockets1: shutdown called from another thread - interrupt().
+06-15 21:27:06.166 17058 17123 E bt_btif : SOCK_LIST: free(id = 2) - NO app_fd!
+06-15 21:27:06.166 17058 17150 V BluetoothMapService: MAP Service closeService out
+06-15 21:27:06.166 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x1029
+06-15 21:27:06.166  2169  2169 D BluetoothMap: Proxy object disconnected
+06-15 21:27:06.167  2169  2169 D BluetoothMap: Unbinding service...
+06-15 21:27:06.167 17058 17160 D ObexServerSockets1: AcceptThread ended for: ServerSocket: Type: TYPE_L2CAP Channel: 4137
+06-15 21:27:06.167 17058 17058 D AvrcpControllerService: : Received stop request...Stopping profile...
+06-15 21:27:06.170 17058 17058 D AvrcpControllerService:  profile stopped successfully
+06-15 21:27:06.173 17058 17058 D SapService: : Received stop request...Stopping profile...
+06-15 21:27:06.173 17058 17058 V SapService: stop()
+06-15 21:27:06.173 17058 17058 D SapService: setSapService(): set to: null
+06-15 21:27:06.174 17058 17058 D BluetoothSdpJni: sdpRemoveSdpRecordNative
+06-15 21:27:06.174 17058 17058 D BluetoothSdpJni: SDP Remove record success - handle: 0
+06-15 21:27:06.174 17058 17058 D SapService:  profile stopped successfully
+06-15 21:27:06.177  2169  2169 D BluetoothSap: Proxy object disconnected
+06-15 21:27:06.177  2169  2169 D BluetoothSap: Unbinding service...
+06-15 21:27:06.177 17058 17058 I HeadsetService: cleanup
+06-15 21:27:06.177 17058 17058 W BluetoothVendorHfJni: Cleaning up Bluetooth Vendor Interface...
+06-15 21:27:06.177 17058 17058 I bt_btif_vendor_hf: cleanup
+06-15 21:27:06.177 17058 17058 W BluetoothVendorHfJni: Cleaning up Bluetooth Vendor callback object
+06-15 21:27:06.177 17058 17058 I BtOppService:  handleMessage :200
+06-15 21:27:06.177 17058 17058 D BtOppService: Removing SDP record mOppSdpHandle :3
+06-15 21:27:06.177 17058 17058 D BluetoothSdpJni: sdpRemoveSdpRecordNative
+06-15 21:27:06.178 17058 17058 D BluetoothSdpJni: SDP Remove record success - handle: 3
+06-15 21:27:06.178 17058 17058 D BtOppService: RemoveSDPrecord returns true
+06-15 21:27:06.178 17058 17058 D ObexServerSockets2: shutdown(block = false)
+06-15 21:27:06.178 17058 17058 D BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@e235608, channel: 12, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@b7241a1, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@32b2fc6mSocket: android.net.LocalSocket@b15db87 impl:android.net.LocalSocketImpl@29bcab4 fd:java.io.FileDescriptor@f5056dd, mSocketState: LISTENING
+06-15 21:27:06.178 17058 17058 D ObexServerSockets2: shutdown called from another thread - interrupt().
+06-15 21:27:06.178 17058 17172 D ObexServerSockets2: AcceptThread ended for: ServerSocket: Type: TYPE_RFCOMM Channel: 12
+06-15 21:27:06.178 17058 17058 D BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@b9a8252, channel: 4131, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@1eaa923, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@484de20mSocket: android.net.LocalSocket@50083d9 impl:android.net.LocalSocketImpl@c3a719e fd:java.io.FileDescriptor@1b4b47f, mSocketState: LISTENING
+06-15 21:27:06.178 17058 17123 E bt_btif : SOCK_LIST: free(id = 3) - NO app_fd!
+06-15 21:27:06.179 17058 17058 D ObexServerSockets2: shutdown called from another thread - interrupt().
+06-15 21:27:06.179 17058 17058 D BtOppService: stopListeners: mServerSocket is null
+06-15 21:27:06.179 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x1023
+06-15 21:27:06.180 17058 17173 D ObexServerSockets2: AcceptThread ended for: ServerSocket: Type: TYPE_L2CAP Channel: 4131
+06-15 21:27:06.180 17058 17058 D BtOppService:  clear batches
+06-15 21:27:06.181  1452  1452 I notification_cancel_all: [1002,17058,com.android.bluetooth,0,0,64,9,NULL]
+06-15 21:27:06.181   871 17113 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+06-15 21:27:06.182 17058 17095 D BluetoothActiveDeviceManager: handleMessage(MESSAGE_A2DP_ACTION_ACTIVE_DEVICE_CHANGED): device= null
+06-15 21:27:06.182 17058 17058 D BluetoothOppService: : Received stop request...Stopping profile...
+06-15 21:27:06.182 17058 17095 D BluetoothActiveDeviceManager: set mA2dpActiveDevice to null
+06-15 21:27:06.182 17058 17058 D BtOppService:  stop
+06-15 21:27:06.182 17058 17058 D BtOppService: setBluetoothOppService(): set to: null
+06-15 21:27:06.182 17058 17058 D BluetoothOppService:  profile stopped successfully
+06-15 21:27:06.185 17058 17058 D BluetoothPbapService: : Received stop request...Stopping profile...
+06-15 21:27:06.185 17058 17058 D BluetoothPbapService: setBluetoothPbapService(): set to: null
+06-15 21:27:06.185 17058 17152 D BluetoothPbapService: cleanUpSdpRecord, mSdpHandle=2
+06-15 21:27:06.185 17058 17152 D BluetoothSdpJni: sdpRemoveSdpRecordNative
+06-15 21:27:06.185 17058 17152 D BluetoothSdpJni: SDP Remove record success - handle: 2
+06-15 21:27:06.185 17058 17152 D ObexServerSockets0: shutdown(block = false)
+06-15 21:27:06.185 17058 17152 D BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@229bc4c, channel: 19, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@1ec8495, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@25809aamSocket: android.net.LocalSocket@5ea199b impl:android.net.LocalSocketImpl@15c5138 fd:java.io.FileDescriptor@e5dd511, mSocketState: LISTENING
+06-15 21:27:06.186 17058 17058 D BluetoothPbapService:  profile stopped successfully
+06-15 21:27:06.186 17058 17152 D ObexServerSockets0: shutdown called from another thread - interrupt().
+06-15 21:27:06.186 17058 17152 D BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@1051676, channel: 4133, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@146b477, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@12148e4mSocket: android.net.LocalSocket@3b9b14d impl:android.net.LocalSocketImpl@8a42402 fd:java.io.FileDescriptor@c682113, mSocketState: LISTENING
+06-15 21:27:06.186 17058 17152 D ObexServerSockets0: shutdown called from another thread - interrupt().
+06-15 21:27:06.186 17058 17157 D ObexServerSockets0: AcceptThread ended for: ServerSocket: Type: TYPE_RFCOMM Channel: 19
+06-15 21:27:06.186 17058 17158 D ObexServerSockets0: AcceptThread ended for: ServerSocket: Type: TYPE_L2CAP Channel: 4133
+06-15 21:27:06.186 17058 17123 E bt_btif : SOCK_LIST: free(id = 1) - NO app_fd!
+06-15 21:27:06.187 17058 17117 W bt_l2cap: L2CAP - L2CA_Deregister() called for PSM: 0x1025
+06-15 21:27:06.194 17058 17058 I A2dpService: cleanup()
+06-15 21:27:06.195 17058 17058 D BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@27d1549, channel: 16, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@b347e4e, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@229bb6fmSocket: android.net.LocalSocket@9bad07c impl:android.net.LocalSocketImpl@bf8bd05 fd:java.io.FileDescriptor@95e315a, mSocketState: LISTENING
+06-15 21:27:06.196 17058 17058 I BluetoothPhonePolicy: processActiveDeviceChanged, device=null, profile=2
+06-15 21:27:06.196 17058 17058 I BtOppService:  handleMessage :200
+06-15 21:27:06.196 17058 17058 V BtOppService: onDestroy
+06-15 21:27:06.196 17058 17058 D BtOppService: stopListeners: mServerSocket is null
+06-15 21:27:06.197 17058 17058 W BluetoothAdapterService: onProfileServiceStateChange() - All profile services except gatt stopped..
+06-15 21:27:06.198 17058 17081 I AdapterState: BLE_ON : entered 
+06-15 21:27:06.198 17058 17081 D AdapterProperties: Setting state to BLE_ON
+06-15 21:27:06.199 17058 17081 D BluetoothAdapterService: updateAdapterState() - Broadcasting state BLE_ON to 1 receivers.
+06-15 21:27:06.200  1452  1727 D BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: TURNING_OFF > BLE_ON
+06-15 21:27:06.200  1452  1727 D BluetoothManagerService: Intermediate off, back to LE only mode
+06-15 21:27:06.200  1452  1727 D BluetoothManagerService: Sending BLE State Change: TURNING_OFF > BLE_ON
+06-15 21:27:06.201  1452  1727 D BluetoothManagerService: Broadcasting onBluetoothStateChange(false) to 12 receivers.
+06-15 21:27:06.201  1452  1727 D BluetoothHeadset: onBluetoothStateChange: up=false
+06-15 21:27:06.201  1452  1727 D BluetoothHeadset: Unbinding service...
+06-15 21:27:06.201  1452  1727 W BluetoothManagerService: unbindBluetoothProfileService: calling psc.removeProxy
+06-15 21:27:06.201  1452  1727 D BluetoothHeadset: Proxy object disconnected
+06-15 21:27:06.201  1452  1727 W BluetoothManagerService: removing the proxy, count is 4
+06-15 21:27:06.201  1452  1727 D BluetoothHeadset: onBluetoothStateChange: up=false
+06-15 21:27:06.201  1452  1727 D BluetoothHeadset: Unbinding service...
+06-15 21:27:06.201  1452  1727 W BluetoothManagerService: unbindBluetoothProfileService: calling psc.removeProxy
+06-15 21:27:06.201  1452  1727 D BluetoothHeadset: Proxy object disconnected
+06-15 21:27:06.201  1452  1727 W BluetoothManagerService: removing the proxy, count is 3
+06-15 21:27:06.201  1452  1452 D CompanionDeviceManagerService: Received BT state transition broadcast: TURNING_OFF -> BLE_ON
+06-15 21:27:06.202  1452  2108 I AS.BtHelper: setBtScoActiveDevice: (null) -> (null)
+06-15 21:27:06.202  1452  1727 D BluetoothManagerService: Calling sendBrEdrDownCallback callbacks
+06-15 21:27:06.202  1452  1727 D BluetoothManagerService: isBleAppPresent() count: 0
+06-15 21:27:06.202  1452  1452 I CompanionDeviceManagerService: startBleScan()
+06-15 21:27:06.203 17128 17145 D BluetoothHeadset: onBluetoothStateChange: up=false
+06-15 21:27:06.203 17128 17145 D BluetoothHeadset: Unbinding service...
+06-15 21:27:06.203  1452  1452 I Telecom : BluetoothDeviceManager: Lost BluetoothHeadset service. Removing all tracked devices: BMSL.oSD@AKs
+06-15 21:27:06.203  2608  2890 D BluetoothHeadset: onBluetoothStateChange: up=false
+06-15 21:27:06.203  2608  2890 D BluetoothHeadset: Unbinding service...
+06-15 21:27:06.203  2169 15441 D BluetoothHeadset: onBluetoothStateChange: up=false
+06-15 21:27:06.203  2169 15441 D BluetoothHeadset: Unbinding service...
+06-15 21:27:06.203  1452  2170 W BluetoothManagerService: unbindBluetoothProfileService: calling psc.removeProxy
+06-15 21:27:06.204  1452  2170 W BluetoothManagerService: removing the proxy, count is 2
+06-15 21:27:06.204  1452  6886 W BluetoothManagerService: unbindBluetoothProfileService: calling psc.removeProxy
+06-15 21:27:06.204  2608  2641 D BluetoothHeadset: Proxy object disconnected
+06-15 21:27:06.204  1452  6886 W BluetoothManagerService: removing the proxy, count is 1
+06-15 21:27:06.204  1452  2323 W BluetoothManagerService: unbindBluetoothProfileService: calling psc.removeProxy
+06-15 21:27:06.204  1452  2323 W BluetoothManagerService: removing the proxy, count is 0
+06-15 21:27:06.204 17128 17144 D BluetoothHeadset: Proxy object disconnected
+06-15 21:27:06.204  1452  1727 D BluetoothManagerService: Sending State Change: TURNING_OFF > OFF
+06-15 21:27:06.205 17058 17081 I AdapterState: BLE_TURNING_OFF : entered 
+06-15 21:27:06.205 17058 17081 D AdapterProperties: Setting state to BLE_TURNING_OFF
+06-15 21:27:06.205  2169  3359 D BluetoothHeadset: Proxy object disconnected
+06-15 21:27:06.205  1452  2323 W BluetoothManagerService: psc.isEmpty is true, removing psc entry for profile 1
+06-15 21:27:06.205 17128 17128 E BtDsDaService:  onServiceDisConnected 1
+06-15 21:27:06.206 17058 17081 D BluetoothAdapterService: updateAdapterState() - Broadcasting state BLE_TURNING_OFF to 1 receivers.
+06-15 21:27:06.207 17058 17081 D BtGatt.AdvertiseManager: stopAdvertisingSets()
+06-15 21:27:06.208 17058 17084 I bt_stack_manager: event_shut_down_stack is bringing down the stack
+06-15 21:27:06.208 17058 17084 I bt_btif_core: btif_disable_bluetooth entered
+06-15 21:27:06.208  1452  1727 D BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: BLE_ON > BLE_TURNING_OFF
+06-15 21:27:06.208  1452  1727 D BluetoothManagerService: Sending BLE State Change: BLE_ON > BLE_TURNING_OFF
+06-15 21:27:06.210 17058 17117 V bt_stack: [VERBOSE1:ble_advertiser_hci_interface.cc(964)] CleanUp
+06-15 21:27:06.210 17058 17117 E bt_btif : bta_jv_disable
+06-15 21:27:06.210  1452  2108 I AS.BtHelper: setBtScoActiveDevice: (null) -> (null)
+06-15 21:27:06.211  2503  2503 I aptxalsBTEventHandler: action: android.bluetooth.adapter.action.STATE_CHANGED
+06-15 21:27:06.211 17058 17124 W bt_osi_thread: run_thread: thread id 17124, thread name btif_sock exited
+06-15 21:27:06.212 17058 17084 I bt_btif_core: btif_disable_bluetooth finished
+06-15 21:27:06.213 17058 17084 I bt_core_module: module_shut_down Shutting down module "btif_config_module"
+06-15 21:27:06.213 17128 17128 D BtDsDaService: my action isandroid.bluetooth.adapter.action.STATE_CHANGED
+06-15 21:27:06.213 17058 17117 V bt_stack: [VERBOSE1:connection_manager.cc(198)] reset : after_reset0
+06-15 21:27:06.213 17058 17117 V bt_stack: [VERBOSE1:btm_ble_bgconn.cc(549)] BTM_WhiteListClear
+06-15 21:27:06.213 17058 17117 W bt_btm  : btm_enable_soc_iot_info_report, enable=0
+06-15 21:27:06.213 17058 17117 W bt_btif : bta_dm_disable BTA_DISABLE_DELAY set to 200 ms
+06-15 21:27:06.213 17058 17090 I bt_stack: [INFO:btif_bqr.cc(319)] EnableBtQualityReport: is_enable: 0
+06-15 21:27:06.213 17058 17117 V bt_stack: [VERBOSE1:bta_gattc_act.cc(163)] bta_gattc_disable
+06-15 21:27:06.214 17058 17117 V bt_stack: [VERBOSE1:gatt_api.cc(1270)] GATT_Deregister gatt_if=3
+06-15 21:27:06.214 17058 17117 V bt_stack: [VERBOSE1:connection_manager.cc(161)] on_app_deregistered : app_id 0x03
+06-15 21:27:06.214 17058 17090 W bt_stack: [WARNING:btif_bqr.cc(335)] EnableBtQualityReport: Bluetooth Quality Report - Root inflammation event enabled, bqr_prop_evtmask: 16, bqr_prop_interval_ms: 0
+06-15 21:27:06.214 17058 17090 I bt_stack: [INFO:btif_bqr.cc(387)] EnableBtQualityReport: Event Mask: 0x8000001f, Interval: 0
+06-15 21:27:06.214   871 17113 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+06-15 21:27:06.214   871 17113 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+06-15 21:27:06.214  3444  3444 D MetricReporter: BluetoothReporter: State DISABLED
+06-15 21:27:06.214 17058 17090 I bt_stack: [INFO:btif_bqr.cc(448)] ConfigureBqr: Action: , Mask: 0x8000001f, Interval: 0
+06-15 21:27:06.214  3444  3444 D MetricReporter: BluetoothReporter: Name 
+06-15 21:27:06.215  3444  3444 D MetricReporter: BluetoothReporter: Paired device MAC Address 
+06-15 21:27:06.215  3444  3444 D MetricReporter: BluetoothReporter: Signal -100 dB
+06-15 21:27:06.215  3444  3444 D MetricReporter: BluetoothReporter: Paired device battery -1%
+06-15 21:27:06.215  3444  3444 D MetricReporter: BluetoothReporter: Throughput 0 Mbps
+06-15 21:27:06.215  3444  3444 D MetricReporter: BluetoothReporter: Audio state MEDIA_NOT_STREAMING
+06-15 21:27:06.216  1452  1757 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:27:06.216  1452  1757 D CompatibilityInfo: applicationDensity - 200
+06-15 21:27:06.216  1452  1757 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:27:06.218  1452  1452 D CompanionDeviceManagerService: Received BT state transition broadcast: BLE_ON -> BLE_TURNING_OFF
+06-15 21:27:06.218 17058 17095 D BluetoothActiveDeviceManager: handleMessage(MESSAGE_ADAPTER_ACTION_STATE_CHANGED): newState=10
+06-15 21:27:06.221  1452  6886 D CompatibilityInfo: mCompatibilityFlags - 0
+06-15 21:27:06.221  1452  6886 D CompatibilityInfo: applicationDensity - 200
+06-15 21:27:06.221  1452  6886 D CompatibilityInfo: applicationScale - 1.0
+06-15 21:27:06.223   871   871 D vendor.qti.bluetooth@1.0-uart_controller: CheckForBQRRootInflammationBit: BQR root inflammation disabled
+06-15 21:27:06.223 17128 17128 D BtStateReceiver: BtStateReceiver received BT off state intent
+06-15 21:27:06.223 17128 17128 E BtStateReceiver: BtStateReceiver called cleanup
+06-15 21:27:06.223 17128 17128 D BtDsDaService: BtDsDaService's cleanup is called
+06-15 21:27:06.223 17058 17117 I bt_stack: [INFO:btif_bqr.cc(421)] BqrVscCompleteCallback, current event mask: 0x00040000
+06-15 21:27:06.223 17058 17117 I bt_stack: [INFO:btif_bqr.cc(303)] ConfigureBqrCmpl: current_evt_mask: 0x00040000
+06-15 21:27:06.223 17058 17117 I bt_stack: [INFO:btm_devctl.cc(1311)] BTM_BT_Quality_Report_VSE_Register: Success to (un)register VSEvents. is_register: 1
+06-15 21:27:06.224 17058 17117 W bt_stack: [WARNING:btif_bqr.cc(280)] ConfigBqrA2dpScoThreshold: a2dp_choppy_threshold: 0, sco_choppy_threshold: 0
+06-15 21:27:06.224 12121 12121 D VolumeSlider: updating Appearance
+06-15 21:27:06.230  1452  2170 D PackageManager: Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+06-15 21:27:06.230  1452  2170 D PackageManager: Clear ephemeral installer activity
+06-15 21:27:06.231 17058 17084 I bt_core_module: module_shut_down Shutdown of module "btif_config_module" completed
+06-15 21:27:06.231 17058 17084 W bt_stack: [WARNING:stack_interface.cc(101)] btif_stack_state OnStackState 0x04
+06-15 21:27:06.231 17128 17128 D BtDsDaService: BtDsDaService's on Destroy() is called
+06-15 21:27:06.231 17058 17084 I bt_core_module: module_shut_down Shutting down module "btif_bap_config_module"
+06-15 21:27:06.237 17058 17152 D BluetoothPbapService: quitHandlerThread
+06-15 21:27:06.240 17058 17084 I bt_core_module: module_shut_down Shutdown of module "btif_bap_config_module" completed
+06-15 21:27:06.240 17058 17084 I bt_core_module: module_shut_down Shutting down module "device_iot_config_module"
+06-15 21:27:06.240 17058 17084 I bt_core_module: module_shut_down Shutdown of module "device_iot_config_module" completed
+06-15 21:27:06.251  1452  1860 I commit_sys_config_file: [package-user-0,19]
+06-15 21:27:06.265   871 17113 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+06-15 21:27:06.362  1452  1727 D BluetoothManagerService: MESSAGE_HANDLE_DISABLE_DELAYED: disabling:true
+06-15 21:27:06.362  1452  1727 D BluetoothManagerService: Handle disable is finished
+06-15 21:27:06.416 17058 17090 I bt_btif_core: btif_disable_bluetooth_evt entered
+06-15 21:27:06.417 17058 17090 I bt_core_module: module_shut_down Shutting down module "hci_module"
+06-15 21:27:06.417 17058 17090 I bt_hci  : hci_module_shut_down
+06-15 21:27:06.417 17058 17090 I bt_hci  : hci_close
+06-15 21:27:06.417   871   871 W vendor.qti.bluetooth@1.0-bluetooth_hci: BluetoothHci::close()
+06-15 21:27:06.418   871   871 W vendor.qti.bluetooth@1.0-data_handler: DataHandler::CleanUp()
+06-15 21:27:06.418   871   871 D vendor.qti.bluetooth@1.0-data_handler: StopInitTimer: InitTimer already stopped
+06-15 21:27:06.418   871   871 I vendor.qti.bluetooth@1.0-data_handler: DataHandler:: init_status 3
+06-15 21:27:06.418   871   871 D vendor.qti.bluetooth@1.0-data_handler: Close: Signal close to Diag interface
+06-15 21:27:06.418   871   871 I vendor.qti.bluetooth@1.0-data_handler: Sending HCI Reset 
+06-15 21:27:06.422  1452  1727 I commit_sys_config_file: [notification-policy,1709273]
+06-15 21:27:06.423   871 17113 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+06-15 21:27:06.423   871 17113 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+06-15 21:27:06.423   871 17113 W vendor.qti.bluetooth@1.0-data_handler: OnPacketReady: Received event for command sent internally: 03 0c 
+06-15 21:27:06.424   871   871 I vendor.qti.bluetooth@1.0-data_handler: Sending Pre-shutdown command 
+06-15 21:27:06.425   871 17113 W vendor.qti.bluetooth@1.0-data_handler: OnPacketReady: Received event for command sent internally: 08 fc 
+06-15 21:27:06.425   871   871 D vendor.qti.bluetooth@1.0-uart_controller: UartController::Cleanup, soc_need_reload_patch=1
+06-15 21:27:06.425   871   871 D vendor.qti.bluetooth@1.0-ibs_handler: waitUntilSleepIndRecvd, begin
+06-15 21:27:06.425   871   871 I vendor.qti.bluetooth@1.0-ibs_handler: waitUntilSleepIndRecvd: system time before waiting for SLEEP IND tv_sec:1686864426 tv_nsec :425981428
+06-15 21:27:06.465   871 17113 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+06-15 21:27:06.466   871   871 I vendor.qti.bluetooth@1.0-ibs_handler: waitUntilSleepIndRecvd: current system time tv_sec:1686864426 tv_nsec :466031532 sleep_ind_recvd_:1
+06-15 21:27:06.466   871 17113 E vendor.qti.bluetooth@1.0-async_fd_watcher: ThreadRoutine: End of AsyncFdWatcher::ThreadRoutine
+06-15 21:27:06.467   871   871 W vendor.qti.bluetooth@1.0-async_fd_watcher: StopThread: stopped the work thread
+06-15 21:27:06.467   871   871 I vendor.qti.bluetooth@1.0-ibs_handler: ~IbsHandler
+06-15 21:27:06.468   871   871 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+06-15 21:27:06.468   871   871 D vendor.qti.bluetooth@1.0-uart_controller: HciTransportCleanup: deleting hci_transport
+06-15 21:27:06.468   871   871 D vendor.qti.bluetooth@1.0-uart_transport: Disconnect: discard unsent data
+06-15 21:27:06.469   871   871 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+06-15 21:27:06.469   871   871 D vendor.qti.bluetooth@1.0-uart_transport: DeInitTransport: Voting for clock OFF
+06-15 21:27:06.470   871   871 I vendor.qti.bluetooth@1.0-uart_transport: DeInitTransport: Transport is being closed!
+06-15 21:27:06.470   871   871 D vendor.qti.bluetooth@1.0-uart_transport: CleanUp:> soc_type: 3, need_reload: 1
+06-15 21:27:06.470   871   871 I vendor.qti.bluetooth@1.0-uart_transport: InitTransport: opening /dev/ttyHS0
+06-15 21:27:06.473   871   871 D vendor.qti.bluetooth@1.0-uart_transport: userial clock on
+06-15 21:27:06.474   871   871 I vendor.qti.bluetooth@1.0-uart_transport: GetBaudRate: Current Baudrate = 2400 bps
+06-15 21:27:06.474   871   871 I vendor.qti.bluetooth@1.0-uart_transport: InitTransport: device fd = 8 open @2400 bps
+06-15 21:27:06.480   871   871 I vendor.qti.bluetooth@1.0-uart_transport: CleanUp:send out shutdown signal
+06-15 21:27:06.480   871   871 D vendor.qti.bluetooth@1.0-uart_transport: DeInitTransport: Voting for clock OFF
+06-15 21:27:06.483   871   871 I vendor.qti.bluetooth@1.0-uart_transport: DeInitTransport: Transport is being closed!
+06-15 21:27:06.534   871   871 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+06-15 21:27:06.534   871   871 D vendor.qti.bluetooth@1.0-power_manager: SetPower: enable: 0
+06-15 21:27:06.534   871   871 E vendor.qti.bluetooth@1.0-power_manager: 
+06-15 21:27:06.534   871   871 E vendor.qti.bluetooth@1.0-power_manager: PowerUpChip enable(0) retentionMode(0)
+06-15 21:27:06.543     0     0 E bt_ioctl: BT_CMD_PWR_CTRL pwr_cntrl:0
+06-15 21:27:06.548     0     0 E qcom,rpmh-regulator soc: rpmh-regulator-ldoc2: TCS Busy, retrying RPMH message send
+06-15 21:27:06.549   871   871 D vendor.qti.bluetooth@1.0-uart_controller: StopRecoveryStuckTimer: Stuck recovery timer Stopped
+06-15 21:27:06.550   871   871 D vendor.qti.bluetooth@1.0-diag_interface: BT_Diag_LSM_DeInit
+06-15 21:27:06.550   871   871 I vendor.qti.bluetooth@1.0-diag_interface: StartDiagDeinitTimeoutTimer
+06-15 21:27:06.552   871   871 D vendor.qti.bluetooth@1.0-diag_interface: BT_Diag_LSM_DeInit: Pre-Diag_LSM_DeInit
+06-15 21:27:06.552   871   871 E Diag_Lib: diag: Diag_LSM_DeInit: invoked for pid: 871
+06-15 21:27:06.552   871   871 E Diag_Lib: diag: Diag_LSM_DeInit: Initiating deinit pkt transfer
+06-15 21:27:06.554   871   871 E Diag_Lib: diag: Diag_LSM_DeInit: Read status in CreateWaitThread, in_read: 1
+06-15 21:27:06.554   871   871 E Diag_Lib: diag: Diag_LSM_DeInit: sending signal to unblock read thread
+06-15 21:27:06.554   871   871 E Diag_Lib: diag: Diag_LSM_DeInit: status of deinit_rcvd: 0, sig_rcvd: 0
+06-15 21:27:06.554   871 17114 E Diag_Lib: diag: CreateWaitThread, Read DEINIT_TYPE packet
+06-15 21:27:06.554   871 17114 E Diag_Lib: diag: CreateWaitThread, Exiting...
+06-15 21:27:06.554   871   871 E Diag_Lib: diag: Diag_LSM_DeInit: Joining the read thread, deinit_rcvd: 1, sig_rcvd: 1
+06-15 21:27:06.555   871   871 E Diag_Lib: diag: Diag_LSM_DeInit: done for pid: 871
+06-15 21:27:06.555   871   871 D vendor.qti.bluetooth@1.0-diag_interface: BT_Diag_LSM_DeInit: Post-Diag_LSM_DeInit
+06-15 21:27:06.555   871   871 I vendor.qti.bluetooth@1.0-diag_interface: StopDiagDeinitTimeoutTimer
+06-15 21:27:06.555   871   871 D vendor.qti.bluetooth@1.0-diag_interface: Diag_LSM_DeInit SUCCEED
+06-15 21:27:06.556   871   871 W vendor.qti.bluetooth@1.0-data_handler: controller Cleanup done
+06-15 21:27:06.557   871   871 D vendor.qti.bluetooth@1.0-data_handler: Close: joining init thread
+06-15 21:27:06.557   871   871 I vendor.qti.bluetooth@1.0-data_handler: DataHandler:: joined Init thread 
+06-15 21:27:06.557   871   871 D vendor.qti.bluetooth@1.0-wake_lock: CleanUp wakelock is destroyed 
+06-15 21:27:06.557   871   871 W vendor.qti.bluetooth@1.0-bluetooth_hci: BluetoothHci::close, finish cleanup
+06-15 21:27:06.558 17058 17106 W bt_osi_thread: run_thread: thread id 17106, thread name hci_thread exited
+06-15 21:27:06.559 17058 17090 I bt_core_module: module_shut_down Shutdown of module "hci_module" completed
+06-15 21:27:06.560 17058 17090 I bt_core_module: module_shut_down Shutting down module "btsnoop_module"
+06-15 21:27:06.560 17058 17090 I bt_stack: [INFO:btsnoop.cc(895)] delete_btsnoop_files: Deleting snoop logs if they exist. filtered = 0
+06-15 21:27:06.561 17058 17105 W bt_snoop_net: listen_fn_ exting from listen_fn_ thread 
+06-15 21:27:06.562 17058 17090 W bt_snoop_net: btsnoop_net_close stopped the btsnoop listen thread
+06-15 21:27:06.562 17058 17090 I bt_core_module: module_shut_down Shutdown of module "btsnoop_module" completed
+06-15 21:27:06.563 17058 17090 I bt_core_module: module_clean_up Cleaning up module "bte_logmsg_module"
+06-15 21:27:06.563 17058 17090 I bt_core_module: module_clean_up Cleanup of module "bte_logmsg_module" completed
+06-15 21:27:06.563 17058 17090 V bt_stack: [VERBOSE1:gatt_main.cc(215)] gatt_free
+06-15 21:27:06.566 17058 17116 W bt_osi_thread: run_thread: thread id 17116, thread name bt_workqueue exited
+06-15 21:27:06.567 17058 17090 I bt_btif_core: btif_disable_bluetooth_evt finished
+06-15 21:27:06.568 17058 17084 I bt_core_module: module_shut_down Shutting down module "controller_module"
+06-15 21:27:06.568 17058 17084 I bt_core_module: module_shut_down Shutdown of module "controller_module" completed
+06-15 21:27:06.570 17058 17090 W bt_stack: [WARNING:stack_interface.cc(101)] btif_stack_state OnStackState 0x05
+06-15 21:27:06.570 17058 17090 D BluetoothAdapterService: stateChangeCallback: disableNative() completed
+06-15 21:27:06.571 17058 17081 D AdapterProperties: onBleDisable
+06-15 21:27:06.573 17058 17084 I bt_stack_manager: event_shut_down_stack finished
+06-15 21:27:06.578 17058 17058 D BtGatt.DebugUtils: handleDebugAction() action=null
+06-15 21:27:06.581 17058 17058 D GattService: : Received stop request...Stopping profile...
+06-15 21:27:06.581 17058 17058 D BtGatt.GattService: stop()
+06-15 21:27:06.581 17058 17058 I BtGatt.GattService: Quit looper
+06-15 21:27:06.581 17058 17058 I BtGatt.GattService: Remove Handler
+06-15 21:27:06.581 17058 17058 D BtGatt.GattService: setGattService(): set to: null
+06-15 21:27:06.582 17058 17058 W bt_stack: [WARNING:bta_gattc_api.cc(68)] GATTC Module not enabled/already disabled
+06-15 21:27:06.582 17058 17058 W bt_stack: [WARNING:bta_gatts_api.cc(56)] GATTS Module not enabled/already disabled
+06-15 21:27:06.582 17058 17058 D BtGatt.AdvertiseManager: cleanup()
+06-15 21:27:06.589 17058 17058 D BtGatt.SyncManager: cleanup()
+06-15 21:27:06.590 17058 17058 D GattService:  profile stopped successfully
+06-15 21:27:06.593 17058 17058 W BluetoothAdapterService: onProfileServiceStateChange() - All profile services stopped..
+06-15 21:27:06.594 17058 17081 I AdapterState: OFF : entered 
+06-15 21:27:06.594 17058 17081 D AdapterProperties: Setting state to OFF
+06-15 21:27:06.595 17058 17084 I bt_stack_manager: event_shut_down_stack stack is already brought down
+06-15 21:27:06.597 17058 17081 D BluetoothAdapterService: updateAdapterState() - Broadcasting state OFF to 1 receivers.
+06-15 21:27:06.598  1452  1727 D BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: BLE_TURNING_OFF > OFF
+06-15 21:27:06.599  1452  1727 D BluetoothManagerService: Bluetooth is complete off, send Service Down
+06-15 21:27:06.599  1452  1727 D BluetoothManagerService: Broadcasting onBluetoothServiceDown() to 9 receivers.
+06-15 21:27:06.600  2503  3439 D BluetoothAdapter: onBluetoothServiceDown
+06-15 21:27:06.600  2503  3439 D BluetoothAdapter: onBluetoothServiceDown: Finished sending callbacks to registered clients
+06-15 21:27:06.600  2169 15441 D BluetoothAdapter: onBluetoothServiceDown
+06-15 21:27:06.600  2169 15441 D BluetoothAdapter: onBluetoothServiceDown: Finished sending callbacks to registered clients
+06-15 21:27:06.600 17128 17266 D BluetoothAdapter: onBluetoothServiceDown
+06-15 21:27:06.601 17128 17266 D BluetoothAdapter: onBluetoothServiceDown: Finished sending callbacks to registered clients
+06-15 21:27:06.601  1452  1727 D BluetoothAdapter: onBluetoothServiceDown
+06-15 21:27:06.601  2608  2890 D BluetoothAdapter: onBluetoothServiceDown
+06-15 21:27:06.601  2608  2890 D BluetoothAdapter: onBluetoothServiceDown: Finished sending callbacks to registered clients
+06-15 21:27:06.602  1452  1727 D BluetoothAdapter: onBluetoothServiceDown: Finished sending callbacks to registered clients
+06-15 21:27:06.602 17058 17164 D BluetoothAdapter: onBluetoothServiceDown
+06-15 21:27:06.602 17058 17164 D BluetoothAdapter: onBluetoothServiceDown: Finished sending callbacks to registered clients
+06-15 21:27:06.602  1452  1727 D BluetoothManagerService: Broadcasting onBluetoothStateChange(false) to 12 receivers.
+06-15 21:27:06.602  1452  1727 D BluetoothHeadset: onBluetoothStateChange: up=false
+06-15 21:27:06.602  1452  1727 D BluetoothHeadset: Unbinding service...
+06-15 21:27:06.602  1452  1727 D BluetoothHeadset: onBluetoothStateChange: up=false
+06-15 21:27:06.602  1452  1727 D BluetoothHeadset: Unbinding service...
+06-15 21:27:06.602  3296 14143 D BluetoothAdapter: onBluetoothServiceDown
+06-15 21:27:06.602  3296 14143 D BluetoothAdapter: onBluetoothServiceDown: Finished sending callbacks to registered clients
+06-15 21:27:06.603  2608  2890 D BluetoothHeadset: onBluetoothStateChange: up=false
+06-15 21:27:06.603  2608  2890 D BluetoothHeadset: Unbinding service...
+06-15 21:27:06.603  3444  3480 D BluetoothAdapter: onBluetoothServiceDown
+06-15 21:27:06.603  1452  1727 D BluetoothManagerService: unbindAndFinish(): android.bluetooth.IBluetooth$Stub$Proxy@6befda9 mBinding = false mUnbinding = false
+06-15 21:27:06.603 17128 17266 D BluetoothHeadset: onBluetoothStateChange: up=false
+06-15 21:27:06.603 17128 17266 D BluetoothHeadset: Unbinding service...
+06-15 21:27:06.603  3444  3480 D BluetoothAdapter: onBluetoothServiceDown: Finished sending callbacks to registered clients
+06-15 21:27:06.603  3444  3480 D BluetoothAdapter: onBluetoothServiceDown: Finished sending callbacks to registered clients
+06-15 21:27:06.604  2169 15441 D BluetoothHeadset: onBluetoothStateChange: up=false
+06-15 21:27:06.604  2169 15441 D BluetoothHeadset: Unbinding service...
+06-15 21:27:06.610 17058 17058 D BluetoothAdapterService: onUnbind() - calling cleanup
+06-15 21:27:06.610 17058 17058 D BluetoothAdapterService: cleanup()
+06-15 21:27:06.614  1452  1727 D BluetoothManagerService: Sending BLE State Change: BLE_TURNING_OFF > OFF
+06-15 21:27:06.616  1452  1452 D CompanionDeviceManagerService: Received BT state transition broadcast: BLE_TURNING_OFF -> OFF
+06-15 21:27:06.625 17058 17058 W BluetoothSdpJni: Cleaning up Bluetooth SDP Interface...
+06-15 21:27:06.625 17058 17058 W BluetoothSdpJni: Cleaning up Bluetooth SDP object
+06-15 21:27:06.625 17058 17058 D BluetoothKeystoreService: cleanup
+06-15 21:27:06.625 17058 17058 D BluetoothKeystoreService: setBluetoothKeystoreService(): set to: null
+06-15 21:27:06.625 17058 17058 D BluetoothAdapterService: cleanup() - Cleaning up adapter native
+06-15 21:27:06.625 17058 17084 I bt_stack_manager: event_clean_up_stack is cleaning up the stack
+06-15 21:27:06.625 17058 17084 I bt_btif_core: btif_cleanup_bluetooth entered
+06-15 21:27:06.625 17058 17084 V bt_stack: [VERBOSE1:ble_advertiser_hci_interface.cc(964)] CleanUp
+06-15 21:27:06.625 17058 17084 E BluetoothServiceJni: Callback: 'callback_thread_event' is not called on the correct thread
+06-15 21:27:06.625 17058 17084 I bt_btif_queue: btif_queue_release
+06-15 21:27:06.625 17058 17084 I bt_btif_queue: btif_disconnect_queue_release
+06-15 21:27:06.626 17058 17090 I bt_btif_core: run_message_loop finished
+06-15 21:27:06.626 17058 17090 W bt_osi_thread: run_thread: thread id 17090, thread name bt_jni_workqueue exited
+06-15 21:27:06.626 17058 17084 I bt_core_module: module_clean_up Cleaning up module "stack_config_module"
+06-15 21:27:06.628 17058 17084 I bt_core_module: module_clean_up Cleanup of module "stack_config_module" completed
+06-15 21:27:06.628 17058 17084 I bt_core_module: module_clean_up Cleaning up module "interop_module"
+06-15 21:27:06.654     0     0 I binder  : undelivered transaction 600742, process died.
+06-15 21:27:06.653 17058 17084 I bt_core_module: module_clean_up Cleanup of module "interop_module" completed
+06-15 21:27:06.654 17058 17084 I bt_core_module: module_clean_up Cleaning up module "profile_config_module"
+06-15 21:27:06.655 17058 17084 I bt_core_module: module_clean_up Cleanup of module "profile_config_module" completed
+06-15 21:27:06.655 17058 17084 I bt_btif_core: btif_cleanup_bluetooth finished
+06-15 21:27:06.655 17058 17084 I bt_stack_manager: event_clean_up_stack freeing the btm resource
+06-15 21:27:06.655 17058 17084 I bt_core_module: module_clean_up Cleaning up module "btif_config_module"
+06-15 21:27:06.663 17058 17084 I bt_core_module: module_clean_up Cleanup of module "btif_config_module" completed
+06-15 21:27:06.663 17058 17084 W bt_stack: [WARNING:stack_interface.cc(101)] btif_stack_state OnStackState 0x06
+06-15 21:27:06.664 17058 17084 I bt_core_module: module_clean_up Cleaning up module "btif_bap_config_module"
+06-15 21:27:06.672 17058 17084 I bt_core_module: module_clean_up Cleanup of module "btif_bap_config_module" completed
+06-15 21:27:06.674 17058 17084 I bt_core_module: module_clean_up Cleaning up module "device_iot_config_module"
+06-15 21:27:06.674 17058 17084 I bt_core_module: module_clean_up Cleanup of module "device_iot_config_module" completed
+06-15 21:27:06.674 17058 17084 I bt_core_module: module_clean_up Cleaning up module "bt_utils_module"
+06-15 21:27:06.674 17058 17084 I bt_core_module: module_clean_up Cleanup of module "bt_utils_module" completed
+06-15 21:27:06.674 17058 17084 I bt_core_module: module_clean_up Cleaning up module "osi_module"
+06-15 21:27:06.674 17058 17089 D bt_osi_alarm: callback_dispatch Callback thread exited
+06-15 21:27:06.674 17058 17089 W bt_osi_thread: run_thread: thread id 17089, thread name alarm_dispatcher exited
+06-15 21:27:06.675 17058 17087 W bt_osi_thread: run_thread: thread id 17087, thread name alarm_default_ca exited
+06-15 21:27:06.676 17058 17084 I bt_core_module: module_clean_up Cleanup of module "osi_module" completed
+06-15 21:27:06.676 17058 17084 I bt_stack_manager: event_clean_up_stack finished
+06-15 21:27:06.676 17058 17058 I BluetoothServiceJni: cleanupNative: return from cleanup
+06-15 21:27:06.680 17058 17058 W BluetoothVendorJni: Cleaning up Bluetooth Vendor Interface...
+06-15 21:27:06.681 17058 17058 I bt_btif_vendor: cleanup
+06-15 21:27:06.681 17058 17058 W BluetoothVendorJni: Cleaning up Bluetooth Vendor callback object
+06-15 21:27:06.681 17058 17058 W BluetoothVendorSocketJni: Cleaning up Bluetooth Vendor Interface...
+06-15 21:27:06.681 17058 17058 I bt_btif_vendor_socket: cleanup
+06-15 21:27:06.681 17058 17058 W BluetoothVendorSocketJni: Cleaning up Bluetooth Vendor callback object
+06-15 21:27:06.682 17058 17058 D BluetoothActiveDeviceManager: cleanup()
+06-15 21:27:06.683 17058 17058 D BluetoothAdapterService: onDestroy()
+06-15 21:27:06.685 17058 17058 I BluetoothAdapterService: Force exit to cleanup internal state in Bluetooth stack
+06-15 21:27:06.687 17058 17058 I droid.bluetoot: System.exit called, status: 0
+06-15 21:27:06.687 17058 17058 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+06-15 21:27:06.768  1452  2323 W AudioService.PlaybackActivityMonitor: client died
+06-15 21:27:06.771  1452  6886 I ActivityManager: Process com.android.bluetooth (pid 17058) has died: fg  SVC 
+06-15 21:27:06.771  1452  6886 I am_proc_died: [0,17058,com.android.bluetooth,0,10]
+06-15 21:27:06.772  1452  1793 I libprocessgroup: Successfully killed process cgroup uid 1002 pid 17058 in 0ms
+06-15 21:27:06.775   730   730 I Zygote  : Process 17058 exited cleanly (0)
+06-15 21:27:07.075  1452  1723 D CompanionDeviceManagerService: onPackageModified(packageName = com.qualcomm.qtil.btdsda)
+06-15 21:27:07.088  1452  2044 I RoleService: Granting default roles...
+06-15 21:27:07.091 11008 11409 I PermissionControllerServiceImpl: Updating user sensitive for uid 1002
+06-15 21:27:07.094  1452  1452 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now humane.experience.dialer: DDC.oR@AKw
+06-15 21:27:07.097  1452  2056 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+06-15 21:27:07.106  1452  2056 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+06-15 21:27:07.113  1452  1723 D CompanionDeviceManagerService: onPackageModified(packageName = com.android.bluetooth)
+06-15 21:27:07.114  1452  1452 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now humane.experience.dialer: DDC.oR@AK0
+06-15 21:27:07.115 11008 16302 I PermissionControllerServiceImpl: Updating user sensitive for uid 1002
+06-15 21:27:07.122  3296  3296 D RegisteredNfcFServicesCache: Service unchanged, not updating
+06-15 21:27:07.146  3296  3296 D RegisteredNfcFServicesCache: Service unchanged, not updating
+06-15 21:27:07.155  2608  2608 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+06-15 21:27:07.155  2608  2608 D CarrierSvcBindHelper: No carrier app for: 0
+06-15 21:27:07.181  2608  2608 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+06-15 21:27:07.181  2608  2608 D CarrierSvcBindHelper: No carrier app for: 0
+06-15 21:27:07.182  2608  2608 D ImsResolver: maybeAddedImsService, packageName: com.qualcomm.qtil.btdsda
+06-15 21:27:07.183  2608  2608 D ImsResolver: maybeAddedImsService, packageName: com.android.bluetooth
+06-15 21:27:07.248     0     0 I IRQ 6   : no longer affine to CPU4
+06-15 21:27:07.614   877   983 I LocSvc_GnssInterface: ===> odcpiRequestCb line 523 
+06-15 21:27:07.621  1452  1723 I GnssLocationProvider: GNSS HAL Requesting location updates from network provider for 10000 millis.
+06-15 21:27:08.024  1038  1058 D wlc-service: received vector of size 0
+06-15 21:27:08.025  1038  1058 D wlc-service: rc is -110
+06-15 21:27:08.025  1038  1058 D wlc-service: wlc_driver_transact returned -110, considering trying again...
+06-15 21:27:08.150 17262 17262 E humane_antenna_tune: timeout while waiting for sensors QMI service: will try 3 more time(s)
+06-15 21:27:08.910     0     0 E power_supply main: driver failed to report `flash_trigger' property: -1
+06-15 21:27:10.152 17262 17262 E humane_antenna_tune: timeout while waiting for sensors QMI service: will try 2 more time(s)
+06-15 21:27:10.583  1038  1058 D wlc-service: received vector of size 0
+06-15 21:27:10.583  1038  1058 D wlc-service: rc is -110
+06-15 21:27:10.584  1038  1058 D wlc-service: wlc_driver_transact returned -110, considering trying again...
+06-15 21:27:11.827 17279 17279 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-15 21:27:11.836     0     0 I binder  : 17279:17279 ioctl 40046210 7ff703d904 returned -22
+06-15 21:27:12.154 17262 17262 E humane_antenna_tune: timeout while waiting for sensors QMI service: will try 1 more time(s)
+06-15 21:27:12.931     0     0 I logd    : logdr: UID=0 GID=0 PID=17282 n tail=0 logMask=bf pid=0 start=0ns deadline=0ns

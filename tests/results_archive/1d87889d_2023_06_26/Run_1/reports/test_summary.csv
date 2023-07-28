@@ -1,0 +1,21 @@
+Test ID,Test Description,Test Status,Test Start Time,Test End Time,Expected Result,Expected Response,Actual Response,H4 Serial,H4 Build Version
+ENABLE_WIFI,Enable wifi using the command,PASS,06-26-2023 15:59:44,06-26-2023 15:59:57,Wifi can be enabled by the command,on,on,1d87889d,eng.action.20230621.225059
+DISABLE_WIFI,Disable wifi using the command,PASS,06-26-2023 15:59:57,06-26-2023 16:00:07,Wifi can be disabled by the command,off,off,1d87889d,eng.action.20230621.225059
+SCAN_WIFI,Scan wifi using the command,PASS,06-26-2023 16:00:07,06-26-2023 16:00:16,DUT can detect the available networks,hdevice is in the scanned list,"Scanned SSIDs: {'hcorp', 'hav', ""what's that?"", 'hdevice', 'The Dungeon', 'Office TV.v,', 'htalk', 'hguest', 'hu_2G'}",1d87889d,eng.action.20230621.225059
+CONNECT_WIFI,Connect to a wifi network by command,PASS,06-26-2023 16:00:16,06-26-2023 16:00:31,Wifi gets connected without any issue,"Wifi is connected to ""hdevice""","Wifi is connected to ""hdevice""",1d87889d,eng.action.20230621.225059
+DISCONNECT_WIFI,Disconnect from a wifi network by command,PASS,06-26-2023 16:00:31,06-26-2023 16:00:40,Wifi gets connected without any issue,"Wifi is enabled
+Wifi is not connected","Wifi is enabled
+Wifi is not connected",1d87889d,eng.action.20230621.225059
+RECONNECT_WIFI,Reconnect to a saved wifi network by command,FAIL,06-26-2023 16:00:40,06-26-2023 16:01:02,Wifi gets reconnected without any issue,"Wifi is connected to ""hdevice""",/system/bin/sh: no closing quote,1d87889d,eng.action.20230621.225059
+FORGET_WIFI,Forget a wifi network by command,PASS,06-26-2023 16:01:02,06-26-2023 16:01:18,DUT can forget wifi by command,"""hdevice"" is not in saved networks",No networks,1d87889d,eng.action.20230621.225059
+ENABLE_WIFI_FROM_SETTINGS,Turn on wifi from Settings app,PASS,06-26-2023 16:01:20,06-26-2023 16:02:03,Wifi can be turned on from Settings app,on,on,1d87889d,eng.action.20230621.225059
+DISABLE_WIFI_FROM_SETTINGS,Turn off wifi from Settings app,PASS,06-26-2023 16:02:05,06-26-2023 16:02:42,Wifi can be turned off from Settings app,off,off,1d87889d,eng.action.20230621.225059
+CONNECT_NEW_WIFI_FROM_SETTINGS,Connect to a new network from setting UI,PASS,06-26-2023 16:02:46,06-26-2023 16:03:48,DUT can connect to wifi from setting UI,"Wifi is connected to ""hdevice""","Wifi is connected to ""hdevice""",1d87889d,eng.action.20230621.225059
+DISCONNECT_WIFI_FROM_SETTINGS,Disconnect from a wifi network from setting UI,PASS,06-26-2023 16:03:52,06-26-2023 16:04:39,DUT can disconnect wifi from setting UI,"Wifi is enabled
+Wifi is not connected","Wifi is enabled
+Wifi is not connected",1d87889d,eng.action.20230621.225059
+CONNECT_SAVED_WIFI_FROM_SETTINGS,Connect to a saved network from setting UI,PASS,06-26-2023 16:04:43,06-26-2023 16:05:36,DUT can reconnect to a saved network from setting UI,"Wifi is connected to ""hdevice""","Wifi is connected to ""hdevice""",1d87889d,eng.action.20230621.225059
+FORGET_WIFI_FROM_SETTINGS,Forget a network from setting UI,PASS,06-26-2023 16:05:40,06-26-2023 16:06:23,DUT can forget a network from setting UI,"""hdevice"" is not in saved networks",No networks,1d87889d,eng.action.20230621.225059
+LATENCY_TO_ESTABLISH_NEW_CONNECTION,Latency to establish a new connection,PASS,06-26-2023 16:06:27,06-26-2023 16:07:33,Less than 1s,0-1,0.022,1d87889d,eng.action.20230621.225059
+LATENCY_TO_AUTO_REASSOCIATE_CONNECTION,Latency from wake to wifi connection established,PASS,06-26-2023 16:07:37,06-26-2023 16:08:26,Less than 1s,0-1,0.203,1d87889d,eng.action.20230621.225059
+LATENCY_TO_DISCONNECT_FROM_NETWORK,Latency to disconnect from a wifi network,PASS,06-26-2023 16:08:30,06-26-2023 16:09:17,Less than 1s,0-1,0.012,1d87889d,eng.action.20230621.225059

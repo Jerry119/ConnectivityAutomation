@@ -1,0 +1,1014 @@
+--------- beginning of events
+06-27 23:00:55.920  1447  1672 I am_pss  : [2088,1002,com.android.bluetooth,38980608,35172352,0,151113728,0,0,17]
+06-27 23:00:55.931  1447  1672 I am_pss  : [2965,10147,com.qualcomm.location,9640960,7368704,0,105754624,0,0,8]
+06-27 23:00:55.940  1447  1672 I am_pss  : [2478,10149,com.qualcomm.qtil.aptxals,11940864,10285056,0,101888000,0,0,7]
+06-27 23:00:55.949  1447  1672 I am_pss  : [2325,1001,.dataservices,8253440,6627328,0,98267136,0,0,6]
+06-27 23:00:55.957  1447  1672 I am_pss  : [2276,1073,com.android.networkstack.process,19728384,17047552,0,122433536,0,0,7]
+06-27 23:00:55.975  1447  1672 I am_pss  : [1447,1000,system,198274048,169172992,0,380542976,0,0,16]
+06-27 23:00:57.789  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE),1]
+06-27 23:00:57.795  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:00.350  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:00.360  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:00.364  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x0 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:01.602  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x0 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:01.607  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:03.049  1447  1672 I am_pss  : [4106,10030,humane.voice.tts,169910272,168022016,0,264372224,0,6,16]
+06-27 23:01:03.056  1447  1672 I am_pss  : [3286,10145,com.qualcomm.location.XT,6055936,4538368,0,95510528,0,6,7]
+06-27 23:01:03.081  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:03.089  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:03.389  1447  1947 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687906863887]
+06-27 23:01:03.390  1447  1947 I netstats_wifi_sample: [273998,4755,17825,105,273998,4755,17825,105,25325,76,17825,105,1687906863887]
+06-27 23:01:04.112  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:04.122  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:04.157  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:04.161  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:04.468  1447  2113 I am_proc_died: [0,2832,com.android.cellbroadcastreceiver.module,995,19]
+06-27 23:01:04.468  1447  2113 I am_uid_stopped: 10176
+06-27 23:01:04.470  1447  2113 I am_mem_factor: [1,0]
+06-27 23:01:04.486  1447  1672 I am_pss  : [2892,10116,com.android.deskclock,11425792,8540160,1528832,86573056,0,19,6]
+06-27 23:01:04.493  1447  1672 I am_pss  : [3168,10165,com.qualcomm.qti.workloadclassifier,8182784,6684672,0,96059392,0,0,6]
+06-27 23:01:04.501  1447  1672 I am_pss  : [3136,10041,hu.ma.ne.metricreporter,19168256,16453632,0,113786880,0,0,7]
+06-27 23:01:04.508  1447  1672 I am_pss  : [3123,10151,com.qualcomm.qti.qccnetstat,5813248,4284416,0,94072832,0,0,6]
+06-27 23:01:04.516  1447  1672 I am_pss  : [3057,10096,.pasr,5145600,3678208,0,92262400,0,0,6]
+06-27 23:01:04.523  1447  1672 I am_pss  : [3087,10138,com.qualcomm.qti.services.systemhelper:systemhelper_service,6164480,4579328,0,96538624,0,0,6]
+06-27 23:01:04.530  1447  1672 I am_pss  : [3030,1000,com.memfault.usagereporter,11877376,10215424,0,104378368,0,0,6]
+06-27 23:01:04.538  1447  1672 I am_pss  : [3010,1027,com.android.nfc,12269568,10293248,0,105951232,0,0,6]
+06-27 23:01:04.545  1447  1672 I am_pss  : [2587,10154,com.qualcomm.qti.qdma,14653440,11337728,0,119640064,0,0,7]
+06-27 23:01:04.554  1447  1672 I am_pss  : [2571,1001,com.android.phone,26864640,21499904,0,144019456,0,0,8]
+06-27 23:01:04.562  1447  1672 I am_pss  : [2553,10122,com.qualcomm.qti.devicestatisticsservice,5668864,4042752,0,95891456,0,0,6]
+06-27 23:01:04.569  1447  1672 I am_pss  : [2534,1068,com.android.se,6200320,4595712,0,97153024,0,0,6]
+06-27 23:01:04.576  1447  1672 I am_pss  : [2508,10134,org.codeaurora.ims,5608448,4083712,0,93724672,0,0,6]
+06-27 23:01:04.583  1447  1672 I am_pss  : [2487,1000,com.humane.lqm,5621760,4018176,0,96108544,0,0,6]
+06-27 23:01:04.589  1447  1672 I am_pss  : [2500,1000,vendor.qti.qesdk.sysservice,5403648,3878912,0,94416896,0,0,5]
+06-27 23:01:04.595  1447  1672 I am_pss  : [2448,10159,com.qualcomm.qtil.aptxacu,7359488,5885952,0,94957568,0,0,5]
+06-27 23:01:04.602  1447  1672 I am_pss  : [2404,10090,.qtidataservices,8560640,6770688,0,102584320,0,0,6]
+06-27 23:01:04.609  1447  1672 I am_pss  : [2408,10119,com.qti.phone,8827904,7053312,0,100159488,0,0,6]
+06-27 23:01:04.800  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:04.809  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:04.818  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x0 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:06.179  1447  3039 I am_mem_factor: [0,1]
+06-27 23:01:06.236  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x0 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:06.241  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:06.497  1447  1672 I am_meminfo: [951541760,47112192,6053888,414240768,784268288]
+06-27 23:01:06.510  1447  1672 I am_pss  : [4525,10128,com.android.music,59604992,53186560,0,181358592,1,2,11]
+06-27 23:01:06.524  1447  1672 I am_pss  : [3268,10135,com.android.launcher3,40903680,32366592,0,171278336,1,14,12]
+06-27 23:01:06.535  1447  1672 I am_pss  : [3414,10039,hu.ma.ne.ironman:voicesession,18580480,11116544,792576,117690368,1,16,9]
+06-27 23:01:06.548  1447  1672 I am_pss  : [2613,1000,com.android.settings,50412544,34242560,1015808,186888192,1,15,11]
+06-27 23:01:06.560  1447  1672 I am_pss  : [2088,1002,com.android.bluetooth,40028160,36179968,0,152305664,1,0,10]
+06-27 23:01:06.567  1447  1672 I am_pss  : [4194,10052,hu.ma.ne.bort,22844416,20054016,1235968,106061824,1,19,6]
+06-27 23:01:06.573  1447  1672 I am_pss  : [4744,10035,com.android.musicfx,5793792,3432448,1362944,72024064,1,19,5]
+06-27 23:01:06.581  1447  1672 I am_pss  : [3212,10174,com.android.providers.media.module,23250944,20566016,0,129351680,1,0,7]
+06-27 23:01:06.588  1447  1672 I am_pss  : [4245,10043,hu.ma.ne.bort.ota,21122048,18120704,956416,114298880,1,19,6]
+06-27 23:01:06.595  1447  1672 I am_pss  : [3323,10173,com.android.permissioncontroller,14450688,11816960,688128,107593728,1,19,5]
+06-27 23:01:06.603  1447  1672 I am_pss  : [2733,10166,com.qualcomm.qti.qccauthmgr,6465536,3973120,1294336,77135872,1,19,6]
+06-27 23:01:06.610  1447  1672 I am_pss  : [4551,10031,android.process.acore,12455936,8785920,1042432,107159552,1,19,6]
+06-27 23:01:06.617  1447  1672 I am_pss  : [3851,10124,com.android.inputmethod.latin,13683712,11124736,0,115064832,1,7,6]
+06-27 23:01:06.624  1447  1672 I am_pss  : [3671,10036,android.process.media,9639936,7032832,1312768,82771968,1,19,6]
+06-27 23:01:06.632  1447  1672 I am_pss  : [2631,10175,android.ext.services,8501248,6213632,0,106053632,1,5,7]
+06-27 23:01:06.639  1447  1672 I am_pss  : [4008,10051,com.android.providers.calendar,7254016,4644864,1347584,79818752,1,19,6]
+06-27 23:01:06.646  1447  1672 I am_pss  : [3892,10148,com.android.mms,9811968,6828032,1362944,84746240,1,19,6]
+06-27 23:01:06.653  1447  1672 I am_pss  : [4328,10027,com.android.externalstorage,5800960,3383296,1351680,73760768,1,19,6]
+06-27 23:01:06.659  1447  1672 I am_pss  : [3537,1002,com.qualcomm.qtil.btdsda,5596160,3989504,0,95297536,1,10,5]
+06-27 23:01:06.666  1447  1672 I am_pss  : [3717,10144,org.codeaurora.dialer,24608768,22016000,1350656,94650368,1,19,6]
+06-27 23:01:06.674  1447  1672 I am_pss  : [4285,10039,hu.ma.ne.ironman,23354368,15400960,900096,124170240,1,19,7]
+06-27 23:01:06.681  1447  1672 I am_pss  : [3469,10152,com.qualcomm.qtil.aptxui,7673856,5464064,1246208,73543680,1,19,5]
+06-27 23:01:06.688  1447  1672 I am_pss  : [4164,10092,com.qualcomm.qti.qms.service.connectionsecurity,7627776,5316608,1327104,73809920,1,19,5]
+06-27 23:01:06.694  1447  1672 I am_pss  : [3292,10168,com.qualcomm.qti.performancemode,5694464,3391488,1274880,73146368,1,19,5]
+06-27 23:01:06.702  1447  1672 I am_pss  : [4142,1001,com.qualcomm.qti.modemtestmode,5772288,4141056,0,94285824,1,10,6]
+06-27 23:01:06.708  1447  1672 I am_pss  : [4125,10112,com.qualcomm.qti.lpa,5728256,3366912,1339392,71786496,1,19,5]
+06-27 23:01:06.721  1447  1672 I am_pss  : [4106,10030,humane.voice.tts,169961472,168034304,0,264699904,1,6,10]
+06-27 23:01:06.728  1447  1672 I am_pss  : [4089,10160,com.qualcomm.qct.dlt,7909376,5033984,1293312,80486400,1,19,6]
+06-27 23:01:06.735  1447  1672 I am_pss  : [3286,10145,com.qualcomm.location.XT,6109184,4550656,0,95903744,1,6,6]
+06-27 23:01:06.742  1447  1672 I am_pss  : [4055,10034,com.android.statementservice,9852928,7122944,1306624,85250048,1,19,6]
+06-27 23:01:06.749  1447  1672 I am_pss  : [4035,2000,com.android.shell,6141952,3850240,1321984,72040448,1,19,5]
+06-27 23:01:06.755  1447  1672 I am_pss  : [3983,10033,com.android.packageinstaller,7385088,5103616,1317888,72794112,1,19,5]
+06-27 23:01:06.762  1447  1672 I am_pss  : [3958,10101,com.android.onetimeinitializer,5374976,3055616,1315840,72032256,1,19,6]
+06-27 23:01:06.770  1447  1672 I am_pss  : [3816,10106,com.android.imsserviceentitlement,9545728,6950912,1368064,81960960,1,19,6]
+06-27 23:01:06.777  1447  1672 I am_pss  : [3871,10032,com.android.managedprovisioning,8700928,6336512,1353728,75288576,1,19,5]
+06-27 23:01:06.783  1447  1672 I am_pss  : [3815,1000,com.android.dynsystem:dynsystem,5848064,3411968,1290240,73211904,1,19,5]
+06-27 23:01:06.790  1447  1672 I am_pss  : [3799,1000,com.android.dynsystem,5594112,3289088,1234944,72491008,1,19,6]
+06-27 23:01:06.797  1447  1672 I am_pss  : [3689,10105,com.android.dialer,12454912,10043392,1318912,81063936,1,19,6]
+06-27 23:01:06.804  1447  1672 I am_pss  : [2892,10116,com.android.deskclock,11441152,8691712,1386496,87261184,1,19,6]
+06-27 23:01:06.811  1447  1672 I am_pss  : [3780,10104,com.android.contacts,9817088,7561216,1245184,77045760,1,19,5]
+06-27 23:01:06.817  1447  1672 I am_pss  : [3643,10164,com.qualcomm.telephony,5864448,3600384,1265664,72122368,1,10,5]
+06-27 23:01:06.824  1447  1672 I am_pss  : [3186,1000,com.qti.diagservices,5975040,4132864,0,97832960,1,0,5]
+06-27 23:01:06.831  1447  1672 I am_pss  : [3204,1000,com.qualcomm.qti.services.secureui:sui_service,6085632,4468736,0,97439744,1,0,5]
+06-27 23:01:06.837  1447  1672 I am_pss  : [3168,10165,com.qualcomm.qti.workloadclassifier,8182784,6684672,0,96059392,1,0,5]
+06-27 23:01:06.845  1447  1672 I am_pss  : [3136,10041,hu.ma.ne.metricreporter,19172352,16457728,0,113790976,1,0,6]
+06-27 23:01:06.852  1447  1672 I am_pss  : [3123,10151,com.qualcomm.qti.qccnetstat,5813248,4284416,0,94072832,1,0,5]
+06-27 23:01:06.858  1447  1672 I am_pss  : [3057,10096,.pasr,5145600,3678208,0,92262400,1,0,6]
+06-27 23:01:06.865  1447  1672 I am_pss  : [3087,10138,com.qualcomm.qti.services.systemhelper:systemhelper_service,6164480,4579328,0,96538624,1,0,6]
+06-27 23:01:06.872  1447  1672 I am_pss  : [3030,1000,com.memfault.usagereporter,11877376,10215424,0,104378368,1,0,6]
+06-27 23:01:06.879  1447  1672 I am_pss  : [3010,1027,com.android.nfc,12269568,10293248,0,105951232,1,0,6]
+06-27 23:01:06.887  1447  1672 I am_pss  : [2993,10039,hu.ma.ne.ironman:voiceinteractor,22825984,15388672,0,124600320,1,5,7]
+06-27 23:01:06.894  1447  1672 I am_pss  : [2965,10147,com.qualcomm.location,9688064,7380992,0,106016768,1,0,6]
+06-27 23:01:06.901  1447  1672 I am_pss  : [2758,10156,com.android.smspush,5519360,3952640,0,95125504,1,6,5]
+06-27 23:01:06.909  1447  1672 I am_pss  : [2587,10154,com.qualcomm.qti.qdma,14653440,11337728,0,119640064,1,0,6]
+06-27 23:01:06.917  1447  1672 I am_pss  : [2571,1001,com.android.phone,26864640,21499904,0,144019456,1,0,7]
+06-27 23:01:06.924  1447  1672 I am_pss  : [2553,10122,com.qualcomm.qti.devicestatisticsservice,5668864,4042752,0,95891456,1,0,6]
+06-27 23:01:06.931  1447  1672 I am_pss  : [2534,1068,com.android.se,6200320,4595712,0,97153024,1,0,6]
+06-27 23:01:06.939  1447  1672 I am_pss  : [2508,10134,org.codeaurora.ims,5608448,4083712,0,93724672,1,0,6]
+06-27 23:01:06.945  1447  1672 I am_pss  : [2487,1000,com.humane.lqm,5621760,4018176,0,96108544,1,0,6]
+06-27 23:01:06.952  1447  1672 I am_pss  : [2500,1000,vendor.qti.qesdk.sysservice,5403648,3878912,0,94416896,1,0,6]
+06-27 23:01:06.959  1447  1672 I am_pss  : [2478,10149,com.qualcomm.qtil.aptxals,12445696,10747904,0,102731776,1,0,6]
+06-27 23:01:06.965  1447  1672 I am_pss  : [2448,10159,com.qualcomm.qtil.aptxacu,7359488,5885952,0,94957568,1,0,5]
+06-27 23:01:06.972  1447  1672 I am_pss  : [2404,10090,.qtidataservices,8560640,6770688,0,102584320,1,0,6]
+06-27 23:01:06.980  1447  1672 I am_pss  : [2408,10119,com.qti.phone,8827904,7053312,0,100159488,1,0,6]
+06-27 23:01:06.987  1447  1672 I am_pss  : [2325,1001,.dataservices,8306688,6643712,0,98598912,1,0,5]
+06-27 23:01:06.995  1447  1672 I am_pss  : [2276,1073,com.android.networkstack.process,19831808,17113088,0,122683392,1,0,7]
+06-27 23:01:07.008  1447  1672 I am_pss  : [2112,10142,com.android.systemui,101929984,84717568,0,254844928,1,0,11]
+06-27 23:01:07.025  1447  1672 I am_pss  : [1447,1000,system,198727680,169619456,0,380985344,1,0,15]
+06-27 23:01:08.950  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:08.954  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:08.987  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:08.992  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:10.244  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:10.251  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:10.268  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x0 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:13.509  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x0 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:13.514  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:13.542  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:13.546  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:16.658  1447  3042 I service_manager_slow: [17,deviceidle]
+06-27 23:01:16.704  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:16.712  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:16.734  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x0 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:18.849  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x0 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:18.857  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:18.912  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:18.922  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:23.244  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:23.248  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:23.278  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:23.283  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:30.754  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:30.761  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:30.785  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:30.790  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:36.943  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:36.950  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:36.978  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:36.984  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:41.667  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:41.672  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:41.705  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:41.711  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+--------- beginning of radio
+06-27 23:01:44.336  2571  2571 D RILJ    : [0029]> GET_ACTIVITY_INFO [PHONE0]
+06-27 23:01:44.344  2571  2726 D RILJ    : [0029]< GET_ACTIVITY_INFO ModemActivityInfo{ mTimestamp=743947 mSleepTimeMs=0 mIdleTimeMs=726147 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0} [PHONE0]
+06-27 23:01:44.357   611   611 I auditd  : type=1400 audit(0.0:103): avc: denied { read } for comm="Binder:611_2" name="wakeup4" dev="sysfs" ino=43913 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 23:01:44.367   611   611 I auditd  : type=1400 audit(0.0:104): avc: denied { read } for comm="Binder:611_2" name="wakeup38" dev="sysfs" ino=61407 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 23:01:44.367   611   611 I auditd  : type=1400 audit(0.0:105): avc: denied { read } for comm="Binder:611_2" name="wakeup28" dev="sysfs" ino=61035 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 23:01:44.367   611   611 I auditd  : type=1400 audit(0.0:106): avc: denied { read } for comm="Binder:611_2" name="wakeup2" dev="sysfs" ino=42750 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 23:01:44.367   611   611 I auditd  : type=1400 audit(0.0:107): avc: denied { read } for comm="Binder:611_2" name="wakeup36" dev="sysfs" ino=61335 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 23:01:44.377   611   611 I auditd  : type=1400 audit(0.0:108): avc: denied { read } for comm="Binder:611_2" name="wakeup26" dev="sysfs" ino=60963 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 23:01:44.503  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:44.507  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:44.530  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:44.534  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:48.499  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:48.503  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:48.532  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:48.538  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:50.142  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:50.147  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:50.171  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:50.175  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:50.701  1447  1759 I sysui_multi_action: [757,1696,758,6,759,2]
+06-27 23:01:50.709  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.714  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.725  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.729  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.741  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.745  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.759  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.760  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.775  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.777  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.791  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.793  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.808  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.810  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.825  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.826  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.859  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.862  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.872  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.873  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.890  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.892  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.906  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.908  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.923  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.926  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.941  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.943  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.958  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.960  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.975  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.984  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.990  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:50.998  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.023  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.025  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.041  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.043  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.057  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.060  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.073  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.075  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.089  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.091  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.105  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.107  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.123  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.125  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.140  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.142  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.157  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.159  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.172  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.176  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.189  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.190  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.205  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.208  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.210  1447  1675 I service_manager_stats: [100,144,68650]
+06-27 23:01:51.222  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.224  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.240  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.242  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.257  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.259  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.273  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.275  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.290  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.292  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.306  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.308  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.322  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.325  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.340  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.342  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.357  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.360  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.665  1447  1759 I sysui_multi_action: [757,1696,758,6,759,3]
+06-27 23:01:51.675  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.677  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.692  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.694  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.708  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.710  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.724  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.727  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.743  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.746  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.763  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.767  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.786  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.788  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.791  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x0 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:51.804  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.807  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.839  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.840  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.921  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.922  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.974  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:51.975  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:52.054  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:52.056  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:52.088  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:52.090  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:52.139  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:52.141  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:52.222  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:52.224  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:52.306  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:52.308  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:01:53.240  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x0 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:53.247  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:53.275  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:53.280  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:54.758  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:54.763  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:54.784  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:54.788  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:54.816  1447  1919 I thermal_changed: [skin,3,54.331001,3,0]
+06-27 23:01:58.885  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:58.891  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:58.926  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:01:58.931  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:02.342  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:02.348  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:02.382  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:02.389  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:04.200  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:04.206  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:04.240  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:04.245  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:06.106  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x0 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:07.310  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x0 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:07.315  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:07.347  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:07.351  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:08.669  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:08.675  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:08.709  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:08.716  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:11.520  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:11.524  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:11.546  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:11.552  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:13.372  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:13.378  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:13.403  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:13.410  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:14.845  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:14.852  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:14.875  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:14.879  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:15.586  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:15.591  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:15.628  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:15.637  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:16.359  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:16.364  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:16.387  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:16.391  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:17.831  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:17.837  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:17.870  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:17.877  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:18.238  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:18.242  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:18.262  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:18.266  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x42 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:22.127  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x0 color=0x00000000 vis=PRIVATE),1]
+06-27 23:02:24.321  1447  1659 I commit_sys_config_file: [notification-policy,762605]
+06-27 23:02:24.699  1447  1900 I commit_sys_config_file: [settings-1-0,10]
+06-27 23:02:25.645  1447  1658 I dvm_lock_sample: [system_server,1,android.ui,9,ActivityManagerService.java,15651,void com.android.server.am.ActivityManagerService$LocalService.updateDeviceIdleTempAllowlist(int[], int, boolean, long, int, int, java.lang.String, int),BroadcastQueue.java,1066,void com.android.server.am.BroadcastQueue.processNextBroadcast(boolean),1]
+06-27 23:03:04.159  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687906984656]
+06-27 23:03:04.159  1447  1983 I netstats_wifi_sample: [321774,5584,17825,105,321774,5584,17825,105,25325,76,17825,105,1687906984656]
+06-27 23:03:05.480  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687906985978]
+06-27 23:03:05.481  1447  1983 I netstats_wifi_sample: [322166,5590,17969,107,322166,5590,17969,107,25325,76,17969,107,1687906985978]
+06-27 23:03:05.623  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687906986120]
+06-27 23:03:05.623  1447  1983 I netstats_wifi_sample: [322166,5590,17969,107,322166,5590,17969,107,25325,76,17969,107,1687906986120]
+06-27 23:03:15.015  1447  1759 I sysui_multi_action: [757,1696,758,6,759,2]
+06-27 23:03:15.036  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.043  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.051  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.056  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.068  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.074  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.078  1447  1675 I service_manager_stats: [100,126,83866]
+06-27 23:03:15.083  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.086  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.101  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.104  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.116  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.118  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.133  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.135  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.150  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.153  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.171  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.175  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.183  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.186  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.200  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.203  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.218  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.220  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.234  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.236  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.250  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.252  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.266  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.268  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.284  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.286  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.301  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.303  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.317  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.319  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.333  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.335  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.351  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.354  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.369  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.372  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.385  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.387  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.402  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.404  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.420  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.423  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.435  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.437  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.450  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.452  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.468  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.470  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.486  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.488  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.501  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.503  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.518  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.519  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.533  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.535  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.551  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.553  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.568  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.570  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.584  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.586  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.602  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.605  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.618  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.620  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.634  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.636  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.652  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:15.673  1447  1675 I service_manager_slow: [14,dropbox]
+06-27 23:03:15.674  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:22.013  1447  1759 I power_sleep_requested: 0
+06-27 23:03:22.054  1447  1672 I am_pss  : [4525,10128,com.android.music,94934016,88420352,0,215351296,0,2,20]
+06-27 23:03:22.137  1447  1759 I sysui_multi_action: [757,1696,758,6,759,0]
+06-27 23:03:22.587  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:22.590  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:22.646  1447  1759 I wm_pause_activity: [0,170960042,com.android.music/.MusicBrowserActivity,userLeaving=false,sleep]
+06-27 23:03:22.646  4525  4525 I wm_on_top_resumed_lost_called: [170960042,com.android.music.MusicBrowserActivity,topStateChangedWhenResumed]
+06-27 23:03:22.650  4525  4525 I wm_on_paused_called: [170960042,com.android.music.MusicBrowserActivity,performPause]
+06-27 23:03:22.655  1447  1920 I wm_add_to_stopping: [0,170960042,com.android.music/.MusicBrowserActivity,completePauseLocked]
+06-27 23:03:22.669  1447  1660 I wm_stop_activity: [0,170960042,com.android.music/.MusicBrowserActivity]
+06-27 23:03:22.672  1447  1660 I sysui_multi_action: [757,803,799,window_time_0,802,227]
+06-27 23:03:22.699  4525  4525 I wm_on_stop_called: [170960042,com.android.music.MusicBrowserActivity,STOP_ACTIVITY_ITEM]
+06-27 23:03:22.953  1447  1917 I input_focus: [Focus leaving 5c007b com.android.music/com.android.music.MusicBrowserActivity (server),reason=NO_WINDOW]
+06-27 23:03:22.954  1447  1657 I sysui_multi_action: [757,223,758,1]
+06-27 23:03:23.005  2112  2112 I sysui_multi_action: [757,111,758,1]
+06-27 23:03:23.006  2112  2112 I sysui_multi_action: [757,126,758,1,759,126,927,0,928,1,1593,0]
+06-27 23:03:23.006  2112  2112 I sysui_multi_action: [757,113,758,1,759,113,927,1,928,1,1593,0]
+06-27 23:03:23.007  2112  2112 I sysui_multi_action: [757,119,758,1,759,119,927,2,928,0,1593,0]
+06-27 23:03:23.007  2112  2112 I sysui_multi_action: [757,118,758,1,759,118,927,3,928,0,1593,0]
+06-27 23:03:23.012  1447  3038 I wm_set_keyguard_shown: [0,1,0,setKeyguardShown]
+06-27 23:03:23.046  2112  2112 I sysui_multi_action: [757,196,758,2,759,0]
+06-27 23:03:23.046  2112  2112 I sysui_status_bar_state: [1,0,0,0,0,1]
+06-27 23:03:23.065  1447  1920 I sysui_multi_action: [757,127,758,1]
+06-27 23:03:23.066  1447  1920 I sysui_multi_action: [757,804,799,note_load,801,4,802,1]
+06-27 23:03:23.066  1447  1920 I notification_panel_revealed: 4
+06-27 23:03:23.072  1447  1759 I sysui_multi_action: [757,1696,758,6,759,1]
+06-27 23:03:23.073  1447  1447 I sysui_multi_action: [757,198,758,2,759,3,1359,1063,1695,2]
+06-27 23:03:23.073  1447  1447 I power_screen_state: [0,3,0,0,1063]
+06-27 23:03:23.073  1447  1447 I screen_toggled: 0
+06-27 23:03:23.073  1447  1447 I sysui_multi_action: [757,804,799,screen_timeout,801,60,802,1]
+06-27 23:03:23.073  1447  1447 I sysui_multi_action: [757,1594,758,4,759,-2147483648,1359,196186]
+06-27 23:03:23.073  1447  1447 I power_screen_broadcast_send: 1
+06-27 23:03:23.098  1447  1447 I battery_saving_stats: [0,1,0,196396,0,0,634485,-14750,-5]
+06-27 23:03:23.102  2571  2571 D QtiDCT-C: [0]screen off
+06-27 23:03:23.102  2571  2571 D QtiDCT-C: [0]stopNetStatPoll
+06-27 23:03:23.122  1447  1920 I sysui_multi_action: [757,127,758,2]
+06-27 23:03:23.123  1447  1920 I notification_panel_hidden: 
+06-27 23:03:23.145  1447  1661 I input_focus: [Focus request a161a87 NotificationShade,reason=UpdateInputWindows]
+06-27 23:03:23.169  1447  1917 I input_focus: [Focus entering a161a87 NotificationShade (server),reason=setFocusedWindow]
+06-27 23:03:23.198  1447  1447 I power_screen_broadcast_done: [0,125,1]
+06-27 23:03:44.575  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x0 color=0x00000000 vis=PRIVATE),1]
+06-27 23:03:44.585  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE),1]
+06-27 23:03:44.630  1447  1658 I dvm_lock_sample: [system_server,1,android.ui,8,ActivityManagerService.java,15651,void com.android.server.am.ActivityManagerService$LocalService.updateDeviceIdleTempAllowlist(int[], int, boolean, long, int, int, java.lang.String, int),BroadcastQueue.java,1066,void com.android.server.am.BroadcastQueue.processNextBroadcast(boolean),1]
+06-27 23:03:45.140  1447  2020 I stream_devices_changed: [0,128,1]
+06-27 23:03:45.143  1447  2020 I stream_devices_changed: [2,130,2]
+06-27 23:03:45.145  1447  2020 I stream_devices_changed: [3,128,2]
+06-27 23:03:45.151  1447  2020 I stream_devices_changed: [4,130,2]
+06-27 23:03:45.153  1447  2020 I stream_devices_changed: [6,128,1]
+06-27 23:03:48.864  1447  1917 I input_interaction: Interaction with: PointerEventDispatcher0 (server), Humane Touchpad Monitor (server), 
+06-27 23:03:48.865  1447  1447 I screen_toggled: 1
+06-27 23:03:48.865  1447  1447 I power_screen_broadcast_send: 1
+06-27 23:03:48.885  1447  1759 I sysui_multi_action: [757,1696,758,6,759,3]
+06-27 23:03:48.889  1447  3039 I sysui_multi_action: [757,127,758,1]
+06-27 23:03:48.889  1447  3039 I sysui_multi_action: [757,804,799,note_load,801,4,802,1]
+06-27 23:03:48.889  1447  3039 I notification_panel_revealed: 4
+06-27 23:03:48.895  2112  2112 I sysui_multi_action: [757,111,758,2]
+06-27 23:03:48.910  1447  3039 I wm_set_keyguard_shown: [0,0,0,setKeyguardShown]
+06-27 23:03:48.918  1447  3039 I wm_set_resumed_activity: [0,com.android.music/.MusicBrowserActivity,resumeTopActivity]
+06-27 23:03:48.920  1447  3039 I wm_resume_activity: [0,170960042,57,com.android.music/.MusicBrowserActivity]
+06-27 23:03:48.923  4525  4525 I wm_on_restart_called: [170960042,com.android.music.MusicBrowserActivity,performRestartActivity]
+06-27 23:03:48.927  2112  2112 I sysui_multi_action: [757,196,758,2,759,0]
+06-27 23:03:48.928  2112  2112 I sysui_status_bar_state: [0,0,0,0,0,1]
+06-27 23:03:48.928  1447  1447 I battery_saving_stats: [0,0,0,25830,0,0,209948,-11800,0]
+06-27 23:03:48.928  4525  4525 I wm_on_start_called: [170960042,com.android.music.MusicBrowserActivity,handleStartActivity]
+06-27 23:03:48.929  4525  4525 I wm_on_resume_called: [170960042,com.android.music.MusicBrowserActivity,RESUME_ACTIVITY]
+06-27 23:03:48.929  4525  4525 I wm_on_top_resumed_gained_called: [170960042,com.android.music.MusicBrowserActivity,topWhenResuming]
+06-27 23:03:48.929  2571  2571 D QtiDCT-C: [0]screen on
+06-27 23:03:48.929  2571  2571 D QtiDCT-C: [0]stopNetStatPoll
+06-27 23:03:48.975  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE),1]
+06-27 23:03:48.981  1447  1447 I notification_enqueue: [10128,4525,com.android.music,1,NULL,0,Notification(channel=Channel-music shortcut=null contentView=com.android.music/0x7f0c008a vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE),1]
+06-27 23:03:48.982  1447  1661 I input_focus: [Focus request 5c007b com.android.music/com.android.music.MusicBrowserActivity,reason=UpdateInputWindows]
+06-27 23:03:49.005  1447  1447 I power_screen_broadcast_done: [1,140,1]
+06-27 23:03:49.018  1447  3038 I sysui_multi_action: [757,127,758,2]
+06-27 23:03:49.018  1447  3038 I notification_panel_hidden: 
+06-27 23:03:49.129  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:49.136  1447  1917 I input_focus: [Focus leaving a161a87 NotificationShade (server),reason=NO_WINDOW]
+06-27 23:03:49.136  1447  1759 I sysui_latency: [5,280]
+06-27 23:03:49.137  1447  1917 I input_focus: [Focus entering 5c007b com.android.music/com.android.music.MusicBrowserActivity (server),reason=setFocusedWindow]
+06-27 23:03:49.138  1447  1447 I sysui_multi_action: [757,198,758,1,759,1,1359,283,1694,7]
+06-27 23:03:49.141  1447  1447 I power_screen_state: [1,0,0,0,283]
+06-27 23:03:49.142  1447  1675 I am_wtf  : [0,1447,system_server,-1,DisplayDeviceConfig,requesting nits when no mapping exists.]
+06-27 23:03:49.164  1447  1657 I sysui_multi_action: [757,223,758,2]
+06-27 23:03:49.165  1447  1657 I sysui_multi_action: [757,804,799,dozing_minutes,801,0,802,1]
+06-27 23:04:11.727  5053  5053 I auditd  : type=1400 audit(0.0:131): avc: denied { getattr } for comm="df" name="/" dev="mmcblk0p34" ino=1 scontext=u:r:su:s0 tcontext=u:object_r:bt_firmware_file:s0 tclass=filesystem permissive=1
+06-27 23:04:12.098  1447  1900 I commit_sys_config_file: [settings-0-0,14]
+06-27 23:04:12.284  2571  2817 D SubscriptionController: [getSlotIndex]- subId invalid
+06-27 23:04:12.302  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687907052800]
+06-27 23:04:12.303  1447  1983 I netstats_wifi_sample: [357090,6138,17969,107,357090,6138,17969,107,25325,76,17969,107,1687907052800]
+06-27 23:04:12.314  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_VCN_MANAGED RequestorUid: 1000 RequestorPkg: android] ]
+06-27 23:04:12.315  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_VCN_MANAGED RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-27 23:04:12.322  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=7, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ]
+06-27 23:04:12.322  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=15, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ]
+06-27 23:04:12.322  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=17, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1073 RequestorUid: 1073 RequestorPkg: com.android.networkstack] ]
+06-27 23:04:12.322  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=7, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-27 23:04:12.323  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=22, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10142 RequestorUid: 10142 RequestorPkg: com.android.systemui] ]
+06-27 23:04:12.323  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=15, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-27 23:04:12.323  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=24, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10142 RequestorUid: 10142 RequestorPkg: com.android.systemui] ]
+06-27 23:04:12.323  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=17, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1073 RequestorUid: 1073 RequestorPkg: com.android.networkstack] ] shouldApply false
+06-27 23:04:12.323  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=28, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.android.phone] ]
+06-27 23:04:12.323  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=30, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10090 RequestorUid: 10090 RequestorPkg: com.qualcomm.qti.cne] ]
+06-27 23:04:12.323  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=36, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1002 RequestorUid: 1002 RequestorPkg: com.android.bluetooth] ]
+06-27 23:04:12.324  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=22, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10142 RequestorUid: 10142 RequestorPkg: com.android.systemui] ] shouldApply false
+06-27 23:04:12.324  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=38, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.qti.dpmserviceapp] ]
+06-27 23:04:12.324  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10106 RequestorUid: 1000 RequestorPkg: android] ]
+06-27 23:04:12.324  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=42, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10034 RequestorUid: 1000 RequestorPkg: android] ]
+06-27 23:04:12.324  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=24, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10142 RequestorUid: 10142 RequestorPkg: com.android.systemui] ] shouldApply false
+06-27 23:04:12.324  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=46, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 1000 RequestorPkg: android] ]
+06-27 23:04:12.324  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=28, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.android.phone] ] shouldApply false
+06-27 23:04:12.324  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=30, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10090 RequestorUid: 10090 RequestorPkg: com.qualcomm.qti.cne] ] shouldApply false
+06-27 23:04:12.324  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=36, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1002 RequestorUid: 1002 RequestorPkg: com.android.bluetooth] ] shouldApply false
+06-27 23:04:12.325  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=38, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.qti.dpmserviceapp] ] shouldApply false
+06-27 23:04:12.325  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10106 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-27 23:04:12.325  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=42, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10034 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-27 23:04:12.325  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=46, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-27 23:04:15.207  5071  5071 I auditd  : type=1400 audit(0.0:132): avc: denied { getattr } for comm="df" name="/" dev="mmcblk0p34" ino=1 scontext=u:r:su:s0 tcontext=u:object_r:bt_firmware_file:s0 tclass=filesystem permissive=1
+06-27 23:04:15.428  1447  2061 I dvm_lock_sample: [system_server,0,wifiAwareService,74,HalDeviceManager.java,1368,boolean com.android.server.wifi.HalDeviceManager.isWifiStarted(),-,1373,boolean com.android.server.wifi.HalDeviceManager.isWifiStarted(),14]
+06-27 23:04:15.577  1447  1900 I commit_sys_config_file: [settings-0-0,33]
+06-27 23:04:15.799  2571  2818 D SubscriptionController: [getSlotIndex]- subId invalid
+06-27 23:04:19.517  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687907060015]
+06-27 23:04:19.518  1447  1983 I netstats_wifi_sample: [357090,6138,17969,107,357090,6138,17969,107,25325,76,17969,107,1687907060015]
+06-27 23:04:19.676  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687907060174]
+06-27 23:04:19.677  1447  1983 I netstats_wifi_sample: [357090,6138,17969,107,357090,6138,17969,107,25325,76,17969,107,1687907060174]
+06-27 23:04:19.692  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687907060189]
+06-27 23:04:19.692  1447  1983 I netstats_wifi_sample: [357090,6138,17969,107,357090,6138,17969,107,25325,76,17969,107,1687907060189]
+06-27 23:04:19.730  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687907060228]
+06-27 23:04:19.731  1447  1983 I netstats_wifi_sample: [357090,6138,17969,107,357090,6138,17969,107,25325,76,17969,107,1687907060228]
+06-27 23:04:19.735  1447  1948 I service_manager_stats: [100,121,64658]
+06-27 23:04:19.756  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687907060253]
+06-27 23:04:19.756  1447  1983 I netstats_wifi_sample: [357090,6138,18104,109,357090,6138,17969,107,25325,76,17969,107,1687907060253]
+06-27 23:04:19.912  2571  2571 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=46, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 1000 RequestorPkg: android] ] applied false
+06-27 23:04:19.912  2571  2571 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=28, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.android.phone] ] applied false
+06-27 23:04:19.913  2571  2571 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=7, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ] applied false
+06-27 23:04:19.913  2571  2571 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=22, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10142 RequestorUid: 10142 RequestorPkg: com.android.systemui] ] applied false
+06-27 23:04:19.914  2571  2571 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10106 RequestorUid: 1000 RequestorPkg: android] ] applied false
+06-27 23:04:19.915  2571  2571 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=24, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10142 RequestorUid: 10142 RequestorPkg: com.android.systemui] ] applied false
+06-27 23:04:19.915  2571  2571 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=15, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ] applied false
+06-27 23:04:19.915  2571  2571 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=17, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1073 RequestorUid: 1073 RequestorPkg: com.android.networkstack] ] applied false
+06-27 23:04:19.916  2571  2571 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=42, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10034 RequestorUid: 1000 RequestorPkg: android] ] applied false
+06-27 23:04:19.916  2571  2571 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=38, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.qti.dpmserviceapp] ] applied false
+06-27 23:04:19.916  2571  2571 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_VCN_MANAGED RequestorUid: 1000 RequestorPkg: android] ] applied false
+06-27 23:04:19.919  2571  2571 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=36, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1002 RequestorUid: 1002 RequestorPkg: com.android.bluetooth] ] applied false
+06-27 23:04:19.923  2571  2818 D SubscriptionController: [getSlotIndex]- subId invalid
+06-27 23:04:19.934  2571  2571 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=30, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10090 RequestorUid: 10090 RequestorPkg: com.qualcomm.qti.cne] ] applied false
+06-27 23:04:21.168  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687907061665]
+06-27 23:04:21.168  1447  1983 I netstats_wifi_sample: [360211,6169,20704,130,360211,6169,20704,130,27377,92,20704,130,1687907061665]
+06-27 23:04:21.203  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687907061700]
+06-27 23:04:21.203  1447  1983 I netstats_wifi_sample: [360299,6170,20704,130,360299,6170,20704,130,27377,92,20704,130,1687907061700]
+06-27 23:04:21.229  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687907061726]
+06-27 23:04:21.229  1447  1983 I netstats_wifi_sample: [360299,6170,20704,130,360299,6170,20704,130,27377,92,20704,130,1687907061726]
+06-27 23:04:21.450  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687907061947]
+06-27 23:04:21.450  1447  1983 I netstats_wifi_sample: [360571,6174,20936,132,360571,6174,20936,132,27377,92,20936,132,1687907061947]
+06-27 23:04:21.476  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687907061973]
+06-27 23:04:21.476  1447  1983 I netstats_wifi_sample: [360571,6174,20936,132,360571,6174,20936,132,27377,92,20936,132,1687907061973]
+--------- beginning of kernel
+06-27 23:04:21.846     0     0 E power_supply main: driver failed to report `flash_trigger' property: -1
+--------- beginning of main
+06-27 23:04:22.285  4525  4541 I OpenGLRenderer: Davey! duration=9223371134996ms; Flags=0, FrameTimelineVsyncId=11170, IntendedVsync=901857679605, Vsync=901857679605, InputEventId=0, HandleInputStart=901862314082, AnimationStart=901862324342, PerformTraversalsStart=901862333040, DrawStart=901864314290, FrameDeadline=901891012937, FrameInterval=901862293301, FrameStartTime=16666666, SyncQueued=901865176113, SyncStart=901865385592, IssueDrawCommandsStart=901866311217, SwapBuffers=901870400749, FrameCompleted=9223372036854775807, DequeueBufferDuration=87604, QueueBufferDuration=2526511, GpuCompleted=9223372036854775807, SwapBuffersCompleted=901874035957, DisplayPresentTime=-8477363501145631, 
+06-27 23:04:22.338  2404  3122 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.LINK_CONFIGURATION_CHANGED
+06-27 23:04:22.338  2404  3122 E QCNEJ/WlanStaInfoRelay: update link properties given null lp
+06-27 23:04:22.345   707   795 I netd    : trafficSwapActiveStatsMap() <0.61ms>
+06-27 23:04:22.352   707   795 I netd    : tetherGetStats() -> {[]} <3.56ms>
+06-27 23:04:22.358  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687907062856]
+06-27 23:04:22.359  1447  1983 I netstats_wifi_sample: [360603,6175,21156,135,360603,6175,21156,135,27377,92,21156,135,1687907062856]
+06-27 23:04:22.380  2404  3122 D QCNEJ/NativeHalConnector: -> SND notifyWifiAvailable(v4Connected = truev6Connected = , false, isAndroidValidated = true)
+06-27 23:04:22.471  2404  3122 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+06-27 23:04:22.673  2112  2865 I OpenGLRenderer: Davey! duration=9223371134695ms; Flags=0, FrameTimelineVsyncId=11176, IntendedVsync=902157584962, Vsync=902157584962, InputEventId=0, HandleInputStart=902159657207, AnimationStart=902159675801, PerformTraversalsStart=902160358457, DrawStart=902160499707, FrameDeadline=902174251628, FrameInterval=902159648353, FrameStartTime=16666666, SyncQueued=902160538561, SyncStart=902161758457, IssueDrawCommandsStart=902162249811, SwapBuffers=902165504759, FrameCompleted=9223372036854775807, DequeueBufferDuration=27812, QueueBufferDuration=1085521, GpuCompleted=9223372036854775807, SwapBuffersCompleted=902167504499, DisplayPresentTime=0, 
+06-27 23:04:22.730  2404  3122 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.LINK_CONFIGURATION_CHANGED
+06-27 23:04:22.730  2404  3122 E QCNEJ/WlanStaInfoRelay: update link properties given null lp
+06-27 23:04:22.735   707   795 I netd    : trafficSwapActiveStatsMap() <0.41ms>
+06-27 23:04:22.739   707   795 I netd    : tetherGetStats() -> {[]} <1.97ms>
+06-27 23:04:22.741  2112  2996 I OpenGLRenderer: Davey! duration=9223371134598ms; Flags=0, FrameTimelineVsyncId=11180, IntendedVsync=902190915806, Vsync=902190915806, InputEventId=0, HandleInputStart=902191757051, AnimationStart=902191761322, PerformTraversalsStart=902192115176, DrawStart=902192223561, FrameDeadline=902224249138, FrameInterval=902191743040, FrameStartTime=16666666, SyncQueued=902192299447, SyncStart=902257340488, IssueDrawCommandsStart=902257518769, SwapBuffers=902276626894, FrameCompleted=9223372036854775807, DequeueBufferDuration=17293854, QueueBufferDuration=656719, GpuCompleted=9223372036854775807, SwapBuffersCompleted=902277613509, DisplayPresentTime=0, 
+06-27 23:04:22.742  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687907063240]
+06-27 23:04:22.742  1447  1983 I netstats_wifi_sample: [360699,6178,21216,136,360699,6178,21216,136,27377,92,21216,136,1687907063240]
+06-27 23:04:22.750  2404  3122 D QCNEJ/NativeHalConnector: -> SND notifyWifiAvailable(v4Connected = truev6Connected = , false, isAndroidValidated = true)
+06-27 23:04:22.821  4525  4541 I OpenGLRenderer: Davey! duration=9223371134497ms; Flags=0, FrameTimelineVsyncId=11190, IntendedVsync=902357558347, Vsync=902357558347, InputEventId=0, HandleInputStart=902358004394, AnimationStart=902358007311, PerformTraversalsStart=902358009707, DrawStart=902358687051, FrameDeadline=902390891679, FrameInterval=902357996894, FrameStartTime=16666666, SyncQueued=902358920280, SyncStart=902358998040, IssueDrawCommandsStart=902359306634, SwapBuffers=902361418978, FrameCompleted=9223372036854775807, DequeueBufferDuration=32448, QueueBufferDuration=1007032, GpuCompleted=9223372036854775807, SwapBuffersCompleted=902362925801, DisplayPresentTime=-8477363501145631, 
+06-27 23:04:22.822  2112  2865 I OpenGLRenderer: Davey! duration=9223371134524ms; Flags=0, FrameTimelineVsyncId=11183, IntendedVsync=902274216312, Vsync=902274216312, InputEventId=0, HandleInputStart=902278111686, AnimationStart=902278113926, PerformTraversalsStart=902278272728, DrawStart=902278331582, FrameDeadline=902307549644, FrameInterval=902278107051, FrameStartTime=16666666, SyncQueued=902278367936, SyncStart=902334374238, IssueDrawCommandsStart=902334569290, SwapBuffers=902343488040, FrameCompleted=9223372036854775807, DequeueBufferDuration=7909166, QueueBufferDuration=2059115, GpuCompleted=9223372036854775807, SwapBuffersCompleted=902345993874, DisplayPresentTime=0, 
+06-27 23:04:22.866     0     0 I IRQ 6   : no longer affine to CPU4
+06-27 23:04:22.884  5136  5136 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-27 23:04:22.892     0     0 I binder  : 5136:5136 ioctl 40046210 7fd52276a4 returned -22
+06-27 23:04:22.888  2112  2996 I OpenGLRenderer: Davey! duration=9223371134452ms; Flags=0, FrameTimelineVsyncId=11188, IntendedVsync=902340909894, Vsync=902340909894, InputEventId=0, HandleInputStart=902346662467, AnimationStart=902346664707, PerformTraversalsStart=902347936634, DrawStart=902348017832, FrameDeadline=902374243226, FrameInterval=902346656426, FrameStartTime=16666666, SyncQueued=902348063978, SyncStart=902409308196, IssueDrawCommandsStart=902410216113, SwapBuffers=902426133561, FrameCompleted=9223372036854775807, DequeueBufferDuration=14790209, QueueBufferDuration=893750, GpuCompleted=9223372036854775807, SwapBuffersCompleted=902427578144, DisplayPresentTime=0, 
+06-27 23:04:23.797  4525  4541 I OpenGLRenderer: Davey! duration=9223371133480ms; Flags=0, FrameTimelineVsyncId=11197, IntendedVsync=903374105270, Vsync=903374105270, InputEventId=0, HandleInputStart=903377460279, AnimationStart=903377468717, PerformTraversalsStart=903377544186, DrawStart=903380721217, FrameDeadline=903407438602, FrameInterval=903377437623, FrameStartTime=16666666, SyncQueued=903381314446, SyncStart=903381546581, IssueDrawCommandsStart=903382331998, SwapBuffers=903386823561, FrameCompleted=9223372036854775807, DequeueBufferDuration=79896, QueueBufferDuration=2995833, GpuCompleted=9223372036854775807, SwapBuffersCompleted=903390971061, DisplayPresentTime=-8477363501145631, 
+06-27 23:04:24.000  5157  5157 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-27 23:04:24.008     0     0 I binder  : 5157:5157 ioctl 40046210 7fdc75b074 returned -22
+06-27 23:04:24.727     0     0 W healthd : battery l=82 v=4171 t=49.2 h=2 st=5 c=86669 fc=295000 cc=0 chg=w
+06-27 23:04:24.741  2553  2553 V DeviceStatisticsService: chargerType=4 batteryLevel=82 totalBatteryCapacity=305700
+06-27 23:04:24.785  1281  1341 I QC-NETMGR-LIB: NetmgrNetdClientSetForwardingBetweenInterfaces(): Looking for Netd service
+06-27 23:04:24.785  1281  1341 I QC-NETMGR-LIB: NetmgrNetdClientSetForwardingBetweenInterfaces(): starting command
+06-27 23:04:24.785  1281  1341 I QC-NETMGR-LIB: setForwardingBetweenInterfaces() r_rmnet_data0 wlan0: Attempting setForwardingBetweenInterfaces
+06-27 23:04:24.786  1281  1341 I QC-NETMGR-LIB: NetmgrNetdClientSetForwardingBetweenInterfaces(): completed command
+06-27 23:04:25.127  5175  5175 I auditd  : type=1400 audit(0.0:133): avc: denied { getattr } for comm="df" name="/" dev="mmcblk0p34" ino=1 scontext=u:r:su:s0 tcontext=u:object_r:bt_firmware_file:s0 tclass=filesystem permissive=1
+06-27 23:04:25.127  5175  5175 I df      : type=1400 audit(0.0:133): avc: denied { getattr } for name="/" dev="mmcblk0p34" ino=1 scontext=u:r:su:s0 tcontext=u:object_r:bt_firmware_file:s0 tclass=filesystem permissive=1
+06-27 23:04:25.282  5180  5180 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-27 23:04:25.290     0     0 I binder  : 5180:5180 ioctl 40046210 7fcff18a84 returned -22
+06-27 23:04:25.286  1447  1507 I WifiService: setWifiEnabled package=com.android.shell uid=0 enable=false
+06-27 23:04:25.289  2404  3122 D QCNEJ/WlanStaInfoRelay: onChange for uri = content://settings/global/wifi_on
+06-27 23:04:25.290  1447  1951 D WifiActiveModeWarden: Shutting down all client mode managers
+06-27 23:04:25.291  1447  1951 D WifiClientModeManager[wlan0]:  currentstate: ConnectModeState
+06-27 23:04:25.294  1447  1447 D WifiP2pService: Wifi enabled=false
+06-27 23:04:25.295  3136  3136 D MetricReporter: WifiReporter: Connectivity state DISABLING
+06-27 23:04:25.295  2088  2088 D BluetoothAdapterService: android.net.wifi.WIFI_STATE_CHANGED
+06-27 23:04:25.296  1447  2061 E WifiAwareNativeApi: disable: null interface
+06-27 23:04:25.297  1447  1951 D WifiClientModeManager[wlan0]: The target role change info null
+06-27 23:04:25.297  1447  1951 D WifiClientModeManager[wlan0]: Continue to stop wifi
+06-27 23:04:25.298  1447  2061 E WifiAwareStateManager: onDisableResponseLocal: FAILED!? command={ when=-15m4s901ms what=1 arg1=124 target=com.android.wifi.x.com.android.internal.util.StateMachine$SmHandler }, reason=9
+06-27 23:04:25.299  3136  3136 D MetricReporter: WifiReporter: SSID 
+06-27 23:04:25.299  3136  3136 D MetricReporter: WifiReporter: Link speed 0 Mbps
+06-27 23:04:25.299  3136  3136 D MetricReporter: WifiReporter: Signal strength -100 dBm
+06-27 23:04:25.299  1447  1951 D WifiClientModeManager[wlan0]: Stopping ClientModeImpl
+06-27 23:04:25.299  3136  3136 D MetricReporter: WifiReporter: BSSID 
+06-27 23:04:25.299  1447  1447 D WifiP2pService: Wifi enabled=false
+06-27 23:04:25.300  3136  3136 D MetricReporter: WifiReporter: PHY mode 
+06-27 23:04:25.300  3136  3136 D MetricReporter: WifiReporter: Supported band  Ghz
+06-27 23:04:25.300  3136  3136 D MetricReporter: WifiReporter: Frequency 0 Mhz
+06-27 23:04:25.301  3136  3136 D MetricReporter: WifiReporter: link downstream bandwidth 0.000 Mbps
+06-27 23:04:25.301  3136  3136 D MetricReporter: WifiReporter: link upstream bandwidth 0.000 Mbps
+06-27 23:04:25.301  3136  3136 D MetricReporter: WifiReporter: TX PHY rate 0 Mbps
+06-27 23:04:25.302  3136  3136 D MetricReporter: WifiReporter: RX PHY rate 0 Mbps
+06-27 23:04:25.302  3136  3136 D MetricReporter: WifiReporter: Connectivity state DISABLED
+06-27 23:04:25.302  3136  3136 D MetricReporter: WifiReporter: SSID 
+06-27 23:04:25.303  3136  3136 D MetricReporter: WifiReporter: Link speed 0 Mbps
+06-27 23:04:25.303  3136  3136 D MetricReporter: WifiReporter: Signal strength -100 dBm
+06-27 23:04:25.303  3136  3136 D MetricReporter: WifiReporter: BSSID 
+06-27 23:04:25.303  3136  3136 D MetricReporter: WifiReporter: PHY mode 
+06-27 23:04:25.304  3136  3136 D MetricReporter: WifiReporter: Supported band  Ghz
+06-27 23:04:25.304  3136  3136 D MetricReporter: WifiReporter: Frequency 0 Mhz
+06-27 23:04:25.304  3136  3136 D MetricReporter: WifiReporter: link downstream bandwidth 0.000 Mbps
+06-27 23:04:25.304  3136  3136 D MetricReporter: WifiReporter: link upstream bandwidth 0.000 Mbps
+06-27 23:04:25.305  3136  3136 D MetricReporter: WifiReporter: TX PHY rate 0 Mbps
+06-27 23:04:25.305  3136  3136 D MetricReporter: WifiReporter: RX PHY rate 0 Mbps
+--------- beginning of system
+06-27 23:04:25.312   859   859 W android.hardware.wifi@1.0-service: No active wlan interfaces in use! Using default
+06-27 23:04:25.319  1447  1951 I android_os_HwBinder: HwBinder: Starting thread pool for getting: android.hardware.wifi.supplicant@1.0::ISupplicant/default
+06-27 23:04:25.331     0     0 I [wpa_su][0x41e0a632c][23:04:25.323284] wlan: [5085:I:HDD] wlan0(vdevid-0): Received Disconnect reason:3 WLAN_REASON_DEAUTH_LEAVING
+06-27 23:04:25.332     0     0 I [schedu][0x41e0a9b81][23:04:25.324035] wlan: [2057:I:PE] Deauth TX: vdev 0 seq_num 2055 reason 3 waitForAck 1 to ee:38:83:16:6a:5c from 06:e4:66:fa:fd:be
+06-27 23:04:25.341   859  5081 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xbc
+06-27 23:04:25.341  1356  5100 D LOWI-9.0.0.89.f: [LOWI-Scan] wait_event:Wait done with Cmd 103
+06-27 23:04:25.341  1356  5100 D LOWI-9.0.0.89.f: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+06-27 23:04:25.341  1300  1300 I cnss-daemon: nl80211 response handler invoked
+06-27 23:04:25.341  1300  1300 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 188  received
+06-27 23:04:25.351     0     0 I [schedu][0x41e103b1b][23:04:25.343230] wlan: [2057:I:TXRX] ol_txrx_peer_detach: 3487: ol_txrx_peer_detach peer 00000000c7809dfc, peer->ref_cnt 10
+06-27 23:04:25.351     0     0 I [schedu][0x41e103ed2][23:04:25.343279] wlan: [2057:I:TXRX] ol_txrx_peer_detach: 3531: started peer_unmap_timer for peer 00000000c7809dfc
+06-27 23:04:25.352     0     0 I [soft_i][0x41e108f61][23:04:25.344353] wlan: [0:I:TXRX] ol_txrx_peer_release_ref: 3336: [9][0]: Deleting peer 00000000c7809dfc ref_cnt -> 0
+06-27 23:04:25.355     0     0 I [schedu][0x41e114932][23:04:25.346831] wlan: [2057:I:HDD] wlan0(vdevid-0): disconnected
+06-27 23:04:25.355     0     0 I [schedu][0x41e114ddc][23:04:25.346893] wlan: [2057:I:HDD] hdd_disable_rx_ol_in_concurrency: 1954: Disable TCP delack as LRO is enabled
+06-27 23:04:25.349   859  5081 I WifiHAL : send oem msg of len : 140 to apps
+06-27 23:04:25.349  1356  5101 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT] event_handler: Valid data with length 108
+06-27 23:04:25.357     0     0 I [wpa_su][0x41e1227e5][23:04:25.349800] wlan: [5085:I:HDD] Disconnect reason: 3 WLAN_REASON_DEAUTH_LEAVING vendor: 0  LG: 1
+06-27 23:04:25.349  1356  5101 D LOWI-9.0.0.89.f: [LOWI-HELIUM-RTT] RomeNLRecvMessage: The Received RomeMsgType: ROME_P2P_PEER_EVENT_MSG
+06-27 23:04:25.349  1356  5101 D LOWI-9.0.0.89.f: [LOWIRangingFSM] FSM: Received Event EVENT_P2P_STATUS_UPDATE, Current state: STATE_READY_AND_IDLE
+06-27 23:04:25.349  1356  5101 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT]  RomeExtractP2PInfo - P2P EVENT Received!
+06-27 23:04:25.349  1356  5101 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT]  ExtractNLP2PInfo: Entered
+06-27 23:04:25.349  1356  5101 D LOWI-9.0.0.89.f: [LOWI-P2P-RTT] p2pStoreStatusInfo: Peer status = PEER_STATUS_DISCONNECTED Mac:ee:38:83:**:**:5c
+06-27 23:04:25.349  1356  5101 D LOWI-9.0.0.89.f: [LOWIRangingFSM] FSM: New FSM state: STATE_READY_AND_IDLE
+06-27 23:04:25.349  1356  5101 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT] RomeWaitOnActivityOnSocketOrPipe: issue blocking select 
+06-27 23:04:25.350  5085  5085 I wpa_supplicant: wlan0: CTRL-EVENT-DISCONNECTED bssid=ee:38:83:16:6a:5c reason=3 locally_generated=1
+06-27 23:04:25.353  1356  1364 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x1043 ([UP][RUNNING])
+06-27 23:04:25.353  1356  1364 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(2)
+06-27 23:04:25.353  1356  1364 D LOWI-9.0.0.89.f: [LOWIController] intfStateReceived: ifname(wlan0) state(2)
+06-27 23:04:25.354  1356  1364 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x1003 ([UP])
+06-27 23:04:25.354  1356  1364 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(1)
+06-27 23:04:25.354  1356  1364 D LOWI-9.0.0.89.f: [LOWIController] intfStateReceived: ifname(wlan0) state(1)
+06-27 23:04:25.354  1356  1371 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+06-27 23:04:25.354  1356  1371 D LOWI-9.0.0.89.f: [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+06-27 23:04:25.354  1356  1371 D LOWI-9.0.0.89.f: [LOWIController] updateIntfState: WIFI enabled 2 mNlWifiStatus 2 mWifiStateEnabled 1
+06-27 23:04:25.354  1356  1371 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 2 mWifiStateEnabled 1
+06-27 23:04:25.354  1356  1371 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+06-27 23:04:25.354  1356  1371 D LOWI-9.0.0.89.f: [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+06-27 23:04:25.354  1356  1371 D LOWI-9.0.0.89.f: [LOWIController] updateIntfState: WIFI enabled 1 mNlWifiStatus 2 mWifiStateEnabled 1
+06-27 23:04:25.354  1356  1371 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 1 mWifiStateEnabled 1
+06-27 23:04:25.359  1447  1657 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: false
+06-27 23:04:25.360  1447  1657 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: false
+06-27 23:04:25.363  5085  5085 E wpa_supplicant: eap_proxy: eap_proxy_notify_config
+06-27 23:04:25.363  5085  5085 E wpa_supplicant: eap_proxy: eap_proxy_notify_config
+06-27 23:04:25.363  5085  5085 E wpa_supplicant: eap_proxy: eap_proxy_notify_config
+06-27 23:04:25.363  5085  5085 I wpa_supplicant: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+06-27 23:04:25.364  5085  5085 I wpa_supplicant: Try to unregister vendor STA network
+06-27 23:04:25.364  5085  5085 E wpa_supplicant: eap_proxy: pthread_join on eap_proxy=0x598f083e20
+06-27 23:04:25.365  5085  5085 E wpa_supplicant: eap_proxy: session not started for client = 1
+06-27 23:04:25.368  5085  5085 E wpa_supplicant: eap_proxy: Released QMI UIM service client
+06-27 23:04:25.370  5085  5085 E wpa_supplicant: eap_proxy: Released QMI EAP service client
+06-27 23:04:25.370  5085  5085 E wpa_supplicant: eap_proxy: session not started for client = 2
+06-27 23:04:25.370  5085  5085 E wpa_supplicant: eap_proxy: Released QMI UIM service client
+06-27 23:04:25.371  5085  5085 E wpa_supplicant: eap_proxy: Released QMI EAP service client
+06-27 23:04:25.371  5085  5085 I wpa_supplicant: eap_proxy: eap_proxy Deinitialzed
+06-27 23:04:25.374  5085  5085 I wpa_supplicant: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+06-27 23:04:25.374  5085  5085 I wpa_supplicant: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+06-27 23:04:25.374  1356  1364 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x1003 ([UP])
+06-27 23:04:25.374  1356  1364 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(1)
+06-27 23:04:25.375  1356  1364 D LOWI-9.0.0.89.f: [LOWIController] intfStateReceived: ifname(wlan0) state(1)
+06-27 23:04:25.375  1356  1371 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+06-27 23:04:25.375  1356  1371 D LOWI-9.0.0.89.f: [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+06-27 23:04:25.375  1356  1371 D LOWI-9.0.0.89.f: [LOWIController] updateIntfState: WIFI enabled 1 mNlWifiStatus 1 mWifiStateEnabled 1
+06-27 23:04:25.375  1356  1371 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 1 mWifiStateEnabled 1
+06-27 23:04:25.376  1447  1657 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: false
+06-27 23:04:25.377  5085  5085 I wpa_supplicant: Try to unregister vendor interface
+06-27 23:04:25.378  1241  1241 I wificond: Unsubscribe scan result for interface with index: 30
+06-27 23:04:25.393  1300  1300 I cnss-daemon: Ready to update GW parameters
+06-27 23:04:25.394  1300  1300 E cnss-daemon: Invalid mac address
+06-27 23:04:25.394  1300  1300 E cnss-daemon: failed to update gateway
+06-27 23:04:25.394  1447  1657 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: false
+06-27 23:04:25.395  1356  1364 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x1002 ()
+06-27 23:04:25.395  1356  1364 D LOWI-9.0.0.89.f: [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(0)
+06-27 23:04:25.395  1356  1364 D LOWI-9.0.0.89.f: [LOWIController] intfStateReceived: ifname(wlan0) state(0)
+06-27 23:04:25.395  1356  1371 D LOWI-9.0.0.89.f: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+06-27 23:04:25.395  1356  1371 D LOWI-9.0.0.89.f: [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+06-27 23:04:25.395  1356  1371 D LOWI-9.0.0.89.f: [LOWIController] updateIntfState: WIFI enabled 0 mNlWifiStatus 1 mWifiStateEnabled 1
+06-27 23:04:25.395  1356  1371 D LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: mNlWifiStatus 0 mWifiStateEnabled 1
+06-27 23:04:25.395  1356  1371 I LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: Wifi is now disabled
+06-27 23:04:25.395  1356  1371 D LOWI-9.0.0.89.f: [LOWIController] terminateScanResultReceiver
+06-27 23:04:25.402     0     0 I cnss-daemon: Invalid mac address
+06-27 23:04:25.402     0     0 I cnss-daemon: failed to update gateway
+06-27 23:04:25.397  1356  5100 D LOWI-9.0.0.89.f: [LOWI-Scan] wips_wait_on_nl_socket: read returned 6, Received string: Close 
+06-27 23:04:25.397  1356  5100 D LOWI-9.0.0.89.f: [LOWI-Scan] do_listen_events: Select Error return - -301
+06-27 23:04:25.397  1356  5100 D LOWI-9.0.0.89.f: [LOWI-Scan] No dump done. Error -301
+06-27 23:04:25.397  1356  5100 D LOWI-9.0.0.89.f: [LOWI-Scan] WipsScanUsingNL: passive scan cached 0, took 5996 ms, err -301
+06-27 23:04:25.397  1356  5100 D LOWI-9.0.0.89.f: [LOWI-Scan] lowi_proc_req_passive_scan_with_live_meas - No WLAN Frames to be parsed
+06-27 23:04:25.397  1356  5100 D LOWI-9.0.0.89.f: [LOWIWifiDriverInterface] Scan terminated for passive listening request
+06-27 23:04:25.397  1356  5100 I LOWI-9.0.0.89.f: [LOWIScanResultReceiver] Thread terminate was requested
+06-27 23:04:25.397  1281  1341 I QC-NETMGR-LIB: NetmgrNetdClientRemoveInterfaceFromOemNetwork(): Looking for Netd service
+06-27 23:04:25.398  1281  1341 I QC-NETMGR-LIB: NetmgrNetdClientRemoveInterfaceFromOemNetwork(): starting command
+06-27 23:04:25.398  1281  1341 I QC-NETMGR-LIB: removeInterfaceFromOemNetwork(): Attempting removeInterfaceFromOemNetwork
+06-27 23:04:25.398  1356  5100 D LOWI-9.0.0.89.f: [LOWI-Scan] Closing the pipe
+06-27 23:04:25.398  1356  1371 D LOWI-9.0.0.89.f: [LOWIScanResultReceiver] After join complete
+06-27 23:04:25.398  1356  1371 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT] RomeUnblockRangingThread
+06-27 23:04:25.399  1356  5101 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT] RomeWaitOnActivityOnSocketOrPipe: Ranging thread Received string: Close, request socket shutdown 
+06-27 23:04:25.399  1356  5101 D LOWI-9.0.0.89.f: [LOWIRangingFSM] FSM: Received Terminate Thread request from Controller
+06-27 23:04:25.399  1356  5101 I LOWI-9.0.0.89.f: [LOWIScanResultReceiver] Thread terminate was requested
+06-27 23:04:25.399  1356  5101 D LOWI-9.0.0.89.f: [LOWI-ROME-RTT] Closing the Ranging pipe
+06-27 23:04:25.403  1241  1241 I wificond: tearDownClientInterface: erasing wiphy_index for iface_name wlan0
+06-27 23:04:25.403  1241  1241 I wificond: remove channel type 0 support at wiphy index 0
+06-27 23:04:25.403  1241  1241 I wificond: remove channel type 1 support at wiphy index 0
+06-27 23:04:25.403  2276  5103 E ApfFilter: Read error
+06-27 23:04:25.403  2276  5103 E ApfFilter: android.system.ErrnoException: read failed: ENETDOWN (Network is down)
+06-27 23:04:25.403  2276  5103 E ApfFilter: 	at libcore.io.Linux.readBytes(Native Method)
+06-27 23:04:25.403  2276  5103 E ApfFilter: 	at libcore.io.Linux.read(Linux.java:190)
+06-27 23:04:25.403  2276  5103 E ApfFilter: 	at libcore.io.ForwardingOs.read(ForwardingOs.java:617)
+06-27 23:04:25.403  2276  5103 E ApfFilter: 	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:324)
+06-27 23:04:25.403  2276  5103 E ApfFilter: 	at libcore.io.ForwardingOs.read(ForwardingOs.java:617)
+06-27 23:04:25.403  2276  5103 E ApfFilter: 	at android.system.Os.read(Os.java:579)
+06-27 23:04:25.403  2276  5103 E ApfFilter: 	at android.net.apf.ApfFilter$ReceiveThread.run(ApfFilter.java:223)
+06-27 23:04:25.403  1356  1371 D LOWI-9.0.0.89.f: [LOWIScanResultReceiver] After join complete
+06-27 23:04:25.404  1356  1371 D LOWI-9.0.0.89.f: [LOWIController] terminateWifiDriver
+06-27 23:04:25.404  1356  1371 I CLD80211: lowi-server: Sent msg on exit sock to unblock poll()
+06-27 23:04:25.405  1447  1951 I SupplicantStaIfaceHal: Terminating supplicant using HIDL
+06-27 23:04:25.407  1447  1951 I android_os_HwBinder: HwBinder: Starting thread pool for getting: android.hardware.wifi.supplicant@1.0::ISupplicant/default
+06-27 23:04:25.407  1281  1341 I QC-NETMGR-LIB: NetmgrNetdClientRemoveInterfaceFromOemNetwork(): completed command
+06-27 23:04:25.409  5085  5085 I wpa_supplicant: Terminating...
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: readPacket error: 
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: android.system.ErrnoException: read failed: ENETDOWN (Network is down)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at libcore.io.Linux.readBytes(Native Method)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at libcore.io.Linux.read(Linux.java:190)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at libcore.io.ForwardingOs.read(ForwardingOs.java:617)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:324)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at libcore.io.ForwardingOs.read(ForwardingOs.java:617)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at android.system.Os.read(Os.java:579)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at com.android.networkstack.util.PacketReader.readPacket(PacketReader.java:57)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at com.android.networkstack.util.PacketReader.readPacket(PacketReader.java:32)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at com.android.networkstack.util.FdEventsReader.handleInput(FdEventsReader.java:224)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at com.android.networkstack.util.FdEventsReader.lambda$createAndRegisterFd$0(FdEventsReader.java:204)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at com.android.networkstack.util.FdEventsReader.$r8$lambda$OgIGPQ7BvCo_znleuT06fluGUjY(Unknown Source:0)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at com.android.networkstack.util.FdEventsReader$$ExternalSyntheticLambda0.onFileDescriptorEvents(Unknown Source:2)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at android.os.MessageQueue.dispatchEvents(MessageQueue.java:293)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at android.os.MessageQueue.next(MessageQueue.java:335)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at android.os.Looper.loopOnce(Looper.java:161)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at android.os.Looper.loop(Looper.java:288)
+06-27 23:04:25.411  2276  5092 E ConnectivityPacketTracker.wlan0: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-27 23:04:25.413  2276  5092 E DhcpClient: readPacket error: 
+06-27 23:04:25.413  2276  5092 E DhcpClient: android.system.ErrnoException: read failed: ENETDOWN (Network is down)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at libcore.io.Linux.readBytes(Native Method)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at libcore.io.Linux.read(Linux.java:190)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at libcore.io.ForwardingOs.read(ForwardingOs.java:617)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:324)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at libcore.io.ForwardingOs.read(ForwardingOs.java:617)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at android.system.Os.read(Os.java:579)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at android.net.dhcp.DhcpClient$DhcpPacketHandler.readPacket(DhcpClient.java:698)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at android.net.dhcp.DhcpClient$DhcpPacketHandler.readPacket(DhcpClient.java:648)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at com.android.networkstack.util.FdEventsReader.handleInput(FdEventsReader.java:224)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at com.android.networkstack.util.FdEventsReader.lambda$createAndRegisterFd$0(FdEventsReader.java:204)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at com.android.networkstack.util.FdEventsReader.$r8$lambda$OgIGPQ7BvCo_znleuT06fluGUjY(Unknown Source:0)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at com.android.networkstack.util.FdEventsReader$$ExternalSyntheticLambda0.onFileDescriptorEvents(Unknown Source:2)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at android.os.MessageQueue.dispatchEvents(MessageQueue.java:293)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at android.os.MessageQueue.next(MessageQueue.java:335)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at android.os.Looper.loopOnce(Looper.java:161)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at android.os.Looper.loop(Looper.java:288)
+06-27 23:04:25.413  2276  5092 E DhcpClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-27 23:04:25.424     0     0 I init    : Service 'wpa_supplicant' (pid 5085) exited with status 0 oneshot service took 9.927000 seconds in background
+06-27 23:04:25.424     0     0 I init    : Sending signal 9 to service 'wpa_supplicant' (pid 5085) process group...
+06-27 23:04:25.424     0     0 I libprocessgroup: Successfully killed process cgroup uid 0 pid 5085 in 0ms
+06-27 23:04:25.419  1447  1671 D SupplicantStaIfaceHal: ISupplicant died: cookie=6611849181945411750
+06-27 23:04:25.438   913   950 E wlc-service: Wlc driver message exchange error: -110
+06-27 23:04:25.439   913   950 E wlc-service: handshake ransaction error:-5
+06-27 23:04:25.439   913   950 I wlc-service: h4 battery level is 82
+06-27 23:04:25.440   913   950 I wlc-service: b1 battery level is 255
+06-27 23:04:25.452     0     0 E qcom,rpmh-regulator soc: rpmh-regulator-ldoa12: TCS Busy, retrying RPMH message send
+06-27 23:04:25.460  1447  1951 W SupplicantStaIfaceHal: Timed out waiting for confirmation of supplicant death
+06-27 23:04:25.460  1447  1951 D WifiNl80211Manager: tearing down interfaces in wificond
+06-27 23:04:25.460  1447  2247 W SupplicantStaIfaceHal: ISupplicantVendor/ISupplicantVendorStaIface died: cookie=0
+06-27 23:04:25.461  1447  1925 W SupplicantStaIfaceHal: ISupplicantVendor/ISupplicantVendorStaIface died: cookie=0
+06-27 23:04:25.477   859   859 E android.hardware.wifi@1.0-service: Stopping legacy HAL
+06-27 23:04:25.477   859   859 E android.hardware.wifi@1.0-service: Legacy HAL trigger wifi cleanup
+06-27 23:04:25.477   859  5081 I WifiHAL : exit_event_handler, buf=E
+06-27 23:04:25.478   859  5081 I CLD80211: android.hardware.wifi@1.0-service: Sent msg on exit sock to unblock poll()
+06-27 23:04:25.479   859  5081 D WifiHAL : wlan_service_update_sys_param: /proc/sys/net/ipv4/tcp_limit_output_bytes 262144
+06-27 23:04:25.479   859  5081 D WifiHAL : wlan_service_update_sys_param: /proc/sys/net/ipv4/tcp_use_userconfig 0
+06-27 23:04:25.479   859  5081 D WifiHAL : wlan_service_update_sys_param: /proc/sys/net/ipv4/tcp_adv_win_scale 1
+06-27 23:04:25.479   859   859 I WifiHAL : Sent msg on exit sock to unblock poll()
+06-27 23:04:25.480   859  5081 I android.hardware.wifi@1.0-service: Legacy HAL stop complete callback received
+06-27 23:04:25.480   859  5081 E android.hardware.wifi@1.0-service: SetWifiUpState(false) completed
+06-27 23:04:25.480   859  5081 I WifiHAL : wifi_event_loop() exits success
+06-27 23:04:25.480   859  5081 E android.hardware.wifi@1.0-service: Legacy HAL Wifi event loop exited
+06-27 23:04:25.480   859  5081 E android.hardware.wifi@1.0-service: Legacy HAL event loop terminated
+06-27 23:04:25.480   859   859 D android.hardware.wifi@1.0-service: Legacy HAL stop complete
+06-27 23:04:25.482  2906  2932 I humane_sar: Wifi changed to state: OFF
+06-27 23:04:25.483   859   859 I android.hardware.wifi@1.0-service: Wifi HAL stopped
+06-27 23:04:25.489     0     0 I [wifi@1][0x41e389bb6][23:04:25.481053] wlan: [859:I:HDD] wlan_hdd_state_ctrl_param_write: 15695: Wifi turning off from UI
+06-27 23:04:25.486  1447  1951 I WifiVendorHal: Vendor Hal stopped
+06-27 23:04:25.487  1447  1951 D WifiClientModeManager[wlan0]: STA iface wlan0 was destroyed, stopping client mode
+06-27 23:04:25.487  1447  1951 W WifiClientModeManager[wlan0]: Received mWifiNativeInterfaceCallback.onDestroyed callback when no ClientModeImpl instance is active.
+06-27 23:04:25.487  1447  1951 I WifiNative: Successfully torn down Iface:{Name=wlan0,Id=1,Type=STA_CONNECTIVITY}
+06-27 23:04:25.488  1447  1951 I WifiNative: Successfully initiated teardown for iface=wlan0
+06-27 23:04:25.488  1447  1951 I WifiClientModeManager[unknown]: StartedState#exit(), setting mRole = null
+06-27 23:04:25.489  1447  1951 D WifiClientModeImpl[wlan0]: ClientModeImpl: Leaving Connected state
+06-27 23:04:25.491  1447  1951 D WifiCountryCode: evaluateAllCmmStateAndApplyIfAllReady: {ConcreteClientModeManager{id=894947 iface=null role=ROLE_CLIENT_PRIMARY}=true}
+06-27 23:04:25.492  1447  1951 D WifiCountryCode: Reading country code from telephony
+06-27 23:04:25.495  2571  2818 D SubscriptionController: [getSlotIndex]- subId invalid
+06-27 23:04:25.496  1447  1951 D WifiCountryCode: Set telephony country code to: 
+06-27 23:04:25.498  1447  1951 D WifiCountryCode: updateCountryCode to null
+06-27 23:04:25.498  1447  1951 E SupplicantStaIfaceHal: Can't call disableCurrentNetwork, SupplicantStaNetwork is null
+06-27 23:04:25.499  1447  1951 E SupplicantStaIfaceHal: Can't call disconnect, ISupplicantStaIface is null for iface=wlan0
+06-27 23:04:25.499  1447  1951 E WifiClientModeImpl[wlan0]: Failed to set random MAC address on disconnect
+06-27 23:04:25.502  1447  1951 E SupplicantStaIfaceHal: Can't call listNetworks, ISupplicantStaIface is null for iface=wlan0
+06-27 23:04:25.502  1447  1951 E SupplicantStaIfaceHal: removeAllNetworks failed, got null networks
+06-27 23:04:25.502  1447  1951 E WifiClientModeImpl[wlan0]: Failed to remove networks on exiting connect mode
+06-27 23:04:25.505  1447  1951 E SupplicantStaIfaceHal: Can't call setPowerSave, ISupplicantStaIface is null for iface=wlan0
+06-27 23:04:25.506  1447  1951 E SupplicantStaIfaceHal: Can't call setBtCoexistenceMode, ISupplicantStaIface is null for iface=wlan0
+06-27 23:04:25.511  2276  5092 D ApfFilter: (wlan0): shutting down
+06-27 23:04:25.512  1447  1983 D ConnectivityService: [101 WIFI] EVENT_NETWORK_INFO_CHANGED, going from CONNECTED to DISCONNECTED
+06-27 23:04:25.512  1447  1983 D ConnectivityService: [101 WIFI] disconnected, was satisfying 25
+06-27 23:04:25.512  2404  3122 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.STATE_CHANGE
+06-27 23:04:25.513  2404  3122 D QCNEJ/WlanStaInfoRelay: reset CountryCodeRetriever
+06-27 23:04:25.516  2276  5092 D DhcpClient: doQuit
+06-27 23:04:25.522   707   795 I netd    : trafficSwapActiveStatsMap() <0.40ms>
+06-27 23:04:25.527   707   795 I netd    : tetherGetStats() -> {[]} <3.06ms>
+06-27 23:04:25.531  1447  1983 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1687907066028]
+06-27 23:04:25.531  1447  1983 I netstats_wifi_sample: [361598,6197,21216,136,361598,6197,21216,136,27377,92,21216,136,1687907066028]
+06-27 23:04:25.534  1447  1657 I GnssNetworkConnectivityHandler: Network connection lost. Available networks count: 0
+06-27 23:04:25.534  1447  1951 D WifiDiags: stopLogging() iface list is {} after removing wlan0
+06-27 23:04:25.534  1447  1657 I GnssNetworkConnectivityHandler: updateNetworkState, state=CLOSED, connected=false, network=101, capabilities=[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=60000Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -61, Link speed: 260Mbps, Tx Link speed: 260Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 260Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5200MHz, Net ID: -1, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -61 SSID: "hdevice"], availableNetworkCount: 0
+06-27 23:04:25.534  1447  1951 W WifiDiags: Fail to reset log handler
+06-27 23:04:25.536  2276  2496 D UpstreamNetworkMonitor: Lost default Internet network: 101
+06-27 23:04:25.536   850   850 I LocSvc__AGnssRilInterface: ===> updateNetworkState_2_0 line 111 
+06-27 23:04:25.536   850   915 I LocSvc_SystemStatusOsObserver: sendCachedDataItems:539] DataItem: ACTIVE_NETWORK_INFO::TYPEs_MASK: 0, TYPE_NAME: , SUB_TYPE_NAME: , IS_AVAILABLE: false, IS_CONNECTED: false, IS_ROAMING: false, NETWORK_HANDLE_0: 18446744073709551615:10, NETWORK_HANDLE_1: 18446744073709551615:10, NETWORK_HANDLE_2: 18446744073709551615:10, NETWORK_HANDLE_3: 18446744073709551615:10, NETWORK_HANDLE_4: 18446744073709551615:10, NETWORK_HANDLE_5: 18446744073709551615:10, NETWORK_HANDLE_6: 18446744073709551615:10, NETWORK_HANDLE_7: 18446744073709551615:10, NETWORK_HANDLE_8: 18446744073709551615:10, NETWORK_HANDLE_9: 18446744073709551615:10 >> XtraSystemStatusObserver
+06-27 23:04:25.536   850   915 I LocSvc_SystemStatusOsObserver: sendCachedDataItems:539] DataItem: ACTIVE_NETWORK_INFO::TYPEs_MASK: 0, TYPE_NAME: , SUB_TYPE_NAME: , IS_AVAILABLE: false, IS_CONNECTED: false, IS_ROAMING: false, NETWORK_HANDLE_0: 18446744073709551615:10, NETWORK_HANDLE_1: 18446744073709551615:10, NETWORK_HANDLE_2: 18446744073709551615:10, NETWORK_HANDLE_3: 18446744073709551615:10, NETWORK_HANDLE_4: 18446744073709551615:10, NETWORK_HANDLE_5: 18446744073709551615:10, NETWORK_HANDLE_6: 18446744073709551615:10, NETWORK_HANDLE_7: 18446744073709551615:10, NETWORK_HANDLE_8: 18446744073709551615:10, NETWORK_HANDLE_9: 18446744073709551615:10 >> NativeAgpsHandler
+06-27 23:04:25.539  2088  3603 D HeadsetStateMachine: The current Network:101 is lost, mIsAvailable: false
+06-27 23:04:25.541  2404  3122 D QCNEJ/WlanStaInfoRelay: network lost: 101
+06-27 23:04:25.542  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_VCN_MANAGED RequestorUid: 1000 RequestorPkg: android] ]
+06-27 23:04:25.542  2404  3122 D QCNEJ/WlanStaInfoRelay: onLost: unbind the process to WIFI
+06-27 23:04:25.542  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_VCN_MANAGED RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-27 23:04:25.542  2325  3668 W DPMJ    : |SERVICE| mMobileNetworkCallback: networkinfo is null
+06-27 23:04:25.543  2276  5092 D DhcpClient: DHCP Packet Handler stopped
+06-27 23:04:25.544  2404  3122 D QCNEJ/DefaultNetworkInfoRelay: Default network lost: 101
+06-27 23:04:25.544  2276  5092 D DhcpClient: onQuitting
+06-27 23:04:25.545   707   795 I netd    : idletimerRemoveInterface(wlan0, 15, 1) <3.85ms>
+06-27 23:04:25.549  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=7, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ]
+06-27 23:04:25.550  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=15, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ]
+06-27 23:04:25.550  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=17, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1073 RequestorUid: 1073 RequestorPkg: com.android.networkstack] ]
+06-27 23:04:25.550  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=7, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-27 23:04:25.550  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=22, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10142 RequestorUid: 10142 RequestorPkg: com.android.systemui] ]
+06-27 23:04:25.550  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=15, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1000 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-27 23:04:25.550   707  5105 D resolv  :  Calling SSL_connect with mark 0xf0065
+06-27 23:04:25.550  1447  1983 D ConnectivityService: Sending DISCONNECTED broadcast for type 1 [101 WIFI] isDefaultNetwork=true
+06-27 23:04:25.551   707  5105 D resolv  :  SSL_connect returned -1 with mark 0xf0065
+06-27 23:04:25.551  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=17, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1073 RequestorUid: 1073 RequestorPkg: com.android.networkstack] ] shouldApply false
+06-27 23:04:25.551   707  5105 W resolv  : SSL_connect ssl error =5, mark 0xf0065: Software caused connection abort
+06-27 23:04:25.551   707  5105 W resolv  : TLS Handshake failed
+06-27 23:04:25.551   707  5105 D resolv  : Initialization failed.
+06-27 23:04:25.551   707  5105 D resolv  : Destructor
+06-27 23:04:25.551  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=24, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10142 RequestorUid: 10142 RequestorPkg: com.android.systemui] ]
+06-27 23:04:25.551   707  5105 D resolv  : Destructor completed
+06-27 23:04:25.551  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=28, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.android.phone] ]
+06-27 23:04:25.551   707   786 I Netd    : Destroyed 1 sockets on 10.195.25.159 in 1170us
+06-27 23:04:25.551   707  5105 D resolv  : Failing all pending queries.
+06-27 23:04:25.551  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=30, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10090 RequestorUid: 10090 RequestorPkg: com.qualcomm.qti.cne] ]
+06-27 23:04:25.551   707  5105 W resolv  : query failed
+06-27 23:04:25.551   707  5105 D resolv  : Destructor
+06-27 23:04:25.551   707  5105 D resolv  : Locked destruction procedure
+06-27 23:04:25.551   707  5105 D resolv  : Destructor completed
+06-27 23:04:25.551  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=36, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1002 RequestorUid: 1002 RequestorPkg: com.android.bluetooth] ]
+06-27 23:04:25.551   707  5105 W resolv  : validateDnsTlsServer returned 0 for 10.195.24.1
+06-27 23:04:25.551   707  5105 D resolv  : Sending validation failure event on netId 101 for 10.195.24.1 with hostname {}
+06-27 23:04:25.551  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=38, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.qti.dpmserviceapp] ]
+06-27 23:04:25.551  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=22, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10142 RequestorUid: 10142 RequestorPkg: com.android.systemui] ] shouldApply false
+06-27 23:04:25.551  1447  1983 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendStickyBroadcast:1568 com.android.server.ConnectivityService.sendStickyBroadcast:2811 com.android.server.ConnectivityService.sendLegacyNetworkBroadcast:8732 com.android.server.ConnectivityService$LegacyTypeTracker.remove:1007 com.android.server.ConnectivityService$LegacyTypeTracker.remove:1024 
+06-27 23:04:25.551   707  5105 W resolv  : Validation failed
+06-27 23:04:25.551  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10106 RequestorUid: 1000 RequestorPkg: android] ]
+06-27 23:04:25.552  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=42, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10034 RequestorUid: 1000 RequestorPkg: android] ]
+06-27 23:04:25.552  2571  2571 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=46, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 1000 RequestorPkg: android] ]
+06-27 23:04:25.552  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=24, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10142 RequestorUid: 10142 RequestorPkg: com.android.systemui] ] shouldApply false
+06-27 23:04:25.552  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=28, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.android.phone] ] shouldApply false
+06-27 23:04:25.552  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=30, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10090 RequestorUid: 10090 RequestorPkg: com.qualcomm.qti.cne] ] shouldApply false
+06-27 23:04:25.552  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=36, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1002 RequestorUid: 1002 RequestorPkg: com.android.bluetooth] ] shouldApply false
+06-27 23:04:25.552  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=38, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 1001 RequestorUid: 1001 RequestorPkg: com.qti.dpmserviceapp] ] shouldApply false
+06-27 23:04:25.552  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10106 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-27 23:04:25.552  1447  1900 I commit_sys_config_file: [settings-0-0,64]
+06-27 23:04:25.552  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=42, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10034 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-27 23:04:25.553   707   795 I netd    : interfaceSetCfg(InterfaceConfigurationParcel{ifName: wlan0, hwAddr: , ipv4Addr: 0.0.0.0, prefixLength: 0, flags: []}) <5.35ms>
+06-27 23:04:25.553  2571  2571 D TelephonyNetworkFactory[0]: onNeedNetworkFor NetworkRequest [ REQUEST id=46, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 1000 RequestorPkg: android] ] shouldApply false
+06-27 23:04:25.553  1447  1983 D ConnectivityService: NetReassign [no changes]
+06-27 23:04:25.554  3892  3892 D Mms     : MDN: SIM state change 1: android.net.conn.CONNECTIVITY_CHANGE
+06-27 23:04:25.554  3892  3892 D ConnectivityManager: getMobileDataEnabled()+ subId=-1
+06-27 23:04:25.555   707   795 I netd    : interfaceSetEnableIPv6(wlan0, false) <0.22ms>
+06-27 23:04:25.555  3892  3892 D ConnectivityManager: getMobileDataEnabled()- subId=-1 retVal=false
+06-27 23:04:25.556   707   795 I netd    : interfaceClearAddrs(wlan0) <0.60ms>
+06-27 23:04:25.556   707   795 I netd    : setProcSysNet(6, 1, wlan0, accept_ra, 2) <0.09ms>
+06-27 23:04:25.558   707   707 D TcpSocketMonitor: suspending tcpinfo polling
+06-27 23:04:25.558   707   707 I netd    : networkDestroy(101) <4.15ms>
+06-27 23:04:25.559   707   707 I resolv  : DNS cache flushed
+06-27 23:04:25.559   707   707 D resolv  : PrivateDnsConfiguration::clear(101)
+06-27 23:04:25.559   707   707 I netd    : destroyNetworkCache(101) <0.26ms>
+06-27 23:04:25.589  1447  1951 D WifiScanRequestProxy: Sending scan available broadcast: false
+06-27 23:04:25.590  1447  1951 I WifiScanRequestProxy: Scanning is disabled
+06-27 23:04:25.590  1447  1963 I WifiScanningService: Received a request to disable scanning, UID = 1000
+06-27 23:04:25.591  1447  1963 E WifiNl80211Manager: No valid wificond scanner interface handler for iface=wlan0
+06-27 23:04:25.591  1447  1963 I WifiScanningService: Removed an impl for wlan0
+06-27 23:04:25.592  1447  1963 I WifiScanningService: wifi driver unloaded
+06-27 23:04:25.593  1447  3038 D WifiMemoryStoreImpl: Set cluster G90535d08279360fc for W8f32ef4278e0cdc3: SUCCESS
+06-27 23:04:25.593  1447  1951 D WifiConnectivityManager: saveMiracastMode: mode=0
+06-27 23:04:25.593  1447  1951 D WifiConnectivityManager: saveP2pGroupStarted: started=false
+06-27 23:04:25.593  1447  1951 D WifiCountryCode: evaluateAllCmmStateAndApplyIfAllReady: {}
+06-27 23:04:25.594  1447  1951 W SupplicantStaIfaceHal: ISupplicant died: cookie=2
+06-27 23:04:25.594  1447  1951 D WifiNetworkAgent: NetworkAgent: NetworkAgent channel lost
+06-27 23:04:25.595  1447  1951 D WifiController: STA disabled, return to DisabledState.
+06-27 23:04:25.595  1447  1951 D WifiController: EnabledState.exit()
+06-27 23:04:25.595  2088  2088 D BluetoothAdapterService: Soft AP is on band: 1
+06-27 23:04:25.595  1447  1951 D WifiController: DisabledState.enter()
+06-27 23:04:25.599  2088  2088 D BluetoothVendorService: getPowerBackoff 
+06-27 23:04:25.600  2088  2088 D BluetoothVendorService: setPowerBackoff to: false
+06-27 23:04:25.600  2088  2088 I BluetoothVendorJni: setPowerBackoffNative
+06-27 23:04:25.600  2088  2088 I bt_btif_vendor: setPowerBackOffState :0 
+06-27 23:04:25.600  2088  3085 W bt_btm  : btm_cb.is_power_backoff = 0 
+06-27 23:04:25.601   846   846 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+06-27 23:04:25.602  2088  2088 D BluetoothAdapterService: android.net.wifi.WIFI_STATE_CHANGED
+06-27 23:04:25.603   846   846 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+06-27 23:04:25.603   846   846 I vendor.qti.bluetooth@1.0-ibs_handler: DeviceWakeUp: Writing IBS_WAKE_IND
+06-27 23:04:25.603  2088  2088 D BluetoothAdapterService: Soft AP is on band: 1
+06-27 23:04:25.606  2088  2088 D BluetoothVendorService: getPowerBackoff 
+06-27 23:04:25.606   846  3080 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_ACK: 0xFC
+06-27 23:04:25.606   846  3080 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Signal wack_cond_
+06-27 23:04:25.606  2088  2088 D BluetoothAdapterService: android.net.wifi.STATE_CHANGE
+06-27 23:04:25.606   846   846 D vendor.qti.bluetooth@1.0-ibs_handler: DeviceWakeUp: Unblocked from waiting for FC, pthread_cond_timedwait ret = 0
+06-27 23:04:25.608   846  3080 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+06-27 23:04:25.608   846  3080 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+06-27 23:04:25.609  1447  2113 D WifiMemoryStoreImpl: Set cluster G90535d08279360fc for W90535d08279360fc: SUCCESS
+06-27 23:04:25.609  2088  2088 W BluetoothAdapterService: fetchWifiState - isWifiConnected =false
+06-27 23:04:25.609  2088  2088 D BluetoothVendorService: setWifiState to: false
+06-27 23:04:25.609  2088  2088 I BluetoothVendorJni: setWifiStateNative
+06-27 23:04:25.609  2088  2088 I bt_btif_vendor: setWifiState :0
+06-27 23:04:25.610  2088  3085 W bt_btm  : btm_cb.is_wifi_connected = 0 
+06-27 23:04:25.648   846  3080 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+06-27 23:04:25.667     0     0 I IRQ 6   : no longer affine to CPU5
+06-27 23:04:26.302  4525  4541 I OpenGLRenderer: Davey! duration=9223371130980ms; Flags=0, FrameTimelineVsyncId=11221, IntendedVsync=905873999749, Vsync=905873999749, InputEventId=0, HandleInputStart=905875547414, AnimationStart=905875555018, PerformTraversalsStart=905875563456, DrawStart=905877456581, FrameDeadline=905907333081, FrameInterval=905875526476, FrameStartTime=16666666, SyncQueued=905878356164, SyncStart=905878907101, IssueDrawCommandsStart=905879789653, SwapBuffers=905883920539, FrameCompleted=9223372036854775807, DequeueBufferDuration=90573, QueueBufferDuration=2203073, GpuCompleted=9223372036854775807, SwapBuffersCompleted=905887182883, DisplayPresentTime=-20909730457864523, 
+06-27 23:04:26.609   846  3092 I vendor.qti.bluetooth@1.0-ibs_handler: DeviceSleep: TX Awake, Sending SLEEP_IND
+06-27 23:04:26.610   846  3092 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+06-27 23:04:26.760   846  2812 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+06-27 23:04:26.819  4525  4541 I OpenGLRenderer: Davey! duration=9223371130463ms; Flags=0, FrameTimelineVsyncId=11224, IntendedVsync=906390613213, Vsync=906390613213, InputEventId=0, HandleInputStart=906394245851, AnimationStart=906394256476, PerformTraversalsStart=906394264809, DrawStart=906396435226, FrameDeadline=906423946545, FrameInterval=906394223872, FrameStartTime=16666666, SyncQueued=906397173768, SyncStart=906397496737, IssueDrawCommandsStart=906398550851, SwapBuffers=906403082518, FrameCompleted=9223372036854775807, DequeueBufferDuration=103072, QueueBufferDuration=2990156, GpuCompleted=9223372036854775807, SwapBuffersCompleted=906407263403, DisplayPresentTime=-8477363501145631, 
+06-27 23:04:27.320  4525  4541 I OpenGLRenderer: Davey! duration=9223371129963ms; Flags=0, FrameTimelineVsyncId=11227, IntendedVsync=906890606719, Vsync=906890606719, InputEventId=0, HandleInputStart=906894238247, AnimationStart=906894247882, PerformTraversalsStart=906894257205, DrawStart=906896394132, FrameDeadline=906923940051, FrameInterval=906894216528, FrameStartTime=16666666, SyncQueued=906897330851, SyncStart=906897642934, IssueDrawCommandsStart=906899328559, SwapBuffers=906903971372, FrameCompleted=9223372036854775807, DequeueBufferDuration=105625, QueueBufferDuration=2555677, GpuCompleted=9223372036854775807, SwapBuffersCompleted=906907713663, DisplayPresentTime=-8477363501145631, 
+06-27 23:04:27.817  4525  4541 I OpenGLRenderer: Davey! duration=9223371129464ms; Flags=0, FrameTimelineVsyncId=11230, IntendedVsync=907390524247, Vsync=907390524247, InputEventId=0, HandleInputStart=907392482517, AnimationStart=907392491476, PerformTraversalsStart=907392500017, DrawStart=907394391372, FrameDeadline=907423857579, FrameInterval=907392463247, FrameStartTime=16666666, SyncQueued=907395064132, SyncStart=907395246892, IssueDrawCommandsStart=907396706267, SwapBuffers=907401440955, FrameCompleted=9223372036854775807, DequeueBufferDuration=97031, QueueBufferDuration=2320208, GpuCompleted=9223372036854775807, SwapBuffersCompleted=907404900851, DisplayPresentTime=-20909730457864523, 
+06-27 23:04:28.334  4525  4541 I OpenGLRenderer: Davey! duration=9223371128947ms; Flags=0, FrameTimelineVsyncId=11233, IntendedVsync=907907088823, Vsync=907907088823, InputEventId=0, HandleInputStart=907911250798, AnimationStart=907911260642, PerformTraversalsStart=907911269392, DrawStart=907913466788, FrameDeadline=907940422155, FrameInterval=907911227830, FrameStartTime=16666666, SyncQueued=907914521111, SyncStart=907914777778, IssueDrawCommandsStart=907915835121, SwapBuffers=907920449913, FrameCompleted=9223372036854775807, DequeueBufferDuration=100677, QueueBufferDuration=2731823, GpuCompleted=9223372036854775807, SwapBuffersCompleted=907924339132, DisplayPresentTime=-8477363501145631, 
+06-27 23:04:28.834  4525  4883 I OpenGLRenderer: Davey! duration=9223371128447ms; Flags=0, FrameTimelineVsyncId=11236, IntendedVsync=908407050968, Vsync=908407050968, InputEventId=0, HandleInputStart=908411127673, AnimationStart=908411138455, PerformTraversalsStart=908411147986, DrawStart=908413412986, FrameDeadline=908440384300, FrameInterval=908411103455, FrameStartTime=16666666, SyncQueued=908414146475, SyncStart=908414458819, IssueDrawCommandsStart=908415508715, SwapBuffers=908419771840, FrameCompleted=9223372036854775807, DequeueBufferDuration=99844, QueueBufferDuration=2949219, GpuCompleted=9223372036854775807, SwapBuffersCompleted=908424370069, DisplayPresentTime=-12716045253626187, 
+06-27 23:04:29.173   614  5097 I keystore2: keystore2::watchdog: Watchdog thread idle -> terminating. Have a great day.
+06-27 23:04:29.335  4525  4883 I OpenGLRenderer: Davey! duration=9223371127947ms; Flags=0, FrameTimelineVsyncId=11239, IntendedVsync=908907002929, Vsync=908907002929, InputEventId=0, HandleInputStart=908909177881, AnimationStart=908909187829, PerformTraversalsStart=908909196527, DrawStart=908911456788, FrameDeadline=908940336261, FrameInterval=908909157881, FrameStartTime=16666666, SyncQueued=908912442309, SyncStart=908912669079, IssueDrawCommandsStart=908913700746, SwapBuffers=908917958090, FrameCompleted=9223372036854775807, DequeueBufferDuration=101666, QueueBufferDuration=2435990, GpuCompleted=9223372036854775807, SwapBuffersCompleted=908921560017, DisplayPresentTime=-8477363501145631, 
+06-27 23:04:29.835  4525  4883 I OpenGLRenderer: Davey! duration=9223371127447ms; Flags=0, FrameTimelineVsyncId=11242, IntendedVsync=909406948365, Vsync=909406948365, InputEventId=0, HandleInputStart=909408722360, AnimationStart=909408730590, PerformTraversalsStart=909408738454, DrawStart=909411039756, FrameDeadline=909440281697, FrameInterval=909408699860, FrameStartTime=16666666, SyncQueued=909411770850, SyncStart=909411990225, IssueDrawCommandsStart=909413122413, SwapBuffers=909417327204, FrameCompleted=9223372036854775807, DequeueBufferDuration=98646, QueueBufferDuration=3313229, GpuCompleted=9223372036854775807, SwapBuffersCompleted=909421812256, DisplayPresentTime=-8477363501145631, 
+06-27 23:04:30.482  5188  5188 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-27 23:04:30.490     0     0 I binder  : 5188:5188 ioctl 40046210 7fe66afa34 returned -22
+06-27 23:04:30.851  4525  4541 I OpenGLRenderer: Davey! duration=9223371126431ms; Flags=0, FrameTimelineVsyncId=11248, IntendedVsync=910423493803, Vsync=910423493803, InputEventId=0, HandleInputStart=910427422516, AnimationStart=910427432360, PerformTraversalsStart=910427440954, DrawStart=910429596214, FrameDeadline=910456827135, FrameInterval=910427397777, FrameStartTime=16666666, SyncQueued=910430607881, SyncStart=910430868766, IssueDrawCommandsStart=910431982881, SwapBuffers=910436211839, FrameCompleted=9223372036854775807, DequeueBufferDuration=98541, QueueBufferDuration=3949167, GpuCompleted=9223372036854775807, SwapBuffersCompleted=910441336370, DisplayPresentTime=-8477363501145631, 
+06-27 23:04:31.350  4525  4541 I OpenGLRenderer: Davey! duration=9223371125931ms; Flags=0, FrameTimelineVsyncId=11251, IntendedVsync=910923384355, Vsync=910923384355, InputEventId=0, HandleInputStart=910925863037, AnimationStart=910925871787, PerformTraversalsStart=910925879391, DrawStart=910927932568, FrameDeadline=910956717687, FrameInterval=910925839860, FrameStartTime=16666666, SyncQueued=910928909652, SyncStart=910929135537, IssueDrawCommandsStart=910930381110, SwapBuffers=910934865068, FrameCompleted=9223372036854775807, DequeueBufferDuration=99583, QueueBufferDuration=2948542, GpuCompleted=9223372036854775807, SwapBuffersCompleted=910939060485, DisplayPresentTime=-20909730457798730, 
+06-27 23:04:31.570     0     0 I logd    : logdr: UID=0 GID=0 PID=5191 n tail=0 logMask=bf pid=0 start=0ns deadline=0ns

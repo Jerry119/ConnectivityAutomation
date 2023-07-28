@@ -1,0 +1,912 @@
+2023-07-05 13:25:05,882 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.build.branch
+2023-07-05 13:25:05,941 - lib.adb - run_command() - DEBUG - Response: 
+2023-07-05 13:25:06,947 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.build.version.incremental
+2023-07-05 13:25:07,012 - lib.adb - run_command() - DEBUG - Response: eng.action.20230703.181212
+2023-07-05 13:25:08,018 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.build.flavor
+2023-07-05 13:25:08,088 - lib.adb - run_command() - DEBUG - Response: qssi-userdebug
+2023-07-05 13:25:09,090 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: getprop ro.product.name
+2023-07-05 13:25:09,163 - lib.adb - run_command() - DEBUG - Response: atoll
+2023-07-05 13:25:10,180 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:25:11,344 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:25:11,476 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-05 13:25:12,481 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:25:12,601 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-05 13:25:13,611 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats wifi -enable
+2023-07-05 13:25:13,940 - lib.adb - run_command() - DEBUG - Response: ats wifi -enable
+Enable WiFi
+Write log success. ats wifi -enable = PASS
+2023-07-05 13:25:18,955 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:25:19,085 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:25:20,086 - lib.utils - kpi_validation() - INFO - Expected response is: on
+2023-07-05 13:25:20,087 - lib.utils - kpi_validation() - INFO - Actual response is: on
+2023-07-05 13:25:20,087 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-05 13:25:20,114 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:25:20,257 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:25:20,259 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:25:21,300 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:25:21,388 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:25:22,389 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:25:22,484 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:25:23,490 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats wifi -disable
+2023-07-05 13:25:23,779 - lib.adb - run_command() - DEBUG - Response: ats wifi -disable
+Disable WiFi
+Write log success. ats wifi -disable = PASS
+2023-07-05 13:25:28,792 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:25:28,922 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-05 13:25:29,928 - lib.utils - kpi_validation() - INFO - Expected response is: off
+2023-07-05 13:25:29,929 - lib.utils - kpi_validation() - INFO - Actual response is: off
+2023-07-05 13:25:29,929 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-05 13:25:29,945 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:25:30,044 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:25:30,045 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:25:31,089 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:25:31,220 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-05 13:25:32,226 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats wifi -enable
+2023-07-05 13:25:32,533 - lib.adb - run_command() - DEBUG - Response: ats wifi -enable
+Enable WiFi
+Write log success. ats wifi -enable = PASS
+2023-07-05 13:25:34,542 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi start-scan
+2023-07-05 13:25:34,622 - lib.adb - run_command() - DEBUG - Response: 
+2023-07-05 13:25:35,626 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi list-scan-results
+2023-07-05 13:25:35,702 - lib.adb - run_command() - DEBUG - Response: No scan results
+2023-07-05 13:25:36,708 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi list-scan-results
+2023-07-05 13:25:36,795 - lib.adb - run_command() - DEBUG - Response: BSSID              Frequency      RSSI           Age(sec)     SSID                                 Flags
+  f6:38:83:d4:79:50       5765    -87(0:-87)            2.785    htalk                             [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  f2:38:83:16:68:45       5765    -87(0:-87)            2.781    hcorp                             [WPA2-EAP/SHA1+FT/EAP-CCMP][RSN-EAP/SHA1+FT/EAP-CCMP][ESS]
+  e4:38:83:16:2b:87       5745    -83(0:-83)            2.826    what's that?                      [RSN-SAE-CCMP][ESS]
+  60:22:32:f5:fd:68       2412    -69(0:-69)            3.916    hav                               [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  60:22:32:f5:fd:69       5240    -54(0:-54)            2.858    what's that?                      [RSN-SAE-CCMP][ESS]
+  f2:38:83:16:6a:5c       5785    -51(0:-51)            2.722    hcorp                             [WPA2-EAP/SHA1+FT/EAP-CCMP][RSN-EAP/SHA1+FT/EAP-CCMP][ESS]
+  e4:38:83:d4:79:50       5765    -87(0:-87)            2.790    what's that?                      [RSN-SAE-CCMP][ESS]
+  80:cc:9c:31:ba:cd       2452    -88(0:-88)            3.191                                      [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  fa:38:83:d4:79:50       5765    -87(0:-87)            2.785    hguest                            [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  ea:38:83:16:2b:87       5745    -83(0:-83)            2.825    hav                               [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  6e:22:32:f5:fd:69       5240    -54(0:-54)            2.855    hcorp                             [WPA2-EAP/SHA1+FT/EAP-CCMP][RSN-EAP/SHA1+FT/EAP-CCMP][ESS]
+  f6:38:83:16:2b:87       5745    -83(0:-83)            2.823    htalk                             [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  ee:38:83:16:6a:5b       2437    -62(0:-62)            3.443    hcorp                             [WPA2-EAP/SHA1+FT/EAP-CCMP][RSN-EAP/SHA1+FT/EAP-CCMP][ESS]
+  38:a0:67:a9:f1:e6       2412    -83(0:-83)            3.849    Chutianfan                        [WPA2-PSK-CCMP][RSN-PSK-CCMP][WPA-PSK-CCMP][ESS]
+  38:a0:67:a9:f1:e7       5180    -88(0:-88)            2.981    Chutianfan                        [WPA2-PSK-CCMP][RSN-PSK-CCMP][WPA-PSK-CCMP][ESS]
+  38:a0:67:a9:f1:e8       5720    -94(0:-94)            0.881    Chutianfan                        [WPA2-PSK-CCMP][RSN-PSK-CCMP][WPA-PSK-CCMP][ESS]
+  fe:38:83:16:2b:87       5745    -83(0:-83)            2.822                                      [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  ee:38:83:16:6a:5c       5785    -51(0:-51)            2.723    hdevice                           [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  f2:38:83:d4:79:4f       2462    -76(0:-76)            3.044    htalk                             [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  fa:38:83:16:2b:87       5745    -83(0:-83)            2.823    hguest                            [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  4a:a0:67:a9:f1:e8       5720    -95(0:-95)            0.881                                      [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  ea:38:83:d4:79:50       5765    -87(0:-87)            2.789    hav                               [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  fe:38:83:16:6a:5b       2437    -62(0:-62)            3.433                                      [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  f2:38:83:16:6a:5b       2437    -63(0:-63)            3.440    htalk                             [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  ea:38:83:16:68:45       5765    -86(0:-86)            2.781    hav                               [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  f2:38:83:d4:79:50       5765    -87(0:-87)            2.786    hcorp                             [WPA2-EAP/SHA1+FT/EAP-CCMP][RSN-EAP/SHA1+FT/EAP-CCMP][ESS]
+  72:22:32:f5:fd:68       2412    -66(0:-66)            3.903    hguest                            [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  72:22:32:f5:fd:69       5240    -54(0:-54)            2.854    htalk                             [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  78:45:58:27:3f:71       2462    -81(0:-81)            3.079    hav                               [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  ee:38:83:16:2b:87       5745    -83(0:-83)            2.825    hdevice                           [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  6a:22:32:f5:fd:69       5240    -54(0:-54)            2.856    hdevice                           [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  6a:22:32:f5:fd:68       2412    -67(0:-67)            3.909    hcorp                             [WPA2-EAP/SHA1+FT/EAP-CCMP][RSN-EAP/SHA1+FT/EAP-CCMP][ESS]
+  ea:38:83:16:6a:5b       2437    -62(0:-62)            3.430    hdevice                           [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  66:22:32:f5:fd:69       5240    -54(0:-54)            2.857    hav                               [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  66:22:32:f5:fd:68       2412    -67(0:-67)            3.913    hdevice                           [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  a4:11:62:52:ca:47       2417    -86(0:-86)            3.778    ARLO_VMB_1144438589               [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS][WPS]
+  e4:38:83:16:68:45       5765    -87(0:-87)            2.783    what's that?                      [RSN-SAE-CCMP][ESS]
+  e4:38:83:16:5c:41       2437    -92(0:-92)            3.498    hav                               [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  f2:38:83:16:2b:87       5745    -83(0:-83)            2.824    hcorp                             [WPA2-EAP/SHA1+FT/EAP-CCMP][RSN-EAP/SHA1+FT/EAP-CCMP][ESS]
+  ea:38:83:16:6a:5c       5785    -51(0:-51)            2.724    hav                               [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  ea:38:83:d4:79:4f       2462    -87(0:-87)            3.060    hdevice                           [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  76:22:32:f5:fd:69       5240    -55(0:-55)            2.852    hguest                            [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  fa:38:83:16:6a:5b       2437    -62(0:-62)            3.433                                      [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  fa:38:83:16:6a:5c       5785    -51(0:-51)            2.721    hguest                            [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  e4:38:83:d4:79:4f       2462    -87(0:-87)            3.029    hav                               [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  f6:38:83:16:6a:5c       5785    -51(0:-51)            2.722    htalk                             [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  f6:38:83:d4:79:4f       2462    -88(0:-88)            3.035    hguest                            [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  fa:38:83:16:68:45       5765    -86(0:-86)            2.780    hguest                            [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  f6:38:83:16:6a:5b       2437    -62(0:-62)            3.436    hguest                            [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  6e:22:32:f5:fd:68       2412    -66(0:-66)            3.906    htalk                             [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  ee:38:83:d4:79:50       5765    -87(0:-87)            2.787    hdevice                           [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  60:22:32:e0:d1:fc       5240    -94(0:-94)            2.853    what's that?                      [RSN-SAE-CCMP][ESS]
+  f6:38:83:16:68:44       2437    -84(0:-84)            3.460    hguest                            [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  ee:38:83:16:68:45       5765    -86(0:-86)            2.781    hdevice                           [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  8a:cc:9c:31:ba:cd       2452    -88(0:-88)            3.194    Prototype                         [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  f6:38:83:16:68:45       5765    -87(0:-87)            2.780    htalk                             [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  e4:38:83:16:6a:5b       2437    -62(0:-62)            3.449    hav                               [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+  e4:38:83:16:6a:5c       5785    -51(0:-51)            2.725    what's that?                      [RSN-SAE-CCMP][ESS]
+  76:22:32:f5:fd:68       2412    -66(0:-66)            3.898                                      [WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]
+2023-07-05 13:25:37,833 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:25:38,033 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:25:38,035 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:25:39,096 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:25:39,185 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:25:40,188 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi list-networks
+2023-07-05 13:25:40,268 - lib.adb - run_command() - DEBUG - Response: No networks
+2023-07-05 13:25:41,274 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:25:41,373 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:25:42,377 - lib.wificontrol - connect_to_ssid() - DEBUG - Connecting to "hdevice"
+2023-07-05 13:25:42,378 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi connect-network hdevice wpa2 Figure-Crepe9-Confound
+2023-07-05 13:25:42,669 - lib.adb - run_command() - DEBUG - Response: Connection initiated
+2023-07-05 13:25:48,684 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-07-05 13:25:48,785 - lib.adb - run_command() - DEBUG - Response: Wifi is connected to "hdevice"
+2023-07-05 13:25:49,791 - lib.utils - kpi_validation() - INFO - Expected response is: Wifi is connected to "hdevice"
+2023-07-05 13:25:49,791 - lib.utils - kpi_validation() - INFO - Actual response is: Wifi is connected to "hdevice"
+2023-07-05 13:25:49,791 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-05 13:25:49,824 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:25:49,982 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:25:49,983 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:25:51,034 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status
+2023-07-05 13:25:51,104 - lib.adb - run_command() - DEBUG - Response: Wifi is enabled
+Wifi scanning is only available when wifi is enabled
+==== ClientModeManager instance: ConcreteClientModeManager{id=376689 iface=wlan0 role=ROLE_CLIENT_PRIMARY} ====
+Wifi is connected to "hdevice"
+WifiInfo: SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -52, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 0, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1
+successfulTxPackets: 123
+successfulTxPacketsPerSecond: 0.0
+retriedTxPackets: 34
+retriedTxPacketsPerSecond: 0.0
+lostTxPackets: 0
+lostTxPacketsPerSecond: 0.0
+successfulRxPackets: 86
+successfulRxPacketsPerSecond: 0.0
+NetworkCapabilities: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=60000Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -52, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: -1, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -52 SSID: "hdevice"]
+2023-07-05 13:25:52,110 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats wifi -disconn
+2023-07-05 13:25:52,556 - lib.adb - run_command() - DEBUG - Response: ats wifi -disconn
+wpa_cli -i wlan0 remove_network all -- [OK]
+wpa_cli -i wlan0 disconnect -- [OK]
+Interface 'wlan0' -- [DISCONNECTED]
+Write log success. ats wifi -disconn = PASS
+2023-07-05 13:25:54,561 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status | sed -n '/Wifi is /p'
+2023-07-05 13:25:54,650 - lib.adb - run_command() - DEBUG - Response: Wifi is enabled
+Wifi is not connected
+2023-07-05 13:25:55,654 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:25:55,790 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:25:56,795 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats wifi -disable
+2023-07-05 13:25:57,094 - lib.adb - run_command() - DEBUG - Response: ats wifi -disable
+Disable WiFi
+Write log success. ats wifi -disable = PASS
+2023-07-05 13:25:59,105 - lib.utils - kpi_validation() - INFO - Expected response is: Wifi is enabled
+Wifi is not connected
+2023-07-05 13:25:59,106 - lib.utils - kpi_validation() - INFO - Actual response is: Wifi is enabled
+Wifi is not connected
+2023-07-05 13:25:59,106 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-05 13:25:59,140 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:25:59,317 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:25:59,319 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:26:00,405 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status
+2023-07-05 13:26:00,485 - lib.adb - run_command() - DEBUG - Response: Wifi is disabled
+Wifi scanning is only available when wifi is enabled
+2023-07-05 13:26:01,491 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:26:01,632 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-05 13:26:02,638 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats wifi -enable
+2023-07-05 13:26:02,963 - lib.adb - run_command() - DEBUG - Response: ats wifi -enable
+Enable WiFi
+Write log success. ats wifi -enable = PASS
+2023-07-05 13:26:04,973 - lib.wificontrol - connect_to_ssid() - DEBUG - Connecting to "hdevice"
+2023-07-05 13:26:04,974 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi connect-network hdevice wpa2 Figure-Crepe9-Confound
+2023-07-05 13:26:05,107 - lib.adb - run_command() - DEBUG - Response: Connection initiated
+2023-07-05 13:26:09,117 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats wifi -disconn
+2023-07-05 13:26:09,558 - lib.adb - run_command() - DEBUG - Response: ats wifi -disconn
+wpa_cli -i wlan0 remove_network all -- [OK]
+wpa_cli -i wlan0 disconnect -- [OK]
+Interface 'wlan0' -- [DISCONNECTED]
+Write log success. ats wifi -disconn = PASS
+2023-07-05 13:26:11,565 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:26:11,704 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:26:12,705 - lib.wificontrol - connect_to_ssid() - DEBUG - Connecting to "hdevice"
+2023-07-05 13:26:12,706 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi connect-network hdevice wpa2 Figure-Crepe9-Confound
+2023-07-05 13:26:12,861 - lib.adb - run_command() - DEBUG - Response: Connection initiated
+2023-07-05 13:26:16,872 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-07-05 13:26:16,960 - lib.adb - run_command() - DEBUG - Response: 
+2023-07-05 13:26:17,965 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:26:18,087 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:26:19,088 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats wifi -disable
+2023-07-05 13:26:19,405 - lib.adb - run_command() - DEBUG - Response: ats wifi -disable
+Disable WiFi
+Write log success. ats wifi -disable = PASS
+2023-07-05 13:26:21,415 - lib.utils - kpi_validation() - INFO - Expected response is: Wifi is connected to "hdevice"
+2023-07-05 13:26:21,415 - lib.utils - kpi_validation() - INFO - Actual response is: 
+2023-07-05 13:26:21,416 - lib.utils - kpi_validation() - ERROR - KPI validation failed !
+2023-07-05 13:26:21,451 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:26:21,674 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:26:21,738 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:26:22,813 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-07-05 13:26:22,917 - lib.adb - run_command() - DEBUG - Response: 
+2023-07-05 13:26:23,922 - lib.wificontrol - get_current_network_ssid() - ERROR - Exception occurred while getting current wifi ssid | list index out of range
+Traceback (most recent call last):
+  File "/Users/Jerry/Desktop/ConnectivityAutomation/lib/wificontrol.py", line 156, in get_current_network_ssid
+    ssid = resp.split('"')[1]
+           ~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+2023-07-05 13:26:23,926 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:26:24,063 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-05 13:26:25,064 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats wifi -enable
+2023-07-05 13:26:25,333 - lib.adb - run_command() - DEBUG - Response: ats wifi -enable
+Enable WiFi
+Write log success. ats wifi -enable = PASS
+2023-07-05 13:26:27,336 - lib.wificontrol - connect_to_ssid() - DEBUG - Connecting to "hdevice"
+2023-07-05 13:26:27,337 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi connect-network hdevice wpa2 Figure-Crepe9-Confound
+2023-07-05 13:26:27,464 - lib.adb - run_command() - DEBUG - Response: Connection initiated
+2023-07-05 13:26:31,475 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi list-networks
+2023-07-05 13:26:31,544 - lib.adb - run_command() - DEBUG - Response: Network Id      SSID                         Security type
+0            hdevice                          wpa2-psk
+0            hdevice                          wpa3-sae^
+2023-07-05 13:26:32,545 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi list-networks
+2023-07-05 13:26:32,631 - lib.adb - run_command() - DEBUG - Response: Network Id      SSID                         Security type
+0            hdevice                          wpa2-psk
+0            hdevice                          wpa3-sae^
+2023-07-05 13:26:33,632 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi forget-network 0
+2023-07-05 13:26:33,771 - lib.adb - run_command() - DEBUG - Response: Forget successful
+2023-07-05 13:26:34,772 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi list-networks
+2023-07-05 13:26:34,871 - lib.adb - run_command() - DEBUG - Response: No networks
+2023-07-05 13:26:35,874 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi list-networks
+2023-07-05 13:26:35,971 - lib.adb - run_command() - DEBUG - Response: No networks
+2023-07-05 13:26:37,008 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:26:37,263 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:26:37,265 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:26:39,278 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-05 13:26:39,282 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:26:40,365 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:26:40,487 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:26:41,489 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats wifi -disable
+2023-07-05 13:26:41,837 - lib.adb - run_command() - DEBUG - Response: ats wifi -disable
+Disable WiFi
+Write log success. ats wifi -disable = PASS
+2023-07-05 13:26:56,170 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-05 13:27:04,656 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-07-05 13:27:11,574 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-07-05 13:27:18,380 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_toggle
+2023-07-05 13:27:18,381 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:27:18,466 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:27:19,472 - lib.utils - kpi_validation() - INFO - Expected response is: on
+2023-07-05 13:27:19,473 - lib.utils - kpi_validation() - INFO - Actual response is: on
+2023-07-05 13:27:19,473 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-05 13:27:19,507 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:27:19,774 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:27:19,776 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-05 13:27:19,777 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:27:21,791 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-05 13:27:21,792 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:27:23,805 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-05 13:27:23,810 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:27:24,909 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:27:25,016 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:27:34,487 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-05 13:27:41,728 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-07-05 13:27:48,568 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-07-05 13:27:56,204 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_toggle
+2023-07-05 13:27:56,205 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:27:56,298 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-05 13:27:57,301 - lib.utils - kpi_validation() - INFO - Expected response is: off
+2023-07-05 13:27:57,302 - lib.utils - kpi_validation() - INFO - Actual response is: off
+2023-07-05 13:27:57,302 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-05 13:27:57,335 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:27:57,570 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:27:57,572 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-05 13:27:57,573 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:27:59,583 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-05 13:27:59,585 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:28:01,598 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-05 13:28:01,602 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:28:02,692 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:28:02,794 - lib.adb - run_command() - DEBUG - Response: 0
+2023-07-05 13:28:03,798 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats wifi -enable
+2023-07-05 13:28:04,045 - lib.adb - run_command() - DEBUG - Response: ats wifi -enable
+Enable WiFi
+Write log success. ats wifi -enable = PASS
+2023-07-05 13:28:14,514 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-05 13:28:21,807 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-07-05 13:28:28,954 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-07-05 13:28:41,991 - lib.settings_app - get_wifi_scan_result() - INFO - WiFi scan result: {'hdevice', 'hcorp', 'htalk', 'hav'}
+2023-07-05 13:28:42,012 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:28:42,363 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:28:42,365 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-05 13:28:42,366 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:28:44,378 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-05 13:28:44,379 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:28:46,393 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-05 13:28:46,398 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:28:47,487 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi list-networks
+2023-07-05 13:28:47,590 - lib.adb - run_command() - DEBUG - Response: No networks
+2023-07-05 13:28:48,593 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:28:48,692 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:28:58,128 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-05 13:29:05,304 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-07-05 13:29:12,534 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-07-05 13:29:19,891 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_ssid
+2023-07-05 13:29:26,248 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-07-05 13:29:26,348 - lib.adb - run_command() - DEBUG - Response: Wifi is connected to "hdevice"
+2023-07-05 13:29:27,354 - lib.utils - kpi_validation() - INFO - Expected response is: Wifi is connected to "hdevice"
+2023-07-05 13:29:27,355 - lib.utils - kpi_validation() - INFO - Actual response is: Wifi is connected to "hdevice"
+2023-07-05 13:29:27,355 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-05 13:29:27,388 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:29:27,654 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:29:27,656 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-05 13:29:27,657 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:29:29,668 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-05 13:29:29,670 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:29:31,683 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-05 13:29:31,688 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:29:32,766 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status
+2023-07-05 13:29:32,821 - lib.adb - run_command() - DEBUG - Response: Wifi is enabled
+Wifi scanning is only available when wifi is enabled
+==== ClientModeManager instance: ConcreteClientModeManager{id=528235 iface=wlan0 role=ROLE_CLIENT_PRIMARY} ====
+Wifi is connected to "hdevice"
+WifiInfo: SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -53, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 1, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1
+successfulTxPackets: 45
+successfulTxPacketsPerSecond: 0.0
+retriedTxPackets: 14
+retriedTxPacketsPerSecond: 0.0
+lostTxPackets: 0
+lostTxPacketsPerSecond: 0.0
+successfulRxPackets: 36
+successfulRxPacketsPerSecond: 0.0
+NetworkCapabilities: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=60000Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -53, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: -1, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -53 SSID: "hdevice"]
+2023-07-05 13:29:33,826 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-07-05 13:29:33,910 - lib.adb - run_command() - DEBUG - Response: Wifi is connected to "hdevice"
+2023-07-05 13:29:43,660 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-05 13:29:50,922 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-07-05 13:29:57,949 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-07-05 13:30:06,161 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_ssid
+2023-07-05 13:30:13,580 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_connection_button
+2023-07-05 13:30:13,581 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status | sed -n '/Wifi is /p'
+2023-07-05 13:30:13,668 - lib.adb - run_command() - DEBUG - Response: Wifi is enabled
+Wifi is not connected
+2023-07-05 13:30:14,674 - lib.utils - kpi_validation() - INFO - Expected response is: Wifi is enabled
+Wifi is not connected
+2023-07-05 13:30:14,675 - lib.utils - kpi_validation() - INFO - Actual response is: Wifi is enabled
+Wifi is not connected
+2023-07-05 13:30:14,676 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-05 13:30:14,710 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:30:15,040 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:30:15,042 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-05 13:30:15,043 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:30:17,054 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-05 13:30:17,056 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:30:19,069 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-05 13:30:19,074 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:30:20,183 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:30:20,282 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:30:21,283 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi list-networks
+2023-07-05 13:30:21,370 - lib.adb - run_command() - DEBUG - Response: Network Id      SSID                         Security type
+1            hdevice                          wpa2-psk
+1            hdevice                          wpa3-sae^
+2023-07-05 13:30:30,878 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-05 13:30:38,084 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-07-05 13:30:44,858 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-07-05 13:30:44,859 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status
+2023-07-05 13:30:44,936 - lib.adb - run_command() - DEBUG - Response: Wifi is enabled
+Wifi scanning is only available when wifi is enabled
+==== ClientModeManager instance: ConcreteClientModeManager{id=528235 iface=wlan0 role=ROLE_CLIENT_PRIMARY} ====
+Wifi is not connected
+2023-07-05 13:30:46,357 - lib.appium_utils - tap_on_element() - ERROR - Could not find element for 'wifi_ssid'
+NoneType: None
+2023-07-05 13:30:53,873 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_toggle
+2023-07-05 13:31:00,745 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_toggle
+2023-07-05 13:31:05,874 - lib.appium_utils - tap_on() - ERROR - Exception occurred while tapping element: <appium.webdriver.webelement.WebElement (session="7cd7ba81-d435-4843-bdc6-1817d4a5e4fd", element="00000000-0000-005c-ffff-ffff0000017c")>. | ERROR: Message: Cached elements 'By.id: android:id/title' do not exist in DOM anymore
+Stacktrace:
+io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: Cached elements 'By.id: android:id/title' do not exist in DOM anymore
+	at io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:78)
+	at io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:153)
+	at io.appium.uiautomator2.handler.Location.safeHandle(Location.java:23)
+	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)
+	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)
+	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)
+	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:920)
+Traceback (most recent call last):
+  File "/Users/Jerry/Desktop/ConnectivityAutomation/lib/appium_utils.py", line 145, in tap_on
+    actions.perform()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/appium/webdriver/common/touch_action.py", line 174, in perform
+    self._driver.execute(Command.TOUCH_ACTION, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/appium/webdriver/errorhandler.py", line 122, in check_response
+    raise exception_class(msg=message, stacktrace=format_stacktrace(stacktrace))
+selenium.common.exceptions.StaleElementReferenceException: Message: Cached elements 'By.id: android:id/title' do not exist in DOM anymore
+Stacktrace:
+io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: Cached elements 'By.id: android:id/title' do not exist in DOM anymore
+	at io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:78)
+	at io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:153)
+	at io.appium.uiautomator2.handler.Location.safeHandle(Location.java:23)
+	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)
+	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)
+	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)
+	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:920)
+
+2023-07-05 13:31:13,070 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_toggle
+2023-07-05 13:31:19,938 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_toggle
+2023-07-05 13:31:20,966 - lib.appium_utils - tap_on_element() - ERROR - Could not find element for 'wifi_ssid'
+NoneType: None
+2023-07-05 13:31:27,904 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_toggle
+2023-07-05 13:31:34,488 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_toggle
+2023-07-05 13:31:40,188 - lib.appium_utils - tap_on() - ERROR - Exception occurred while tapping element: <appium.webdriver.webelement.WebElement (session="7cd7ba81-d435-4843-bdc6-1817d4a5e4fd", element="00000000-0000-005c-ffff-ffff00000164")>. | ERROR: Message: Cached elements 'By.id: android:id/title' do not exist in DOM anymore
+Stacktrace:
+io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: Cached elements 'By.id: android:id/title' do not exist in DOM anymore
+	at io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:78)
+	at io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:153)
+	at io.appium.uiautomator2.handler.Location.safeHandle(Location.java:23)
+	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)
+	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)
+	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)
+	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:920)
+Traceback (most recent call last):
+  File "/Users/Jerry/Desktop/ConnectivityAutomation/lib/appium_utils.py", line 145, in tap_on
+    actions.perform()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/appium/webdriver/common/touch_action.py", line 174, in perform
+    self._driver.execute(Command.TOUCH_ACTION, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/appium/webdriver/errorhandler.py", line 122, in check_response
+    raise exception_class(msg=message, stacktrace=format_stacktrace(stacktrace))
+selenium.common.exceptions.StaleElementReferenceException: Message: Cached elements 'By.id: android:id/title' do not exist in DOM anymore
+Stacktrace:
+io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: Cached elements 'By.id: android:id/title' do not exist in DOM anymore
+	at io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:78)
+	at io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:153)
+	at io.appium.uiautomator2.handler.Location.safeHandle(Location.java:23)
+	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)
+	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)
+	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)
+	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:920)
+
+2023-07-05 13:31:50,194 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-07-05 13:31:50,265 - lib.adb - run_command() - DEBUG - Response: Wifi is connected to "hdevice"
+2023-07-05 13:31:51,267 - lib.utils - kpi_validation() - INFO - Expected response is: Wifi is connected to "hdevice"
+2023-07-05 13:31:51,267 - lib.utils - kpi_validation() - INFO - Actual response is: Wifi is connected to "hdevice"
+2023-07-05 13:31:51,268 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-05 13:31:51,311 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:31:51,859 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:31:51,860 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-05 13:31:51,861 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:31:53,873 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-05 13:31:53,874 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:31:55,889 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-05 13:31:55,894 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:31:57,008 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-07-05 13:31:57,100 - lib.adb - run_command() - DEBUG - Response: Wifi is connected to "hdevice"
+2023-07-05 13:32:06,831 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-05 13:32:14,083 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-07-05 13:32:20,942 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-07-05 13:32:28,293 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_ssid
+2023-07-05 13:32:35,194 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_forget_button
+2023-07-05 13:32:35,195 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi list-networks
+2023-07-05 13:32:35,273 - lib.adb - run_command() - DEBUG - Response: No networks
+2023-07-05 13:32:36,280 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi list-networks
+2023-07-05 13:32:36,350 - lib.adb - run_command() - DEBUG - Response: No networks
+2023-07-05 13:32:37,391 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:32:37,764 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:32:37,766 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-05 13:32:37,770 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:32:39,781 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-05 13:32:39,783 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:32:41,795 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-05 13:32:41,799 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:32:42,879 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi list-networks
+2023-07-05 13:32:42,964 - lib.adb - run_command() - DEBUG - Response: No networks
+2023-07-05 13:32:43,969 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:32:44,062 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:32:52,340 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-05 13:32:59,568 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-07-05 13:33:07,013 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-07-05 13:33:14,650 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_ssid
+2023-07-05 13:33:28,040 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:33:28,397 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:33:28,412 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Start Log Line: 07-05 20:33:16.667   889  8382 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xa5
+
+2023-07-05 13:33:28,412 - lib.utils - get_time_diff_from_log_lines() - DEBUG - End Log Line: 07-05 20:33:16.669  8386  8386 I wpa_supplicant: wlan0: CTRL-EVENT-CONNECTED - Connection to ee:38:83:16:6a:5c completed [id=0 id_str=%7B%22configKey%22%3A%22%5C%22hdevice%5C%22WPA_PSK%22%2C%22creatorUid%22%3A%221000%22%7D]
+
+2023-07-05 13:33:28,412 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Start Log Time: 20:33:16.667
+2023-07-05 13:33:28,412 - lib.utils - get_time_diff_from_log_lines() - DEBUG - End Log Time: 20:33:16.669
+2023-07-05 13:33:28,413 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Log Time Delta: 0.002
+2023-07-05 13:33:28,413 - lib.utils - kpi_validation() - INFO - Expected response is: 0-1
+2023-07-05 13:33:28,413 - lib.utils - kpi_validation() - INFO - Actual response is: 0.002
+2023-07-05 13:33:28,413 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-05 13:33:28,414 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-05 13:33:28,415 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:33:30,424 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-05 13:33:30,426 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:33:32,441 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-05 13:33:32,443 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:33:33,537 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi list-networks
+2023-07-05 13:33:33,624 - lib.adb - run_command() - DEBUG - Response: Network Id      SSID                         Security type
+2            hdevice                          wpa2-psk
+2            hdevice                          wpa3-sae^
+2023-07-05 13:33:34,626 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:33:34,746 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:33:35,752 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ats wifi -disable
+2023-07-05 13:33:36,077 - lib.adb - run_command() - DEBUG - Response: ats wifi -disable
+Disable WiFi
+Write log success. ats wifi -disable = PASS
+2023-07-05 13:33:45,698 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-05 13:33:52,939 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-07-05 13:34:00,152 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-07-05 13:34:07,191 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_toggle
+2023-07-05 13:34:17,210 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:34:17,566 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:34:17,577 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Start Log Line: 07-05 20:34:13.213  1356  1381 I LOWI-9.0.0.89.f: [LOWIController] isWifiEnabled: Wifi is now enabled
+
+2023-07-05 13:34:17,577 - lib.utils - get_time_diff_from_log_lines() - DEBUG - End Log Line: 07-05 20:34:13.420  9463  9463 I wpa_supplicant: wlan0: CTRL-EVENT-CONNECTED - Connection to ee:38:83:16:6a:5c completed [id=0 id_str=%7B%22configKey%22%3A%22%5C%22hdevice%5C%22WPA_PSK%22%2C%22creatorUid%22%3A%221000%22%7D]
+
+2023-07-05 13:34:17,577 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Start Log Time: 20:34:13.213
+2023-07-05 13:34:17,577 - lib.utils - get_time_diff_from_log_lines() - DEBUG - End Log Time: 20:34:13.420
+2023-07-05 13:34:17,577 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Log Time Delta: 0.207
+2023-07-05 13:34:17,577 - lib.utils - kpi_validation() - INFO - Expected response is: 0-1
+2023-07-05 13:34:17,577 - lib.utils - kpi_validation() - INFO - Actual response is: 0.207
+2023-07-05 13:34:17,577 - lib.utils - kpi_validation() - INFO - KPI validation passed !
+2023-07-05 13:34:17,578 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-05 13:34:17,579 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:34:19,588 - lib.server_api - start_appium_server() - WARNING - Tried to start new appium server at port 4723 but it was taken, trying it again
+2023-07-05 13:34:19,590 - lib.server - start_new_server() - DEBUG - Starting new appium server at port 4723
+2023-07-05 13:34:21,604 - lib.server_api - start_appium_server() - DEBUG - Started new appium server at port 4723
+2023-07-05 13:34:21,609 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:34:22,715 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status
+2023-07-05 13:34:22,804 - lib.adb - run_command() - DEBUG - Response: Wifi is enabled
+Wifi scanning is only available when wifi is enabled
+==== ClientModeManager instance: ConcreteClientModeManager{id=889377 iface=wlan0 role=ROLE_CLIENT_PRIMARY} ====
+Wifi is connected to "hdevice"
+WifiInfo: SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -52, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1
+successfulTxPackets: 75
+successfulTxPacketsPerSecond: 5.865673066231031
+retriedTxPackets: 26
+retriedTxPacketsPerSecond: 1.691964279989778
+lostTxPackets: 0
+lostTxPacketsPerSecond: 0.0
+successfulRxPackets: 52
+successfulRxPacketsPerSecond: 4.099854670878106
+NetworkCapabilities: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=60000Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -52, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: -1, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -52 SSID: "hdevice"]
+2023-07-05 13:34:23,809 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-07-05 13:34:23,895 - lib.adb - run_command() - DEBUG - Response: Wifi is connected to "hdevice"
+2023-07-05 13:34:32,453 - lib.settings_app - launch_app() - INFO - Settings app launched
+2023-07-05 13:34:39,683 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: network_setting
+2023-07-05 13:34:46,558 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: internet_setting
+2023-07-05 13:34:53,827 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_ssid
+2023-07-05 13:35:00,651 - lib.appium_utils - tap_on_element() - DEBUG - Tapped on: wifi_connection_button
+2023-07-05 13:35:05,691 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:35:06,108 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:35:06,124 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Start Log Line: 07-05 20:34:58.811   889  9459 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xa
+
+2023-07-05 13:35:06,124 - lib.utils - get_time_diff_from_log_lines() - DEBUG - End Log Line: 07-05 20:34:58.729  9463  9463 I wpa_supplicant: wlan0: CTRL-EVENT-DISCONNECTED bssid=ee:38:83:16:6a:5c reason=3 locally_generated=1
+
+2023-07-05 13:35:06,124 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Start Log Time: 20:34:58.811
+2023-07-05 13:35:06,124 - lib.utils - get_time_diff_from_log_lines() - DEBUG - End Log Time: 20:34:58.729
+2023-07-05 13:35:06,124 - lib.utils - get_time_diff_from_log_lines() - DEBUG - Log Time Delta: -0.082
+2023-07-05 13:35:06,125 - lib.utils - kpi_validation() - INFO - Expected response is: 0-1
+2023-07-05 13:35:06,125 - lib.utils - kpi_validation() - INFO - Actual response is: -0.082
+2023-07-05 13:35:06,125 - lib.utils - kpi_validation() - ERROR - KPI validation failed !
+2023-07-05 13:35:06,129 - lib.server - stop_server() - DEBUG - Stopping appium server at port 4723
+2023-07-05 13:35:06,130 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: logcat -c
+2023-07-05 13:35:07,219 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status
+2023-07-05 13:35:07,292 - lib.adb - run_command() - DEBUG - Response: Wifi is enabled
+Wifi scanning is only available when wifi is enabled
+==== ClientModeManager instance: ConcreteClientModeManager{id=889377 iface=wlan0 role=ROLE_CLIENT_PRIMARY} ====
+Wifi is not connected
+2023-07-05 13:35:08,297 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: settings get global wifi_on
+2023-07-05 13:35:08,430 - lib.adb - run_command() - DEBUG - Response: 1
+2023-07-05 13:35:09,431 - lib.wificontrol - connect_to_ssid() - DEBUG - Connecting to "hdevice"
+2023-07-05 13:35:09,431 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi connect-network hdevice wpa2 Figure-Crepe9-Confound
+2023-07-05 13:35:09,679 - lib.adb - run_command() - DEBUG - Response: Connection initiated
+2023-07-05 13:35:13,696 - lib.wifi_iperf - start_iperf3_server() - INFO - Successfully execute iperf3 on port 5201 in DUT
+2023-07-05 13:35:13,698 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:13,698 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:13,698 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: ifconfig wlan0 | grep 'inet addr:' | awk -F: '{print $2}' | awk -F" " '{print $1}'
+2023-07-05 13:35:13,806 - lib.adb - run_command() - DEBUG - Response: 10.195.25.13
+2023-07-05 13:35:13,815 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=60000Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -54, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -54 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:14,810 - lib.wifi_iperf - get_device_ip() - INFO - DUT IP addr: 10.195.25.13
+2023-07-05 13:35:15,828 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:15,830 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:15,922 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=22632Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -55, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -55 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:17,933 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:17,933 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:18,020 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=22632Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -55, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -55 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:20,027 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:20,028 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:20,120 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=46149Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -55, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -55 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:22,129 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:22,130 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:22,218 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=60988Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -54, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -54 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:24,229 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:24,230 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:24,318 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=60988Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -54, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -54 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:26,320 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:26,321 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:26,412 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=73851Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -56, Link speed: 390Mbps, Tx Link speed: 390Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -56 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:28,423 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:28,423 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:28,506 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=73851Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -56, Link speed: 390Mbps, Tx Link speed: 390Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -56 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:30,517 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:30,518 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:30,609 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=73851Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -56, Link speed: 390Mbps, Tx Link speed: 390Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -56 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:32,619 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:32,620 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:32,701 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=84498Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -54, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -54 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:34,707 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:34,708 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:34,797 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=84498Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -54, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -54 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:36,804 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:36,805 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:36,896 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=84498Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -54, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -54 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:38,907 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:38,907 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:38,994 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=84498Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -54, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -54 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:40,999 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:41,000 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:41,097 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=83434Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -56, Link speed: 390Mbps, Tx Link speed: 390Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -56 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:43,103 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:43,104 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:43,193 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=83434Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -56, Link speed: 390Mbps, Tx Link speed: 390Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -56 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:45,200 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:45,201 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:45,288 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=83726Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -55, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -55 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:47,295 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:47,296 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:47,388 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=83726Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -55, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -55 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:49,393 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:49,393 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:49,471 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=92248Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -58, Link speed: 325Mbps, Tx Link speed: 325Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 390Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -58 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:51,482 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:51,483 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:51,571 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=92248Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -58, Link speed: 325Mbps, Tx Link speed: 325Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 390Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -58 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:53,578 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:53,578 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:53,667 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=92248Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -58, Link speed: 325Mbps, Tx Link speed: 325Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 390Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -58 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:55,671 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:55,672 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:55,760 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=90695Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -55, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -55 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:57,767 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:57,768 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:57,855 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=90695Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -55, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -55 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:35:59,858 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:35:59,858 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:35:59,950 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=90695Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -55, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -55 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:36:01,962 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:36:01,963 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:36:02,046 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=90695Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -55, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -55 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:36:04,057 - lib.wifi_iperf - read_rssi() - INFO - Getting RSSI
+2023-07-05 13:36:04,058 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: dumpsys connectivity | sed -n '/RSSI:/p'
+2023-07-05 13:36:04,150 - lib.adb - run_command() - DEBUG - Response: NetworkAgentInfo{network{109}  handle{471557132301}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED&IS_UNMETERED&EVER_USER_SELECTED&IS_VALIDATED)  everValidated lastValidated explicitlySelected  lp{{InterfaceName: wlan0 LinkAddresses: [ 10.195.25.13/21,fe80::c8a0:a7ff:fe01:ac0d/64,fdca:c1f0:a100:4017:dc8f:2e96:5199:407a/64,fdca:c1f0:a100:4017:c8a0:a7ff:fe01:ac0d/64 ] DnsAddresses: [ /10.195.24.1 ] Domains: sfo-984.corp.qwertyftw.com MTU: 0 ServerAddress: /10.195.24.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fda0:9eb4:cf06::/64 -> fe80::86b:97ed:3c:73ab wlan0 mtu 0,fd26:4893:9a0f::/64 -> fe80::10f1:c482:f01f:6b09 wlan0 mtu 0,fd67:eb4f:8fd3::/64 -> fe80::854:d257:523f:f239 wlan0 mtu 0,fd9c:307:e40e::/64 -> fe80::81:43d5:8009:f93b wlan0 mtu 0,fdca:c1f0:a100:4017::/64 -> :: wlan0 mtu 0,10.195.24.0/21 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.195.24.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=90695Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="hdevice", BSSID=ee:38:83:16:6a:5c, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "hdevice", BSSID: ee:38:83:16:6a:5c, MAC: ca:a0:a7:01:ac:0d, Security type: 2, Supplicant state: COMPLETED, HE Eight Max VHT Spatial Streams Supported AP: false, Eight Max VHT Spatial streams support: false, Wi-Fi standard: 5, RSSI: -55, Link speed: 433Mbps, Tx Link speed: 433Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5785MHz, Net ID: 2, Metered hint: false, score: 60, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1> SignalStrength: -55 OwnerUid: 1000 AdminUids: [1000] SSID: "hdevice"]}}
+2023-07-05 13:36:05,532 - lib.wifi_iperf - run_iperf3_client() - INFO - iperf3 client output
+Connecting to host 10.195.25.13, port 5201
+[  5] local 10.195.27.148 port 55040 connected to 10.195.25.13 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  8.56 MBytes  71.7 Mbits/sec                  
+[  5]   1.00-2.01   sec  9.78 MBytes  81.6 Mbits/sec                  
+[  5]   2.01-3.00   sec  9.18 MBytes  77.4 Mbits/sec                  
+[  5]   3.00-4.00   sec  8.84 MBytes  74.1 Mbits/sec                  
+[  5]   4.00-5.01   sec  9.91 MBytes  82.9 Mbits/sec                  
+[  5]   5.01-6.00   sec  8.61 MBytes  72.3 Mbits/sec                  
+[  5]   6.00-7.00   sec  9.78 MBytes  82.4 Mbits/sec                  
+[  5]   7.00-8.00   sec  10.5 MBytes  87.8 Mbits/sec                  
+[  5]   8.00-9.01   sec  10.8 MBytes  90.4 Mbits/sec                  
+[  5]   9.01-10.00  sec  10.2 MBytes  86.0 Mbits/sec                  
+[  5]  10.00-11.00  sec  10.3 MBytes  85.9 Mbits/sec                  
+[  5]  11.00-12.00  sec  9.01 MBytes  75.6 Mbits/sec                  
+[  5]  12.00-13.00  sec  9.24 MBytes  77.5 Mbits/sec                  
+[  5]  13.00-14.00  sec  10.9 MBytes  91.2 Mbits/sec                  
+[  5]  14.00-15.00  sec  11.0 MBytes  91.9 Mbits/sec                  
+[  5]  15.00-16.00  sec  9.38 MBytes  79.0 Mbits/sec                  
+[  5]  16.00-17.00  sec  9.48 MBytes  79.5 Mbits/sec                  
+[  5]  17.00-18.00  sec  9.47 MBytes  79.3 Mbits/sec                  
+[  5]  18.00-19.01  sec  9.48 MBytes  79.3 Mbits/sec                  
+[  5]  19.01-20.00  sec  10.7 MBytes  90.1 Mbits/sec                  
+[  5]  20.00-21.00  sec  10.1 MBytes  84.7 Mbits/sec                  
+[  5]  21.00-22.00  sec  9.89 MBytes  83.1 Mbits/sec                  
+[  5]  22.00-23.00  sec  8.79 MBytes  73.8 Mbits/sec                  
+[  5]  23.00-24.00  sec  8.36 MBytes  70.1 Mbits/sec                  
+[  5]  24.00-25.00  sec  9.24 MBytes  77.4 Mbits/sec                  
+[  5]  25.00-26.00  sec  8.86 MBytes  74.4 Mbits/sec                  
+[  5]  26.00-27.00  sec  8.91 MBytes  74.7 Mbits/sec                  
+[  5]  27.00-28.00  sec  10.9 MBytes  91.2 Mbits/sec                  
+[  5]  28.00-29.01  sec  11.2 MBytes  93.3 Mbits/sec                  
+[  5]  29.01-30.00  sec  11.6 MBytes  97.4 Mbits/sec                  
+[  5]  30.00-31.00  sec  11.2 MBytes  93.7 Mbits/sec                  
+[  5]  31.00-32.00  sec  11.5 MBytes  97.2 Mbits/sec                  
+[  5]  32.00-33.01  sec  10.5 MBytes  87.7 Mbits/sec                  
+[  5]  33.01-34.00  sec  9.21 MBytes  77.6 Mbits/sec                  
+[  5]  34.00-35.00  sec  10.7 MBytes  90.0 Mbits/sec                  
+[  5]  35.00-36.00  sec  9.52 MBytes  79.7 Mbits/sec                  
+[  5]  36.00-37.01  sec  8.69 MBytes  72.7 Mbits/sec                  
+[  5]  37.01-38.00  sec  10.2 MBytes  86.0 Mbits/sec                  
+[  5]  38.00-39.00  sec  10.8 MBytes  90.5 Mbits/sec                  
+[  5]  39.00-40.00  sec  10.4 MBytes  87.6 Mbits/sec                  
+[  5]  40.00-41.00  sec  11.0 MBytes  92.1 Mbits/sec                  
+[  5]  41.00-42.00  sec  10.4 MBytes  87.8 Mbits/sec                  
+[  5]  42.00-43.00  sec  10.1 MBytes  85.0 Mbits/sec                  
+[  5]  43.00-44.00  sec  9.64 MBytes  80.9 Mbits/sec                  
+[  5]  44.00-45.00  sec  11.3 MBytes  94.5 Mbits/sec                  
+[  5]  45.00-46.00  sec  10.7 MBytes  90.1 Mbits/sec                  
+[  5]  46.00-47.00  sec  11.2 MBytes  94.1 Mbits/sec                  
+[  5]  47.00-48.00  sec  10.8 MBytes  91.1 Mbits/sec                  
+[  5]  48.00-49.00  sec  9.04 MBytes  75.9 Mbits/sec                  
+[  5]  49.00-49.94  sec  10.0 MBytes  89.1 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-49.94  sec   500 MBytes  84.0 Mbits/sec                  sender
+[  5]   0.00-49.98  sec   500 MBytes  83.8 Mbits/sec                  receiver
+
+iperf Done.
+2023-07-05 13:36:05,532 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: killall iperf3
+2023-07-05 13:36:05,626 - lib.adb - run_command() - DEBUG - Response: 
+2023-07-05 13:36:06,632 - lib.wifi_iperf - stop_iperf3_server() - INFO - iperf3 server output
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Accepted connection from 10.195.27.148, port 55039
+[  5] local 10.195.25.13 port 5201 connected to 10.195.27.148 port 55040
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  7.98 MBytes  67.0 Mbits/sec                  
+[  5]   1.00-2.00   sec  9.57 MBytes  80.2 Mbits/sec                  
+[  5]   2.00-3.00   sec  9.10 MBytes  76.3 Mbits/sec                  
+[  5]   3.00-4.00   sec  8.79 MBytes  73.7 Mbits/sec                  
+[  5]   4.00-5.00   sec  9.79 MBytes  82.0 Mbits/sec                  
+[  5]   5.00-6.00   sec  8.61 MBytes  72.3 Mbits/sec                  
+[  5]   6.00-7.00   sec  10.1 MBytes  84.9 Mbits/sec                  
+[  5]   7.00-8.00   sec  10.4 MBytes  87.2 Mbits/sec                  
+[  5]   8.00-9.01   sec  10.7 MBytes  89.6 Mbits/sec                  
+[  5]   9.01-10.00  sec  10.0 MBytes  84.7 Mbits/sec                  
+[  5]  10.00-11.00  sec  10.3 MBytes  86.4 Mbits/sec                  
+[  5]  11.00-12.00  sec  8.93 MBytes  74.9 Mbits/sec                  
+[  5]  12.00-13.00  sec  9.54 MBytes  80.1 Mbits/sec                  
+[  5]  13.00-14.00  sec  10.8 MBytes  90.3 Mbits/sec                  
+[  5]  14.00-15.00  sec  11.0 MBytes  92.0 Mbits/sec                  
+[  5]  15.00-16.00  sec  9.34 MBytes  78.3 Mbits/sec                  
+[  5]  16.00-17.00  sec  9.86 MBytes  82.7 Mbits/sec                  
+[  5]  17.00-18.00  sec  9.19 MBytes  77.1 Mbits/sec                  
+[  5]  18.00-19.00  sec  9.56 MBytes  80.2 Mbits/sec                  
+[  5]  19.00-20.00  sec  10.7 MBytes  89.4 Mbits/sec                  
+[  5]  20.00-21.00  sec  9.98 MBytes  83.7 Mbits/sec                  
+[  5]  21.00-22.00  sec  9.76 MBytes  82.0 Mbits/sec                  
+[  5]  22.00-23.00  sec  9.10 MBytes  76.4 Mbits/sec                  
+[  5]  23.00-24.00  sec  8.35 MBytes  70.1 Mbits/sec                  
+[  5]  24.00-25.00  sec  9.18 MBytes  77.0 Mbits/sec                  
+[  5]  25.00-26.00  sec  8.85 MBytes  74.3 Mbits/sec                  
+[  5]  26.00-27.00  sec  8.81 MBytes  73.9 Mbits/sec                  
+[  5]  27.00-28.00  sec  11.0 MBytes  91.9 Mbits/sec                  
+[  5]  28.00-29.00  sec  11.3 MBytes  94.4 Mbits/sec                  
+[  5]  29.00-30.00  sec  11.2 MBytes  93.5 Mbits/sec                  
+[  5]  30.00-31.00  sec  11.6 MBytes  97.4 Mbits/sec                  
+[  5]  31.00-32.00  sec  11.6 MBytes  96.9 Mbits/sec                  
+[  5]  32.00-33.00  sec  10.5 MBytes  88.1 Mbits/sec                  
+[  5]  33.00-34.00  sec  9.16 MBytes  76.8 Mbits/sec                  
+[  5]  34.00-35.00  sec  10.7 MBytes  89.3 Mbits/sec                  
+[  5]  35.00-36.00  sec  9.64 MBytes  80.8 Mbits/sec                  
+[  5]  36.00-37.00  sec  8.72 MBytes  73.2 Mbits/sec                  
+[  5]  37.00-38.00  sec  9.95 MBytes  83.4 Mbits/sec                  
+[  5]  38.00-39.00  sec  10.8 MBytes  90.8 Mbits/sec                  
+[  5]  39.00-40.00  sec  10.7 MBytes  89.6 Mbits/sec                  
+[  5]  40.00-41.00  sec  10.8 MBytes  90.8 Mbits/sec                  
+[  5]  41.00-42.00  sec  10.4 MBytes  87.3 Mbits/sec                  
+[  5]  42.00-43.00  sec  10.0 MBytes  84.0 Mbits/sec                  
+[  5]  43.00-44.00  sec  9.86 MBytes  82.7 Mbits/sec                  
+[  5]  44.00-45.00  sec  11.4 MBytes  95.7 Mbits/sec                  
+[  5]  45.00-46.00  sec  10.5 MBytes  88.3 Mbits/sec                  
+[  5]  46.00-47.00  sec  11.3 MBytes  94.6 Mbits/sec                  
+[  5]  47.00-48.00  sec  10.7 MBytes  89.9 Mbits/sec                  
+[  5]  48.00-49.00  sec  9.40 MBytes  78.9 Mbits/sec                  
+[  5]  49.00-49.98  sec  10.2 MBytes  87.6 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-49.98  sec   500 MBytes  83.8 Mbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+2023-07-05 13:36:06,633 - lib.adb - run_command() - DEBUG - Device: 1H4C1R35030739 | cmd: cmd wifi status | sed -n '/Wifi is connected to/p'
+2023-07-05 13:36:06,736 - lib.adb - run_command() - DEBUG - Response: Wifi is connected to "hdevice"
+2023-07-05 13:36:07,778 - lib.adb - dump_logcat() - DEBUG - Collecting ADB logs...
+2023-07-05 13:36:08,160 - lib.adb - dump_logcat() - DEBUG - Collected adb logcat
+2023-07-05 13:36:08,162 - lib.utils - upload_data_to_google_sheet() - INFO - Uploading data to google drive
+2023-07-05 13:36:11,604 - lib.utils - archive_test_results() - INFO - Saving test data to archive folder
