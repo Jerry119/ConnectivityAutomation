@@ -1,5 +1,7 @@
 
-# This script is intended to validate H4 on bluetooth and wifi with Sanity/Integration/Performance/CoEx tests
+# Wireless Automation
+
+This script is intended to validate wireless components on H4
 
 ## Prerequisites
 
@@ -11,25 +13,27 @@
 - Install all the required packages
 > pip3 install -r requirements.txt
 
-- Start running tests by
+## How to run the test
+
+This will run all the test cases 
 > python3 main.py
 
-    this will run all the test cases 
-
-- To select one specific category of test
+To select one specific category of test
 > python3 main.py -m <test_category>
 
-- Test Categories: 
-- - "module", 
-- - "aosp", 
-- - "ironman", 
-- - "sanity", 
-- - "performance", 
-- - "bluetooth", 
-- - "wifi", 
-- - "coex", 
-- - "dev", 
-- - "all"
+## Test Categories: 
+"module", 
+"aosp", 
+"ironman", 
+"sanity", 
+"performance", 
+"bluetooth", 
+"wifi", 
+"coex", 
+"call,
+"dev", 
+"ota",
+"all"
 
 ## If you want to upload test result to the drive
 
