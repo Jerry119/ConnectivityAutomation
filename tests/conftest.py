@@ -57,36 +57,3 @@ def appium_server():
     _server.start_appium_server(None)
     yield _server
     _server.stop_appium_server()
-
-# @pytest.fixture(scope="session")
-# def mobile(interface):
-#     mobile = None
-#     if Config.TARGET_MOBILE_PLATFORM == "ios":
-#         mobile = iOSDevice()
-#     elif Config.TARGET_MOBILE_PLATFORM == "android":
-#         mobile = AndroidMobileDevice(interface)
-#     yield mobile
-
-
-# @pytest.fixture(scope="session")
-# def dialer(request, interface):
-#     dialer = AndroidMobileDevice(interface, request.param)
-#     yield dialer
-
-
-# @pytest.fixture(scope="session")
-# def receiver(request, interface):
-#     receiver = None
-#     if Config.TARGET_MOBILE_PLATFORM == "ios":
-#         receiver = iOSDevice()
-#     elif Config.TARGET_MOBILE_PLATFORM == "android":
-#         receiver = AndroidMobileDevice(interface, request.param)
-#     yield receiver
-
-
-# @pytest.fixture(scope="session")
-# def data_handler():
-#     _data_handler = DataHandler()
-#     yield _data_handler
-#     _data_handler.upload_data_to_scuba()
-

@@ -33,26 +33,6 @@ class GlobalConstants:
 
     VOICE_MSG = "This is a test message for voice calling"
 
-    # # Spotify Config
-    # APP_PACKAGE_SPOTIFY = "com.spotify.music"
-    # APP_ACTIVITY_SPOTIFY = "com.spotify.music.MainActivity"
-    # SPOTIFY_PLAYLIST_3 = "RM"
-
-    # # Network Tools Config
-    # APP_PACKAGE_NETWORK_TOOLS = "net.he.networktools"
-    # APP_ACTIVITY_NETWORK_TOOLS = "net.he.networktools.MainActivity"
-
-    # # A2DP Config
-    # A2DP_VALIDATION_ARWIRELESS_PREFIX = "A2DP: Got Audio State change:"
-    # A2DP_VALIDATION_LOG = "NOT_PLAYING -> PLAYING"
-    # A2DP_VALIDATION_LOG2 = "PLAYING -> NOT_PLAYING"
-
-    # # HFP Config
-    # HFP_VOICE_CALL_VALIDATION_PREFIX = "Success: Succesfully executed"
-    # HFP_VOICE_CALL_INCOMING_STATUS = "INCOMING"
-    # HFP_VOICE_CALL_DIALING_STATUS = "DIALING"
-    # HFP_VOICE_CALL_TERMINATED_STATUS = "TERMINATED"
-
     # Time Formats
     TIME_FORMAT = "%m-%d-%Y %H:%M:%S"
  
