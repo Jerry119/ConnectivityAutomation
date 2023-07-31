@@ -97,6 +97,9 @@
             "id": "android:id/title",
             "text": "Check for updates"
         },
+        "download_update": {
+            "id": "hu.ma.ne.bort.ota:id/download_update"
+        },
         "three_bar_icon": {
             "xpath": "//android.widget.ImageButton[@content-desc='drawer']"
         },

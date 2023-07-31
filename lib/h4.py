@@ -70,3 +70,13 @@ class H4(AdbProxy):
     
     def grant_music_app_permission(self):
         self.run_command("pm grant com.android.music android.permission.READ_PHONE_STATE")
+
+    def get_reboot_reason(self):
+        """
+        [persist.sys.boot.reason]: []
+        [persist.sys.boot.reason.history]: [reboot,ota,1690826815
+        [ro.boot.bootreason]: [reboot,ota]
+        [sys.boot.reason]: [reboot,ota]
+        [sys.boot.reason.last]: [reboot,]
+        """
+        self.run_command("getprop | grep reason")
