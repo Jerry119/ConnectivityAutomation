@@ -39,17 +39,11 @@ class BatteryAPI:
     def check_battery_level(self, battery_level, check_flag=False):
         """
         Method to check & set battery level
-        Config.CHECK_BATTERY set commonly
-        check_flag - set from particular testcase (say HFP_AOS_17,18)
         """
-        if Config.CHECK_BATTERY or check_flag:
-            self.set_battery_level(battery_level)
+        self.set_battery_level(battery_level)
 
     def enable_battery_charging(self, check_flag=False):
         """
         Method to enable charging
-        Config.CHECK_BATTERY set commonly
-        check_flag - set from particular testcase (say HFP_AOS_17,18)
         """
-        if Config.CHECK_BATTERY or check_flag:
-            self.enable_charging()
+        self.enable_charging()

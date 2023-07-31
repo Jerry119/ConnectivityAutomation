@@ -14,15 +14,6 @@ class Battery:
         """
         return int(self.dut.run_command("dumpsys battery | grep level | awk -F ' ' '{print $2}'"))
 
-    # def check_level(self):
-    #     """
-    #     Check battery level using the dumpsys method. Returns the battery level of DUT
-    #     """
-    #     result = self.dut.run_command("dumpsys battery")
-    #     level_line = [line for line in result.splitlines() if "level" in line][0]
-    #     level = int(level_line.split(": ")[-1])
-    #     return level
-
     def wait_to_charge(self, target_level):
         """
         Wait for battery to reach the target level. The method exits when the target
@@ -60,9 +51,3 @@ class Battery:
         Disable charging when the DUT is connected to the charging pin.
         """
         pass
-
-    # def get_board_name(self):
-    #     """
-    #     Identify whether the device is of kind P1 or EVT.
-    #     """
-    #     pass
