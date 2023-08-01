@@ -211,6 +211,9 @@ class AppiumUtils:
             return False
 
     def wait_until_available(self, ele_info, t=5):
+        """
+        wait until an element is available on the screen for t secs
+        """
         if "id" in ele_info:
             WebDriverWait(self.driver, t).until(EC.presence_of_element_located((By.ID, ele_info["id"])))
         elif "xpath" in ele_info:
@@ -230,6 +233,12 @@ class AppiumUtils:
             t2 = Utils().get_current_time()
             delta = Utils().get_time_diff_s(t1, t2)
         raise Exception(f"Could not find element {ele_info['text']} in {delta}s")
+    
+    def wait_until_disappear(self, ele_info, t=5):
+        """
+        wait until an element is disappered on the screen for t secs
+        """
+        WebDriverWait(self.driver, t).until(EC.invisibility_of_element_located((By.ID, ele_info["id"])))
 
     def scroll_down(self):
         device_size = self.driver.get_window_size()
