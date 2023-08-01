@@ -85,6 +85,13 @@ class AdbProxy:
                 "ERROR: %s" % (command, e)
             )
             return None
+        
+    def wait_for_device(self):
+        try:
+            logger.info("waitting for device to come online.")
+            subprocess.run("adb wait-for-device", shell=True, timeout=30)
+        except Exception as e:
+            logger.exception(f"DUT did not come back after reboot. ERROR | {e}")
 
     def _get_user_id(self):
         """Returns the adb user. Either 2000 (shell) or 0 (root)."""
