@@ -42,7 +42,7 @@ class H4(AdbProxy):
         """
         cmd = "input tap {0} {1}".format(tap_x, tap_y)
         self.run_command(cmd)
-        Utils.time_delay_s(2)
+        Utils.time_delay_s(1)
     
     def long_press(self, tap_x, tap_y):
         """
