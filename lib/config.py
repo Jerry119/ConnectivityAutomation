@@ -33,14 +33,20 @@ class Config:
     }
 
     PHONE_APP_CONFIG = {
-        "app_package": Global.DIALER_PACKAGE_SETTINGS,
-        "app_activity": Global.DIALER_ACTIVITY_SETTINGS,
+        "app_package": Global.PHONE_PACKAGE_SETTINGS,
+        "app_activity": Global.PHONE_ACTIVITY_SETTINGS,
         "no_reset": "true"
     }
 
     MUSIC_APP_CONFIG = {
         "app_package": Global.MUSIC_PACKAGE_SETTINGS,
         "app_activity": Global.MUSIC_ACTIVITY_SETTINGS,
+        "no_reset": "true"
+    }
+
+    DIALER_APP_CONFIG = {
+        "app_package": Global.DIALER_PACKAGE_SETTINGS,
+        "app_activity": Global.DIALER_ACTIVITY_SETTINGS,
         "no_reset": "true"
     }
 

@@ -24,8 +24,12 @@ class GlobalConstants:
     APP_ACTIVITY_SETTINGS = "com.android.settings.Settings"
 
     # Phone app config
-    DIALER_PACKAGE_SETTINGS = "com.android.dialer"
-    DIALER_ACTIVITY_SETTINGS = "com.android.dialer.main.impl.MainActivity"
+    PHONE_PACKAGE_SETTINGS = "com.android.dialer"
+    PHONE_ACTIVITY_SETTINGS = "com.android.dialer.main.impl.MainActivity"
+
+    # Dialer app config
+    DIALER_PACKAGE_SETTINGS = "humane.experience.dialer"
+    DIALER_ACTIVITY_SETTINGS = "humaneinternal.system.ipc.HumaneExperienceActivity"
 
     # Music app config
     MUSIC_PACKAGE_SETTINGS = "com.android.music"
