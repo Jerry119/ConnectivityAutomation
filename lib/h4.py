@@ -79,4 +79,5 @@ class H4(AdbProxy):
         [sys.boot.reason]: [reboot,ota]
         [sys.boot.reason.last]: [reboot,]
         """
-        self.run_command("getprop | grep reason")
+        resp = self.run_command("getprop | grep reason")
+        return resp
