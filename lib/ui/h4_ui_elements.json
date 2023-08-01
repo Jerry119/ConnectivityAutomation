@@ -100,6 +100,9 @@
         "download_update": {
             "id": "hu.ma.ne.bort.ota:id/download_update"
         },
+        "ota_progress_bar": {
+            "id": "hu.ma.ne.bort.ota:id/progress_bar"
+        },
         "three_bar_icon": {
             "xpath": "//android.widget.ImageButton[@content-desc='drawer']"
         },

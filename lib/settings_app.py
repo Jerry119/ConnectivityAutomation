@@ -148,3 +148,4 @@ class SettingsApp(AppiumUtils):
         self.tap_on_element("check_for_update")
         self.wait_until_available(self.app_elements_info["download_update"])
         self.tap_on_element("download_update")
+        self.wait_until_disappear(self.app_elements_info["ota_progress_bar"], 300)
