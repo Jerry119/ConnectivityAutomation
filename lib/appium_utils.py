@@ -161,9 +161,13 @@ class AppiumUtils:
                     if ele.text not in titles:
                         titles.append(ele.text)
                 logger.debug(titles)
-                if len(list(filter(re.compile(f"{title2}.*").match, elements))) == 0:
+                tmp1 = list(filter(re.compile(f"{title1}.*").match, titles))
+                tmp2 = list(filter(re.compile(f"{title2}.*").match, titles))
+                if len(tmp1) == 0 or len(tmp2) == 0:
                     self.scroll_down()
                 else:
+                    title1 = tmp1[-1]
+                    title2 = tmp2[-1]
                     break
             start = titles.index(title1) + 1
             end = titles.index(title2)
