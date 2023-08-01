@@ -14,16 +14,18 @@ logger = Logger(logger_name=__name__).logger
 @pytest.mark.ota
 class TestOTA:
     @pytest.mark.aosp
+    @pytest.mark.dev
     def test_ota_normal_condition(self, request, test, appium_server, dut, summary):
         """
         Test Objective:
             Device can only take the standard OTA update when battery > 80, under charging, and connected to wifi
+            Ensure the latest build is available in memfault
         """
         test.start_time = Utils.get_current_time_with_format(Global.TIME_FORMAT)
         test.id = request.node.originalname.replace("test_", "").upper()
         test.objective = "Trigger OTA update from H4"
         test.expected_result = "DUT can only take the standard OTA update when battery > 80, under charging, and connected to wifi"
-        test.expected_resp = f"Updated build should be later than the current build: \"{self.dut.build_version}\""
+        test.expected_resp = f"Updated build should be later than the current build: \"{dut.build_version}\""
         min_battery = 80
         try:
             dut.clear_device_logs()
@@ -36,6 +38,9 @@ class TestOTA:
             settings.scroll_down()
             settings.go_to_software_update()
             settings.check_and_download_update()
+            Utils.time_delay_s(10)
+            dut.wait_for_device()
+            test.actual_resp = dut.get_reboot_reason()
             test.status = True
         except Exception as e:
             logger.exception(f"Exception occurred in {test.id} | ERROR: {e}")
