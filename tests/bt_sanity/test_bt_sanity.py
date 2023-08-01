@@ -129,7 +129,6 @@ class TestBluetoothSanity:
             assert test.status
     
     @pytest.mark.aosp
-    @pytest.mark.dev
     def test_scan_bluetooth(self, request, test, appium_server, dut, summary):
         """
         Test Objective:

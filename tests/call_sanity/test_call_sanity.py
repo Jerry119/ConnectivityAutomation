@@ -49,7 +49,6 @@ class TestCallSanity:
             assert test.status
 
     @pytest.mark.ironman
-    @pytest.mark.dev
     def test_make_a_call_from_dut(self, request, test, appium_server, dut, summary):
         """
         Test Objective:
