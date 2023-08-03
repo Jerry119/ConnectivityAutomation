@@ -11,6 +11,9 @@ class WiFiControl():
         self.device = device
 
     def _forget_network_id(self, id):
+        """
+        Forget a wifi network using id
+        """
         cmd = f"cmd wifi forget-network {id}"
         self.device.run_command(cmd)
     
@@ -41,10 +44,16 @@ class WiFiControl():
         return ids, ssids
     
     def saved_network_exist(self):
+        """
+        Check if any saved network exists
+        """
         ids, _ssids = self._get_saved_networks()
         return len(ids) > 0
 
     def enable_wifi(self):
+        """
+        Enable wifi using ats command
+        """
         try:
             cmd = "ats wifi -enable"
             if self.get_current_wifi_status() == "on":
@@ -55,6 +64,9 @@ class WiFiControl():
             logger.exception(f"Exception occurred while enabling WiFi | ERROR: {e}")
     
     def disable_wifi(self):
+        """
+        Disable wifi using ats command
+        """
         try:
             cmd = "ats wifi -disable"
             if self.get_current_wifi_status() == "off":
@@ -65,6 +77,9 @@ class WiFiControl():
             logger.exception(f"Exception occurred while disabling WiFi | ERROR: {e}")
     
     def scan_network(self):
+        """
+        Return the wifi scan list
+        """
         try:
             self.enable_wifi()
             attempt = 0
@@ -90,6 +105,9 @@ class WiFiControl():
             return set()
     
     def connect_to_ssid(self, ssid, pwd):
+        """
+        Connect to wifi with ssid and pwd
+        """
         try:
             self.enable_wifi()
             logger.debug(f"Connecting to \"{ssid}\"")
@@ -100,6 +118,9 @@ class WiFiControl():
             logger.exception(f"Exception occurred while connecting to \"{ssid}\" | ERROR: {e}")
 
     def disconnect_wifi_network(self):
+        """
+        Disconnect wifi network 
+        """
         try:
             cmd = "ats wifi -disconn"
             self.device.run_command(cmd)
@@ -124,6 +145,9 @@ class WiFiControl():
             return None
     
     def is_wifi_connected(self):
+        """
+        Check if wifi is connected
+        """
         try: 
             cmd = "cmd wifi status"
             resp = self.device.run_command(cmd)
@@ -133,6 +157,9 @@ class WiFiControl():
             return False
 
     def remove_all_saved_networks(self):
+        """
+        Remove all the saved networks
+        """
         if not self.saved_network_exist():
             return
         ids, _ssids = self._get_saved_networks()
@@ -140,6 +167,9 @@ class WiFiControl():
             self._forget_network_id(i)
     
     def remove_saved_network(self, ssid):
+        """
+        Remove the wifi network ssid
+        """
         if not self.check_ssid_in_saved_networks(ssid):
             return
         output = self.device.run_command("cmd wifi list-networks").split("\n")
@@ -150,6 +180,9 @@ class WiFiControl():
                 break
         
     def get_current_network_ssid(self):
+        """
+        Return the current wifi SSID
+        """
         try: 
             cmd = "cmd wifi status | sed -n '/Wifi is connected to/p'"
             resp = self.device.run_command(cmd)
@@ -163,5 +196,8 @@ class WiFiControl():
             return None
 
     def check_ssid_in_saved_networks(self, ssid):
+        """
+        Check if ssid is in saved networks
+        """
         _ids, ssids = self._get_saved_networks()
         return ssid in ssids

@@ -13,15 +13,6 @@ logger = Logger(logger_name=__name__).logger
 class AppiumException(Exception):
     pass
 
-
-# try:
-#     # pyre-fixme[21]: Could not find module `appium.webdriver`.
-#     from appium.webdriver import Remote
-# except ImportError as e:
-#     logger.info(f"Exception occured while importing webdriver {e}")
-#     Remote = None
-
-
 class AppiumServer:
     def __init__(self, port: int) -> None:
         self._port: int = port

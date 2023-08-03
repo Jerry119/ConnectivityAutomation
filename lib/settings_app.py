@@ -42,6 +42,7 @@ class SettingsApp(AppiumUtils):
             ssids = self.get_wifi_scan_result()
             if ssid in ssids and self.tap_on_element("wifi_ssid"):
                 break
+            # if SSID not found, reset wifi
             wifi.disable_wifi()
             wifi.enable_wifi()
             attempt += 1

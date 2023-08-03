@@ -9,6 +9,9 @@ class BTControl():
         self.device = device
 
     def enable_bt(self):
+        """
+        Enable BT using ats command
+        """
         try:
             cmd = "ats bt -enable"
             if self.get_current_bt_status() == "on":
@@ -19,6 +22,9 @@ class BTControl():
             logger.exception(f"Exception occurred while enabling BT | ERROR: {e}")
     
     def disable_bt(self):
+        """
+        Disable BT using ats command
+        """
         try:
             cmd = "ats bt -disable"
             if self.get_current_bt_status() == "off":
@@ -45,6 +51,9 @@ class BTControl():
             return None
 
     def get_current_bt_profile(self):
+        """
+        Return the current connected BT profile name
+        """
         bt_name = None
         try:
             cmd = "dumpsys bluetooth_manager | grep -E 'mDevice:.+state=Connected$'"
@@ -56,6 +65,10 @@ class BTControl():
             return None
     
     def is_bluetooth_connected(self):
+        """
+        Return True if BT is connected
+        Return False otherwise
+        """
         try:
             cmd = "dumpsys bluetooth_manager | sed -n '/ConnectionState:*/p'"
             connected_state = self.device.run_command(cmd)
@@ -70,6 +83,9 @@ class BTControl():
             return False
 
     def has_prev_bonded_bt_devices(self):
+        """
+        Check if dut has previous BT connection
+        """
         try:
             cmd = "dumpsys bluetooth_manager | sed -n '/Bonded devices:/,/mSnoopLogSettingAtEnable/p'"
             resp = self.device.run_command(cmd).split("\n")
@@ -79,6 +95,9 @@ class BTControl():
             return False
 
     def check_device_is_bonded(self, bt_name):
+        """
+        Check if a specific BT device has been bonded with dut before
+        """
         try:
             cmd = "dumpsys bluetooth_manager | sed -n '/Bonded devices:/,/mSnoopLogSettingAtEnable/p'"
             resp = self.device.run_command(cmd)

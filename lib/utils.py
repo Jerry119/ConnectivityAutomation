@@ -339,14 +339,10 @@ class Utils:
         """
         Get time difference from the given start and end log lines
         """
-        # logger.debug("Start Log Line: %s" % start_log_line)
-        # logger.debug("End Log Line: %s" % end_log_line)
-
         if not start_log_line and not end_log_line:
             logger.error("Log lines not found | Exiting !")
             return None
 
-        # start_log_time = Utils.get_timestamp_from_log_line(start_log_line)
         end_log_time = Utils.get_timestamp_from_log_line(end_log_line[-1])
         for line in start_log_line[::-1]:
             start_log_time = Utils.get_timestamp_from_log_line(line)
@@ -365,14 +361,6 @@ class Utils:
         else:
             logger.error("Unable to find start or end log times")
             return None
-
-    @staticmethod
-    def adjust_epoch_time(date_time_str, epoch_time):
-        """
-        Add / subtract the epoch time from a date time string
-        """
-        date_time = Utils.convert_time_str_to_datetime(date_time_str)
-        return date_time - timedelta(seconds=epoch_time)
 
     @staticmethod
     def kpi_validation(expected_range, actual_value):
