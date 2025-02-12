@@ -3,3 +3,4 @@ __pycache__/
 .pytest_cache/
 tests/results/*
 tests/results_archive/*
+lib/config.py
