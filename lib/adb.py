@@ -86,10 +86,10 @@ class AdbProxy:
             )
             return None
         
-    def wait_for_device(self):
+    def wait_for_device(self, to=30):
         try:
             logger.info("waitting for device to come online.")
-            subprocess.run("adb wait-for-device", shell=True, timeout=30)
+            subprocess.run("adb wait-for-device", shell=True, timeout=to)
         except Exception as e:
             logger.exception(f"DUT did not come back after reboot. ERROR | {e}")
 

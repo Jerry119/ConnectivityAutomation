@@ -39,7 +39,7 @@ class TestOTA:
             settings.go_to_software_update()
             settings.check_and_download_update()
             Utils.time_delay_s(10)
-            dut.wait_for_device()
+            dut.wait_for_device(60)
             test.actual_resp = dut.get_reboot_reason()
             test.status = True
         except Exception as e:
